@@ -11,7 +11,7 @@ title: Locations
 <span class="location-name">
 PyLadies Natal - RN
 </span>
-<img class="img-location" src="/images/locais/location.png">
+<img class="img-location" src="{filename}/images/locais/location.png">
 </a>
 
 <div >
@@ -45,7 +45,7 @@ PyLadies Natal - RN
 <span class="location-name">
 PyLadies Recife - PE
 </span>
-<img class="img-location" src="/images/locais/recife.png">
+<img class="img-location" src="{filename}/images/locais/recife.png">
 </a>
 
 <div >
@@ -86,7 +86,7 @@ PyLadies Recife - PE
 <span class="location-name">
 PyLadies Brasilia - DF
 </span>
-<img class="img-location" src="/images/locais/brasilia.png">
+<img class="img-location" src="{filename}/images/locais/brasilia.png">
 </a>
 
 <div >
@@ -113,7 +113,7 @@ PyLadies Brasilia - DF
 <span class="location-name">
 PyLadies Rio de Janeiro - RJ
 </span>
-<img class="img-location" src="/images/locais/pyladies-rio.png">
+<img class="img-location" src="{filename}/images/locais/pyladies-rio.png">
 </a>
 
 <div >
@@ -147,7 +147,7 @@ PyLadies Rio de Janeiro - RJ
 <span class="location-name">
 PyLadies São Carlos -SP
 </span>
-<img class="img-location" src="/images/locais/location.png">
+<img class="img-location" src="{filename}/images/locais/location.png">
 </a>
 
 <div >

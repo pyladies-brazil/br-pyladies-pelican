@@ -11,7 +11,7 @@ tags: pyladies, women, python
 <span class="location-name">
 Andrêza Leite
 </span>
-<img class="img-location" src="/images/ladies/andreza.jpeg">
+<img class="img-location" src="{filename}/images/ladies/andreza.jpeg">
 </a>
 
 <div class="social-icons">
@@ -46,7 +46,7 @@ Andrêza Leite
 <span class="location-name">
 Aninha Lacerda
 </span>
-<img class="img-location" src="/images/ladies/aninha.png">
+<img class="img-location" src="{filename}/images/ladies/aninha.png">
 </a>
 
 <div class="social-icons">
@@ -81,7 +81,7 @@ Aninha Lacerda
 <span class="location-name">
 Gabriela Cavalcante
 </span>
-<img class="img-location" src="/images/ladies/Eu.jpg">
+<img class="img-location" src="{filename}/images/ladies/Eu.jpg">
 </a>
 
 <div class="social-icons">
@@ -123,7 +123,7 @@ Gabriela Cavalcante
 <span class="location-name">
 Gláucia Esppenchutz
 </span>
-<img class="img-location" src="/images/ladies/glaucia.jpeg">
+<img class="img-location" src="{filename}/images/ladies/glaucia.jpeg">
 </a>
 
 <div class="social-icons">
@@ -158,7 +158,7 @@ Gláucia Esppenchutz
 <span class="location-name">
 Katyanna Moura
 </span>
-<img class="img-location" src="/images/ladies/katyanna.png">
+<img class="img-location" src="{filename}/images/ladies/katyanna.png">
 </a>
 
 <div class="social-icons">
@@ -200,7 +200,7 @@ Katyanna Moura
 <span class="location-name">
 Lidiane Monteiro
 </span>
-<img class="img-location" src="/images/ladies/lidy.jpg">
+<img class="img-location" src="{filename}/images/ladies/lidy.jpg">
 </a>
 
 <div class="social-icons">
@@ -242,7 +242,7 @@ Lidiane Monteiro
 <span class="location-name">
 Vitória Vasconcelos
 </span>
-<img class="img-location" src="/images/ladies/vitoria.jpg">
+<img class="img-location" src="{filename}/images/ladies/vitoria.jpg">
 </a>
 
 <div class="social-icons">
