@@ -1,17 +1,16 @@
 {% extends "base.html" %}
 {% block content %}
-
-<h3>Archives</h3>
-
-<table class="table-archive">
-    <tbody>
-    {% for article in dates %}
-        <tr>
-        <td>{{ article.locale_date }}</td>
-        <td><a href='{{ article.url }}'>{{ article.title }}</a></td>
-        </tr>
-    {% endfor %}
-    </tbody>
-</table>
-
+<article class="notepad-page-content">
+    <div class="title small-12 columns">
+        <h1>POSTS</h1>
+    </div>
+    <div>
+        <ul class="post-list">
+        {% for post in articles %}
+          <li><article><i class="fa fa-star-half-o"></i> <a href="{{ SITEURL }}/{{ post.url }}">{{ post.title }}<span class="entry-author"> por {{ post.author }} </span> <span class="entry-date"><time datetime="{{ post.date.isoformat() }}">{{ post.date.strftime("%B %d, %Y") }}</time></span></a></article></li>
+        {% endfor %}
+        </ul>
+    </div>
+</article>
+<div class="cf"></div>
 {% endblock %}

@@ -38,11 +38,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 MENUITEMS = (
-    ('Sobre', '/about/'),
-    ('Blog', '/blog/'),
-    ('Eventos', '/events/'),
-    ('Locais', '/locations/'),
-    ('Ladies', '/ladies/'),
+    ('Sobre', '/about'),
+    ('Blog', '/archives'),
+    ('Eventos', '/events'),
+    ('Locais', '/locations'),
+    ('Ladies', '/ladies'),
 )
 
 DEFAULT_PAGINATION = 10

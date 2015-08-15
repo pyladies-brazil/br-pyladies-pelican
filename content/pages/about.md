@@ -1,6 +1,5 @@
 title: About
 tags: pyladies, women, python
-imagefeature: fourseasons.jpg
 
 <figure>
   <img style="height: 230px; padding: -50px;" src="{filename}/images/boneca.png" alt="PyLadies">
