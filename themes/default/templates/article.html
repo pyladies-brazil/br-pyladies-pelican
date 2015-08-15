@@ -19,5 +19,16 @@
     <div>
         {{ article.content }}
     </div>
+    <div class="cf"></div>
+    {% include 'share.html' %}
+    <div class="cf"></div>
+    {% if article.comments %}
+    <section class="notepad-disqus row">
+        <div class="small-12 columns">
+            <h1 class="notepad-comments-header">Comments</h1>
+            {% include 'disqus_script.html' %}
+        </div>
+    </section>
+    {% endif %}
 </article>
 {% endblock %}
