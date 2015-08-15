@@ -4,7 +4,7 @@
 {% if page %}<meta name="keywords" content="{{ page.tags|join(', ') }}">{% endif %}
 
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page %}{{ SITEURL }}/images/{{ page.image.thumb }}{% else %}{{ SITEURL }}/static/images/logo.png{% endif %}">
+<meta name="twitter:image" content="{% if page %}{{ SITEURL }}/theme/images/{{ page.imagefeature }}{% else %}{{ SITEURL }}/static/images/logo.png{% endif %}">
 <meta name="twitter:title" content="{% if page %}{{ page.title }}{% else %}{{ SITENAME }}{% endif %}">
 <meta name="twitter:description" content="{% if page %}{{ page.description }}{% else %}{{ TAGLINE }}{% endif %}">
 <meta name="twitter:creator" content="@PyladiesBrazil">

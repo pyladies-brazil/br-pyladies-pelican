@@ -14,6 +14,9 @@ SINCE = datetime.now().year
 SUMMARY_MAX_LENGTH = 30
 # ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
 
+PAGE_URL = '{slug}/'
+PAGE_SAVE_AS = '{slug}/index.html'
+
 # Sitemap
 DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
 SITEMAP_SAVE_AS = 'sitemap.xml'
