@@ -6,7 +6,7 @@ from datetime import datetime
 
 AUTHOR = u'Pyladies'
 SITENAME = u'Pyladies Brasil'
-SITEURL = os.environ.get('SITEURL', 'http://localhost:8000')
+SITEURL = 'http://localhost:8000'
 TAGLINE = u'Ninguém pode fazer você se sentir inferior sem o seu consentimento (Eleanor Roosevelt)'
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
 DEFAULT_BG = 'theme/images/pyladies-avatar.png'
