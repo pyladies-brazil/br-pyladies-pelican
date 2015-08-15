@@ -35,4 +35,4 @@ nosetests.xml
 .pydevproject
 
 # Pelican
-output/
+output
