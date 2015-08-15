@@ -9,10 +9,12 @@ SITENAME = u'Pyladies Brasil'
 SITEURL = 'http://localhost:8000'
 TAGLINE = u'Ninguém pode fazer você se sentir inferior sem o seu consentimento (Eleanor Roosevelt)'
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
-DEFAULT_BG = 'theme/images/pyladies-avatar.png'
+DEFAULT_BG = '/theme/images/pyladies-avatar.png'
 SINCE = datetime.now().year
 SUMMARY_MAX_LENGTH = 30
-# ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+
+ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
+ARTICLE_SAVE_AS = '{}index.html'.format(ARTICLE_URL)
 
 PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'

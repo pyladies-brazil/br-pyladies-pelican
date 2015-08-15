@@ -2,6 +2,24 @@
 <html>
     <head>
     {% include 'head.html' %}
+    {% block extra_meta %}
+    <meta name="description" content="{{ TAGLINE }}">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:image" content="{{ SITEURL }}{{ DEFAULT_BG }}">
+    <meta name="twitter:title" content="{{ SITENAME }}">
+    <meta name="twitter:description" content="{{ TAGLINE }}">
+    <meta name="twitter:creator" content="@Pyladiesbrazil">
+
+    <!-- Open Graph -->
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ SITENAME }}">
+    <meta property="og:description" content="{{ TAGLINE }}">
+    <meta property="og:url" content="{{ SITEURL }}">
+    <meta property="og:image" content="{{ SITEURL }}{{ DEFAULT_BG  }}">
+    {% endblock %}
+
+
     </head>
     <body class="{% block body_class %}{% endblock %}">
         <header class="notepad-site-head">

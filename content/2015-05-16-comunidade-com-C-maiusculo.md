@@ -25,4 +25,4 @@ Até mais para tod@s, <br>
 qualquer coisa é só gritar.<br>
 [Gabi](http://i-am-gabi.github.io/).
 
-![Python Nordeste 2015](/themes/images/pyne.jpg)
+![Python Nordeste 2015]({filename}/images/pyne.jpg)

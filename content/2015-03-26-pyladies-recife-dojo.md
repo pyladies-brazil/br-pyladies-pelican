@@ -13,8 +13,8 @@ Estamos com um super evento programado para vocês em Recife. Sábado, 28 de Mar
 
 **Vai ter mão no código! Vai ter Coding Dojo! Vai ter Python!**
 
-<a href="{{ SITEURL }}/themes/images/pyladies_recife_event/pyladies_recife_dojo.jpg"><img style="float: right; width: 70%;
-" src="{{ SITEURL }}/themes/images/pyladies_recife_event/pyladies_recife_dojo.jpg"></a>
+<a href="{filename}/images/pyladies_recife_event/pyladies_recife_dojo.jpg"><img style="float: right; width: 70%;
+" src="{filename}/images/pyladies_recife_event/pyladies_recife_dojo.jpg"></a>
 
 <br>
 
@@ -36,8 +36,8 @@ Uma forma colaborativa de todas, independente do nível de conhecimento, program
 
 Infelizmente dessa vez o espaço foi pouco para todas, mas não deixe de se inscrever para lista de espera, assim podemos nos organizar melhor para o próximo: [Inscrições aqui!](www.meetup.com/Women-Who-Code-Recife/events/221390351/)
 
-<a href="{{ SITEURL }}/themes/images/pyladies_recife_event/pyladies_recife_cafe.jpg"><img style="width: 40%;
-" src="{{ SITEURL }}/themes/images/pyladies_recife_event/pyladies_recife_cafe.jpg"></a>
+<a href="{filename}/images/pyladies_recife_event/pyladies_recife_cafe.jpg"><img style="width: 40%;
+" src="{filename}/images/pyladies_recife_event/pyladies_recife_cafe.jpg"></a>
 
 
 

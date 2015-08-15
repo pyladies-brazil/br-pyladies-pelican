@@ -1,6 +1,26 @@
 {% extends "base.html" %}
 {% block title %}{{ article.title|striptags }}{% endblock %}
 
+{% block extra_meta %}
+{% if article.description %}
+<meta name="description" content="{{ article.description }}">
+<meta name="twitter:description" content="{{ article.description }}">
+<meta property="og:description" content="{{ article.description }}">
+{% endif %}
+
+{% if article.imagefeatured %}
+<meta name="twitter:image" content="{{ SITEURL }}/theme/images/{{ article.imagefeatured }}">
+<meta property="og:image" content="{{ SITEURL }}/theme/images/{{ article.imagefeatured  }}">
+{% endif %}
+
+<meta name="twitter:title" content="{{ article.title }}">
+<meta name="twitter:creator" content="@Pyladiesbrazil">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ article.title }}">
+<meta property="og:url" content="{{ SITEURL }}{{ article.url }}">
+{% endblock %}
+
 {% block body_class %}post-template{% endblock %}
 
 {% block extra_header %}

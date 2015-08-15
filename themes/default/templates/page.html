@@ -1,9 +1,34 @@
 {% extends "base.html" %}
 {% block title %}{{ page.title }}{% endblock %}
-{% block content %}        
-    <h3>{{ page.title }}</h3>
-    {% import 'translations.html' as translations with context %}
-    {{ translations.translations_for(page) }}
-    {% if PDF_PROCESSOR %}<a href="{{ SITEURL }}/pdf/{{ page.slug }}.pdf">PDF</a>{% endif %}
-    {{ page.content }}
+
+{% block extra_meta %}
+{% if page.description %}
+<meta name="description" content="{{ page.description }}">
+<meta name="twitter:description" content="{{ page.description }}">
+<meta property="og:description" content="{{ page.description }}">
+{% endif %}
+
+{% if page.imagefeatured %}
+<meta name="twitter:image" content="{{ SITEURL }}/theme/images/{{ page.imagefeatured }}">
+<meta property="og:image" content="{{ SITEURL }}/theme/images/{{ page.imagefeatured  }}">
+{% endif %}
+
+<meta name="twitter:title" content="{{ page.title }}">
+<meta name="twitter:creator" content="@Pyladiesbrazil">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{{ page.title }}">
+<meta property="og:url" content="{{ SITEURL }}/{{ page.slug }}">
+{% endblock %}
+
+
+
+{% block content %}
+    <article class="notepad-page-content">
+        <div class="title small-12 columns">
+            <h1>{{ page.title }}</h1>
+        </div>
+        <div>{{ page.content }}</div>
+    </article>
+    <div class="cf"></div>
 {% endblock %}

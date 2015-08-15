@@ -1,27 +1,8 @@
 <meta charset="utf-8">
-<title>{% if page %}{{ page.title }} &vert;{% else %}{{ SITENAME }}{% endif %}</title>
-<meta name="description" content="{% if page %}{{ page.description }}{% else %}{{ TAGLINE }}{% endif %}">
-{% if page %}<meta name="keywords" content="{{ page.tags|join(', ') }}">{% endif %}
+<title>{% block title %}{{ SITENAME }}{% endblock %}</title>
 
+<meta property="og:site_name" content="{{ SITENAME }}">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:image" content="{% if page %}{{ SITEURL }}/theme/images/{{ page.imagefeature }}{% else %}{{ SITEURL }}/static/images/logo.png{% endif %}">
-<meta name="twitter:title" content="{% if page %}{{ page.title }}{% else %}{{ SITENAME }}{% endif %}">
-<meta name="twitter:description" content="{% if page %}{{ page.description }}{% else %}{{ TAGLINE }}{% endif %}">
-<meta name="twitter:creator" content="@PyladiesBrazil">
-
-<!-- Open Graph -->
-<meta property="og:locale" content="en_US">
-<meta property="og:type" content="article">
-<meta property="og:title" content="{% if page %}{{ page.title }}{% else %}{{ SITETITLE }}{% endif %}">
-<meta property="og:description" content="{% if page %}{{ page.description }}{% else %}{{ TAGLINE }}{% endif %}">
-<meta property="og:url" content="{% if page %}{{ SITEURL }}{{ page.url }}{% else %}{{ SITEURL }}{% endif %}">
-<meta property="og:site_name" content="{{ SITETITLE }}">
-
-{% if page %}
-<meta property="og:image" content="{{ SITEURL }}/images/{{ page.imagefeature }}">
-{% else %}
-<meta property="og:image" content="{{ SITEURL }}{{ DEFAULT_BG }}">
-{% endif %}
 
 <!-- http://t.co/dKP3o1e -->
 <meta name="HandheldFriendly" content="True">

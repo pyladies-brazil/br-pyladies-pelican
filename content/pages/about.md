@@ -3,7 +3,7 @@ tags: pyladies, women, python
 imagefeature: fourseasons.jpg
 
 <figure>
-  <img style="height: 230px; padding: -50px;" src="/theme/images/boneca.png" alt="PyLadies">
+  <img style="height: 230px; padding: -50px;" src="{filename}/images/boneca.png" alt="PyLadies">
 </figure>
 
 <br/>
@@ -12,18 +12,18 @@ O PyLadies é uma comunidade mundial que foi trazida ao Brasil com o propósito 
 Nós percebemos que não haviam motivos para sermos poucas em salas de cursos universitários e técnicos de informática e tecnologia pelo Brasil, então resolvemos nos organizar para dar um jeitinho nisso. Foi então que encontramos outras ladies pelo mundo, que se reuniam em nome da programação e falavam de abstração de um jeito que só ladies sabem falar.
 
 <figure>
-	<img src="/theme/images/about/eventoNatal.jpg" alt="PyLadies">
+	<img src="{filename}/images/about/eventoNatal.jpg" alt="PyLadies">
 	<figcaption>Primeiro encontro do PyLadies Brasil em Natal</figcaption>
 </figure>
 
 <figure class="third">
-	<a href="/theme/images/about/eventoRecife01.jpg"><img src="/theme/images/about/eventoRecife01.jpg"></a>
-	<a href="/theme/images/about/eventoRecife02.jpg"><img src="/theme/images/about/eventoRecife02.jpg"></a>
-	<a href="/theme/images/about/eventoNatal01.jpg"><img src="/theme/images/about/eventoNatal01.jpg"></a>
+	<a href="{filename}/images/about/eventoRecife01.jpg"><img src="{filename}/images/about/eventoRecife01.jpg"></a>
+	<a href="{filename}/images/about/eventoRecife02.jpg"><img src="{filename}/images/about/eventoRecife02.jpg"></a>
+	<a href="{filename}/images/about/eventoNatal01.jpg"><img src="{filename}/images/about/eventoNatal01.jpg"></a>
 </figure>
 <figure class="half">
-	<a href="/theme/images/about/eventoNatal02.jpg"><img src="/theme/images/about/eventoNatal02.jpg"></a>
-	<a href="/theme/images/about/eventoNatal05.jpg"><img src="/theme/images/about/eventoNatal05.jpg"></a>
+	<a href="{filename}/images/about/eventoNatal02.jpg"><img src="{filename}/images/about/eventoNatal02.jpg"></a>
+	<a href="{filename}/images/about/eventoNatal05.jpg"><img src="{filename}/images/about/eventoNatal05.jpg"></a>
 </figure>
 <br/>
 
