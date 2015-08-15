@@ -1,0 +1,31 @@
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="{{ SITEURL }}/theme/js/jquery-1.11.1.min.js"><\/script>')</script>
+    <script src="{{ SITEURL }}/theme/js/modernizr.js"></script>
+    <script src="{{ SITEURL }}/theme/js/foundation.min.js"></script>
+    {% if page %}
+    <script src="{{ SITEURL }}/theme/js/background-check.js"></script>
+    <script src="{{ SITEURL }}/theme/js/post-header-animations.js"></script>
+    {% endif %}
+    <script src="{{ SITEURL }}/theme/js/notepad.js"></script>
+    <script src="{{ SITEURL }}/theme/js/scripts.min.js"></script>
+    <script src="{{ SITEURL }}/theme/js/nprogress.js"></script>
+
+    <script>
+      $(document).foundation();
+    </script>
+
+{% if google_analytics %}
+<!-- Asynchronous Google Analytics snippet -->
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ GOOGLE_ANALYTICS_UA }}', 'auto');
+  ga('require', 'displayfeatures');
+  ga('send', 'pageview');
+
+</script>
+{% endif %}
+<script>NProgress.start();var interval=setInterval(function(){NProgress.inc()},1000);jQuery(window).load(function(){clearInterval(interval);NProgress.done()});jQuery(window).unload(function(){NProgress.start()});</script>

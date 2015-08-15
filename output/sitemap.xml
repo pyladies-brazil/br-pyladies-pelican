@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>http://localhost:8000/comunidade-com-c-maiusculo.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/encontro-pyladies-recife.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/minha-experiencia-na-cpbr8.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/como-comecar-um-grupo-pyladies.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/hangout-pyladies.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/pyladies-first.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/primeiro-encontro-no-brasil.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/welcome-to-pyladies.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>http://localhost:8000/primeiro-encontro-recife.html</loc>
+    <priority>0.8</priority>
+  </url>
+
+
+
+</urlset>

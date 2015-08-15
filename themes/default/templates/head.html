@@ -1,0 +1,86 @@
+<meta charset="utf-8">
+<title>{% if page %}{{ page.title }} &vert;{% else %}{{ SITENAME }}{% endif %}</title>
+<meta name="description" content="{% if page %}{{ page.description }}{% else %}{{ TAGLINE }}{% endif %}">
+{% if page %}<meta name="keywords" content="{{ page.tags|join(', ') }}">{% endif %}
+
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="{% if page %}{{ SITEURL }}/images/{{ page.image.thumb }}{% else %}{{ SITEURL }}/static/images/logo.png{% endif %}">
+<meta name="twitter:title" content="{% if page %}{{ page.title }}{% else %}{{ SITENAME }}{% endif %}">
+<meta name="twitter:description" content="{% if page %}{{ page.description }}{% else %}{{ TAGLINE }}{% endif %}">
+<meta name="twitter:creator" content="@PyladiesBrazil">
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{% if page %}{{ page.title }}{% else %}{{ SITETITLE }}{% endif %}">
+<meta property="og:description" content="{% if page %}{{ page.description }}{% else %}{{ TAGLINE }}{% endif %}">
+<meta property="og:url" content="{% if page %}{{ SITEURL }}{{ page.url }}{% else %}{{ SITEURL }}{% endif %}">
+<meta property="og:site_name" content="{{ SITETITLE }}">
+
+{% if page %}
+<meta property="og:image" content="{{ SITEURL }}/images/{{ page.imagefeature }}">
+{% else %}
+<meta property="og:image" content="{{ SITEURL }}{{ DEFAULT_BG }}">
+{% endif %}
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+
+    <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" type='text/css'>
+
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/normalize.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/nprogress.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/foundation.min.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/style.css">
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/post.css">
+
+
+{% if page %}
+<!--Load Mathjax-->
+<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+        <script>
+        MathJax.Hub.Config({
+            config: ["MMLorHTML.js"],
+            extensions: ["tex2jax.js","TeX/AMSmath.js","TeX/AMSsymbols.js"],
+            jax: ["input/TeX"],
+            tex2jax: {
+                inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+                displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+                processEscapes: false
+            },
+            TeX: {
+                TagSide: "right",
+                TagIndent: ".8em",
+                MultLineWidth: "85%",
+                equationNumbers: {
+                   autoNumber: "AMS",
+                },
+                unicode: {
+                   fonts: "STIXGeneral,'Arial Unicode MS'"
+                }
+            },
+            showProcessingMessages: false
+        });
+    </script>
+{% endif %}
+
+
+<!-- Icons -->
+<!-- 16x16 -->
+<link rel="shortcut icon" href="{{ SITEURL }}/favicon.ico">
+<!-- 32x32 -->
+<link rel="shortcut icon" href="{{ SITEURL }}/favicon.png">
+<!-- 57x57 (precomposed) for iPhone 3GS, pre-2011 iPod Touch and older Android devices -->
+<link rel="apple-touch-icon-precomposed" href="{{ SITEURL }}/images/apple-touch-icon-precomposed.png">
+<!-- 72x72 (precomposed) for 1st generation iPad, iPad 2 and iPad mini -->
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{ SITEURL }}/images/apple-touch-icon-72x72-precomposed.png">
+<!-- 114x114 (precomposed) for iPhone 4, 4S, 5 and post-2011 iPod Touch -->
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{ SITEURL }}/images/apple-touch-icon-114x114-precomposed.png">
+<!-- 144x144 (precomposed) for iPad 3rd and 4th generation -->
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ SITEURL }}/images/apple-touch-icon-144x144-precomposed.png">
