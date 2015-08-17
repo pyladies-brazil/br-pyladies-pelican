@@ -100,6 +100,16 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
   url: SITE DA ORG
 ```
 
+Atualizando Github Pages
+------------------------
+
+Após realizar todos os testes locais, para fazer o upload do novo conteúdo no github pages, rode o comando:
+
+	make github
+
+Você poderá ir na página oficial e já observar suas alterações.
+
+
 Links Úteis
 -----------
 
