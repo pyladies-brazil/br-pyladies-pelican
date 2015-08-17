@@ -1,0 +1,28 @@
+- city: Natal - RN
+  image: /images/locais/location.png
+  twitter: http://twitter.com/pyladiesbrazil
+  email: brasil@pyladies.org
+  url: http://pyladiesnatal.github.io/
+
+- city: Recife - PE
+  image: /images/locais/recife.png
+  twitter: http://twitter.com/pyladiesrecife
+  facebook: https://www.facebook.com/pages/PyLadies-Recife/950001281692844
+  email: recife@pyladies.org
+  url: /locations/recife
+
+- city: Brasilia - DF
+  image: /images/locais/brasilia.png
+  facebook: https://www.facebook.com/pages/pyladiesbsb
+
+- city: Rio de Janeiro - RJ
+  image: /images/locais/pyladies-rio.png
+  twitter: http://twitter.com/rio_pyladies
+  facebook: https://www.facebook.com/pyladiesrio
+  url: https://www.facebook.com/pyladiesrio
+
+- city: São Carlos -SP
+  image: /images/locais/location.png
+  facebook: https://www.facebook.com/PyLadiesSaoCarlos
+  email: saocarlos@pyladies.org
+  url: https://www.facebook.com/PyLadiesSaoCarlos

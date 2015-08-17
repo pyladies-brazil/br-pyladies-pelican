@@ -1,0 +1,51 @@
+{% extends 'page.html' %}
+{% block title %}Pyladies Brasil - Ladies{% endblock %}
+{% block content %}
+<article class="notepad-page-content">
+    <div class="title small-12 columns">
+        <h1>LADIES</h1>
+    </div>
+    <div>
+        <div id="archive">
+            <div class="wrap wrap-events">
+                <div class="large-12 columns-events">
+                    <ul class="grid large-block-grid-6 locations-grid">
+                        {% for lady in LADIES %}
+                        <li class="location">
+                            <a target="blank" href="{{ lady.url }}">
+                                <span class="location-name">
+                                    {{ lady.name }}
+                                </span>
+                                <img class="img-location" src="{{ STATICURL }}/theme/{{ lady.image }}">
+                            </a>
+                            <div class="social-icons">
+                                <a target="blank" href="http://twitter.com/{{ lady.twitter }}">
+                                    <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                    <i class="fa fa-twitter fa-stack-1x"></i>
+                                    </span>
+                                </a>
+                                <a target="blank" href="http://facebook.com/{{ lady.facebook }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                    <i class="fa fa-facebook fa-stack-1x"></i>
+                                </span>
+                                </a>
+                                {% if lady.github %}
+                                <a target="blank" href="http://github.com/{{ lady.github }}">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                                    <i class="fa fa-github fa-stack-1x"></i>
+                                </span>
+                                </a>
+                                {% endif %}
+                            </div>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</article>
+{% endblock %}

@@ -2,3 +2,4 @@ pelican
 markdown
 fabric
 ghp-import
+pyyaml

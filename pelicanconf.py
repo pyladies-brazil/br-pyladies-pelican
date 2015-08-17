@@ -3,6 +3,9 @@
 from __future__ import unicode_literals
 import os
 from datetime import datetime
+from collections import namedtuple
+
+import yaml
 
 AUTHOR = u'Pyladies'
 SITENAME = u'Pyladies Brasil'
@@ -11,6 +14,7 @@ TAGLINE = u'Ninguém pode fazer você se sentir inferior sem o seu consentimento
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
 DEFAULT_BG = '/theme/images/pyladies-avatar.png'
 SINCE = datetime.now().year
+NOW = datetime.now()
 SUMMARY_MAX_LENGTH = 30
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
@@ -53,3 +57,34 @@ GOOGLE_ANALYTICS_UA = 'UA-58961512-1'
 DISQUS_SITENAME = 'pyladiesbrasil'
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+
+# Ladies, Locations and Events
+with open('data/ladies.yml') as ladies:
+    ladies_converted = yaml.load(ladies.read())
+    LADIES = []
+    for lady in ladies_converted:
+        LADIES.append(
+            namedtuple('Ladies', lady.keys())(**lady)
+        )
+
+with open('data/locations.yml') as locations:
+    locations_converted = yaml.load(locations.read())
+    LOCATIONS = []
+    for location in locations_converted:
+        LOCATIONS.append(
+            namedtuple('Locations', location.keys())(**location)
+        )
+
+with open('data/events.yml') as events:
+    events_converted = yaml.load(events.read())
+    NEXT_EVENTS = []
+    PAST_EVENTS = []
+    for event in events_converted:
+        # date as a datetime obj
+        event['date'] = datetime.strptime(event['date'], '%d-%m-%Y')
+        e = namedtuple('Event', event.keys())(**event)
+        if e.date < NOW:
+            PAST_EVENTS.append(e)
+        else:
+            NEXT_EVENTS.append(e)

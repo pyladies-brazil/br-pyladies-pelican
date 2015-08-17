@@ -1,0 +1,51 @@
+- name: Andrêza Leite
+  url: https://sites.google.com/site/bancodedadosufrpe/
+  github:
+  twitter: andreza_paju
+  facebook: andreza.leite1
+  image: /images/ladies/andreza.jpeg
+
+- name: Aninha Lacerda
+  url: http://aninhalacerda.com
+  github: aninhalacerda
+  twitter: aninhalacerdaa
+  image: /images/ladies/aninha.png
+
+- name: Gabriela Cavalcante
+  url: http://i-am-gabi.github.io/
+  github: I-am-Gabi
+  twitter: _gabiCavalcante
+  facebook: gabi.cavalcante.silva
+  image: /images/ladies/Eu.jpg
+
+- name: Gláucia Esppenchutz
+  url: http://glaucia.esppenchutz.com.br/
+  twitter: gl_esppen
+  facebook: glaucia.esppenchutz
+  image: /images/ladies/glaucia.jpeg
+
+- name: Katyanna Moura
+  github: katyanna
+  twitter: amelie_kn
+  facebook: katyanna.moura
+  image: /images/ladies/katyanna.png
+
+- name: Lidiane Monteiro
+  github: lidymonteiro
+  twitter: Lidy_Monteiro
+  facebook: lidiannemonteiro
+  image: /images/ladies/lidy.jpg
+
+- name: Vitória Vasconcelos
+  github: vitoriavasconcelos
+  twitter: vasconcv
+  facebook: vitoria.vilela.vasconcelos
+  image: /images/ladies/vitoria.jpg
+
+
+# Add yourself, following the alphabetical order. Here is the layout:
+# - name: seu nome aqui
+#   url: [optional] seu site pessoal
+#   github: [optional] seu usuario github
+#   twitter: [optional] seu usuario no twitter
+#   image: /images/ladies/lady.png [para mudar a foto, caso queira, basta adicionar a foto em /images/ladies e mudar o caminho aqui]
