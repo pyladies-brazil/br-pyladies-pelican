@@ -38,10 +38,10 @@ Após terminar o post, renderize-o com o comando:
 Se tudo deu certo, seu novo post já estará disponível na página.
 
 
-Criando um novo Post
+Criando uma nova Página
 --------------------
 
-Para criar um novo post, rode o comando:
+Para criar uma nova página, rode o comando:
 
 	make newpage NAME='NOME PAGINA'
 
