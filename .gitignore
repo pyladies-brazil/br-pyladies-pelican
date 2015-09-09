@@ -13,6 +13,9 @@ parts
 bin
 var
 sdist
+cache
+include
+local
 develop-eggs
 .installed.cfg
 lib
