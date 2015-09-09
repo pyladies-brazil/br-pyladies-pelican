@@ -11,9 +11,19 @@
   email: recife@pyladies.org
   url: /locations/recife
 
+- city: Fortaleza - CE
+  image: /images/locais/fortaleza.jpg
+  twitter: https://twitter.com/PyLadiesFortal
+  facebook: https://www.facebook.com/PyLadiesFortaleza
+  url: https://www.facebook.com/PyLadiesFortaleza
+
 - city: Brasilia - DF
   image: /images/locais/brasilia.png
   facebook: https://www.facebook.com/pages/pyladiesbsb
+
+- city: Belo Horizonte - MG
+  image: /images/locais/location.png
+  facebook: https://www.facebook.com/pyladiesbh
 
 - city: Rio de Janeiro - RJ
   image: /images/locais/pyladies-rio.png
@@ -21,8 +31,26 @@
   facebook: https://www.facebook.com/pyladiesrio
   url: https://www.facebook.com/pyladiesrio
 
+- city: Duque de Caxias - RJ
+  image: /images/locais/pyladies-rio.png
+  facebook: https://www.facebook.com/pages/PyLadies-Duque-de-Caxias/
+
+- city: São Paulo - SP
+  image: /images/locais/location.png
+  twitter: https://twitter.com/PyLadiesSPaulo
+
+- city: Campinas - SP
+  image: /images/locais/location.png
+  facebook: https://www.facebook.com/pyladiescps
+
 - city: São Carlos -SP
   image: /images/locais/location.png
+  twitter: https://twitter.com/PyLadiesSanca
   facebook: https://www.facebook.com/PyLadiesSaoCarlos
   email: saocarlos@pyladies.org
   url: https://www.facebook.com/PyLadiesSaoCarlos
+
+- city: Curitiba - PR
+  image: /images/locais/pyladies-curitiba.png
+  facebook: https://www.facebook.com/PyLadiesCuritiba
+  url: /locations/curitiba
