@@ -1,4 +1,5 @@
-Description: Vídeos sobre a Pyladies
-Slug: videos
+title: Vídeos sobre a Pyladies
+description: Vídeos sobre a Pyladies
+slug: videos
 
 
