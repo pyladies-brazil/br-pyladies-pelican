@@ -11,15 +11,21 @@ Instalando e Rodando
 
 - Crie uma virtualenv (pode chamar `pyladies`). Se você não sabe como criar uma virtualenv, [leia isso](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
-- Instale os pacotes necessários para rodar o projeto:
+(Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
-	pip install -r requirements.txt
+- Ative seu virtualenv e instale os pacotes necessários para rodar o projeto:
+
+		$ pip install -r requirements.txt
+
+- Crie o site pela primeira vez com o Pelican
+
+		$ make html
 
 - Rode o projeto
 
-	make serve
+		$ make serve
 
-Abra o browser em `http://localhost:8000`
+Abra o browser em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado
 
 
 Criando um novo Post
