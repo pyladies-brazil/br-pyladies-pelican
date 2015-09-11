@@ -21,6 +21,7 @@ SLUG := $(shell echo '${NAME}' | sed -e 's/[^[:alnum:]]/-/g' | tr -s '-' | tr A-
 EXT ?= md
 EDITOR ?= vim
 
+at_output=mkdir -p $(OUTPUTDIR) && cd $(OUTPUTDIR)
 
 DEBUG ?= 0
 ifeq ($(DEBUG), 1)
@@ -36,6 +37,7 @@ help:
 	@echo 'Makefile for a pelican Web site                                           '
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
+	@echo '   make up                             generate the web site and serve    '
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make newpost NAME="POST NAME"       create new post with input name    '
 	@echo '   make newpage NAME="PAGE NAME"       create new ppage with input name   '
@@ -52,29 +54,30 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-html:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+up: html serve
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+
+html:
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 regenerate:
 	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 ifdef PORT
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server $(PORT)
+	$(at_output) && $(PY) -m pelican.server $(PORT)
 else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server
+	$(at_output) && $(PY) -m pelican.server
 endif
 
 serve-global:
 ifdef SERVER
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server 80 $(SERVER)
+	$(at_output) && $(PY) -m pelican.server 80 $(SERVER)
 else
-	cd $(OUTPUTDIR) && $(PY) -m pelican.server 80 0.0.0.0
+	$(at_output) && $(PY) -m pelican.server 80 0.0.0.0
 endif
-
 
 devserver:
 ifdef PORT
@@ -121,4 +124,4 @@ else
 	@echo 'Do make newpage NAME='"'"'Page Name'"'"
 endif
 
-.PHONY: html help clean regenerate serve serve-global devserver publish github newpost newpage
+.PHONY: up html help clean regenerate serve serve-global devserver publish github newpost newpage
