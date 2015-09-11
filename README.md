@@ -17,13 +17,9 @@ Instalando e Rodando
 
 		$ pip install -r requirements.txt
 
-- Crie o site pela primeira vez com o Pelican
-
-		$ make html
-
 - Rode o projeto
 
-		$ make serve
+		$ make up
 
 Abra o browser em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado
 
