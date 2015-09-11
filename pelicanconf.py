@@ -12,9 +12,9 @@ SITENAME = u'Pyladies Brasil'
 SITEURL = 'http://localhost:8000'
 TAGLINE = u'Ninguém pode fazer você se sentir inferior sem o seu consentimento (Eleanor Roosevelt)'
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
-DEFAULT_BG = '/theme/images/pyladies-avatar.png'
+DEFAULT_BG = 'images/pyladies-avatar.png'
 SINCE = datetime.now().year
-NOW = datetime.now()
+NOW = datetime.now().date()
 SUMMARY_MAX_LENGTH = 30
 
 ARTICLE_URL = '{date:%Y}/{date:%m}/{date:%d}/{slug}/'
@@ -89,7 +89,7 @@ with open('data/events.yml') as events:
     PAST_EVENTS = []
     for event in events_converted:
         # date as a datetime obj
-        event['date'] = datetime.strptime(event['date'], '%d-%m-%Y')
+        event['date'] = datetime.strptime(event['date'], '%d-%m-%Y').date()
         e = namedtuple('Event', event.keys())(**event)
         if e.date < NOW:
             PAST_EVENTS.append(e)

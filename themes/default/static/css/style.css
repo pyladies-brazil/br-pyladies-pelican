@@ -1,5 +1,5 @@
 html, body {
-  width: 100% !important; 
+  width: 100% !important;
 }
 .layout {
   width: 1200px;
@@ -230,10 +230,11 @@ main, .notepad-share-icons, .notepad-disqus {
   padding-top: 0;
   padding-bottom: 0;
   margin-right: 0.9375rem;
+  margin-top: 1.7%;
   float: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 2.625rem;
+  font-size: 4rem;
   height: 5rem; }
   .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
@@ -329,8 +330,7 @@ main, .notepad-share-icons, .notepad-disqus {
     display: inline-block;
     max-height: 5rem; }
     .notepad-site-head .notepad-site-head-menu .notepad-blog-logo img {
-      max-height: 5rem;
-      height: 70px;
+      height: 120px;
       margin: 10%; }
   .notepad-site-head .notepad-site-head-menu .title {
     display: inline-block;
@@ -800,7 +800,7 @@ figcaption {
 }
 /* =====================================
  * :: Select Text to Share CSS
- * 
+ *
  * @ Author: Hadrien Boyer
  * @ Website: http://hadrien-boyer.fr
  * @ v.0.1 - Last update : 2014/06/29
@@ -868,7 +868,7 @@ figcaption {
   top:0;
   left:0;
 }
-.tooltipContainer a { 
+.tooltipContainer a {
   width: 100%;
   background:transparent url(/images/sprites.png) 0px 0px no-repeat;
   padding:0;

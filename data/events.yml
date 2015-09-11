@@ -1,3 +1,17 @@
+# Next Events
+
+- url: http://www.meetup.com/pt/PyLadiesSP/events/225189894/
+  name: PyLadies São Paulo
+  date: 12-09-2015
+  local: Centro de Treinamento da Novatec
+
+- url: http://www.meetup.com/pt/GruPy-PR/events/225094006/
+  name: PyLadies Curitiba
+  date: 09-09-2015
+  local: Aldeia Coworking
+
+#Old Events
+
 - url: http://www.meetup.com/Women-Who-Code-Recife/events/221390351/
   name: PyLadies Recife Dojo
   date: 28-03-2015

@@ -1,5 +1,8 @@
 *.py[cod]
 
+# vim
+*.swp
+
 # C extensions
 *.so
 
@@ -13,6 +16,9 @@ parts
 bin
 var
 sdist
+cache
+include
+local
 develop-eggs
 .installed.cfg
 lib
