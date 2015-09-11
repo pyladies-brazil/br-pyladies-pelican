@@ -6,4 +6,4 @@ sys.path.append('.')
 
 from pelicanconf import *
 
-SITEURL = 'http://pyladies-brazil.github.io/br-pyladies-pelican'
+SITEURL = 'https://pyladies-brazil.github.io/br-pyladies-pelican'
