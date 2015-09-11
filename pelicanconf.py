@@ -1,9 +1,14 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
+
 from __future__ import unicode_literals
 import os
 from datetime import datetime
 from collections import namedtuple
+
+# Bad fix to get common confs
+import sys
+sys.path.append('.')
 
 import yaml
 
