@@ -7,7 +7,7 @@ Instalando e Rodando
 
 - Assumindo que seu git e virtualenv já estão configurados, faça o clone do repositório
 
-		$ git clone git@github.com:pyladies-curitiba/br-pyladies-pelican.git
+		$ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
 
 - Crie uma virtualenv (pode chamar `pyladies`). Se você não sabe como criar uma virtualenv, [leia isso](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
