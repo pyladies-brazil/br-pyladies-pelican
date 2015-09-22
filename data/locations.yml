@@ -36,8 +36,11 @@
   facebook: https://www.facebook.com/pages/PyLadies-Duque-de-Caxias/
 
 - city: São Paulo - SP
-  image: /images/locais/location.png
+  image: /images/locais/pyladies-sp.jpeg
+  facebook: https://www.facebook.com/PyLadiesSP
   twitter: https://twitter.com/PyLadiesSPaulo
+  email: saopaulo@pyladies.com
+  url: http://www.meetup.com/pt/PyLadiesSP/
 
 - city: Campinas - SP
   image: /images/locais/location.png

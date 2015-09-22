@@ -1,4 +1,11 @@
-# Next Events
+#Next Events
+
+- url: http://www.meetup.com/pt/PyLadiesSP/events/225516683/
+  name: Curso gratuito de programação básica para mulheres - PyLadies São Paulo
+  date: 28-09-2015
+  local: Cidade universitária da USP
+
+#Old Events
 
 - url: http://www.meetup.com/pt/PyLadiesSP/events/225189894/
   name: PyLadies São Paulo
@@ -9,8 +16,6 @@
   name: PyLadies Curitiba
   date: 09-09-2015
   local: Aldeia Coworking
-
-#Old Events
 
 - url: http://www.meetup.com/Women-Who-Code-Recife/events/221390351/
   name: PyLadies Recife Dojo
