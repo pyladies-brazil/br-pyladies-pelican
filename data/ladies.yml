@@ -47,6 +47,23 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
 
+- name: Alini Ramos
+  twitter: alini_x
+  image: /images/ladies/alini-ramos.jpg
+
+- name: Pat Simões
+  twitter: simoes_pat
+  image: /images/ladies/pat-simoes.jpg
+
+- name: Cecilia Tanaka
+  twitter: cecilia_tanaka
+  image: /images/ladies/cecilia-tanaka.png
+
+- name: Erika Campos
+  twitter: minusculas
+  image: /images/ladies/erika-campos.jpeg
+
+
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
