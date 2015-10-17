@@ -110,6 +110,12 @@ html, body {
 
 .location-name {
   font-family: 'Shadows Into Light';
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.ladie-name {
+  font-family: 'Shadows Into Light';
   font-size: 19px;
   padding: 0 15px;
 }
