@@ -6,7 +6,11 @@ html, body {
   margin: 0 auto;
 }
 @media screen and (max-width: 40.063em) {
-  .layout { width: 95%; }
+  .layout {
+    width: 95%;
+    position: relative;
+    z-index: -1;
+  }
   .post { width: 100% !important; }
   .post p { text-align: left; }
 }
