@@ -1,21 +1,37 @@
 html, body {
   width: 100% !important;
+  height: 100% !important;
 }
 .layout {
   width: 1200px;
   margin: 0 auto;
 }
 @media screen and (max-width: 40.063em) {
-  .layout { width: 95%; }
+  .layout {
+    width: 95%;
+    position: relative;
+    z-index: 10;
+  }
+  .location {
+    width: 100% !important;
+    margin: 10px 0 !important;
+  }
   .post { width: 100% !important; }
   .post p { text-align: left; }
+}
+
+.notepad-site-head {
+  height: 144px;
 }
 
 /* Eventos */
 
 #archive {padding-top: 20px;}
 
-#archive .grid {padding-top: 20px;}
+#archive .grid {
+  padding-top: 20px;
+  padding-left: 0;
+}
 
 #archive .grid a .day, #archive .grid a .month, #archive a, #archive small, #archive .grid a .year, #archive .grid a .location {
    color: #222222; }
@@ -110,12 +126,18 @@ html, body {
 
 .location-name {
   font-family: 'Shadows Into Light';
+  font-size: 16px;
+  padding: 0 10px;
+}
+
+.ladie-name {
+  font-family: 'Shadows Into Light';
   font-size: 19px;
   padding: 0 15px;
 }
 
 .location {
-  min-width: 45%;
+  min-width: 47.5%;
   min-height: 135px;
   background-color: #D0D0D0;
   overflow: hidden;
@@ -217,7 +239,7 @@ h1, h2, h3, h4, h5, h6 {
 
 header, main, footer {
   position: relative;
-  z-index: 1; }
+  z-index: 11; }
 
 main, .notepad-share-icons, .notepad-disqus {
   background: white;
