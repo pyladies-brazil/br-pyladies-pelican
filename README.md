@@ -117,3 +117,4 @@ Links Úteis
 
 * Documentação Pelican - http://docs.getpelican.com/en/3.6.3/
 * Virtualenv - http://docs.python-guide.org/en/latest/dev/virtualenvs/
+* Pyenv - https://github.com/yyuu/pyenv
