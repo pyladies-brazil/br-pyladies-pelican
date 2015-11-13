@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*- #
 # Bad fix to get common confs
 import sys
+import os
 sys.path.append('.')
 
 from pelicanconf import *
@@ -9,4 +10,7 @@ from pelicanconf import *
 STAGINGURL = 'https://staging-brasil-pyladies.herokuapp.com/'
 PRODURL = 'https://pyladies-brazil.github.io/br-pyladies-pelican'
 
-SITEURL = STAGINGURL
+if os.environ['ENV'] == 'production'
+    SITEURL = PRODURL
+else:
+    SITEURL = STAGINGURL
