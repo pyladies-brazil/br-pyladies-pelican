@@ -6,4 +6,7 @@ sys.path.append('.')
 
 from pelicanconf import *
 
-SITEURL = 'https://pyladies-brazil.github.io/br-pyladies-pelican'
+STAGINGURL = 'https://staging-brasil-pyladies.herokuapp.com/'
+PRODURL = 'https://pyladies-brazil.github.io/br-pyladies-pelican'
+
+SITEURL = STAGINGURL
