@@ -10,7 +10,9 @@ from pelicanconf import *
 STAGINGURL = 'https://staging-brasil-pyladies.herokuapp.com/'
 PRODURL = 'https://pyladies-brazil.github.io/br-pyladies-pelican'
 
-if os.environ['ENV'] == 'production'
+if os.environ['ENV'] == "production":
+    print "prod"
     SITEURL = PRODURL
 else:
+    print "else"
     SITEURL = STAGINGURL
