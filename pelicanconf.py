@@ -27,7 +27,6 @@ PAGE_SAVE_AS = '{slug}/index.html'
 DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
-
 TIMEZONE = 'America/Sao_Paulo'
 DEFAULT_LANG = u'en'
 THEME = 'themes/default'
