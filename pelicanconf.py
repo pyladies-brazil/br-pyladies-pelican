@@ -46,6 +46,7 @@ MENUITEMS = (
     ('Eventos', '/events'),
     ('Locais', '/locations'),
     ('Ladies', '/ladies'),
+    ('Videos', '/videos'),
 )
 
 DEFAULT_PAGINATION = 10
@@ -65,7 +66,7 @@ DISQUS_SITENAME = 'pyladiesbrasil'
 #RELATIVE_URLS = True
 
 
-# Ladies, Locations and Events
+# Ladies, Locations, Events and Videos
 with open('data/ladies.yml') as ladies:
     ladies_converted = yaml.load(ladies.read())
     LADIES = []
@@ -94,3 +95,11 @@ with open('data/events.yml') as events:
             PAST_EVENTS.append(e)
         else:
             NEXT_EVENTS.append(e)
+
+with open('data/videos.yml') as videos:
+    videos_converted = yaml.load(videos.read())
+    VIDEOS = []
+    for video in videos_converted:
+        VIDEOS.append(
+            namedtuple('Videos', video.keys())(**video)
+        )

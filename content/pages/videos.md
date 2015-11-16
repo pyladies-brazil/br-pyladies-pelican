@@ -1,5 +1,5 @@
-title: Vídeos sobre a Pyladies
-description: Vídeos sobre a Pyladies
-slug: videos
-
-
+description: Videos Pyladies
+Slug: videos
+title: Videos
+tags: pyladies, women, python, videos, supporters
+template: videos
