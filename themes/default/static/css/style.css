@@ -21,7 +21,7 @@ html, body {
 }
 
 .notepad-site-head {
-  height: 144px;
+  height: 80px;
 }
 
 /* Eventos */
@@ -251,13 +251,11 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
-  margin-right: 0.9375rem;
-  margin-top: 1.7%;
   float: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 4rem;
-  height: 5rem; }
+  height: 80px; }
   .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
     outline: none;
@@ -347,13 +345,18 @@ main, .notepad-share-icons, .notepad-disqus {
               border-bottom: 0.1875rem solid #e51843; } }
 
 .notepad-site-head .notepad-site-head-menu {
+  height: 80px;
+  max-width: 1100px;
+  margin: 0 auto;
  }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
-    max-height: 5rem; }
+    line-height: 80px; }
     .notepad-site-head .notepad-site-head-menu .notepad-blog-logo img {
-      height: 120px;
-      margin: 10%; }
+      height: 60px;
+      vertical-align: middle;
+      display: inline-block;
+    }
   .notepad-site-head .notepad-site-head-menu .title {
     display: inline-block;
     padding: 0;
