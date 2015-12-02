@@ -43,3 +43,5 @@ nosetests.xml
 # Pelican
 output
 *.pid
+
+*.DS_Store
