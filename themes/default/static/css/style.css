@@ -2,8 +2,9 @@ html, body {
   width: 100% !important;
   height: 100% !important;
 }
+
 .layout {
-  width: 1200px;
+  width: 1100px;
   margin: 0 auto;
 }
 @media screen and (max-width: 40.063em) {
@@ -170,8 +171,7 @@ html, body {
 .wrap:after { content:""; display:table; }
 .wrap:after { clear: both; }
 .wrap {
-  max-width: 800px;
-  padding: 0 140px;
+  max-width: 1100px;
   margin: 0 auto;
   zoom: 1;
 }
@@ -201,7 +201,7 @@ html, body {
 }
 
 .wrap-events {
-  max-width: none;
+  max-width: 1100px;
 }
 
 @media screen and (max-width: 600px) {
@@ -237,9 +237,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: 50% 50%;
   background-repeat: no-repeat; }
 
-header, main, footer {
-  position: relative;
-  z-index: 11; }
+header, main, footer { position: relative; }
 
 main, .notepad-share-icons, .notepad-disqus {
   background: white;
