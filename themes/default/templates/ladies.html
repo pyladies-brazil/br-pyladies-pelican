@@ -19,26 +19,16 @@
                                 <img class="img-location" src="{{ SITEURL }}{{ lady.image }}">
                             </a>
                             <div class="social-icons">
-                                <a target="blank" href="http://twitter.com/{{ lady.twitter }}">
+                                {% for item in ['facebook', 'twitter', 'github '] %}
+                                {% if lady[item] %}
+                                <a target="blank" href="http://{{ item }}.com/{{ lady[item] }}">
                                     <span class="fa-stack fa-lg">
                                     <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                    <i class="fa fa-twitter fa-stack-1x"></i>
+                                    <i class="fa fa-{{ item }} fa-stack-1x"></i>
                                     </span>
                                 </a>
-                                <a target="blank" href="http://facebook.com/{{ lady.facebook }}">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                    <i class="fa fa-facebook fa-stack-1x"></i>
-                                </span>
-                                </a>
-                                {% if lady.github %}
-                                <a target="blank" href="http://github.com/{{ lady.github }}">
-                                <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                    <i class="fa fa-github fa-stack-1x"></i>
-                                </span>
-                                </a>
                                 {% endif %}
+                                {% endfor %}
                             </div>
                         </li>
                         {% endfor %}
