@@ -19,6 +19,10 @@ html, body {
   }
   .post { width: 100% !important; }
   .post p { text-align: left; }
+
+  ul.notepad-menu {
+	z-index: 999;
+  }
 }
 
 .notepad-site-head {
