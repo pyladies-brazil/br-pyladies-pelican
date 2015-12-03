@@ -434,29 +434,26 @@ main, .notepad-share-icons, .notepad-disqus {
       font-size: 6.25rem;
       padding-bottom: 12.5rem; } }
 
-.notepad-content .notepad-index-post {
-  /*visibility: hidden; -- uncomment to have the fadeIn effect back (as also line :561)*/
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem; }
-  .notepad-content .notepad-index-post .datetime {
-    margin-bottom: 2.5rem; }
+.notepad-content .notepad-index-post { }
+.notepad-content .notepad-index-post .post-header {
+    min-height: 93px;
+    margin-bottom: 2%; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post {
       width: 33%;
       display: inline-block;
-      min-height: 350px;
+      min-height: 30px;
       margin-top: 3.375rem;
       margin-bottom: 3px; }
-      .notepad-content .notepad-index-post .datetime {
+      .notepad-content .notepad-index-post .post-header {
         margin-bottom: 0; } }
   .notepad-content .notepad-index-post {
     width: 33%;
     display: inline-block;
-    min-height: 350px;
+    min-height: 300px;
     margin-top: 3.375rem;
     margin-bottom: 3px; }
     .notepad-post-meta {
-      width: 28%;
       display: inline-block;
     }
     .notepad-content .notepad-index-post .notepad-post-meta .day {
