@@ -42,7 +42,6 @@ AUTHOR_FEED_RSS = None
 
 MENUITEMS = (
     ('Sobre', '/about'),
-    ('Blog', '/archives'),
     ('Eventos', '/events'),
     ('Locais', '/locations'),
     ('Ladies', '/ladies'),
