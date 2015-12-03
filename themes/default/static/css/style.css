@@ -25,9 +25,11 @@ html, body {
   }
 }
 
+/*
 .notepad-site-head {
   height: 80px;
 }
+*/
 
 /* Eventos */
 
@@ -241,7 +243,7 @@ h1, h2, h3, h4, h5, h6 {
   background-position: 50% 50%;
   background-repeat: no-repeat; }
 
-header, main, footer { position: relative; }
+/*header, main, footer { position: relative; }*/
 
 main, .notepad-share-icons, .notepad-disqus {
   background: white;
