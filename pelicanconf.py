@@ -46,6 +46,7 @@ MENUITEMS = (
     ('Locais', '/locations'),
     ('Ladies', '/ladies'),
     ('Videos', '/videos'),
+    ('Blog', '/archives'),
 )
 
 DEFAULT_PAGINATION = 10
