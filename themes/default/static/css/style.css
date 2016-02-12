@@ -44,7 +44,7 @@ html, body {
    color: #222222; }
 
 #archive h2 {
-  color: #e51843;
+  color: #ff3373;
   font-size: 22px;
   font-weight: 200;
   text-align: left;
@@ -63,7 +63,7 @@ html, body {
 }
 
 #archive .next-events a {
-  background-color: #e51843;
+  background-color: #ff3373;
   display: block;
 }
 
@@ -167,7 +167,7 @@ html, body {
 }
 
 .location a:hover {
-  background-color: #e51843;
+  background-color: #ff3373;
 }
 
 /* Utility */
@@ -346,7 +346,7 @@ main, .notepad-share-icons, .notepad-disqus {
             height: auto; }
             .notepad-blog-menu ul li a:hover {
               color: #262626;
-              border-bottom: 0.1875rem solid #e51843; } }
+              border-bottom: 0.1875rem solid #ff3373; } }
 
 .notepad-site-head .notepad-site-head-menu {
   height: 80px;
@@ -389,7 +389,7 @@ main, .notepad-share-icons, .notepad-disqus {
   .notepad-site-head .notepad-site-head-content .notepad-site-head-title-bg {
     display: inline-block;
     padding: 0.625rem;
-    background: #e51843;
+    background: #ff3373;
     line-height: 1.1; }
   .notepad-site-head .notepad-site-head-content h1, .notepad-site-head .notepad-site-head-content h2 {
     margin: 0;
@@ -460,7 +460,7 @@ main, .notepad-share-icons, .notepad-disqus {
       display: block;
       font-size: 3.25rem;
       font-weight: 800;
-      color: #e51843;
+      color: #ff3373;
       font-family: "Montserrat", sans-serif; }
     .notepad-content .notepad-index-post .notepad-post-meta .month-year {
       display: block;
@@ -480,7 +480,7 @@ main, .notepad-share-icons, .notepad-disqus {
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a {
       color: #262626; }
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title a:hover {
-      color: #E51843; }
+      color: #ff3373; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
       text-align: left;
@@ -513,8 +513,8 @@ main, .notepad-share-icons, .notepad-disqus {
       border-radius: 0.125rem;
       margin-bottom: 0.3125rem; }
       .notepad-content .notepad-index-post .notepad-index-post-tags a:hover {
-        color: #e51843;
-        border: 0.0625rem solid #e51843; }
+        color: #ff3373;
+        border: 0.0625rem solid #ff3373; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-index-post-tags {
       padding-top: 0.3125rem;
@@ -539,7 +539,7 @@ main, .notepad-share-icons, .notepad-disqus {
     width: 60%;
     border-radius: 0.125rem; }
     .notepad-content .notepad-index-post .notepad-post-read-more:hover {
-      background-color: #e51843; }
+      background-color: #ff3373; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-read-more {
       width: auto;
@@ -559,8 +559,8 @@ nav.pagination {
     display: inline-block;
     padding: 0.625rem 1.25rem;
     border-radius: 0.1875rem;
-    color: #e51843;
-    border: 0.125rem solid #e51843;
+    color: #ff3373;
+    border: 0.125rem solid #ff3373;
     margin-bottom: 20px;}
   nav.pagination .newer-posts:hover,
   nav.pagination .older-posts:hover {
@@ -579,7 +579,7 @@ nav.pagination {
     margin-left: 0.625rem; }
 
 .notepad-site-footer {
-  background: #be1a3b; }
+  background: #ff3373; }
   .notepad-site-footer.with-bg-cover {
     background-color: rgba(0, 0, 0, 0.7); }
   .notepad-site-footer .social-icons,
@@ -634,7 +634,7 @@ nav.pagination {
     padding-bottom: 3.125rem;
     text-align: center; }
     .notepad-tags-container .notepad-tags-header .tag-name {
-      color: #e51843;
+      color: #ff3373;
       text-transform: none; }
     @media only screen and (min-width: 40.063em) {
       .notepad-tags-container .notepad-tags-header {
@@ -847,7 +847,7 @@ figcaption {
   top:0;
   position:absolute;
     background: #333;
-    color: #f16786;
+    color: #ff3373;
     width:40px;
   height:32px;
     position: absolute;
@@ -881,7 +881,7 @@ figcaption {
     transition: all 0.3s ease-in-out;
 }
 
-.shareTooltip a { color: #f16786; }
+.shareTooltip a { color: #ff3373; }
 
 .shareTooltip:hover { background:#3D566E; }
 .shareTooltip:hover span { border-top-color: #3D566E; }
