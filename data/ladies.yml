@@ -15,9 +15,21 @@
   twitter: aninhalacerdaa
   image: /images/ladies/aninha.png
 
+- name: Annanda Sousa
+  url: http://annandasousa.com.br
+  github: annanda
+  twitter: 4nn4nd4
+  facebook: 4nn4nd4
+  image: /images/ladies/annanda.jpg
+
 - name: Cecilia Tanaka
   twitter: cecilia_tanaka
   image: /images/ladies/cecilia-tanaka.png
+
+- name: Darlene Medeiros
+  github: darlenedms
+  facebook: darlene.medeiros.169
+  image: /images/ladies/darlene.jpeg
 
 - name: Erika Campos
   twitter: minusculas
@@ -48,9 +60,28 @@
   facebook: lidiannemonteiro
   image: /images/ladies/lidy.jpg
 
+- name: Paola Katherine Pacheco
+  url: https://medium.com/@pk_pacheco
+  github: PKpacheco
+  twitter: pk_pacheco
+  facebook: paola.katherine.7
+  image: /images/ladies/paola.jpg
+
 - name: Pat Simões
   twitter: simoes_pat
   image: /images/ladies/pat-simoes.jpg
+
+- name: Paula Grangeiro
+  url: http://www.paulagrangeiro.com.br
+  github: pgrangeiro
+  twitter: paulagrangeiro
+  facebook: paula.grangeiro
+  image: /images/ladies/pgrangeiro.jpg
+
+- name: Rebeca Bordini
+  github: rebecabordini
+  facebook: rebecabordini
+  image: /images/ladies/rebeca.jpg
 
 - name: Tânia Andrea
   github: taniaa
