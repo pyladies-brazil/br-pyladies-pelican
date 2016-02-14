@@ -28,14 +28,18 @@
   facebook: https://www.facebook.com/pyladiesbh
 
 - city: Rio de Janeiro - RJ
-  image: /images/locais/pyladies-rio.png
+  image: /images/locais/pyladies-rio.jpg
   twitter: http://twitter.com/rio_pyladies
   facebook: https://www.facebook.com/pyladiesrio
-  url: https://www.facebook.com/pyladiesrio
+  email: rio@pyladies.com
+  url: http://rio.pyladies.com
 
 - city: Duque de Caxias - RJ
-  image: /images/locais/pyladies-rio.png
-  facebook: https://www.facebook.com/pages/PyLadies-Duque-de-Caxias/
+  image: /images/locais/pyladies-duque-de-caxias.png
+  twitter: http://twitter.com/PyLadiesCaxias
+  facebook: https://www.facebook.com/PyLadiesDuqueDeCaxias
+  email: duquedecaxias@pyladies.com
+  url: http://duquedecaxias.pyladies.com
 
 - city: São Paulo - SP
   image: /images/locais/pyladies-sp.jpeg
@@ -48,7 +52,7 @@
   image: /images/locais/location.png
   facebook: https://www.facebook.com/pyladiescps
 
-- city: São Carlos -SP
+- city: São Carlos - SP
   image: /images/locais/location.png
   twitter: https://twitter.com/PyLadiesSanca
   facebook: https://www.facebook.com/PyLadiesSaoCarlos
