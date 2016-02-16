@@ -2,52 +2,54 @@
 {% block title %}Pyladies Brasil - Locais{% endblock %}
 {% block content %}
 <article class="notepad-page-content">
-    <div class="title small-12 columns">
-        <h1>LOCAIS</h1>
-    </div>
-    <div>
-        <div id="archive">
-            <div class="wrap wrap-events">
-                <div class="large-12 columns-events">
-                <ul class="grid large-block-grid-6 locations-grid" >
-                    {% for location in LOCATIONS %}
-                    <li class="location">
-                        <a target="_blank" href="{{ location.url }}">
-                            <span class="location-name">
-                            Pyladies {{ location.city }}
-                            </span>
-                            <img class="img-location" src="{{ SITEURL }}{{ location.image }}">
-                            </a>
-                            <div>
-                                {% if location.twitter %}
-                                <a target="_blank" href="{{ location.twitter }}">
-                                <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                <i class="fa fa-twitter fa-stack-1x"></i>
-                                </span>
-                                </a>
-                                {% endif %}
-                                <a target="_blank" href="mailto:{{ location.email }}">
-                                <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                <i class="fa fa-envelope fa-stack-1x"></i>
-                                </span>
-                                {% if location.facebook %}
-                                <a target="_blank" href="{{ location.facebook }}">
-                                <span class="fa-stack fa-lg">
-                                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                <i class="fa fa-facebook fa-stack-1x"></i>
-                                </span>
-                                </a>
-                                {% endif %}
-                            </div>
-                        </a>
-                    </li>
-                    {% endfor %}
-                </ul>
+  <div class="title small-12 columns">
+    <h1>LOCAIS</h1>
+  </div>
+  <div>
+    <div id="archive">
+      <div class="wrap wrap-events">
+        <div class="large-12 columns-events">
+          <ul class="grid large-block-grid-6 locations-grid" >
+            {% for location in LOCATIONS %}
+            <li class="location">
+              <div>
+                <img class="img-location" src="{{ SITEURL }}{{ location.image }}">
+              </div>
+              <a target="_blank" href="{{ location.url }}">
+                <span class="location-name">
+                  Pyladies {{ location.city }}
+                </span>
+              </a>
+              <div>
+                {% if location.twitter %}
+                <a target="_blank" href="{{ location.twitter }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}
+                <a target="_blank" href="mailto:{{ location.email }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-envelope fa-stack-1x"></i>
+                  </span>
+                  {% if location.facebook %}
+                  <a target="_blank" href="{{ location.facebook }}">
+                    <span class="fa-stack fa-lg">
+                      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                      <i class="fa fa-facebook fa-stack-1x"></i>
+                    </span>
+                  </a>
+                  {% endif %}
                 </div>
-            </div>
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
+      </div>
     </div>
+  </div>
 </article>
 {% endblock %}

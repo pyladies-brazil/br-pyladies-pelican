@@ -2,40 +2,41 @@
 {% block title %}Pyladies Brasil - Ladies{% endblock %}
 {% block content %}
 <article class="notepad-page-content">
-    <div class="title small-12 columns">
-        <h1>LADIES</h1>
-    </div>
-    <div>
-        <div id="archive">
-            <div class="wrap wrap-events">
-                <div class="large-12 columns-events">
-                    <ul class="grid large-block-grid-6 locations-grid">
-                        {% for lady in LADIES %}
-                        <li class="location">
-                            <a target="blank" href="{{ lady.url }}">
-                                <span class="ladie-name">
-                                    {{ lady.name }}
-                                </span>
-                                <img class="img-location" src="{{ SITEURL }}{{ lady.image }}">
-                            </a>
-                            <div class="social-icons">
-                                {% for item in ['facebook', 'twitter', 'github'] %}
-                                {% if lady[item] %}
-                                <a target="blank" href="http://{{ item }}.com/{{ lady[item] }}">
-                                    <span class="fa-stack fa-lg">
-                                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                                    <i class="fa fa-{{ item }} fa-stack-1x"></i>
-                                    </span>
-                                </a>
-                                {% endif %}
-                                {% endfor %}
-                            </div>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </div>
-            </div>
+  <div class="title small-12 columns">
+    <h1>LADIES</h1>
+  </div>
+  <div>
+    <div id="archive">
+      <div class="wrap wrap-events">
+        <div class="large-12 columns-events">
+          <ul class="grid large-block-grid-6 locations-grid">
+            {% for lady in LADIES %}
+            <li class="location">
+              <div>
+                <img src="{{ SITEURL }}{{ lady.image }}">
+              </div>
+              <a target="blank" href="{{ lady.url }}">
+                <span class="lady-name">{{ lady.name }}</span>
+              </a>
+              <span {{ lady.cidade }}</span>
+              <div class="social-icons">
+                {% for item in ['facebook', 'twitter', 'github'] %}
+                {% if lady[item] %}
+                <a target="blank" href="http://{{ item }}.com/{{ lady[item] }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-{{ item }} fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}
+                {% endfor %}
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
         </div>
+      </div>
     </div>
+  </div>
 </article>
 {% endblock %}

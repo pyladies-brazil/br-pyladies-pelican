@@ -108,7 +108,7 @@ html, body {
 .small-block-grid-3 > li { width: 33.33333%; padding: 0 0.625em 1.25em; }
 .small-block-grid-3 > li:nth-of-type(n) { clear: none; }
 .small-block-grid-3 > li:nth-of-type(3n+1) { clear: both; }
-.large-block-grid-6 > li { width: 16.66667%; padding: 0.25em 0 0.625em 1.25em; }
+.large-block-grid-6 > li { width: 16.66667%; }
 .large-block-grid-6 > li:nth-of-type(n) { clear: none; display: inline-block;  width: inherit;}
 .large-block-grid-6 > li:nth-of-type(6n+1) { clear: both; display: inline-block; width: inherit;}
 .large-12 { position: relative; width: 100%; }
@@ -125,6 +125,7 @@ html, body {
 
 .locations-grid {
   padding-left: 0px;
+  margin: 0 auto;
 }
 
 .locations-grid .social-icons {
@@ -132,43 +133,49 @@ html, body {
 }
 
 .location-name {
-  font-family: 'Shadows Into Light';
   font-size: 16px;
-  padding: 0 10px;
+  padding: 0 15px;
 }
 
-.ladie-name {
-  font-family: 'Shadows Into Light';
+.lady-name {
   font-size: 19px;
   padding: 0 15px;
 }
 
 .location {
-  min-width: 47.5%;
-  min-height: 135px;
-  background-color: #D0D0D0;
+  min-width: 280px;
+  min-height: 226px;
+  border-left: 2px dashed #ff6696;
+  border-bottom: 2px dashed #ff6696;
   overflow: hidden;
   margin: 10px;
   text-decoration: none;
   text-align: center;
-  border-radius: 0.5em;
+  border-radius: 0.3em;
 }
 
 .location img {
   width: 100px;
-  float: left;
-  margin: 5px;
+  height: 100px;
+  margin: 10px auto;
   border-radius: 50px;
 }
 
 .location a {
-  background-color: #D0D0D0;
   display: initial;
 }
 
 .location a:hover {
-  background-color: #ff3373;
+  background-color: #ff3373 !important;
+  color: white !important;
 }
+
+.location a:hover .social-icons {
+  background-color: green;
+}
+.fa-stack-1x:hover{
+    color: #ff3373 !important; }
+
 
 /* Utility */
 
