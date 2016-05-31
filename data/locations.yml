@@ -62,7 +62,7 @@
 - city: Curitiba - PR
   image: /images/locais/pyladies-curitiba.png
   facebook: https://www.facebook.com/PyLadiesCuritiba
-  url: /locations/curitiba
+  url: http://www.meetup.com/pt-BR/PyLadies-Curitiba/ 
 
 - city: Florianópolis - SC
   image: /images/locais/pyladies-floripa.png
