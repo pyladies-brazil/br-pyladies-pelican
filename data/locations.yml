@@ -70,3 +70,17 @@
   twitter: https://twitter.com/PyLadiesFloripa
   email: pyladiesfloripa@gmail.com
   url: https://www.facebook.com/groups/PyLadiesFlorianopolis/
+
+- city: Salvador - BA
+  image: /images/locais/pyladies-salvador.png
+  facebook: https://www.facebook.com/PyLadiesSalvador
+  github: https://github.com/PyLadiesSalvador
+  email: salvador@pyladies.com
+  url: http://salvador.pyladies.com/
+
+- city: Vale - SP
+  image: /images/locais/pyladies-vale.png
+  facebook: https://www.facebook.com/PyLadiesVale
+  twitter: https://twitter.com/PyLadiesVale
+  email: vale@pyladies.com
+  url: http://vale.pyladies.com/  
