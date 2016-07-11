@@ -16,4 +16,4 @@ if "ENV" in os.environ:
     if os.environ['ENV'] == "production":
         SITEURL = PRODURL
     else:
-    SITEURL = "http://brasil.pyladies.com"
+        SITEURL = "http://brasil.pyladies.com"
