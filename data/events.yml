@@ -1,11 +1,16 @@
 #Next Events
 
+- url: http://softwarelivre.org/fisl17/programacao/pyladies
+  name: Minievento da comunidade PyLadies Brasil no 17º Fórum Internacional de Software Livre
+  date: 15-07-2016
+  local: Porto Alegre, RS
+
+#Old Events
+
 - url: http://www.meetup.com/pt/PyLadiesSP/events/225516683/
   name: Curso gratuito de programação básica para mulheres - PyLadies São Paulo
   date: 28-09-2015
   local: Cidade universitária da USP
-
-#Old Events
 
 - url: http://www.meetup.com/pt/PyLadiesSP/events/225189894/
   name: PyLadies São Paulo
