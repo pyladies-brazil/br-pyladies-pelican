@@ -70,3 +70,12 @@
   twitter: https://twitter.com/PyLadiesFloripa
   email: pyladiesfloripa@gmail.com
   url: https://www.facebook.com/groups/PyLadiesFlorianopolis/
+
+- city: Porto Alegre - RS
+  image: /images/locais/pyladies-poa.png
+  quitter: https://www.quitter.se/pyladiespoa
+  twitter: https://twitter.com/Pyladiespoa
+  facebook: https://www.facebook.com/pyladiespoa
+  telegram: tg://resolve?domain=pyladiespoa
+  email: pyladiespoa@openmailbox.org
+  url: https://pyladiespoa.pythonanywhere.com
