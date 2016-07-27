@@ -13,5 +13,5 @@ PRODURL = 'https://pyladies-brazil.github.io/br-pyladies-pelican'
 SITEURL = STAGINGURL
 
 if "ENV" in os.environ:
-  if os.environ['ENV'] == "production":
-    SITEURL = PRODURL
+    if os.environ['ENV'] == "production":
+        SITEURL = PRODURL
