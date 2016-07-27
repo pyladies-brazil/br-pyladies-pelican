@@ -38,10 +38,6 @@ html, body, .notepad-post-container, .notepad-post-header {
   /* based on http://tympanus.net/Development/ArticleIntroEffects/index3.html
   /* -------------------------- */
   /* Delays */ }
-  .post-template .notepad-blog-menu .notepad-mobile-menu a {
-    color: white; }
-    .post-template .notepad-blog-menu .notepad-mobile-menu a:hover {
-      color: white; }
   @media only screen and (min-width: 40.063em) {
       .post-template .notepad-blog-menu ul li a:hover {
         color: black;
@@ -309,7 +305,7 @@ html, body, .notepad-post-container, .notepad-post-header {
 .notepad-post-share h4 {
       font-size: 14px;
       color: gray;
-    } 
+    }
   .notepad-post-share a {
     display: inline-block;
     margin: 0 0.9375rem;
@@ -552,7 +548,7 @@ code {
   line-height: 1.2; }
 
 iframe {
-  border: 0;  
+  border: 0;
   height: 120px;
 }
 
