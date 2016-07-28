@@ -265,7 +265,7 @@ main, .notepad-share-icons, .notepad-disqus {
   float: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 4rem;
+  font-size: 3.2rem;
   height: 80px; }
   .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
@@ -359,6 +359,11 @@ main, .notepad-share-icons, .notepad-disqus {
   height: 80px;
   max-width: 1100px;
   margin: 0 auto;
+ }
+ @media only screen and (max-width: 430px) {
+  .notepad-site-head .notepad-site-head-menu {
+    margin: 0 1.5rem;
+  }
  }
   .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
     display: inline-block;
