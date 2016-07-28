@@ -113,7 +113,13 @@ html, body {
 .large-block-grid-6 > li:nth-of-type(6n+1) { clear: both; display: inline-block; width: inherit;}
 .large-12 { position: relative; width: 100%; }
 
- .columns-events {
+@media only screen and (max-width: 430px) {
+  .large-block-grid-6 > li:nth-of-type(n) {
+    width: 100%;
+  }
+}
+
+.columns-events {
   position: relative;
   padding-left: 0.9375em;
   padding-right: 0.9375em;
