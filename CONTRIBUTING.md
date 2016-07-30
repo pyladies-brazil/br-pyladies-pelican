@@ -68,10 +68,24 @@ Para adicionar uma nova lady, edite o arquivo `data/ladies.yml` . Ele possui o s
   github: github da lady (apenas o nome de usuário)
   twitter: twitter da lady (apenas o nome de usuário)
   facebook: facebook da lady (apenas o nome de usuário)
-  image: PATH DA IMAGEM DA LADY (Padrão: /images/ladies/nomedalady.jpg).
+  image: PATH DA IMAGEM DA LADY
 ```
 
-A nova imagem deverá ser inserida no diretório `content/images/ladies`
+O `PATH DA IMAGEM DA LADY` pode ser:
+
+#### Path relativo
+
+O endereço da foto em nosso projeto.
+
+*Exemplo:* `/images/ladies/nomedalady.jpg`
+
+Nesse caso, a nova imagem deverá ser inserida no diretório `content/images/ladies`
+
+#### Path absoluto
+
+Uma url completa da foto em outro site.
+
+*Exemplo:* `https://gravatar.com/avatar/07ac697bcff40050a82cb4503de9eb69`
 
 
 Adicionar nova Localização
