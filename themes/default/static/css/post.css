@@ -481,10 +481,6 @@ html, body, .notepad-post-container, .notepad-post-header {
       max-width: 56.25rem;
       margin-left: auto;
       margin-right: auto; }
-    .notepad-page-content > div:not(.notepad-page-title) p {
-      margin: 0 auto 2em auto;
-      max-width: 56.25rem;
-      font-size: 1.125rem; }
       .notepad-page-content > div:not(.notepad-page-title) p:first-child {
         font-size: 1.375rem;
         font-weight: 300; }

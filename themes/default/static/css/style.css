@@ -127,6 +127,13 @@ html, body {
   float: left;
 }
 
+/* About */
+.about-text {
+  margin: 0 auto 2em auto;
+  max-width: 56.25rem;
+  font-size: 1.125rem;
+}
+
 /* Locations e Ladies */
 
 .locations-grid {
