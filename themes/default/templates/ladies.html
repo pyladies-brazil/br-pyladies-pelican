@@ -18,7 +18,7 @@
               <a target="blank" href="{{ lady.url }}">
                 <span class="lady-name">{{ lady.name }}</span>
               </a>
-              <span {{ lady.cidade }}</span>
+              <p class="lady-city">{{ lady.cidade }}</p>
               <div class="social-icons">
                 {% for item in ['facebook', 'twitter', 'github'] %}
                 {% if lady[item] %}

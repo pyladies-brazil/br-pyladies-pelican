@@ -1,8 +1,10 @@
 - name: Alini Ramos
+  cidade: São Paulo - SP
   twitter: alini_x
   image: /images/ladies/alini-ramos.jpg
 
 - name: Andrêza Leite
+  cidade: Recife - PE
   url: https://sites.google.com/site/bancodedadosufrpe/
   github:
   twitter: andreza_paju
@@ -10,12 +12,14 @@
   image: /images/ladies/andreza.jpeg
 
 - name: Aninha Lacerda
+  cidade: Recife - PE
   url: http://aninhalacerda.com
   github: aninhalacerda
   twitter: aninhalacerdaa
   image: /images/ladies/aninha.png
 
 - name: Annanda Sousa
+  cidade: Rio de Janeiro - RJ
   url: http://annandasousa.com.br
   github: annanda
   twitter: 4nn4nd4
@@ -23,19 +27,23 @@
   image: /images/ladies/annanda.jpg
 
 - name: Cecilia Tanaka
+  cidade: São Paulo - SP
   twitter: cecilia_tanaka
   image: /images/ladies/cecilia-tanaka.png
 
 - name: Darlene Medeiros
+  cidade: Rio de Janeiro - RJ
   github: darlenedms
   facebook: darlene.medeiros.169
   image: /images/ladies/darlene.jpeg
 
 - name: Erika Campos
+  cidade: São Paulo - SP
   twitter: minusculas
   image: /images/ladies/erika-campos.jpeg
 
 - name: Gabriela Cavalcante
+  cidade: Natal - RN
   url: http://i-am-gabi.github.io/
   github: I-am-Gabi
   twitter: _gabiCavalcante
@@ -43,24 +51,28 @@
   image: /images/ladies/Eu.jpg
 
 - name: Gláucia Esppenchutz
+  cidade: Rio de Janeiro - RJ
   url: http://glaucia.esppenchutz.com.br/
   twitter: gl_esppen
   facebook: glaucia.esppenchutz
   image: /images/ladies/glaucia.jpeg
 
 - name: Katyanna Moura
+  cidade: Natal - RN
   github: katyanna
   twitter: amelie_kn
   facebook: katyanna.moura
   image: /images/ladies/katyanna.png
 
 - name: Lidiane Monteiro
+  cidade: Recife - PE
   github: lidymonteiro
   twitter: Lidy_Monteiro
   facebook: lidiannemonteiro
   image: /images/ladies/lidy.jpg
 
 - name: Paola Katherine Pacheco
+  cidade: Rio de Janeiro - RJ
   url: https://medium.com/@pk_pacheco
   github: PKpacheco
   twitter: pk_pacheco
@@ -68,10 +80,12 @@
   image: /images/ladies/paola.jpg
 
 - name: Pat Simões
+  cidade: São Paulo - SP
   twitter: simoes_pat
   image: /images/ladies/pat-simoes.jpg
 
 - name: Paula Grangeiro
+  cidade: Rio de Janeiro - RJ
   url: http://www.paulagrangeiro.com.br
   github: pgrangeiro
   twitter: paulagrangeiro
@@ -79,27 +93,32 @@
   image: /images/ladies/pgrangeiro.jpg
 
 - name: Rebeca Bordini
+  cidade: Rio de Janeiro - RJ
   github: rebecabordini
   facebook: rebecabordini
   image: /images/ladies/rebeca.jpg
 
 - name: Renata Scheibler
+  cidade: Porto Alegre - RS
   github: rsip22
   twitter: rsip22
   image: /images/ladies/renata.png
 
 - name: Tânia Andrea
+  cidade: Brasília - DF
   github: taniaa
   twitter: taniaandrea_com
   image: /images/ladies/tania.jpg
 
 - name: Vitória Vasconcelos
+  cidade: Recife - PE
   github: vitoriavasconcelos
   twitter: vasconcv
   facebook: vitoria.vilela.vasconcelos
   image: /images/ladies/vitoria.jpg
 
 - name: Vanessa Romankiv
+  cidade: Curitiba - PR
   github: vanessaromankiv
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg

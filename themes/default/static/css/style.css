@@ -155,6 +155,12 @@ html, body {
   padding: 0 15px;
 }
 
+.lady-city {
+  margin: 0 auto;
+  font-size: 0.8em;
+  color: #ff6696;
+}
+
 .location {
   min-width: 280px;
   min-height: 226px;
