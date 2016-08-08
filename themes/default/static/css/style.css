@@ -189,9 +189,10 @@ html, body {
   color: white !important;
 }
 
-.location a:hover .social-icons {
-  background-color: green;
+.location .social-icons a:hover {
+  background: none !important;
 }
+
 .fa-stack-1x:hover{
     color: #ff3373 !important; }
 
