@@ -20,7 +20,7 @@ Incrível, certo? Então, vou te dizer que ainda teve mais. Teve projeto incrív
 
 E se você acha que nossa programação ja tinha terminado, as 4h da madrugada estávamos começando a falar sobre "Python: o poder da linguagem, mercado e diversidade”, e para nossa emoção, tivemos cadeiras cheias, cheias de moças e moços interessados em como Python pode ser uma ferramenta incrível para resolver seus problemas e para gerar impacto social. Tivemos a experiência incrível de ver o espaço preenchido em plena madrugada, depois de um dia de palestras e sem intervalo para descanso… o que nos deu ainda mais energia para dar o nosso melhor durante aquele evento.
 
-<img src="{filename}/images/cpbr5recife/palestra.jpg"> 
+<img src="{filename}/images/cpbr5recife/palestra.png"> 
 
 Em resumo, o que foi a Campus Party Recife 2016? Waw, foi única. Foi quando conhecemos mulheres maravilhosas em quem vamos nos espelhar daqui para frente. Foi quando conhecemos pessoas que lutam pela mesma causa e estão dispostas a colaborar nesse movimento lindo de empoderamento feminino. Foi quando descobrimos amigos. Foi quando fizemos contato e trocamos conhecimento com as mais diversas pessoas. Foi quando formamos laços que vão durar bem mais que dois dias. Foi quando vivemos experiências tão marcantes, que esquece-las não será uma opção. 
 
@@ -32,14 +32,12 @@ qualquer coisa é só gritar.<br>
 [Gabi](http://i-am-gabi.github.io/).
 
 
-**Code Girl:** 
-
-site: http://codegirl.com.br
-email: contato@codegirl.com.br
+**Code Girl:** <br>
+site: http://codegirl.com.br<br>
+email: contato@codegirl.com.br<br>
 facebook: https://www.facebook.com/codegirlBR/
 
-**Meninas também jogam:**
-
-site: http://www.meninastambemjogam.com
-email: contato@meninastambemjogam.com
-facebook: https://www.facebook.com/meninastbjogam/
+**Meninas também jogam:**<br>
+site: http://www.meninastambemjogam.com<br>
+email: contato@meninastambemjogam.com<br>
+facebook: https://www.facebook.com/meninastbjogam/<br>
