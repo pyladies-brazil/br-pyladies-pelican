@@ -3,7 +3,7 @@ description:
 date: 2015-05-16
 category: Eventos
 tags: eventos
-author: Gabriela Cavalcante
+author: Gabi Cavalcante
 imagefeature:
 comments: true
 mathjax:

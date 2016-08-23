@@ -3,7 +3,7 @@ description:
 date: 2014-10-18
 category: Eventos
 tags: eventos, natal
-author: Gabriela Cavalcante
+author: Gabi Cavalcante
 imagefeature: evento.jpg
 comments: true
 mathjax:

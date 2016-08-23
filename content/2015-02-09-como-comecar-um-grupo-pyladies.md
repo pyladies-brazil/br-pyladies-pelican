@@ -2,7 +2,7 @@ title: Como começar um grupo PyLadies
 date: 2015-02-09
 category: Hangouts
 tags: info
-author: Gabriela Cavalcante
+author: Gabi Cavalcante
 imagefeature:
 comments: true
 mathjax:
