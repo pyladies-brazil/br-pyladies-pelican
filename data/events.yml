@@ -1,11 +1,20 @@
 #Next Events
 
+- url: https://www.facebook.com/events/416338861823913/
+  name: Oficina PyLadies Salvador
+  date: 29-09-2016
+  local: SENAI-CIMATEC (BA)
+  
+- url: https://www.facebook.com/funtecfrb
+  name: Oficina de Python - PyLadies Salvador
+  date: 29-10-2016
+  local: Faculdade Ruy Barbosa - Rio Vermelho
+
+#Old Events
 - url: http://softwarelivre.org/fisl17/programacao/pyladies
   name: Minievento da comunidade PyLadies Brasil no 17º Fórum Internacional de Software Livre
   date: 15-07-2016
   local: Porto Alegre, RS
-
-#Old Events
 
 - url: http://www.meetup.com/pt/PyLadiesSP/events/225516683/
   name: Curso gratuito de programação básica para mulheres - PyLadies São Paulo
