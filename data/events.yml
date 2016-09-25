@@ -15,10 +15,15 @@
   date: 01-10-2016
   local: Raul Hacker Club
 
-- url: https://www.facebook.com/events/416338861823913/
-  name: Oficina PyLadies Salvador
+- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234356431/
+  name: Oficina de Django em parceria com as PyLadies Salvador
   date: 29-09-2016
   local: SENAI-CIMATEC (BA)
+  
+- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234355820/
+  name: Oficina de Python em parceria com as PyLadies Salvador
+  date: 28-09-2016
+  local: SENAI-CIMATEC (BA) 
 
 #Old Events
 - url: http://softwarelivre.org/fisl17/programacao/pyladies
