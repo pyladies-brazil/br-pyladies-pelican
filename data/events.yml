@@ -1,11 +1,35 @@
 #Next Events
 
+- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/233769171/
+  name: Lançamento "É Verão, Py!" - PyLadies Salvador
+  date: 17-12-2016
+  local: Hangout
+
+- url: https://www.facebook.com/funtecfrb
+  name: Oficina de Python - PyLadies Salvador
+  date: 29-10-2016
+  local: Faculdade Ruy Barbosa - Rio Vermelho
+
+- url: http://raulhc.cc/Agenda/2016-11-05-UsandoPythonParaMapearEApurarDadosDasEleic%F5es
+  name: Usando Python para mapear e apurar dados das Eleições - Tutorial PyLadies Salvador
+  date: 01-10-2016
+  local: Raul Hacker Club
+
+- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234356431/
+  name: Oficina de Django em parceria com as PyLadies Salvador
+  date: 29-09-2016
+  local: SENAI-CIMATEC (BA)
+  
+- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234355820/
+  name: Oficina de Python em parceria com as PyLadies Salvador
+  date: 28-09-2016
+  local: SENAI-CIMATEC (BA) 
+
+#Old Events
 - url: http://softwarelivre.org/fisl17/programacao/pyladies
   name: Minievento da comunidade PyLadies Brasil no 17º Fórum Internacional de Software Livre
   date: 15-07-2016
   local: Porto Alegre, RS
-
-#Old Events
 
 - url: http://www.meetup.com/pt/PyLadiesSP/events/225516683/
   name: Curso gratuito de programação básica para mulheres - PyLadies São Paulo
