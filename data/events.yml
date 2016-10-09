@@ -1,13 +1,4 @@
 #Next Events
-- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234355820/
-  name: Oficina de Python em parceria com as PyLadies Salvador
-  date: 28-09-2016
-  local: SENAI-CIMATEC (BA) 
-  
-- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234356431/
-  name: Oficina de Django em parceria com as PyLadies Salvador
-  date: 29-09-2016
-  local: SENAI-CIMATEC (BA)
 
 - url: https://www.facebook.com/funtecfrb
   name: Oficina de Python - PyLadies Salvador
@@ -25,6 +16,17 @@
   local: a definir
 
 #Old Events
+
+- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234356431/
+  name: Oficina de Django em parceria com as PyLadies Salvador
+  date: 29-09-2016
+  local: SENAI-CIMATEC (BA)
+
+- url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234355820/
+  name: Oficina de Python em parceria com as PyLadies Salvador
+  date: 28-09-2016
+  local: SENAI-CIMATEC (BA) 
+
 - url: http://softwarelivre.org/fisl17/programacao/pyladies
   name: Minievento da comunidade PyLadies Brasil no 17º Fórum Internacional de Software Livre
   date: 15-07-2016
