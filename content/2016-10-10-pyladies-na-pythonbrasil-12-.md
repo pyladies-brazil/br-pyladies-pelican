@@ -2,7 +2,7 @@ Title: PyLadies na PythonBrasil[12]
 Slug: pyladies-na-pythonbrasil-12-
 Date: 2016-10-10 01:12:49
 Tags: eventos
-Category: PYBR12
+Category: PyBR
 author: Paula Grangeiro
 comments: true
 

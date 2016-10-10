@@ -2,7 +2,7 @@ Title: Campanha PyLadies na Python Brasil
 Slug: campanha-pyladies-na-python-brasil
 Date: 2016-09-08 21:46:03
 Tags: eventos, Python Brasil
-Category: Eventos
+Category: PyBR
 Author: Paula Grangeiro
 
 A [Python Brasil](http://2016.pythonbrasil.org.br/) é a maior conferência nacional da linguagem de programação Python. Este ano, na décima segunda edição da conferência, o evento irá ocorrer em Florianópolis entre os dias 13 à 18 de outubro. Será praticamente uma semana inteira de tutoriais, palestras e sprints de programação.
