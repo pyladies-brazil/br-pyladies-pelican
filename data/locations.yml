@@ -1,38 +1,20 @@
-- city: Natal - RN
+- city: Belo Horizonte - MG
   image: /images/locais/location.png
-  twitter: http://twitter.com/PyladiesNatal
-  facebook: https://www.facebook.com/PyLadiesNatal/
-  email: natalrn@pyladies.org
-  url: http://pyladiesnatal.github.io/
-
-- city: Recife - PE
-  image: /images/locais/recife.png
-  twitter: http://twitter.com/pyladiesrecife
-  facebook: https://www.facebook.com/pages/PyLadies-Recife/950001281692844
-  email: recife@pyladies.org
-  url: /locations/recife
-
-- city: Fortaleza - CE
-  image: /images/locais/fortaleza.jpg
-  twitter: https://twitter.com/PyLadiesFortal
-  facebook: https://www.facebook.com/PyLadiesFortaleza
-  url: https://www.facebook.com/PyLadiesFortaleza
+  facebook: https://www.facebook.com/pyladiesbh
 
 - city: Brasilia - DF
   image: /images/locais/brasilia.png
   facebook: https://www.facebook.com/pyladiesdf/
   email: brasilia@pyladies.org
 
-- city: Belo Horizonte - MG
+- city: Campinas - SP
   image: /images/locais/location.png
-  facebook: https://www.facebook.com/pyladiesbh
+  facebook: https://www.facebook.com/pyladiescps
 
-- city: Rio de Janeiro - RJ
-  image: /images/locais/pyladies-rio.jpg
-  twitter: http://twitter.com/rio_pyladies
-  facebook: https://www.facebook.com/pyladiesrio
-  email: rio@pyladies.com
-  url: http://rio.pyladies.com
+- city: Curitiba - PR
+  image: /images/locais/pyladies-curitiba.png
+  facebook: https://www.facebook.com/PyLadiesCuritiba
+  url: http://www.meetup.com/pt-BR/PyLadies-Curitiba/
 
 - city: Duque de Caxias - RJ
   image: /images/locais/pyladies-duque-de-caxias.png
@@ -41,28 +23,11 @@
   email: duquedecaxias@pyladies.com
   url: http://duquedecaxias.pyladies.com
 
-- city: São Paulo - SP
-  image: /images/locais/pyladies-sp.jpeg
-  facebook: https://www.facebook.com/PyLadiesSP
-  twitter: https://twitter.com/PyLadiesSPaulo
-  email: saopaulo@pyladies.com
-  url: http://www.meetup.com/pt/PyLadiesSP/
-
-- city: Campinas - SP
-  image: /images/locais/location.png
-  facebook: https://www.facebook.com/pyladiescps
-
-- city: São Carlos - SP
-  image: /images/locais/location.png
-  twitter: https://twitter.com/PyLadiesSanca
-  facebook: https://www.facebook.com/PyLadiesSaoCarlos
-  email: saocarlos@pyladies.org
-  url: https://www.facebook.com/PyLadiesSaoCarlos
-
-- city: Curitiba - PR
-  image: /images/locais/pyladies-curitiba.png
-  facebook: https://www.facebook.com/PyLadiesCuritiba
-  url: http://www.meetup.com/pt-BR/PyLadies-Curitiba/
+- city: Fortaleza - CE
+  image: /images/locais/fortaleza.jpg
+  twitter: https://twitter.com/PyLadiesFortal
+  facebook: https://www.facebook.com/PyLadiesFortaleza
+  url: https://www.facebook.com/PyLadiesFortaleza
 
 - city: Florianópolis - SC
   image: /images/locais/pyladies-floripa.png
@@ -70,6 +35,13 @@
   twitter: https://twitter.com/PyLadiesFloripa
   email: pyladiesfloripa@gmail.com
   url: https://www.facebook.com/groups/PyLadiesFlorianopolis/
+
+- city: Natal - RN
+  image: /images/locais/location.png
+  twitter: http://twitter.com/PyladiesNatal
+  facebook: https://www.facebook.com/PyLadiesNatal/
+  email: natalrn@pyladies.org
+  url: http://pyladiesnatal.github.io/
 
 - city: Porto Alegre - RS
   image: /images/locais/pyladies-poa.png
@@ -80,6 +52,26 @@
   email: pyladiespoa@openmailbox.org
   url: https://pyladiespoa.pythonanywhere.com
 
+- city: Recife - PE
+  image: /images/locais/recife.png
+  twitter: http://twitter.com/pyladiesrecife
+  facebook: https://www.facebook.com/pages/PyLadies-Recife/950001281692844
+  email: recife@pyladies.org
+  url: /locations/recife
+
+- city: Ribeirão Preto - SP
+  image: /images/locais/pyladies-rp.png
+  facebook: https://www.facebook.com/pyladiesrp
+  email: pyladiesrp@gmail.com
+  url: https://pyladies-rp.github.io/
+
+- city: Rio de Janeiro - RJ
+  image: /images/locais/pyladies-rio.jpg
+  twitter: http://twitter.com/rio_pyladies
+  facebook: https://www.facebook.com/pyladiesrio
+  email: rio@pyladies.com
+  url: http://rio.pyladies.com
+
 - city: Salvador - BA
   image: /images/locais/pyladies-salvador.png
   facebook: https://www.facebook.com/PyLadiesSalvador
@@ -87,12 +79,19 @@
   email: salvador@pyladies.com
   url: https://www.meetup.com/pt-BR/PyLadies-Bahia/
 
-- city: Vale - SP
-  image: /images/locais/pyladies-vale.png
-  facebook: https://www.facebook.com/PyLadiesVale
-  twitter: https://twitter.com/PyLadiesVale
-  email: vale@pyladies.com
-  url: http://vale.pyladies.com/
+- city: São Carlos - SP
+  image: /images/locais/location.png
+  twitter: https://twitter.com/PyLadiesSanca
+  facebook: https://www.facebook.com/PyLadiesSaoCarlos
+  email: saocarlos@pyladies.org
+  url: https://www.facebook.com/PyLadiesSaoCarlos
+
+- city: São Paulo - SP
+  image: /images/locais/pyladies-sp.jpeg
+  facebook: https://www.facebook.com/PyLadiesSP
+  twitter: https://twitter.com/PyLadiesSPaulo
+  email: saopaulo@pyladies.com
+  url: http://www.meetup.com/pt/PyLadiesSP/
 
 - city: Teresina - PI
   image: /images/locais/pyladies-teresina.png
@@ -101,8 +100,9 @@
   email: teresina@pyladies.com
   url: https://www.facebook.com/PyLadiesTeresina/
 
-- city: Ribeirão Preto - SP
-  image: /images/locais/pyladies-rp.png
-  facebook: https://www.facebook.com/pyladiesrp
-  email: pyladiesrp@gmail.com
-  url: https://pyladies-rp.github.io/
+- city: Vale - SP
+  image: /images/locais/pyladies-vale.png
+  facebook: https://www.facebook.com/PyLadiesVale
+  twitter: https://twitter.com/PyLadiesVale
+  email: vale@pyladies.com
+  url: http://vale.pyladies.com/
