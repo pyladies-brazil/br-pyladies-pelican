@@ -45,3 +45,6 @@ output
 *.pid
 
 *.DS_Store
+
+# Virtualenv
+env/
