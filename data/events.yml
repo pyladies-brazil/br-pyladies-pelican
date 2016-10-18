@@ -1,4 +1,4 @@
-#Next Events
+#Events
 
 - url: https://www.facebook.com/funtecfrb
   name: Oficina de Python - PyLadies Salvador
@@ -14,8 +14,6 @@
   name: Lançamento "É Verão, Py!" - PyLadies Salvador
   date: 17-12-2016
   local: a definir
-
-#Old Events
 
 - url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234356431/
   name: Oficina de Django em parceria com as PyLadies Salvador
