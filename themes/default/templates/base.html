@@ -18,7 +18,7 @@
     <meta property="og:url" content="{{ SITEURL }}">
     <meta property="og:image" content="{{ SITEURL }}{{ DEFAULT_BG  }}">
     {% endblock %}
-
+	{% include 'scripts.html' %}
     </head>
     <body class="{% block body_class %}{% endblock %}">
         <header class="notepad-site-head">
@@ -31,6 +31,6 @@
             </main>
         </div>
         {% include 'footer.html' %}
-        {% include 'scripts.html' %}
+        {% include 'scripts_footer.html' %}
     </body>
 </html>

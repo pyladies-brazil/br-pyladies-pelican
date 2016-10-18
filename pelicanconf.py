@@ -86,16 +86,13 @@ with open('data/locations.yml') as locations:
 
 with open('data/events.yml') as events:
     events_converted = yaml.load(events.read())
-    NEXT_EVENTS = []
+    EVENTS = []
     PAST_EVENTS = []
     for event in events_converted:
         # date as a datetime obj
         event['date'] = datetime.strptime(event['date'], '%d-%m-%Y').date()
         e = namedtuple('Event', event.keys())(**event)
-        if e.date < NOW:
-            PAST_EVENTS.append(e)
-        else:
-            NEXT_EVENTS.append(e)
+        EVENTS.append(e)
 
 with open('data/videos.yml') as videos:
     videos_converted = yaml.load(videos.read())
