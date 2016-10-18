@@ -115,6 +115,9 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
   url: SITE DA ORG
 ```
 
+**Atenção:** A imagem precisa ser `100px por 100px`.
+
+
 Atualizar Github Pages
 ----------------------
 
