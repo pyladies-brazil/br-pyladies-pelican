@@ -1,3 +1,19 @@
+Menu
+====
+1. Primeiros Passos
+  * [Contribuindo](#contribuindo)
+  * [Preparando o ambiente local](#preparando-o-ambiente-local)
+
+2. Criando e Adicionando
+  * [Criar um novo post](#criar-um-novo-post)
+  * [Adicionar eventos](#criar-uma-nova-página#adicionar-eventos)
+  * [Adicionar ladies](#adicionar-ladies)
+  * [Adicionar nova localização](#adicionar-nova-localização)
+  * [Adicionar vídeos](#adicionar-vídeos)
+  * [Atualizar github pages](#atualizar-github-pages)
+
+
+
 Contribuindo
 ============
 
@@ -22,6 +38,7 @@ Preparando o ambiente local
         $ pip install -r requirements.txt
 
 Pronto :star2: Agora seu ambiente local está preparado para rodar :tada:!
+
 
 Criar um novo Post
 ------------------
@@ -133,6 +150,7 @@ Para adicionar um novo vídeo, edite o arquivo `data/videos.yml` com o nome do v
 
 **Lembre-se** de colocar como comentário o título do vídeo antes do link:
 ![Exemplo](https://cloud.githubusercontent.com/assets/6595551/19491947/97e5df18-9553-11e6-9ed3-d1294f37a291.png "Comentário nos vídeos")
+
 
 Atualizar Github Pages
 ----------------------
