@@ -10,6 +10,19 @@ Contribuindo
 Obs.: Nós usamos inglês como linguagem padrão dos commits (:
 
 
+Preparando o ambiente local
+--------------------------
+- Antes de mais nada, verifique se você tem o **Python 2.7** instalado na sua maquina.
+- Crie uma virtualenv (pode chamar `pyladies`). Se você não sabe como criar uma virtualenv, [leia isso](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+
+(Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
+
+- Ative seu virtualenv e instale os pacotes necessários para rodar o projeto:
+
+        $ pip install -r requirements.txt
+
+Pronto :star2:! Agora seu ambiente local está preparado para rodar :tada:!
+
 Criar um novo Post
 ------------------
 
