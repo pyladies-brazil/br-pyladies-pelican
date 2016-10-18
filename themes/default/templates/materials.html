@@ -1,0 +1,39 @@
+{% extends 'page.html' %}
+{% block title %}Pyladies Brasil - Materiais{% endblock %}
+{% block content %}
+<article class="notepad-page-content">
+  <div class="title small-12 columns">
+    <h1>MATERIAIS</h1>
+  </div>
+  <div>
+    <div id="archive">
+      <div class="wrap wrap-events">
+        <div class="large-12 columns-events">
+            <div>
+                <h3>Palestras</h3>
+            </div>
+          <ul class="grid large-block-grid-6 locations-grid">
+            {% for talk in TALKS %}
+            <li>
+              <div>
+                  <ul>
+                      <li>
+                          Título: {{talk.title}}
+                      </li>
+                      <li>
+                          Evento: {{ talk.event }}
+                      </li>
+                      <li>
+                          Link: <a href="{{ talk.link }}" target="_blank">{{ talk.link }}</a>
+                      </li>
+                  </ul>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</article>
+{% endblock %}

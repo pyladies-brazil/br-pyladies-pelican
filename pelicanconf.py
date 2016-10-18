@@ -46,6 +46,7 @@ MENUITEMS = (
     ('Locais', '/locations'),
     ('Ladies', '/ladies'),
     ('Videos', '/videos'),
+    ('Materiais', '/materiais'),
     ('Blog', '/archives.html'),
     ('Pesquisar', '/search.html'),
 )
@@ -103,6 +104,13 @@ with open('data/videos.yml') as videos:
             namedtuple('Videos', video.keys())(**video)
         )
 
+with open('data/talks.yml') as talks:
+    talks_readed = yaml.load(talks.read())
+    TALKS = []
+    for talk in talks_readed:
+        TALKS.append(
+            namedtuple('Talks', talk.keys())(**talk)
+        )
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tipue_search']
