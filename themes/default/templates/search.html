@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}{{ SITENAME }} Search {% endblock %}
+
+{% block content %}
+<div class="entry-content">
+  {{ super() }}
+  <div align="center">
+    <input type="text" size="60" id="tipue_search_input" />
+  </div>
+  <div id="tipue_search_content"></div>
+</div>
+{% endblock %}

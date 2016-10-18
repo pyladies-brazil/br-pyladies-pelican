@@ -24,7 +24,7 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 # Sitemap
-DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap', 'search')
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
 TIMEZONE = 'America/Sao_Paulo'
@@ -47,6 +47,7 @@ MENUITEMS = (
     ('Ladies', '/ladies'),
     ('Videos', '/videos'),
     ('Blog', '/archives.html'),
+    ('Pesquisar', '/search.html'),
 )
 
 DEFAULT_PAGINATION = 10
@@ -101,3 +102,7 @@ with open('data/videos.yml') as videos:
         VIDEOS.append(
             namedtuple('Videos', video.keys())(**video)
         )
+
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['tipue_search']
