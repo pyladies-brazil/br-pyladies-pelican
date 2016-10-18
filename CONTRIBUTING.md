@@ -6,7 +6,7 @@ Menu
 
 2. Criando e Adicionando
   * [Criar um novo post](#criar-um-novo-post)
-  * [Adicionar eventos](#criar-uma-nova-página#adicionar-eventos)
+  * [Adicionar eventos](#adicionar-eventos)
   * [Adicionar ladies](#adicionar-ladies)
   * [Adicionar nova localização](#adicionar-nova-localização)
   * [Adicionar vídeos](#adicionar-vídeos)
