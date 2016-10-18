@@ -118,6 +118,22 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
 **Atenção:** A imagem precisa ser `100px por 100px`.
 
 
+Adicionar vídeos
+----------------
+
+Para adicionar um novo vídeo, edite o arquivo `data/videos.yml` com o nome do vídeo e seu link. Ele possui o seguinte formato:
+
+```yaml
+- # Nome do Vídeo
+  url: //www.youtube.com/embed/XXXXXXXXXXX
+```
+
+**Atenção:** O link do vídeo é aquele que se encontra na aba de incorporamento do youtube e não na de compartilhamento:
+![Exemplo](https://cloud.githubusercontent.com/assets/6595551/19491891/59d9ff6a-9553-11e6-8163-0c65ca58d241.png "Link correto do youtube")
+
+**Lembre-se** de colocar como comentário o título do vídeo antes do link:
+![Exemplo](https://cloud.githubusercontent.com/assets/6595551/19491947/97e5df18-9553-11e6-9ed3-d1294f37a291.png "Comentário nos vídeos")
+
 Atualizar Github Pages
 ----------------------
 
