@@ -158,6 +158,12 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
 
+- name: Vanessa Romankiv
+  cidade: São José dos Campos - SP
+  github: senaingrid
+  facebook: senaingrid
+  image: /images/ladies/ingrid.jpg
+
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
 #   url: [optional] seu site pessoal
