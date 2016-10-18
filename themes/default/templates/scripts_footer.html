@@ -1,16 +1,6 @@
-    <script src="{{ SITEURL }}/theme/js/modernizr.js"></script>
-    <script src="{{ SITEURL }}/theme/js/foundation.min.js"></script>
-    {% if page %}
-    <script src="{{ SITEURL }}/theme/js/background-check.js"></script>
-    <script src="{{ SITEURL }}/theme/js/post-header-animations.js"></script>
-    {% endif %}
-    <script src="{{ SITEURL }}/theme/js/notepad.js"></script>
-    <script src="{{ SITEURL }}/theme/js/scripts.min.js"></script>
-    <script src="{{ SITEURL }}/theme/js/nprogress.js"></script>
-
-    <script>
-      $(document).foundation();
-    </script>
+<script>
+  $(document).foundation();
+</script>
 
 {% if google_analytics %}
 <!-- Asynchronous Google Analytics snippet -->
@@ -26,4 +16,15 @@
 
 </script>
 {% endif %}
+
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#tipue_search_input').tipuesearch({
+    'show': 8,
+    'mode': 'json',
+    'contentLocation': '{{ SITEURL }}/tipuesearch_content.json'
+  });
+});
+</script>
+
 <script>NProgress.start();var interval=setInterval(function(){NProgress.inc()},1000);jQuery(window).load(function(){clearInterval(interval);NProgress.done()});jQuery(window).unload(function(){NProgress.start()});</script>
