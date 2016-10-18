@@ -79,6 +79,12 @@
   facebook: glaucia.esppenchutz
   image: /images/ladies/glaucia.jpeg
 
+- name: Ingrid Sena
+  cidade: São José dos Campos - SP
+  github: senaingrid
+  facebook: senaingrid
+  image: /images/ladies/ingrid.jpg
+
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
   github: jtemporal
@@ -157,12 +163,6 @@
   github: vanessaromankiv
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
-
-- name: Vanessa Romankiv
-  cidade: São José dos Campos - SP
-  github: senaingrid
-  facebook: senaingrid
-  image: /images/ladies/ingrid.jpg
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
