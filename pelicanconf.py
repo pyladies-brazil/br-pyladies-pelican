@@ -103,8 +103,6 @@ with open('data/videos.yml') as videos:
         VIDEOS.append(
             namedtuple('Videos', video.keys())(**video)
         )
-PLUGIN_PATHS = ['plugins']
-PLUGINS = ['tipue_search']
 
 with open('data/talks.yml') as talks:
     talks_readed = yaml.load(talks.read())
@@ -113,3 +111,6 @@ with open('data/talks.yml') as talks:
         TALKS.append(
             namedtuple('Talks', talk.keys())(**talk)
         )
+
+PLUGIN_PATHS = ['plugins']
+PLUGINS = ['tipue_search']
