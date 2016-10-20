@@ -1,14 +1,12 @@
-jQuery(function(){
+$(function(){
 	date_now = Date.now();
-	jQuery('#after').children().each(function(){
-		var date_event = new Date(this.getAttribute('data') + " 00:00");
+	$('#after').children().each(function(){
+		var date_event = new Date(this.getAttribute('data'));
 		if (date_event > date_now){
-			jQuery('#before').append("<li>" + $(this).html() + "</li>");
-			this.remove();
+			$('#before').append(this);
 		}
 	});
-	if (jQuery('#before').children() == [] ) {
-		jQuery('#before').append('<p> Não tem futuros eventos cadastrados </p>')
+	if ($('#before').children().length == 0 ) {
+		$('#before').append('<p> Não tem futuros eventos cadastrados </p>')
 	}
-
 });
