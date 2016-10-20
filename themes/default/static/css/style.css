@@ -8,7 +8,7 @@ html, body {
   min-height: 60%;
   margin: 0 auto;
 }
-@media screen and (max-width: 40.063em) {
+@media screen and (max-width: 48em) { /*40.063em = 641.008px*/
   .layout {
     width: 95%;
     position: relative;
@@ -358,7 +358,8 @@ main, .notepad-share-icons, .notepad-disqus {
         transform: none;
         visibility: visible;
         padding-top: 0;
-        padding-bottom: 0; }
+        padding-bottom: 0;
+        padding-right: 10px; }
         .notepad-blog-menu ul li {
           display: inline-block;
           margin-left: 1.25rem;
