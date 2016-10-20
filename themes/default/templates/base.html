@@ -25,11 +25,9 @@
             {% include 'header.html' %}
             {% block extra_header %}{% endblock %}
         </header>
-        <div class="layout">
-            <main class="notepad-content" role="main">
-            {% block content %}{% endblock %}
-            </main>
-        </div>
+        <main class="notepad-content row" role="main">
+        {% block content %}{% endblock %}
+        </main>
         {% include 'footer.html' %}
         {% include 'scripts_footer.html' %}
     </body>

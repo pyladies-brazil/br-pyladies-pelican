@@ -3,7 +3,7 @@
 {% if articles %}
 {% for post in articles_page.object_list[:6] %}
 
-<article class="notepad-index-post post">
+<article class="notepad-index-post post small-12 medium-6 large-4 columns">
   <div class="post-header row">
     <span class="small-3 columns notepad-post-meta">
       <time datetime="{{ post.date.isoformat() }}">
