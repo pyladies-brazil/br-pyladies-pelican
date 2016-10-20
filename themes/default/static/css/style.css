@@ -284,11 +284,12 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
-  float: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 3.2rem;
-  height: 80px; }
+  height: 80px;
+  text-align: right;
+}
   .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
     outline: none;
