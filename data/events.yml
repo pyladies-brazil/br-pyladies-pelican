@@ -1,6 +1,11 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-eventos
 
+- url: https://www.meetup.com/pt-BR/PyLadies-PUC-Rio/events/234621182/
+  name: Nosso Primeiro Encontrinho! - PyLadies PUC-Rio
+  date: 22-10-2016
+  local: PUC Rio - Gávea
+
 - url: https://www.facebook.com/funtecfrb
   name: Oficina de Python - PyLadies Salvador
   date: 29-10-2016
@@ -24,7 +29,7 @@
 - url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/234355820/
   name: Oficina de Python em parceria com as PyLadies Salvador
   date: 28-09-2016
-  local: SENAI-CIMATEC (BA) 
+  local: SENAI-CIMATEC (BA)
 
 - url: http://softwarelivre.org/fisl17/programacao/pyladies
   name: Minievento da comunidade PyLadies Brasil no 17º Fórum Internacional de Software Livre
