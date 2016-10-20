@@ -1312,3 +1312,15 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+
+
+  #after > li, #before > li {
+      width: 50%;
+  }
+
+  @media(max-width: 800px) {
+      #after > li, #before > li{
+        width: 100%;
+      }
+  }
