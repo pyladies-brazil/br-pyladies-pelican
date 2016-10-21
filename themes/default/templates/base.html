@@ -9,6 +9,9 @@
     <meta name="twitter:title" content="{{ SITENAME }}">
     <meta name="twitter:description" content="{{ TAGLINE }}">
     <meta name="twitter:creator" content="@Pyladiesbrazil">
+    {% if "staging" in SITEURL %}
+        <meta name="robots" content="noindex">
+    {% endif %}
 
     <!-- Open Graph -->
     <meta property="og:locale" content="pt_BR">
