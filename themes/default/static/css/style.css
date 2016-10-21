@@ -8,7 +8,8 @@ html, body {
   min-height: 60%;
   margin: 0 auto;
 }
-@media screen and (max-width: 48em) { /*40.063em = 641.008px*/
+
+@media screen and (max-width: 40.063em) {
   .layout {
     width: 95%;
     position: relative;
@@ -283,11 +284,12 @@ main, .notepad-share-icons, .notepad-disqus {
 .notepad-blog-menu {
   padding-top: 0;
   padding-bottom: 0;
-  float: right;
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
   font-size: 3.2rem;
-  height: 80px; }
+  height: 80px;
+  text-align: right;
+}
   .notepad-blog-menu .notepad-mobile-menu a {
     display: inline-block;
     outline: none;
@@ -468,25 +470,18 @@ main, .notepad-share-icons, .notepad-disqus {
       font-size: 6.25rem;
       padding-bottom: 12.5rem; } }
 
-.notepad-content .notepad-index-post { }
 .notepad-content .notepad-index-post .post-header {
     min-height: 93px;
     margin-bottom: 2%; }
-  @media only screen and (min-width: 40.063em) {
+
+    @media only screen and (min-width: 40.063em) {
+        .notepad-content .notepad-index-post .post-header {
+          margin-bottom: 0; } }
     .notepad-content .notepad-index-post {
-      width: 33%;
-      display: inline-block;
-      min-height: 30px;
+      min-height: 300px;
       margin-top: 3.375rem;
       margin-bottom: 3px; }
-      .notepad-content .notepad-index-post .post-header {
-        margin-bottom: 0; } }
-  .notepad-content .notepad-index-post {
-    width: 33%;
-    display: inline-block;
-    min-height: 300px;
-    margin-top: 3.375rem;
-    margin-bottom: 3px; }
+
     .notepad-post-meta {
       display: inline-block;
     }
