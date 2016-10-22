@@ -161,7 +161,7 @@ Atualizando o site
 Nós temos um ambiente de teste, também conhecido como staging \o/
 Todo commit feito no branch master deste repositório irá disparar a atualização do ambiente de staging.
 
-** Atenção: Sempre confira se as alterações no ambiente de staging se comportam como o esperado antes de atualizar o ambiente de produção **
+__** Atenção: Sempre confira se as alterações no ambiente de staging se comportam como o esperado antes de atualizar o ambiente de produção **__
 
 Este projeto está com deploy automático para o ambiente de staging. Então, para verificar se as suas alterações já estão no ambiente de teste acesse o [Snap-CI](https://snap-ci.com/pyladies-brazil/br-pyladies-pelican/branch/master), que é a ferramenta de integração contínua que utilizamos neste projeto.
 
@@ -169,10 +169,10 @@ Este projeto está com deploy automático para o ambiente de staging. Então, pa
 
 Depois que o texto da caixinha da penúltima coluna ficar verde, significa que as alterações já estarão disponíveis para teste. Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Depois de testar manualmente as suas alterações, basta informar a alguma das pessoas abaixo para que as alterações sejam aplicadas no ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/) \o//
 
-- @aninhalacerda
-- @darlenedms
-- @I-am-Gabi
-- @lidymonteirowm
-- @pgrangeiro
-- @roselmamendes
-- @taniaa
+- [@aninhalacerda](https://github.com/aninhalacerda)
+- [@darlenedms](https://github.com/darlenedms)
+- [@I-am-Gabi](https://github.com/I-am-Gabi)
+- [@lidymonteirowm](https://github.com/lidymonteirowm)
+- [@pgrangeiro](https://github.com/pgrangeiro)
+- [@roselmamendes](https://github.com/roselmamendes)
+- [@taniaa](https://github.com/taniaa)
