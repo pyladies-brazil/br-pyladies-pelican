@@ -441,7 +441,8 @@ html, body, .notepad-post-container, .notepad-post-header {
     padding-bottom: 2.5rem; }
     .notepad-page-title .notepad-post-meta-simple h1,
     .notepad-post-title-simple .notepad-post-meta-simple h1 {
-      padding: 0; }
+      padding: 0;
+      word-wrap: break-word; }
     .notepad-page-title .notepad-post-meta-simple p.meta,
     .notepad-post-title-simple .notepad-post-meta-simple p.meta {
       padding-top: 0.625rem; }
