@@ -15,7 +15,7 @@
   twitter: https://twitter.com/pyladiescps
   facebook: https://www.facebook.com/pyladiescps
   email: campinas@pyladies.com
-  
+
 - city: Curitiba - PR
   image: /images/locais/pyladies-curitiba.png
   facebook: https://www.facebook.com/PyLadiesCuritiba
@@ -40,6 +40,12 @@
   twitter: https://twitter.com/PyLadiesFloripa
   email: pyladiesfloripa@gmail.com
   url: https://www.facebook.com/groups/PyLadiesFlorianopolis/
+
+- city: Maceió - AL
+  image: /images/locais/pyladies-maceio.png
+  twitter: https://twitter.com/pyladiesmaceio
+  facebook: https://www.facebook.com/PyLadiesMaceio
+  email: maceio@pyladies.com
 
 - city: Natal - RN
   image: /images/locais/location.png
