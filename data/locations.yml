@@ -11,9 +11,11 @@
   email: brasilia@pyladies.org
 
 - city: Campinas - SP
-  image: /images/locais/location.png
+  image: /images/locais/pyladies_campinas.png
+  twitter: https://twitter.com/pyladiescps
   facebook: https://www.facebook.com/pyladiescps
-
+  email: campinas@pyladies.com
+  
 - city: Curitiba - PR
   image: /images/locais/pyladies-curitiba.png
   facebook: https://www.facebook.com/PyLadiesCuritiba
