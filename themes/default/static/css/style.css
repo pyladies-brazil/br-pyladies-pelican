@@ -527,7 +527,6 @@ main, .notepad-share-icons, .notepad-disqus {
       text-align: left; } }
   .notepad-content .notepad-index-post .notepad-index-post-tags {
     font-size: 0.8125rem;
-    float: none;
     color: #262626;
     text-align: center;
     padding-top: 1.25rem;
