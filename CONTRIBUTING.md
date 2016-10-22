@@ -10,7 +10,6 @@ Menu
   * [Adicionar ladies](#adicionar-ladies)
   * [Adicionar nova localização](#adicionar-nova-localização)
   * [Adicionar vídeos](#adicionar-vídeos)
-  * [Atualizar github pages](#atualizar-github-pages)
 
 3. Deploy
   * [Atualizando o site](#atualizando-o-site)
