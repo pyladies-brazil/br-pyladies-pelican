@@ -72,6 +72,6 @@ var notepad = (function ($) {
 
 })(jQuery);
 
-(function () {
+$(document).ready(function() {
     notepad.init();
-})();
+});

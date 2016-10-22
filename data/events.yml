@@ -1,6 +1,11 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-eventos
 
+- url: https://djangogirls.org/florianopolis/
+  name: Django Girls Floripa na PyBr12
+  date: 14-10-2016
+  local: CESUSC - Santo Antônio de Lisboa
+
 - url: https://www.meetup.com/pt-BR/PyLadies-PUC-Rio/events/234621182/
   name: Nosso Primeiro Encontrinho! - PyLadies PUC-Rio
   date: 22-10-2016

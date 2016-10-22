@@ -360,10 +360,11 @@ main, .notepad-share-icons, .notepad-disqus {
         transform: none;
         visibility: visible;
         padding-top: 0;
-        padding-bottom: 0; }
+        padding-bottom: 0;
+        padding-right: 10px; }
         .notepad-blog-menu ul li {
           display: inline-block;
-          margin-left: 1.25rem;
+          margin-left: 1.20rem;
           width: auto;
           font-size: 1rem;
           text-align: left;
@@ -383,6 +384,14 @@ main, .notepad-share-icons, .notepad-disqus {
   max-width: 1100px;
   margin: 0 auto;
  }
+
+@media only screen and (min-width: 45em) and (max-width: 50em) {
+  .notepad-blog-menu {
+    text-align: left;
+    width: 100%;
+  }
+}
+
  @media only screen and (max-width: 430px) {
   .notepad-site-head .notepad-site-head-menu {
     margin: 0 1.5rem;
@@ -396,6 +405,12 @@ main, .notepad-share-icons, .notepad-disqus {
       vertical-align: middle;
       display: inline-block;
     }
+
+@media only screen and (max-width: 320px) {
+  .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
+    padding: 0;
+  }
+}
   .notepad-site-head .notepad-site-head-menu .title {
     display: inline-block;
     padding: 0;
@@ -413,6 +428,7 @@ main, .notepad-share-icons, .notepad-disqus {
       color: #262626; }
       .notepad-site-head .notepad-site-head-menu .title a:hover {
         color: #262626; }
+}
 
 .notepad-site-head .notepad-site-head-content {
   width: 100%;
@@ -1306,3 +1322,15 @@ img.mfp-img {
   top: 0;
   right: 0;
   padding-top: 0; }
+
+
+
+  #after > li, #before > li {
+      width: 50%;
+  }
+
+  @media(max-width: 800px) {
+      #after > li, #before > li{
+        width: 100%;
+      }
+  }

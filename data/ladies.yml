@@ -41,6 +41,12 @@
   twitter: cecilia_tanaka
   image: /images/ladies/cecilia-tanaka.png
 
+- name: Daniela Palumbo
+  cidade: Campinas - SP
+  github: danipj
+  facebook: palumbodani
+  image: /images/ladies/danipj.png
+
 - name: Darlene Medeiros
   cidade: Rio de Janeiro - RJ
   github: darlenedms
@@ -128,6 +134,13 @@
   twitter: kessiacastro
   facebook: kessiacastro
   image: /images/ladies/kessia.png
+
+- name: Leticia Portella
+  cidade: Ribeirão Preto - SP
+  github: leportella
+  twitter: leleportella
+  facebook: leportella
+  image: /images/ladies/leportella.jpg
 
 - name: Lidiane Monteiro
   cidade: Recife - PE
