@@ -21,6 +21,16 @@
   date: 05-11-2016
   local: Raul Hacker Club
 
+- url: https://djangogirls.org/maceio/
+  name: Django Girls Maceió
+  date: 26-11-2016
+  local: Faculdade Maurício de Nassau da Ponta Verde
+
+- url: https://djangogirls.org/riodejaneiro/
+  name: Django Girls Rio de Janeiro
+  date: 26-11-2016
+  local: Stone Pagamentos
+
 - url: https://www.meetup.com/pt-BR/PyLadies-Bahia/events/233769171/
   name: Lançamento "É Verão, Py!" - PyLadies Salvador
   date: 17-12-2016
