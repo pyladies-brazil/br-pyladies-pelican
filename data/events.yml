@@ -1,6 +1,16 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-eventos
 
+- url: https://djangogirls.org/maceio/
+  name: Django Girls Maceió
+  date: 26-11-2016
+  local: Faculdade Maurício de Nassau da Ponta Verde
+
+- url: https://djangogirls.org/riodejaneiro/
+  name: Django Girls Rio de Janeiro
+  date: 26-11-2016
+  local: Stone Pagamentos
+
 - url: https://djangogirls.org/florianopolis/
   name: Django Girls Floripa na PyBr12
   date: 14-10-2016
