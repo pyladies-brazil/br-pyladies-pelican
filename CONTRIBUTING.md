@@ -10,7 +10,9 @@ Menu
   * [Adicionar ladies](#adicionar-ladies)
   * [Adicionar nova localização](#adicionar-nova-localização)
   * [Adicionar vídeos](#adicionar-vídeos)
-  * [Atualizar github pages](#atualizar-github-pages)
+
+3. Deploy
+  * [Atualizando o site](#atualizando-o-site)
 
 
 
@@ -152,11 +154,24 @@ Para adicionar um novo vídeo, edite o arquivo `data/videos.yml` com o nome do v
 ![Exemplo](https://cloud.githubusercontent.com/assets/6595551/19491947/97e5df18-9553-11e6-9ed3-d1294f37a291.png "Comentário nos vídeos")
 
 
-Atualizar Github Pages
-----------------------
+Atualizando o site
+------------------
 
-Após realizar todos os testes locais, para fazer o upload do novo conteúdo no github pages, rode o comando:
+Nós temos um ambiente de teste, também conhecido como staging \o/
+Todo commit feito no branch master deste repositório irá disparar a atualização do ambiente de staging.
 
-	make github
+__** Atenção: Sempre confira se as alterações no ambiente de staging se comportam como o esperado antes de atualizar o ambiente de produção **__
 
-Você poderá ir na página oficial e já observar suas alterações.
+Este projeto está com deploy automático para o ambiente de staging. Então, para verificar se as suas alterações já estão no ambiente de teste acesse o [Snap-CI](https://snap-ci.com/pyladies-brazil/br-pyladies-pelican/branch/master), que é a ferramenta de integração contínua que utilizamos neste projeto.
+
+![Exemplo](https://cloud.githubusercontent.com/assets/2524981/19616847/6cca90c4-97fd-11e6-988d-6297e18aa247.png)
+
+Depois que o texto da caixinha da penúltima coluna ficar verde, significa que as alterações já estarão disponíveis para teste. Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Depois de testar manualmente as suas alterações, basta informar a alguma das pessoas abaixo para que as alterações sejam aplicadas no ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/) \o//
+
+- [@aninhalacerda](https://github.com/aninhalacerda)
+- [@darlenedms](https://github.com/darlenedms)
+- [@I-am-Gabi](https://github.com/I-am-Gabi)
+- [@lidymonteirowm](https://github.com/lidymonteirowm)
+- [@pgrangeiro](https://github.com/pgrangeiro)
+- [@roselmamendes](https://github.com/roselmamendes)
+- [@taniaa](https://github.com/taniaa)
