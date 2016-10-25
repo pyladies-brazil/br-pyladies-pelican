@@ -182,6 +182,12 @@
   twitter: rsip22
   image: /images/ladies/renata.png
 
+- name: Talita Rossari
+  cidade: Florianópolis - SC
+  github: talitarossari
+  facebook: talitarossari
+  image: /images/ladies/talitarossari.jpg
+
 - name: Tânia Andrea
   cidade: Brasília - DF
   url: http://calango.club/membros/taniaa
@@ -201,12 +207,6 @@
   github: vanessaromankiv
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
-
-- name: Talita Rossari
-  cidade: Florianópolis - SC
-  github: talitarossari
-  facebook: talitarossari
-  image: /images/ladies/talitarossari.jpg
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
