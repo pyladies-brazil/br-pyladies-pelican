@@ -1333,4 +1333,11 @@ img.mfp-img {
       #after > li, #before > li{
         width: 100%;
       }
+      .notepad-blog-menu {
+        position: absolute;
+        right: 0;
+      }
+      .notepad-blog-logo {
+        z-index: 1;
+      }
   }
