@@ -15,11 +15,14 @@
               <div>
                 <img class="img-location" src="{{ SITEURL }}{{ location.image }}">
               </div>
+              {% if location.url %}
               <a target="_blank" href="{{ location.url }}">
-                <span class="location-name">
-                  Pyladies {{ location.city }}
-                </span>
+                <span class="location-name">Pyladies {{ location.city }}</span>
+                <i class="fa fa-external-link location-external-link" aria-hidden="true"></i>
               </a>
+              {% else %}
+                <span class="location-name">Pyladies {{ location.city }}</span>
+              {% endif %}
               <div class="social-icons">
                 {% if location.twitter %}
                 <a target="_blank" href="{{ location.twitter }}">
