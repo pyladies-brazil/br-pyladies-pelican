@@ -15,9 +15,14 @@
               <div>
                 <img src="{{ lady.image }}">
               </div>
+              {% if lady.url %}
               <a target="blank" href="{{ lady.url }}">
                 <span class="lady-name">{{ lady.name }}</span>
+                <i class="fa fa-external-link lady-external-link" aria-hidden="true"></i>
               </a>
+              {% else %}
+                <span class="lady-name">{{ lady.name }}</span>
+              {% endif %}
               <p class="lady-city">{{ lady.cidade }}</p>
               <div class="social-icons">
                 {% for item in ['facebook', 'twitter', 'github'] %}
