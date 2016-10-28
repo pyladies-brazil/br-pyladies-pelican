@@ -81,19 +81,19 @@ regenerate:
 serve:
 ifdef PORT
 	@echo "Starting test server is running on http://0.0.0.0:$(PORT)"
-	$(at_output) && $(PY) -m pelican.server $(PORT)
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server $(PORT)
 else
 	@echo "Starting Test server is running on http://0.0.0.0:8000"
-	$(at_output) && $(PY) -m pelican.server
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server
 endif
 
 serve-global:
 ifdef SERVER
 	@echo "Starting server is running on :$(SERVER):80"
-	$(at_output) && $(PY) -m pelican.server 80 $(SERVER)
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server 80 $(SERVER)
 else
 	@echo "Starting server is running on :http://0.0.0.0:80"
-	$(at_output) && $(PY) -m pelican.server 80 0.0.0.0
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server 80 0.0.0.0
 endif
 
 devserver:
