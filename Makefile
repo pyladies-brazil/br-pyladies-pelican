@@ -1,5 +1,8 @@
-PY?=python
-PELICAN?=pelican
+VIRTUALENV = virtualenv
+VENV := $(shell echo $${VIRTUAL_ENV-.venv})
+
+PY=$(VENV)/bin/python
+PELICAN?=$(VENV)/bin/pelican
 PELICANOPTS=
 
 BASEDIR=$(CURDIR)
@@ -38,10 +41,12 @@ help:
 	@echo '                                                                          '
 	@echo 'Usage:                                                                    '
 	@echo '   make up                             generate the web site and serve    '
+	@echo '   make install                        install python dependencies        '
 	@echo '   make html                           (re)generate the web site          '
 	@echo '   make newpost NAME="POST NAME"       create new post with input name    '
 	@echo '   make newpage NAME="PAGE NAME"       create new ppage with input name   '
 	@echo '   make clean                          remove the generated files         '
+	@echo '   make dist-clean                     remove gen. files and dependencies '
 	@echo '   make regenerate                     regenerate files upon modification '
 	@echo '   make publish                        generate using production settings '
 	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
@@ -49,6 +54,7 @@ help:
 	@echo '   make devserver [PORT=8000]          start/restart develop_server.sh    '
 	@echo '   make stopserver                     stop local server                  '
 	@echo '   make github                         upload the web site via gh-pages   '
+	@echo '   make virtualenv                     create default virtual environment '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
@@ -56,8 +62,15 @@ help:
 
 up: html serve
 
+install: virtualenv
+	$(VENV)/bin/pip install -U pip
+	$(VENV)/bin/pip install -U -r requirements.txt
+
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
+
+distclean: clean
+	rm -rf .venv/
 
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
@@ -67,16 +80,20 @@ regenerate:
 
 serve:
 ifdef PORT
-	$(at_output) && $(PY) -m pelican.server $(PORT)
+	@echo "Starting test server is running on http://0.0.0.0:$(PORT)"
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server $(PORT)
 else
-	$(at_output) && $(PY) -m pelican.server
+	@echo "Starting Test server is running on http://0.0.0.0:8000"
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server
 endif
 
 serve-global:
 ifdef SERVER
-	$(at_output) && $(PY) -m pelican.server 80 $(SERVER)
+	@echo "Starting server is running on :$(SERVER):80"
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server 80 $(SERVER)
 else
-	$(at_output) && $(PY) -m pelican.server 80 0.0.0.0
+	@echo "Starting server is running on :http://0.0.0.0:80"
+	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server 80 0.0.0.0
 endif
 
 devserver:
@@ -123,5 +140,9 @@ else
 	@echo 'Variable NAME is not defined.'
 	@echo 'Do make newpage NAME='"'"'Page Name'"'"
 endif
+
+virtualenv:
+	$(VIRTUALENV) $(VENV)
+
 
 .PHONY: up html help clean regenerate serve serve-global devserver publish github newpost newpage
