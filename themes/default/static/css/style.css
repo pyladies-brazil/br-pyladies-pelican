@@ -149,7 +149,12 @@ html, body {
 
 .location-name {
   font-size: 16px;
-  padding: 0 15px;
+}
+
+.location-external-link {
+  font-size: 12px;
+  vertical-align: middle;
+  padding-left: 2px;
 }
 
 .lady-name {
