@@ -47,4 +47,4 @@ output
 *.DS_Store
 
 # Virtualenv
-env/
+.venv
