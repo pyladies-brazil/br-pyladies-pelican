@@ -154,13 +154,19 @@ html, body {
 
 .lady-name {
   font-size: 18px;
-  padding: 0 15px;
+}
+
+.lady-external-link {
+  font-size: 12px;
+  vertical-align: middle;
+  padding-left: 2px;
 }
 
 .lady-city {
-  margin: 0 auto;
-  font-size: 0.8em;
   color: #ff6696;
+  font-size: 0.8em;
+  margin: 0 auto;
+  margin-top: 5px;
 }
 
 .location {
