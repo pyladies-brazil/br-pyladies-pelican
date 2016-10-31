@@ -42,8 +42,8 @@ Crie uma ``virtualenv`` e instale os requisitos de desenvolvimento com o comando
 
 Pronto :star2: Agora seu ambiente local está preparado para rodar :tada:!
 
-(Obs: se você pretende usar o ambiente virtual instalado via ``make``, ele se
-encontra em `/.venv/`.)
+(Obs: se você pretende usar o ambiente virtual instalado via *make*, ele se
+encontra em `.venv/`.)
 
 Criar um novo Post
 ------------------
