@@ -36,7 +36,7 @@ Preparando o ambiente local
 
 (Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
-Crie uma ``virtualenv`` e instale os requisitos de desenvolvimento com o comando:
+Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, execute o seguinte comando:
 
     make install
 
