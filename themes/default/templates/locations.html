@@ -15,14 +15,16 @@
               <div>
                 <img class="img-location" src="{{ SITEURL }}{{ location.image }}">
               </div>
+
               {% if location.url %}
               <a target="_blank" href="{{ location.url }}">
                 <span class="location-name">Pyladies {{ location.city }}</span>
                 <i class="fa fa-external-link location-external-link" aria-hidden="true"></i>
               </a>
               {% else %}
-                <span class="location-name">Pyladies {{ location.city }}</span>
+              <span class="location-name">Pyladies {{ location.city }}</span>
               {% endif %}
+
               <div class="social-icons">
                 {% if location.twitter %}
                 <a target="_blank" href="{{ location.twitter }}">
@@ -32,21 +34,25 @@
                   </span>
                 </a>
                 {% endif %}
+
+                {% if location.email %}
                 <a target="_blank" href="mailto:{{ location.email }}">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                     <i class="fa fa-envelope fa-stack-1x"></i>
                   </span>
-                  {% if location.facebook %}
-                  <a target="_blank" href="{{ location.facebook }}">
-                    <span class="fa-stack fa-lg">
-                      <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                      <i class="fa fa-facebook fa-stack-1x"></i>
-                    </span>
-                  </a>
-                  {% endif %}
-                </div>
-              </a>
+                </a>
+                {% endif %}
+
+                {% if location.facebook %}
+                <a target="_blank" href="{{ location.facebook }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}
+              </div>
             </li>
             {% endfor %}
           </ul>
