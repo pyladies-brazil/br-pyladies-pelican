@@ -31,13 +31,14 @@ Obs.: Nós usamos inglês como linguagem padrão dos commits (:
 Preparando o ambiente local
 --------------------------
 - Antes de mais nada, verifique se você tem o **Python 2.7** instalado na sua maquina.
-- Crie um virtualenv. Se você não sabe como criar uma virtualenv, [leia isso](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+- Se você não possuí, instale a ferramenta [virtualenv](https://virtualenv.pypa.io/),
+  que permite a criação de ambientes virtuais em Python.
 
 (Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
-- Ative seu virtualenv e instale os pacotes necessários para rodar o projeto:
+Crie uma ``virtualenv`` e instale os requisitos de desenvolvimento com o comando:
 
-        $ pip install -r requirements.txt
+    make install
 
 Pronto :star2: Agora seu ambiente local está preparado para rodar :tada:!
 
