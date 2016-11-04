@@ -107,7 +107,7 @@
   cidade: São José dos Campos - SP
   github: senaingrid
   facebook: senaingrid
-  image: /images/ladies/ingrid.jpg
+  image: /images/ladies/ingrid.jpg  
 
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
@@ -115,6 +115,12 @@
   twitter: jesstemporal
   image: /images/ladies/jessicatemporal.jpg
 
+- name: Jéssica Amorim
+  cidade: Belém - PA
+  github: jessicamorim42
+  facebook: jessicamorim.42
+  image: /images/ladies/jessica.jpg
+  
 - name: Joana Souza
   cidade: Salvador - BA
   github: joanasouza
