@@ -68,6 +68,13 @@
   email: pyladiespoa@openmailbox.org
   url: https://pyladiespoa.pythonanywhere.com
 
+- city: PUC-Rio - RJ
+  image: /images/locais/pyladies-pucrio.png
+  twitter: http://twitter.com/pyladiespucrio
+  facebook: https://www.facebook.com/pyladiespucrio
+  email: pucrio@pyladies.org
+  url: http://pucrio.pyladies.com
+
 - city: Recife - PE
   image: /images/locais/recife.png
   twitter: http://twitter.com/pyladiesrecife
