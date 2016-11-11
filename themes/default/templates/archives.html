@@ -1,6 +1,10 @@
 {% extends "base.html" %}
+{% block title %}Pyladies Brasil - Blog{% endblock %}
 {% block content %}
 <article class="notepad-page-content">
+<div class="title small-12 columns">
+    <h1>BLOG</h1>
+</div>
     <div>
         <ul class="post-list">
         {% for post in articles %}
