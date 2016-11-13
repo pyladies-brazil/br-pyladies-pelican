@@ -476,12 +476,25 @@ html, body, .notepad-post-container, .notepad-post-header {
     .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol {
       padding-left: 1.25rem;
       font-size: 1.125rem; }
+    .entry-content {
+      padding-left: 1.25rem;
+    }
+    .entry-content #tipue_search_input {
+      width: 100%;
+    }
     .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6 {
       font-weight: bold; }
-    .notepad-page-content > div:not(.notepad-page-title) h1, .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6, .notepad-page-content > div:not(.notepad-page-title) ul, .notepad-page-content > div:not(.notepad-page-title) ol, .notepad-page-content > div:not(.notepad-page-title) blockquote, .notepad-page-content > div:not(.notepad-page-title) pre, .notepad-page-content > div:not(.notepad-page-title) hr {
+    .notepad-page-content > div:not(.notepad-page-title) h1, .notepad-page-content > div:not(.notepad-page-title) h2, .notepad-page-content > div:not(.notepad-page-title) h3, .notepad-page-content > div:not(.notepad-page-title) h4, .notepad-page-content > div:not(.notepad-page-title) h5, .notepad-page-content > div:not(.notepad-page-title) h6, .notepad-page-content > div:not(.notepad-page-title) ul, .entry-content #tipue_search_input, .notepad-page-content > div:not(.notepad-page-title) ol, .notepad-page-content > div:not(.notepad-page-title) blockquote, .notepad-page-content > div:not(.notepad-page-title) pre, .notepad-page-content > div:not(.notepad-page-title) hr {
       max-width: 56.25rem;
       margin-left: auto;
       margin-right: auto; }
+      .entry-content {
+        max-width: 56.25rem;
+      }
+      .entry-content #tipue_search_input {
+        margin-left: auto;
+        margin-right: auto;
+      }
       .notepad-page-content > div:not(.notepad-page-title) p:first-child {
         font-size: 1.375rem;
         font-weight: 300; }
