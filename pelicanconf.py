@@ -24,7 +24,7 @@ PAGE_URL = '{slug}/'
 PAGE_SAVE_AS = '{slug}/index.html'
 
 # Sitemap
-DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap', 'search')
+DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
 TIMEZONE = 'America/Sao_Paulo'
@@ -48,7 +48,6 @@ MENUITEMS = (
     ('Videos', '/videos'),
     ('Materiais', '/materiais'),
     ('Blog', '/archives.html'),
-    ('Pesquisar', '/search.html'),
 )
 
 DEFAULT_PAGINATION = 10

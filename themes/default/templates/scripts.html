@@ -13,3 +13,10 @@
 <script src="{{ SITEURL }}/theme/js/nprogress.js"></script>
 <script src="{{ SITEURL }}/theme/tipuesearch/tipuesearch_set.js"></script>
 <script src="{{ SITEURL }}/theme/tipuesearch/tipuesearch.min.js"></script>
+<script>
+$().ready(function() {
+  $(".post-list").on("fn.tipuesearch", function() {
+    alert(1);
+  });
+});
+</script>
