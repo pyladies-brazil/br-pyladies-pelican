@@ -1,6 +1,6 @@
 Site Pyladies Brasil
 ====================
-
+[![Build Status](https://snap-ci.com/pyladies-brazil/br-pyladies-pelican/branch/master/build_image)](https://snap-ci.com/pyladies-brazil/br-pyladies-pelican/branch/master)
 
 Instalando e Rodando
 --------------------
