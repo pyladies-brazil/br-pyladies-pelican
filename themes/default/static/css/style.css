@@ -396,13 +396,6 @@ main, .notepad-share-icons, .notepad-disqus {
   margin: 0 auto;
  }
 
-@media only screen and (min-width: 45em) and (max-width: 50em) {
-  .notepad-blog-menu {
-    text-align: left;
-    width: 100%;
-  }
-}
-
  @media only screen and (max-width: 430px) {
   .notepad-site-head .notepad-site-head-menu {
     margin: 0 1.5rem;
