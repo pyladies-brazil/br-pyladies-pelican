@@ -410,11 +410,6 @@ main, .notepad-share-icons, .notepad-disqus {
       display: inline-block;
     }
 
-@media only screen and (max-width: 320px) {
-  .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
-    padding: 0;
-  }
-}
   .notepad-site-head .notepad-site-head-menu .title {
     display: inline-block;
     padding: 0;
@@ -1345,3 +1340,13 @@ img.mfp-img {
         z-index: 1;
       }
   }
+
+@media only screen and (max-width: 320px) {
+  .notepad-site-head .notepad-site-head-menu .notepad-blog-logo {
+    padding: 0;
+  }
+
+  .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
+    font-size: 1.4rem;
+  }
+}
