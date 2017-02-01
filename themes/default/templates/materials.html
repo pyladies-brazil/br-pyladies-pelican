@@ -32,6 +32,27 @@
             {% endfor %}
           </ul>
         </div>
+        <div class="large-12 columns-events">
+            <div>
+                <h3>Criar um grupo Pyladies</h3>
+            </div>
+          <ul class="grid large-block-grid-6 locations-grid">
+            {% for materials in MATERIALS %}
+            <li>
+              <div>
+                  <ul>
+                      <li>
+                          Título: {{materials.title}}
+                      </li>
+                      <li>
+                          Link: <a href="{{ materials.link }}" target="_blank">{{ materials.link }}</a>
+                      </li>
+                  </ul>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
   </div>
