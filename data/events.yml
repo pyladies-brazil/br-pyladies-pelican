@@ -1,6 +1,11 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-eventos
 
+- url: https://pt-br.facebook.com/pyladiesfloripa/
+  name: TECHNIC - piquenique das comunidades de mulheres na TI
+  date: 11-03-2017
+  local: Parque de Coqueiros - Coqueiros, Florianópolis
+
 - url: https://djangogirls.org/florianopolis/
   name: Django Girls Floripa na PyBr12
   date: 14-10-2016
