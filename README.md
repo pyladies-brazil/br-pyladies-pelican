@@ -11,11 +11,9 @@ Instalando e Rodando
 
 		$ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
 
-- Crie uma virtualenv e instale os requisitos de python via pip com o comando:
+- Instale os requisitos de python via pip com o comando:
 
 		$ make install
-
-(Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
 - Rode o projeto
 

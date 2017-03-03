@@ -30,9 +30,7 @@ Obs.: Nós usamos inglês como linguagem padrão dos commits (:
 
 Preparando o ambiente local
 --------------------------
-- Antes de mais nada, verifique se você tem o **Python 2.7** instalado na sua maquina.
-- Se você não possui, instale a ferramenta [virtualenv](https://virtualenv.pypa.io/),
-  que permite a criação de ambientes virtuais em Python.
+- Antes de mais nada, verifique se você tem o **Python 2.7** instalado na sua máquina.
 
 (Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
@@ -155,6 +153,12 @@ Para adicionar um novo vídeo, edite o arquivo `data/videos.yml` com o nome do v
 
 **Lembre-se** de colocar como comentário o título do vídeo antes do link:
 ![Exemplo](https://cloud.githubusercontent.com/assets/6595551/19491947/97e5df18-9553-11e6-9ed3-d1294f37a291.png "Comentário nos vídeos")
+
+
+Editar Layout
+-------------
+
+O site PyLadies utiliza um framework CSS chamado [Foundation](http://foundation.zurb.com/sites.html). Antes de escrever estilos para algo em particular, recomendamos verificar se o framework não oferece a funcionalidade ou estilo desejado, bastando que seja aplicada uma classe específica ao HTML.
 
 
 Atualizando o site
