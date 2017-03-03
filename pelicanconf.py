@@ -111,5 +111,13 @@ with open('data/talks.yml') as talks:
             namedtuple('Talks', talk.keys())(**talk)
         )
 
+with open('data/materials.yml') as materials:
+    materials_readed = yaml.load(materials.read())
+    MATERIALS = []
+    for materials in materials_readed:
+        MATERIALS.append(
+            namedtuple('Materials', materials.keys())(**materials)
+        )
+
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['tipue_search']
