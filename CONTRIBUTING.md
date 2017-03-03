@@ -165,15 +165,12 @@ Atualizando o site
 ------------------
 
 Nós temos um ambiente de teste, também conhecido como staging \o/
-Todo commit feito no branch master deste repositório irá disparar a atualização do ambiente de staging.
+Todo commit feito no branch `develop` deste repositório irá disparar a atualização do ambiente de staging automaticamente.
+O deploy leva cerca de 3 minutos e acontece através da ferramenta de integração contínua [Codeship](https://app.codeship.com/projects/203211).
 
 __** Atenção: Sempre confira se as alterações no ambiente de staging se comportam como o esperado antes de atualizar o ambiente de produção **__
 
-Este projeto está com deploy automático para o ambiente de staging. Então, para verificar se as suas alterações já estão no ambiente de teste acesse o [Snap-CI](https://snap-ci.com/pyladies-brazil/br-pyladies-pelican/branch/master), que é a ferramenta de integração contínua que utilizamos neste projeto.
-
-![Exemplo](https://cloud.githubusercontent.com/assets/2524981/19616847/6cca90c4-97fd-11e6-988d-6297e18aa247.png)
-
-Depois que o texto da caixinha da penúltima coluna ficar verde, significa que as alterações já estarão disponíveis para teste. Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Depois de testar manualmente as suas alterações, basta informar a alguma das pessoas abaixo para que as alterações sejam aplicadas no ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/) \o//
+Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Depois de testar manualmente as suas alterações, basta informar a alguma das pessoas abaixo para que as alterações sejam aplicadas no ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/) \o//
 
 - [@aninhalacerda](https://github.com/aninhalacerda)
 - [@darlenedms](https://github.com/darlenedms)
