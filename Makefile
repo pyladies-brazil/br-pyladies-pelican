@@ -144,5 +144,8 @@ endif
 virtualenv:
 	$(VIRTUALENV) $(VENV)
 
+load-facebook-events:
+	$(PY) -c "import utils; utils.load_facebook_events(utils.PYLADIES_FACEBOOK_PAGES)"
+
 
 .PHONY: up html help clean regenerate serve serve-global devserver publish github newpost newpage
