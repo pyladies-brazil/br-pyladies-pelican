@@ -5,6 +5,7 @@ import yaml
 from facebook import GraphAPI
 
 
+# Should match the page ID on the URL (e.g. https://www.facebook.com/pyladies)
 PYLADIES_FACEBOOK_PAGES = [
     'pyladies',
     'PyLadiesBrazil',
@@ -49,27 +50,28 @@ def load_facebook_events(nodes, token=os.environ.get('FACEBOOK_TOKEN')):
     :param token: Facebook Graph API token.
     """
 
-    # Facebook settings
     graph = GraphAPI(access_token=token)
 
     with open('data/events.yml', 'r') as events_file:
         existing_events = yaml.load(events_file)
 
     # Get facebook metadata on existing entries
-    facebook_ids = {entry.get('facebook-id') for entry in existing_events}
+    facebook_ids = {entry.get('facebook_id') for entry in existing_events}
 
     fetched_events = []
 
     for node in nodes:
         event_node = "{}/events".format(node)
+        # XXX: Ideally we would follow subrequests, but a large limit
+        # should work as a simple solution.
         node_events = graph.get_object(event_node, limit=1000)
 
         for event in node_events['data']:
-
             # If event already exists, just ignore
             if event['id'] in facebook_ids:
                 continue
 
+            # We need to reshape datetimes to events format
             format_date = datetime.strptime(event['start_time'],
                                             '%Y-%m-%dT%H:%M:%S%z')
 
@@ -81,6 +83,7 @@ def load_facebook_events(nodes, token=os.environ.get('FACEBOOK_TOKEN')):
                 'facebook_id': str(event['id'])
             })
 
+    # Pretty print new entries on the events file
     with open('data/events.yml', 'a') as events_file:
         for entry in fetched_events:
             events_file.write('\n')
