@@ -78,16 +78,31 @@ Se tudo deu certo, sua página já estará disponível em `/slug-pagina/`.
 Adicionar Eventos
 -----------------
 
-Para adicionar novos eventos, basta editar o arquivo `data/events.yml` . Ele possui o seguinte formato:
+Existem duas formas de incluir eventos no site, manualmente e através de um evento no Facebook.
+
+Para adicionar novos eventos manualmente, basta editar o arquivo `data/events.yml`. Ele possui o seguinte formato:
 
 ```yaml
 - url: URL DO SEU EVENTO
   name: NOME DO EVENTO
   date: DATA EVENTO (Formato DD-MM-YYYY)
   local: LOCAL EVENTO
+  facebook_id: ID DO EVENTO NO FACEBOOK (se houver)
 ```
 
 Caso o evento seja novo, ele será automaticamente inserido em Novos Eventos. Caso contrário, já ficará na lista de Eventos passados.
+
+É possível também importar os eventos do Facebook de páginas de grupos PyLadies espalhados pelo Brasil, para isso, primeiramente verifique se o ID do Facebook da página do seu grupo (aquele que aparece na URL quando acessado) se encontra na listagem de grupos em `utils/__init__.py`.
+
+O próximo passo é obter um token de acesso do Facebook para o seu usuário. Você pode facilmente obte-lo no link https://developers.facebook.com/tools/explorer e copiando o campo "Token de acesso". Não compartilhe seu token de usuário com outras pessoas.
+
+Em seguida, abra uma linha de comando e atribua seu token a uma variável de ambiente com o comando (não esqueça as aspas):
+
+    export FACEBOOK_TOKEN="{seu-token}"
+
+Agora é só rodar o comando abaixo, lembrando que o conteúdo gerado é estático, ou seja, para atualizá-lo é necessário re-executar o comando:
+
+    make load-facebook-events
 
 
 Adicionar Ladies
