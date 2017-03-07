@@ -89,9 +89,14 @@ with open('data/events.yml') as events:
     events_converted = yaml.load(events.read())
     EVENTS = []
     PAST_EVENTS = []
+
+    # Convert dates to datetimes
     for event in events_converted:
-        # date as a datetime obj
         event['date'] = datetime.strptime(event['date'], '%d-%m-%Y').date()
+
+    # Sort events by date
+    for event in sorted(events_converted,
+                        key=lambda event: event['date'], reverse=True):
         e = namedtuple('Event', event.keys())(**event)
         EVENTS.append(e)
 
