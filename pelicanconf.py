@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
-import os
 from datetime import datetime
 from collections import namedtuple
 
@@ -10,7 +9,8 @@ import yaml
 AUTHOR = u'Pyladies'
 SITENAME = u'Pyladies Brasil'
 SITEURL = 'http://localhost:8000'
-TAGLINE = u'Ninguém pode fazer você se sentir inferior sem o seu consentimento (Eleanor Roosevelt)'
+TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
+           'sem o seu consentimento (Eleanor Roosevelt)')
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
 DEFAULT_BG = 'images/pyladies-brasil-logo.png'
 SINCE = datetime.now().year
@@ -65,7 +65,7 @@ GOOGLE_ANALYTICS_UA = 'UA-58961512-1'
 
 DISQUS_SITENAME = 'pyladiesbrasil'
 # Uncomment following line if you want document-relative URLs when developing
-#RELATIVE_URLS = True
+# RELATIVE_URLS = True
 
 
 # Ladies, Locations, Events and Videos
@@ -88,10 +88,14 @@ with open('data/locations.yml') as locations:
 with open('data/events.yml') as events:
     events_converted = yaml.load(events.read())
     EVENTS = []
-    PAST_EVENTS = []
+
+    # Convert dates to datetimes
     for event in events_converted:
-        # date as a datetime obj
         event['date'] = datetime.strptime(event['date'], '%d-%m-%Y').date()
+
+    # Sort events by date
+    for event in sorted(events_converted,
+                        key=lambda event: event['date'], reverse=True):
         e = namedtuple('Event', event.keys())(**event)
         EVENTS.append(e)
 
