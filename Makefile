@@ -55,6 +55,7 @@ help:
 	@echo '   make stopserver                     stop local server                  '
 	@echo '   make github                         upload the web site via gh-pages   '
 	@echo '   make virtualenv                     create default virtual environment '
+	@echo '   make load-facebook-events           load events from known FB pages    '
 	@echo '                                                                          '
 	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
@@ -143,6 +144,9 @@ endif
 
 virtualenv:
 	$(VIRTUALENV) $(VENV)
+
+load-facebook-events:
+	$(PY) -c "import utils; utils.load_facebook_events(utils.PYLADIES_FACEBOOK_PAGES)"
 
 
 .PHONY: up html help clean regenerate serve serve-global devserver publish github newpost newpage
