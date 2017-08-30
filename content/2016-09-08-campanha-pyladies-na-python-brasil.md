@@ -5,7 +5,7 @@ Tags: eventos, Python Brasil
 Category: PyBR
 Author: Paula Grangeiro
 
-A [Python Brasil](http://2016.pythonbrasil.org.br/) é a maior conferência nacional da linguagem de programação Python. Este ano, na décima segunda edição da conferência, o evento irá ocorrer em Florianópolis entre os dias 13 à 18 de outubro. Será praticamente uma semana inteira de tutoriais, palestras e sprints de programação.
+A [Python Brasil](http://2016.pythonbrasil.org.br/) é a maior conferência nacional da linguagem de programação Python. Este ano, na décima segunda edição da conferência, o evento irá ocorrer em Florianópolis entre os dias 13 e 18 de outubro. Será praticamente uma semana inteira de tutoriais, palestras e sprints de programação.
 
 Esta edição também será marcante no quesito diversidade: pela primeira vez na história da conferência, um terço das palestras serão ministradas por mulheres. Proporção que equivale à um total de 14 palestras, 11 ministradas por integrantes do PyLadies. E este número ainda pode aumentar já que algumas PyLadies dependem de liberação de faculdade, trabalho, etc, para que possam comparecer ao evento.
 
