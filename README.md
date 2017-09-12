@@ -1,8 +1,6 @@
 Site Pyladies Brasil
 ====================
-[![Build Status](https://snap-ci.com/pyladies-brazil/br-pyladies-pelican/branch/master/build_image)](https://snap-ci.com/pyladies-brazil/br-pyladies-pelican/branch/master)
-
-[![Build Status](https://codeship.com/projects/d8511330-d864-0134-15a2-326e4d300ce2/status?branch=master)](https://codeship.com/projects/d8511330-d864-0134-15a2-326e4d300ce2/status?branch=master)
+[![Build Status](https://app.codeship.com/projects/bca2dab0-d874-0134-15a2-326e4d300ce2/status?branch=master)](https://app.codeship.com/projects/bca2dab0-d874-0134-15a2-326e4d300ce2/status?branch=master)
 
 Instalando e Rodando
 --------------------
