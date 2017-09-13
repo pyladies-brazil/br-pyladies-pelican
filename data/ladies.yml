@@ -252,6 +252,24 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
 
+- name: Eliane Isadora Faveron
+  cidade: Caxias do Sul - RS
+  github: eifmaciel
+  facebook: elianeisadora.faveron
+  image: /images/ladies/eliane.jpg
+
+- name: Jaqueline Trevizan
+  cidade: Caxias do Sul - RS
+  github: jaquelinetrevizan
+  twitter: jaquetrevizan
+  facebook: jaque.trevizan
+  image: /images/ladies/jaqueline.jpg
+
+- name: Maria Carolina Lima
+  cidade: Caxias do Sul - RS 
+  facebook: mariacarolina.pradolima
+  image: /images/ladies/maria.png
+
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
 #   url: [optional] seu site pessoal
