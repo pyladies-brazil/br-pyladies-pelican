@@ -78,6 +78,12 @@
   facebook: debora.azevedo
   image: /images/ladies/debora100.jpg
 
+- name: Eliane Isadora Faveron
+  cidade: Caxias do Sul - RS
+  github: eifmaciel
+  facebook: elianeisadora.faveron
+  image: /images/ladies/eliane.jpg
+
 - name: Erika Campos
   cidade: São Paulo - SP
   twitter: minusculas
@@ -125,7 +131,14 @@
   cidade: São José dos Campos - SP
   github: senaingrid
   facebook: senaingrid
-  image: /images/ladies/ingrid.jpg  
+  image: /images/ladies/ingrid.jpg
+
+- name: Jaqueline Trevizan
+  cidade: Caxias do Sul - RS
+  github: jaquelinetrevizan
+  twitter: jaquetrevizan
+  facebook: jaque.trevizan
+  image: /images/ladies/jaqueline.jpg  
 
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
@@ -186,6 +199,11 @@
   twitter: Lidy_Monteiro
   facebook: lidiannemonteiro
   image: /images/ladies/lidy.jpg
+
+- name: Maria Carolina Lima
+  cidade: Caxias do Sul - RS 
+  facebook: mariacarolina.pradolima
+  image: /images/ladies/maria.png
 
 - name: Monalisa Mello
   cidade: Florianópolis - SC
