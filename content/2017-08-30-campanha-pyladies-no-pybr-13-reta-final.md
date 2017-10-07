@@ -1,5 +1,5 @@
 Title: Campanha PyLadies no PyBR[13] - reta final!
-Slug: campanha-pyladies-no-pybr-13-reta-final-
+Slug: campanha-pyladies-no-pybr-13-reta-final
 Date: 2017-08-30 10:27:46
 Tags: eventos, Python Brasil
 Category: PyBR
