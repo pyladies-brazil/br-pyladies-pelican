@@ -6,7 +6,7 @@ Category: Publieditorial
 author: Letícia Monteiro
 comments: true
 
-A PyBR[13] começou e as PyLadies têm muito o que comemorar: este ano são 16 atividades ministradas por mulheres e, graças às contribuições com nossa [campanha de financiamento coletivo](http://brasil.pyladies.com/2017/08/30/campanha-pyladies-no-pybr-13-reta-final), conseguimos trazer <b>todas</b> as ladies que precisavam de auxílio financeiro para participar do evento! Devemos mais esse passo em direção a uma maior diversidade e inclusão feminina na comunidade Python a apoiadores cruciais como a Labcodes.
+A PyBR[13] começou e as PyLadies têm muito o que comemorar: este ano são 16 atividades ministradas por mulheres e, graças às contribuições com nossa [campanha de financiamento coletivo](http://brasil.pyladies.com/2017/08/30/campanha-pyladies-no-pybr-13-reta-final), conseguimos trazer <b>todas</b> as ladies que precisavam de auxílio financeiro para participar do evento! Devemos mais esse passo em direção a uma maior diversidade e inclusão feminina na comunidade Python a apoiadores cruciais como a Labcodes Software Studio.
 
 ![Labcodes]({filename}/images/labcodes0.jpeg)
 
