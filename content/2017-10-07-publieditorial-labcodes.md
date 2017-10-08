@@ -9,7 +9,7 @@ A <b>PyBR[13]</b> começou e as PyLadies têm muito o que comemorar: este ano s�
 
 ![Labcodes]({filename}/images/labcodes0.jpeg)
 
-A Labcodes é um estúdio de software que projeta, implementa e escala produtos digitais de qualidade.
+A <b>Labcodes</b> é um estúdio de software que projeta, implementa e escala produtos digitais de qualidade.
 Nascida e criada dentro da comunidade, faz parte da cultura da empresa retribuir, seja apoiando projetos open source ou ajudando a organizar eventos — como vários encontros do PUG-PE, uma Python Nordeste e a Python Brasil de 2014, em Porto de Galinhas/PE.
 
 Com clientes ao redor do mundo, a Labcodes trabalha construindo novos produtos, fornecendo _team augmentation_ e reduzindo custos ao automatizar processos internos. Sua equipe é multi talentosa e apaixonada por software, desde concepção e design a desenvolvimento: "Acreditamos que qualidade é um pilar não negociável ao construir produtos digitais e comunicação é a chave para resolver todos os problemas".
@@ -17,9 +17,9 @@ Com clientes ao redor do mundo, a Labcodes trabalha construindo novos produtos, 
 ![Equipe Labcodes]({filename}/images/labcodes1.jpeg)
 
 São especialistas em:<br>
-&ast; Python e Django: Criam e mantêm o código, fazendo algumas contribuições para o framework e ministrando palestras e workshops em eventos de tecnologia no mundo. Sua equipe conta com um membro da Django Software Foundation (organização sem fins lucrativos que cuida do próprio Django).<br>
-&ast; Javascript: Trabalham com AngularJS, React e Vue para criar excelentes aplicativos web que funcionam perfeitamente em todos os dispositivos, Desktop, tablet ou celular. Também ajudam a comunidade dando palestras e contribuindo com código aberto.<br>
-&ast; User experience: Criam interfaces que nascem da necessidade dos seus usuários, fornecendo excelentes experiências e interações.
+&ast; <b>Python e Django</b>: Criam e mantêm o código, fazendo algumas contribuições para o framework e ministrando palestras e workshops em eventos de tecnologia no mundo. Sua equipe conta com um membro da Django Software Foundation (organização sem fins lucrativos que cuida do próprio Django).<br>
+&ast; <b>Javascript</b>: Trabalham com AngularJS, React e Vue para criar excelentes aplicativos web que funcionam perfeitamente em todos os dispositivos, Desktop, tablet ou celular. Também ajudam a comunidade dando palestras e contribuindo com código aberto.<br>
+&ast; <b>User experience</b>: Criam interfaces que nascem da necessidade dos seus usuários, fornecendo excelentes experiências e interações.
 
 Conheça mais sobre a Labcodes em:<br>
 [labcodes.com.br](http://www.labcodes.com.br/)<br>
