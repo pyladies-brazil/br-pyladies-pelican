@@ -18,15 +18,15 @@ Com clientes ao redor do mundo, a Labcodes trabalha construindo novos produtos, 
 ![Equipe Labcodes]({filename}/images/labcodes1.jpeg)
 
 São especialistas em:
-* Python e Django: Criam e mantêm o código, fazendo algumas contribuições para o framework e ministrando palestras e workshops em eventos de tecnologia no mundo. Sua equipe conta com um membro da Django Software Foundation (organização sem fins lucrativos que cuida do próprio Django).
-* Javascript: Trabalham com AngularJS, React e Vue para criar excelentes aplicativos web que funcionam perfeitamente em todos os dispositivos, Desktop, tablet ou celular. Também ajudam a comunidade dando palestras e contribuindo com código aberto.
-* User experience: Criam interfaces que nascem da necessidade dos seus usuários, fornecendo excelentes experiências e interações.
+&ast; Python e Django: Criam e mantêm o código, fazendo algumas contribuições para o framework e ministrando palestras e workshops em eventos de tecnologia no mundo. Sua equipe conta com um membro da Django Software Foundation (organização sem fins lucrativos que cuida do próprio Django).
+\* Javascript: Trabalham com AngularJS, React e Vue para criar excelentes aplicativos web que funcionam perfeitamente em todos os dispositivos, Desktop, tablet ou celular. Também ajudam a comunidade dando palestras e contribuindo com código aberto.
+\* User experience: Criam interfaces que nascem da necessidade dos seus usuários, fornecendo excelentes experiências e interações.
 
-Conheça mais sobre a Labcodes em:
-http://www.labcodes.com.br/
-https://medium.com/labcodes
-http://facebook.com/labcodes
-instagram.com/labcodes
-twitter.com/labcodes
+Conheça mais sobre a Labcodes em:<br>
+[labcodes.com.br](http://www.labcodes.com.br/)<br>
+[medium.com/labcodes](https://www.medium.com/labcodes)<br>
+[facebook.com/labcodes](http://www.facebook.com/labcodes)<br>
+[instagram.com/labcodes](https://www.instagram.com/labcodes)<br>
+[twitter.com/labcodes](https://www.twitter.com/labcodes)<br>
 
 Este publieditorial é um agradecimento nosso e parte da recompensa pela cota de patrocínio oferecida pela Labcodes.
