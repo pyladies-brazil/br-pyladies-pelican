@@ -1,5 +1,5 @@
 Title: Obrigada, Naomi Ceder e Trans Code!
-Slug: obrigada-naomi-ceder-e-trans-code
+Slug: publieditorial-naomi-ceder
 Date: 2017-10-07 00:47:52
 Tags: eventos, PyBR, Labcodes
 Category: Publieditorial
