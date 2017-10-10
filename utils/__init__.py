@@ -72,8 +72,8 @@ def load_facebook_events(nodes, token=os.environ.get('FACEBOOK_TOKEN')):
                 continue
 
             # We need to reshape datetimes to events format
-            format_date = datetime.strptime(event['start_time'],
-                                            '%Y-%m-%dT%H:%M:%S%z')
+            format_date = datetime.strptime(event['start_time'][:-2],
+                                            '%Y-%m-%dT%H:%M:%S%Z')
 
             fetched_events.append({
                 'name': event['name'],
