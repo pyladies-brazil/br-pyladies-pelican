@@ -4,11 +4,12 @@ from __future__ import unicode_literals
 from datetime import datetime
 from collections import namedtuple
 
+import os
 import yaml
 
 AUTHOR = u'Pyladies'
 SITENAME = u'Pyladies Brasil'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://localhost:{}'.format(os.getenv('PORT', '8000'))
 TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
            'sem o seu consentimento (Eleanor Roosevelt)')
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
