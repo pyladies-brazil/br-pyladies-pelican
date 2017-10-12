@@ -2,6 +2,11 @@
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-eventos
 
 - url: https://pt-br.facebook.com/pyladiesfloripa/
+  name: Django Girls Florianópolis
+  date: 11-11-2017
+  local: SENAI Florianópolis
+
+- url: https://pt-br.facebook.com/pyladiesfloripa/
   name: TECHNIC - piquenique das comunidades de mulheres na TI
   date: 11-03-2017
   local: Parque de Coqueiros - Coqueiros, Florianópolis
