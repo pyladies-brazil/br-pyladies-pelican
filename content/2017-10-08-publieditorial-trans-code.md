@@ -19,6 +19,7 @@ Sabemos o quanto é importante para o aprendizado de programação que o primeir
 Novos eventos em novos lugares são bem-vindos! Conheça melhor o projeto no http://trans.tech e [twitter.com/trans_code](http://www.twitter.com/trans_code), e organize você também uma edição na sua localidade!
 
 ![Trans Code 2016]({filename}/images/trans-code/20160423_143037.jpg)
+
 ![Trans Code 2016]({filename}/images/trans-code/20160423_142941.jpg)
 
 Este publieditorial é um agradecimento nosso e parte da recompensa pela cota de patrocínio oferecida pela professora Naomi Ceder.
