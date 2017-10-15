@@ -10,9 +10,9 @@ Infelizmente a 13ª edição da <b>Python Brasil</b> chegou ao fim e as PyLadies
 
 ![Avelino]({filename}/images/avelino.jpg)
 
-Prolífico colaborador open source desde muito jovem, <b>Thiago Avelino</b> é referência na comunidade Python e especialista em inteligência artificial, redes neurais e na linguagem Go, de cujo time desenvolvedor fez parte. Colaborou com vários projetos que a gente ama, como o próprio Django (❤). Obrigada por isso também, Avelino!
+Prolífico colaborador open source desde muito jovem, <b>Thiago Avelino</b> é referência na comunidade Python e especialista em inteligência artificial, redes neurais e na linguagem Go, de cujo time desenvolvedor fez parte. Colaborou com vários projetos que a gente ama, como o próprio <b>Django</b> (❤). Obrigada por isso também, Avelino!
 
-Gente boa, incentivador da diversidade em tech, é fundador e CTO da [Nuveo](https://nuveo.ai/). Está contratando e não perde uma <b>PyBR</b> para encontrar pessoas que possam dar "match" com a empresa.
+Gente fina, é fundador e CTO da [Nuveo](https://nuveo.ai/), que hoje tem a diversidade na rota de melhorias. Está contratando e não perde uma <b>PyBR</b> para encontrar pessoas que possam dar "match" com a empresa.
 
 Acompanhe o trabalho do Avelino no [Twitter](https://twitter.com/avelino0) e no [Github](https://github.com/avelino).
 
