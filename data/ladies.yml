@@ -132,6 +132,13 @@
   github: senaingrid
   facebook: senaingrid
   image: /images/ladies/ingrid.jpg
+  
+- name: Isabela Pinto
+  cidade: Salvador - BA
+  github: isabelapnt
+  twitter: isabelapnt
+  facebook: isabela.pinto1
+  image: /images/ladies/isabela.jpg
 
 - name: Jaqueline Trevizan
   cidade: Caxias do Sul - RS
@@ -269,14 +276,6 @@
   github: vanessaromankiv
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
-
-
-- name: Isabela Pinto
-  cidade: Salvador - BA
-  github: isabelapnt
-  twitter: isabelapnt
-  facebook: isabela.pinto1
-  image: /images/ladies/isabela.jpg
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
