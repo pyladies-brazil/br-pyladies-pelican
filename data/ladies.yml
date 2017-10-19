@@ -71,6 +71,12 @@
   facebook: darlene.medeiros.169
   image: /images/ladies/darlene.jpeg
 
+- name: Dayanne Fernandes da Cunha
+  cidade: Brasília - DF
+  github: Dayof
+  facebook: daayoff
+  image: /images/ladies/dayanne.jpg
+
 - name: Debora Azevedo
   cidade: Natal
   github: deboraazevedo
@@ -138,7 +144,7 @@
   github: jaquelinetrevizan
   twitter: jaquetrevizan
   facebook: jaque.trevizan
-  image: /images/ladies/jaqueline.jpg  
+  image: /images/ladies/jaqueline.jpg
 
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
@@ -151,7 +157,7 @@
   github: jessicamorim42
   facebook: jessicamorim.42
   image: /images/ladies/jessica.jpg
-  
+
 - name: Joana Souza
   cidade: Salvador - BA
   github: joanasouza
@@ -170,7 +176,7 @@
   github: julianaklulo
   twitter: julianaklulo
   facebook: julianaklulo
-  image: /images/ladies/juliana.jpg 
+  image: /images/ladies/juliana.jpg
 
 - name: Katyanna Moura
   cidade: Natal - RN
@@ -201,7 +207,7 @@
   image: /images/ladies/lidy.jpg
 
 - name: Maria Carolina Lima
-  cidade: Caxias do Sul - RS 
+  cidade: Caxias do Sul - RS
   facebook: mariacarolina.pradolima
   image: /images/ladies/maria.png
 
