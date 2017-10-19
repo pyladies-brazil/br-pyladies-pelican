@@ -270,6 +270,14 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
 
+
+- name: Isabela Pinto
+  cidade: Salvador - BA
+  github: isabelapnt
+  twitter: isabelapnt
+  facebook: isabela.pinto1
+  image: /images/ladies/isabela.jpg
+
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
 #   url: [optional] seu site pessoal
