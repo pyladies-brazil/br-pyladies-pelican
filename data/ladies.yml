@@ -296,6 +296,13 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
 
+- name: Julia Lamenza
+  cidade: Rio de Janeiro - RJ
+  github: julialamenza
+  twitter: jlamenza18
+  facebook: julialamenza
+  image: /images/ladies/julialamenza.jpg
+
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
 #   url: [optional] seu site pessoal
