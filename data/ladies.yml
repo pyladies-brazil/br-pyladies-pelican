@@ -178,6 +178,13 @@
   facebook: julia.carmona.9
   image: /images/ladies/julia.jpg
 
+- name: Julia Lamenza
+  cidade: Rio de Janeiro - RJ
+  github: julialamenza
+  twitter: jlamenza18
+  facebook: julialamenza
+  image: /images/ladies/julialamenza.jpg
+
 - name: Juliana Karoline
   cidade: São Carlos - SP
   github: julianaklulo
@@ -296,12 +303,6 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
 
-- name: Julia Lamenza
-  cidade: Rio de Janeiro - RJ
-  github: julialamenza
-  twitter: jlamenza18
-  facebook: julialamenza
-  image: /images/ladies/julialamenza.jpg
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
