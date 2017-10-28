@@ -347,3 +347,69 @@
   local: ''
   name: Meetup Pyladies São Luís
   url: https://facebook.com/413791972319545
+
+- date: 26-06-2016
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: Treinamento Django
+  url: https://encontros.matehackers.org/pt/projects/43-treinamento-django
+
+- date: 13-08-2016
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: Django Girls Porto Alegre 2
+  url: https://djangogirls.org/portoalegre2/
+
+- date: 17-03-2017
+  local: 'PUC-RS, Porto Alegre'
+  name: Django Girls Porto Alegre 3
+  url: https://djangogirls.org/portoalegre3/
+
+- date: 26-08-2017
+  local: 'Feevale, Novo Hamburgo'
+  name: Django Girls Novo Hamburgo
+  url: https://djangogirls.org/novohamburgo/
+
+- date: 07-09-2017
+  local: 'UCS, Caxias do Sul'
+  name: Django Girls Caxias do Sul
+  url: https://djangogirls.org/caxiasdosul/
+
+- date: 22-04-2017
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: PyLadies POA + CodeBeer
+  url: http://pyladiespoa.pythonanywhere.com/post/21/
+
+- date: 13-05-2017
+  local: 'DB Server, Porto Alegre'
+  name: Workshop Básico de Python  
+  url: http://pyladiespoa.pythonanywhere.com/post/18/
+
+- date: 13-05-2017
+  local: 'IF-RS, Porto Alegre'
+  name: PyLadies na Semana Acadêmica do IF-RS  
+  url: https://www.facebook.com/763383860510341
+  facebook_id: '763383860510341'
+
+- date: 13-05-2017
+  local: 'Vila Flores, Porto Alegre'
+  name: Aniversário 1 ano PyLadies POA
+  url: http://pyladiespoa.pythonanywhere.com/post/19/
+
+- date: 15-11-2016
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: Encontro PyLadies POA
+  url: https://encontros.matehackers.org/pt/projects/50-pyladies-porto-alegre
+
+- date: 15-07-2017
+  local: 'UCS, Caxias do Sul'
+  name: Encontro PyLadies Caxias do Sul + PyLadies POA
+  url: http://pyladiespoa.pythonanywhere.com/post/20/
+
+- date: 08-09-2017
+  local: 'UCS, Caxias do Sul'
+  name: PyLadies na Python Sul
+  url: http://pyladiespoa.pythonanywhere.com/post/24/
+
+- date: 19-08-2017
+  local: 'IF-Restinga, Porto Alegre'
+  name: PyLadies no IF-Restinga
+  url: http://pyladiespoa.pythonanywhere.com/post/22/
