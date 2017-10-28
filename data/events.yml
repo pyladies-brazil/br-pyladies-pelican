@@ -109,7 +109,7 @@
 
 - date: 27-08-2016
   facebook_id: '201000006982677'
-  local: ''
+  local: 'São Paulo, SP'
   name: Curso Iniciante de progamação em Python (Gratuito)
   url: https://facebook.com/201000006982677
 
@@ -236,6 +236,180 @@
 
 - date: 31-03-2017
   facebook_id: '1834178826833598'
-  local: ''
+  local: 'Salvador, BA'
   name: Sessão Cinema PyLadiesSLZ
   url: https://facebook.com/1834178826833598
+
+- date: 09-10-2017
+  facebook_id: '162064711011376'
+  local: 'Corleone Espetos & Cervejas'
+  name: Conexão Anitas- PythonBrasil BH
+  url: https://facebook.com/162064711011376
+
+- date: 07-09-2017
+  facebook_id: '162824437599273'
+  local: ThoughtWorks São Paulo
+  name: Aniversário de 2 Anos do PyLadies São Paulo
+  url: https://facebook.com/162824437599273
+
+- date: 29-07-2017
+  facebook_id: '1895984224055222'
+  local: Laboratório Hacker De Campinas
+  name: 'Encontro do PyLadies Campinas'
+  url: https://facebook.com/1895984224055222
+
+- date: 16-09-2017
+  facebook_id: '2055773211316874'
+  local: Campus Teresina Central do Instituto Federal do Piauí
+  name: 'Django Girls Teresina'
+  url: https://facebook.com/2055773211316874
+
+- date: 20-05-2017
+  facebook_id: '1945159739040522'
+  local: Quero Educação
+  name: 2º Workshop Django Girls São José dos Campos
+  url: https://facebook.com/1945159739040522
+
+- date: 27-05-2017
+  facebook_id: '776316449192025'
+  local: 'Faculdade Cesusc'
+  name: 'Workshop - Python Iniciante'
+  url: https://facebook.com/776316449192025
+
+- date: 04-05-2017
+  facebook_id: '292920024469316'
+  local: Rua Barão do Flamengo, Rio de Janeiro - RJ, 22220-080, Brasil
+  name: Conexão Anitas Rio de Janeiro cap.1 Liderança Feminina
+  url: https://facebook.com/292920024469316
+
+- date: 27-04-2017
+  facebook_id: '1560524287322646'
+  local: Rua Nirberto Haase, 60 - 2º andar
+  name: 4º Pyladies Floripa
+  url: https://facebook.com/1560524287322646
+
+- date: 01-07-2017
+  facebook_id: '159846597891472'
+  local: 'Faculdade Cesusc'
+  name: 2º Workshop Iniciante de Python para Mulheres
+  url: https://facebook.com/159846597891472
+
+- date: 01-07-2017
+  facebook_id: '1290844574370284'
+  local: 'Sindicato dos Engenheiros - Senge Rio'
+  name: 'Mana Pirata'
+  url: https://facebook.com/1290844574370284
+
+- date: 04-05-2017
+  facebook_id: '292920024469316'
+  local: Rua Barão do Flamengo, Rio de Janeiro - RJ, 22220-080, Brasil
+  name: Conexão Anitas Rio de Janeiro cap.1 Liderança Feminina
+  url: https://facebook.com/292920024469316
+
+- date: 29-09-2017
+  facebook_id: '362630350841468'
+  local: Espaço Inovação - Parque de Ciência e Tecnologia do Guamá
+  name: Aniversário de 1 ano do PyLadies Belém
+  url: https://facebook.com/362630350841468
+
+- date: 27-08-2017
+  facebook_id: '2001303340098959'
+  local: 'Grupo Rede Mais'
+  name: 'Nodebots Day Salvador'
+  url: https://facebook.com/2001303340098959
+
+- date: 31-07-2017
+  facebook_id: '584172385306920'
+  local: 'Raul Hacker Club'
+  name: 'Cidadania: Hacker'
+  url: https://facebook.com/584172385306920
+
+- date: 23-09-2017
+  facebook_id: '1671610539556581'
+  local: 'Unicap'
+  name: 'IV Encontro PyLadies Recife'
+  url: https://facebook.com/1671610539556581
+
+- date: 26-08-2017
+  facebook_id: '696990097168492'
+  local: POLI - UPE - Escola Politécnica de Pernambuco
+  name: 'Encontro da PyLadies Recife'
+  url: https://facebook.com/696990097168492
+
+- date: 21-07-2017
+  facebook_id: '116414668991338'
+  local: Casa de Mãinha
+  name: Ladies Night - Maceió
+  url: https://facebook.com/116414668991338
+
+- date: 19-04-2017
+  facebook_id: '413791972319545'
+  local: 'São Luís, MA'
+  name: Meetup Pyladies São Luís
+  url: https://facebook.com/413791972319545
+
+- date: 26-06-2016
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: Treinamento Django
+  url: https://encontros.matehackers.org/pt/projects/43-treinamento-django
+
+- date: 13-08-2016
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: Django Girls Porto Alegre 2
+  url: https://djangogirls.org/portoalegre2/
+
+- date: 17-03-2017
+  local: 'PUC-RS, Porto Alegre'
+  name: Django Girls Porto Alegre 3
+  url: https://djangogirls.org/portoalegre3/
+
+- date: 26-08-2017
+  local: 'Feevale, Novo Hamburgo'
+  name: Django Girls Novo Hamburgo
+  url: https://djangogirls.org/novohamburgo/
+
+- date: 07-09-2017
+  local: 'UCS, Caxias do Sul'
+  name: Django Girls Caxias do Sul
+  url: https://djangogirls.org/caxiasdosul/
+
+- date: 22-04-2017
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: PyLadies POA + CodeBeer
+  url: http://pyladiespoa.pythonanywhere.com/post/21/
+
+- date: 13-05-2017
+  local: 'DB Server, Porto Alegre'
+  name: Workshop Básico de Python  
+  url: http://pyladiespoa.pythonanywhere.com/post/18/
+
+- date: 13-05-2017
+  local: 'IF-RS, Porto Alegre'
+  name: PyLadies na Semana Acadêmica do IF-RS  
+  url: https://www.facebook.com/763383860510341
+  facebook_id: '763383860510341'
+
+- date: 13-05-2017
+  local: 'Vila Flores, Porto Alegre'
+  name: Aniversário 1 ano PyLadies POA
+  url: http://pyladiespoa.pythonanywhere.com/post/19/
+
+- date: 15-11-2016
+  local: 'Hackerspace MateHackers, Porto Alegre'
+  name: Encontro PyLadies POA
+  url: https://encontros.matehackers.org/pt/projects/50-pyladies-porto-alegre
+
+- date: 15-07-2017
+  local: 'UCS, Caxias do Sul'
+  name: Encontro PyLadies Caxias do Sul + PyLadies POA
+  url: http://pyladiespoa.pythonanywhere.com/post/20/
+
+- date: 08-09-2017
+  local: 'UCS, Caxias do Sul'
+  name: PyLadies na Python Sul
+  url: http://pyladiespoa.pythonanywhere.com/post/24/
+
+- date: 19-08-2017
+  local: 'IF-Restinga, Porto Alegre'
+  name: PyLadies no IF-Restinga
+  url: http://pyladiespoa.pythonanywhere.com/post/22/
