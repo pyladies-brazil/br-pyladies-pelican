@@ -66,6 +66,12 @@
   github: ClaudiaStrm
   image: /images/ladies/claudiasm.jpg
 
+- name: Cris Motinha
+  cidade: Rio de Janeiro - RJ
+  github: crismotinha
+  facebook: crismotinha
+  image: /images/ladies/crismotinha.jpg
+
 - name: Daniela Palumbo
   cidade: Campinas - SP
   github: danipj
