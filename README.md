@@ -10,6 +10,7 @@ Instalando e Rodando
 		$ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
 
 - Instale os requisitos de python via pip com o comando:
+> Obs.: Esse comando criará uma vm, então rode-o fora de qualquer vm.
 
 		$ make install
 
