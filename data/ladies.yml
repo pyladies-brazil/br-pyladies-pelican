@@ -6,6 +6,12 @@
   twitter: alini_x
   image: /images/ladies/alini-ramos.jpg
 
+- name: Amanda Chagas
+  cidade: Salvador - BA
+  github: amandachagas
+  facebook: manda.chagas
+  image: /images/ladies/amanda.jpg
+
 - name: Ana Maria
   cidade: Teresina - PI
   github: anamariagds
@@ -65,6 +71,12 @@
   twitter: ClaudiaStrm
   github: ClaudiaStrm
   image: /images/ladies/claudiasm.jpg
+
+- name: Cris Motinha
+  cidade: Rio de Janeiro - RJ
+  github: crismotinha
+  facebook: crismotinha
+  image: /images/ladies/crismotinha.jpg
 
 - name: Daniela Palumbo
   cidade: Campinas - SP

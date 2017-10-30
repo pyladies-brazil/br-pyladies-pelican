@@ -129,6 +129,8 @@ O endereço da foto em nosso projeto.
 
 Nesse caso, a nova imagem deverá ser inserida no diretório `content/images/ladies`
 
+**Atenção:** A imagem precisa ser `100px por 100px`.
+
 #### Path absoluto
 
 Uma url completa da foto em outro site.
