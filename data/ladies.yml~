@@ -53,6 +53,13 @@
   twitter: cecilia_tanaka
   image: /images/ladies/cecilia-tanaka.png
 
+- name: Daniela Chaves
+  cidade: Manaus - AM
+  github: Daniela-chaves
+  twitter:dany_chaves2
+  facebook: daniela.chaves.7777
+  image: /images/ladies/daniela.jpeg
+
 - name: Daniela Palumbo
   cidade: Campinas - SP
   github: danipj
@@ -119,7 +126,13 @@
   cidade: São José dos Campos - SP
   github: senaingrid
   facebook: senaingrid
-  image: /images/ladies/ingrid.jpg  
+  image: /images/ladies/ingrid.jpg
+
+- name: Jessica Tavares
+  cidade: Manaus - AM
+  github: jessiccatavares
+  facebook: ajessicca
+  image: /images/ladies/jessicatavares.jpeg  
 
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
@@ -151,7 +164,13 @@
   github: julianaklulo
   twitter: julianaklulo
   facebook: julianaklulo
-  image: /images/ladies/juliana.jpg 
+  image: /images/ladies/juliana.jpg
+
+- name: Juliany Raiol
+  cidade: Manaus - AM
+  github: julianyraiol
+  facebook: julianyraiol 
+  image: /images/ladies/juliany.jpg
 
 - name: Katyanna Moura
   cidade: Natal - RN
