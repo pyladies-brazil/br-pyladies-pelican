@@ -78,6 +78,13 @@
   facebook: crismotinha
   image: /images/ladies/crismotinha.jpg
 
+- name: Daniela Chaves
+  cidade: Manaus - AM
+  github: Daniela-chaves
+  twitter: dany_chaves2
+  facebook: daniela.chaves.7777
+  image: /images/ladies/daniela.jpeg
+
 - name: Daniela Palumbo
   cidade: Campinas - SP
   github: danipj
@@ -172,6 +179,12 @@
   facebook: jaque.trevizan
   image: /images/ladies/jaqueline.jpg
 
+- name: Jessica Tavares
+  cidade: Manaus - AM
+  github: jessiccatavares
+  facebook: ajessicca
+  image: /images/ladies/jessicatavares.jpeg  
+
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
   github: jtemporal
@@ -210,6 +223,12 @@
   twitter: julianaklulo
   facebook: julianaklulo
   image: /images/ladies/juliana.jpg
+
+- name: Juliany Raiol
+  cidade: Manaus - AM
+  github: julianyraiol
+  facebook: julianyraiol 
+  image: /images/ladies/juliany.jpeg
 
 - name: Katyanna Moura
   cidade: Natal - RN
@@ -277,6 +296,12 @@
   twitter: paulagrangeiro
   facebook: paula.grangeiro
   image: /images/ladies/pgrangeiro.jpg
+  
+- name: Raysa Dutra
+  cidade: Rio de Janeiro - RJ
+  url: https://hi-hi-ray.github.io/
+  github: hi-hi-ray
+  image: /images/ladies/raysadutra.jpg
 
 - name: Rebeca Bordini
   cidade: Rio de Janeiro - RJ
