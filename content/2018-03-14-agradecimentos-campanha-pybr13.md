@@ -57,145 +57,145 @@ Algumas mensagens das beneficiadas pela campanha:
 
 Então, sem mais delongas: muito, muito, muitíssimo obrigada,
 
-*A A DOURADO FH
-Ademar Peixoto - Biguá
-Alexandre Augusto de Sá dos Santos
-Alexandre Villares
-Ana Carolina Zeri
-Ana Paula de Luca
-Ana Paula Gomes
-Ana Schwendler
-Augusto Pascutti
-Betinho Navarrete
-Bianca Rosa
-Bruno Casella
-Bruno Inajá de Almeida Caimar
-Bruno Rocha
-Camila Vilarinho de Sousa
-Caren Cazorla
-Cássio Botaro
-Cláudia SM
-Clemencia Mora
-Cristina Motinha Martins
-Daniela Silva
-Danilo Alves Araujo
-Darlene Medeiros
-Débora Ribeiro Doimo
-Denise Recofka
-Denyse Mathiesen
-Diana Ungaro Arnos
-Diego Moreira Guimarães
-Diego Rabatone Oliveira
-EDMAR PESSOA ARAUJO NETO
-Eduardo Bonet
-Eduardo Cuducos
-Eliane Chaves Cysneiros
-Elias Dorneles da Silveira Junior
-Emmerson Siqueira de Lima
-Fabio Oliveira
-Felipe Almeida
-Fernanda Santos DePaula
-Fernando Masanori Ashikaga
-Fernando Nunes
-Filipe Cifali Stangler
-Filipe Pires Alvarenga Fernandes
-Filipe Ximenes
-Flávio Amieiro
-Gabriel Barreto
-Gabriel Bolognani Casella
-Gabriel de Souza Fedel
-Gabriel Ecker
-Gileno Alves Santa Cruz Filho
-Gomex
-Graziele da Silva Barbosa Vasconcelos
-Guido Luz Percú
-Guilherme Calcette
-Guilherme Gondim
-Guilherme Paim Mendes
-Gustavo Coelho
-Gustavo Noronha
-Heloisa Andrade de Paula
-Henrique Lauro Bagio de Souza
-Hernandes Benevides de Sousa
-Humberto Rocha
-Igor dos Santos Silva
-Igor Leroy
-Irio Musskopf
-Isadora Dantas
-Jacson
-Jair Henrique
-Jairo Jair
-Jéssica Ferreira
-Jonatas Baldin de Oliveira
-Jonatas Luiz de Oliveira
-Jota Rodrigues
-Júlio César Eiras
-Karin Umeji Abe
-Karoline Leite
-Kátia Yoshime Nakamura
-Labcodes Software Studio
-Larissa Lautert
-Leka Verta
-Leonardo Rochael Almeida
-Lidiane de Souza Monteiro
-Lidiane Taquehara
-Lindsay Ferreira
-Liv Souza
-Loadsmart Inc.
-Loise de Aguiar Lobo
-Lucas Sampaio Magalhães
-Lucas Souto Silva
-Luciano Martins Ratamero
-Luciano Ramalho
-Luiz Cláudio Santos Silva
-Magnun Leno
-Marcelo Drudi
-Marcos Silveira
-Maria Teresa Aarao
-Mario Guedes
-Mário Sérgio Oliveira de Queiroz
-Miguel Peixe
-NAOMI CEDER
-Nicolle Cysneiros
-Otávio Carneiro
-Patrick Mazulo de Brito
-Paulo H. N. de Jesus
-Paulo Henrique de Lima Santana
-Pedro Burgos
-Pedro Martins
-Rafael Caricio
-Rafael Gottsfritz
-Rafael Hans Sandalo
-Rafael Henrique da Silva Correia
-Rafaela Goulart de Andrade
-Raissa dos Santos Ferreira
-Ramiro Batista da Luz
-Raphael Alonso de Mendonça
-Regis da Silva
-Renata Scheibler
-Renato dos Santos Oliveira
-RENNE SILVA GOMES DE OLIVEIRA ROCHA
-Ricardo Olissil
-Roberta Souza Escher
-Rodolfo Lottin Pereira
-Rodrigo Octávio Melo do Amaral
-Rodrigo Vieira
-Rômulo
-Rômulo Oliveira
-Ronaldo Prado
-Samuel Maciel Sampaio
-Shirley Pacelli
-Silvia Lucia
-Simonarde Lima e Silva Junior
-Taiza Montenegro
-Tati Kubotani
-Thaíssa Falbo
-Thiago Avelino
-Thiago Medeiros de Souza
-Vitor Failace De Mario
-Yorik van Havre
-Yros Pereira Aguiar batista
-Yuri Reis
+*A A DOURADO FH<br>
+Ademar Peixoto - Biguá<br>
+Alexandre Augusto de Sá dos Santos<br>
+Alexandre Villares<br>
+Ana Carolina Zeri<br>
+Ana Paula de Luca<br>
+Ana Paula Gomes<br>
+Ana Schwendler<br>
+Augusto Pascutti<br>
+Betinho Navarrete<br>
+Bianca Rosa<br>
+Bruno Casella<br>
+Bruno Inajá de Almeida Caimar<br>
+Bruno Rocha<br>
+Camila Vilarinho de Sousa<br>
+Caren Cazorla<br>
+Cássio Botaro<br>
+Cláudia SM<br>
+Clemencia Mora<br>
+Cristina Motinha Martins<br>
+Daniela Silva<br>
+Danilo Alves Araujo<br>
+Darlene Medeiros<br>
+Débora Ribeiro Doimo<br>
+Denise Recofka<br>
+Denyse Mathiesen<br>
+Diana Ungaro Arnos<br>
+Diego Moreira Guimarães<br>
+Diego Rabatone Oliveira<br>
+EDMAR PESSOA ARAUJO NETO<br>
+Eduardo Bonet<br>
+Eduardo Cuducos<br>
+Eliane Chaves Cysneiros<br>
+Elias Dorneles da Silveira Junior<br>
+Emmerson Siqueira de Lima<br>
+Fabio Oliveira<br>
+Felipe Almeida<br>
+Fernanda Santos DePaula<br>
+Fernando Masanori Ashikaga<br>
+Fernando Nunes<br>
+Filipe Cifali Stangler<br>
+Filipe Pires Alvarenga Fernandes<br>
+Filipe Ximenes<br>
+Flávio Amieiro<br>
+Gabriel Barreto<br>
+Gabriel Bolognani Casella<br>
+Gabriel de Souza Fedel<br>
+Gabriel Ecker<br>
+Gileno Alves Santa Cruz Filho<br>
+Gomex<br>
+Graziele da Silva Barbosa Vasconcelos<br>
+Guido Luz Percú<br>
+Guilherme Calcette<br>
+Guilherme Gondim<br>
+Guilherme Paim Mendes<br>
+Gustavo Coelho<br>
+Gustavo Noronha<br>
+Heloisa Andrade de Paula<br>
+Henrique Lauro Bagio de Souza<br>
+Hernandes Benevides de Sousa<br>
+Humberto Rocha<br>
+Igor dos Santos Silva<br>
+Igor Leroy<br>
+Irio Musskopf<br>
+Isadora Dantas<br>
+Jacson<br>
+Jair Henrique<br>
+Jairo Jair<br>
+Jéssica Ferreira<br>
+Jonatas Baldin de Oliveira<br>
+Jonatas Luiz de Oliveira<br>
+Jota Rodrigues<br>
+Júlio César Eiras<br>
+Karin Umeji Abe<br>
+Karoline Leite<br>
+Kátia Yoshime Nakamura<br>
+Labcodes Software Studio<br>
+Larissa Lautert<br>
+Leka Verta<br>
+Leonardo Rochael Almeida<br>
+Lidiane de Souza Monteiro<br>
+Lidiane Taquehara<br>
+Lindsay Ferreira<br>
+Liv Souza<br>
+Loadsmart Inc.<br>
+Loise de Aguiar Lobo<br>
+Lucas Sampaio Magalhães<br>
+Lucas Souto Silva<br>
+Luciano Martins Ratamero<br>
+Luciano Ramalho<br>
+Luiz Cláudio Santos Silva<br>
+Magnun Leno<br>
+Marcelo Drudi<br>
+Marcos Silveira<br>
+Maria Teresa Aarao<br>
+Mario Guedes<br>
+Mário Sérgio Oliveira de Queiroz<br>
+Miguel Peixe<br>
+NAOMI CEDER<br>
+Nicolle Cysneiros<br>
+Otávio Carneiro<br>
+Patrick Mazulo de Brito<br>
+Paulo H. N. de Jesus<br>
+Paulo Henrique de Lima Santana<br>
+Pedro Burgos<br>
+Pedro Martins<br>
+Rafael Caricio<br>
+Rafael Gottsfritz<br>
+Rafael Hans Sandalo<br>
+Rafael Henrique da Silva Correia<br>
+Rafaela Goulart de Andrade<br>
+Raissa dos Santos Ferreira<br>
+Ramiro Batista da Luz<br>
+Raphael Alonso de Mendonça<br>
+Regis da Silva<br>
+Renata Scheibler<br>
+Renato dos Santos Oliveira<br>
+RENNE SILVA GOMES DE OLIVEIRA ROCHA<br>
+Ricardo Olissil<br>
+Roberta Souza Escher<br>
+Rodolfo Lottin Pereira<br>
+Rodrigo Octávio Melo do Amaral<br>
+Rodrigo Vieira<br>
+Rômulo<br>
+Rômulo Oliveira<br>
+Ronaldo Prado<br>
+Samuel Maciel Sampaio<br>
+Shirley Pacelli<br>
+Silvia Lucia<br>
+Simonarde Lima e Silva Junior<br>
+Taiza Montenegro<br>
+Tati Kubotani<br>
+Thaíssa Falbo<br>
+Thiago Avelino<br>
+Thiago Medeiros de Souza<br>
+Vitor Failace De Mario<br>
+Yorik van Havre<br>
+Yros Pereira Aguiar batista<br>
+Yuri Reis<br>
 Yurick Hauschild*
 
 e também a todas as pessoas que preferiram não se identificar. Vocês são incríveis!
