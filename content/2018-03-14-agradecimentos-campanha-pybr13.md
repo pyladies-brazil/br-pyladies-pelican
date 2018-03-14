@@ -16,44 +16,109 @@ Outro dado que chamou nossa atenção foi que 60% do público da PyBR13 estava e
 O principal objetivo do PyLadies é promover a diversidade no setor de tecnologia, incentivando mulheres a tornarem-se participantes ativas e líderes na comunidade Python. Para isso, é fundamental a inclusão de mulheres em eventos como a Python Brasil, e por isso todos os anos organizamos uma campanha de financiamento coletivo para prover auxílio às ladies que de outro modo não teriam condições de participar da conferência. Este ano conseguimos levar *todas* as participantes que precisavam do auxílio, graças a todas as pessoas que contribuíram com nossa campanha fazendo doações de qualquer valor. Muito além das recompensas que preparamos para quem contribuiu, como camisetas, canecas e adesivos, o mais importante que temos a lhes dedicar é nosso **muito obrigada!**
 
 Algumas mensagens das beneficiadas pela campanha:
-<!-- Aqui eu não sei exatamente como fazer com markdown o que eu tinha em mente, copiei a formatação das falas deste post antigo aqui: http://brasil.pyladies.com/2014/10/18/primeiro-encontro-no-brasil/ Mas o que eu queria mesmo era colocar um depoimento por linha, com as fotos de cada menina à esquerda e o texto do depoimento à direita. Pode me ajudar nisso? -->
 
-<div class="row">
-    <div class="small-12 medium-6 columns">
-        <img src="content/images/gratidao-pybr13/JessicaTemporal.jpeg" style="float:left;max-width:240px;">
-        <blockquote>"Rever e fazer novos amigos, palestrar sobre algo que adoro, aprender e rir. Obrigada pela oportunidade de fazer tudo isso com a comunidade que mais acrescenta na minha vida!"</blockquote>
-        <i>Jessica Temporal, Ribeirão Preto - SP</i>
-    </div>
-    <div class="small-12 medium-6 columns">
-        <img src="content/images/gratidao-pybr13/AnaPaulaMendes.jpeg" style="float:left;max-width:240px;">
-        <blockquote>"'Você já mudou o mundo hoje?', minha palestra começou com essa frase e minha primeira Python Brasil terminou com a resposta. Vocês que ajudaram nessa campanha mudaram nosso mundo no dia que doaram. Muito obrigada!"</blockquote>
-        <i>Ana Paula Mendes, Teresina - PI</i>
-    </div>
-</div>
-<div class="row">
-    <div class="small-12 medium-6 columns">
-        <img src="content/images/gratidao-pybr13/JessicaPaz.jpeg" style="float:left;max-width:240px;">
-        <blockquote>"Fui a primeira PyLady do norte a participar de uma PyBR e serei eternamente grata por essa oportunidade incrível! <3"</blockquote>
-        <i>Jéssica Paz, Belém - PA</i>
-    </div>
-    <div class="small-12 medium-6 columns">
-        <img src="content/images/gratidao-pybr13/JoanaSouza.jpeg" style="float:left;max-width:240px;">
-    	<blockquote>"Sou grata a todas as pessoas que contribuíram de alguma forma com a campanha. Se não fosse por vocês, não seria possível custear a minha ida ao evento. Durante os seis dias de conferência não só adquiri conhecimento técnico, mas também conhecimento interpessoal."</blockquote>
-        <i>Joana Souza, Salvador - BA</i>
-    </div>
-</div>
-<div class="row">
-    <div class="small-12 medium-6 columns">
-        <img src="content/images/gratidao-pybr13/PaulaSantos.jpeg" style="float:left;max-width:240px;">
-        <blockquote>"Quero agradecer imensamente ao suporte para que eu pudesse palestrar na Python Brasil, pois através da contribuição de cada um consegui o emprego dos meus sonhos (Computer Vision + AI) na Nuveo. Ano que vem, eu que estarei contribuindo para realizar os sonhos de outras meninas. Obrigada!"</blockquote>
-        <i>Paula Santos, Ribeirão Preto - SP</i>
-    </div>
-    <div class="small-12 medium-6 columns">
-        <img src="content/images/gratidao-pybr13/LeticiaMonteiro.jpeg" style="float:left;max-width:240px;">
-        <blockquote>"O acolhimento e incentivo que a comunidade Python oferece a novatas foram e continuam sendo cruciais para eu persistir e seguir em frente na minha jornada como programadora, tendo vindo da área de humanas e do interior. Se já era assim online, pessoalmente é ainda melhor! Muito obrigada por tornarem essa experiência possível para nós!"</blockquote>
-        <i>Letícia Monteiro, Eng. Paulo de Frontin - RJ</i>
-    </div>
-</div>
+<style>
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
+figure.quote {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  float: left;
+  margin: 10px 1% 40px;
+  min-width: 400px;
+  max-width: 600px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+}
+figure.quote * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+figure.quote img {
+  float: left;
+  max-width: 30%;
+  vertical-align: middle;
+}
+figure.quote figcaption {
+  float: left;
+  max-width: 70%;
+  background-color: #ffffff;
+}
+figure.quote blockquote {
+  position: relative;
+  padding: 5px 25px 5px 25px;
+  font-size: 0.8em;
+  font-weight: 500;
+  text-align: left;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+}
+figure.quote h5 {
+  opacity: 0.8;
+  font-weight: 800;
+  margin: 5px 20px;
+  color: #212121;
+  text-transform: uppercase;
+}
+figure.quote h5 span {
+  font-weight: 400;
+  text-transform: none;
+  padding-left: 5px;
+}
+body {
+  background-color: #ffffff;
+  display: inline-block;
+}
+</style>
+<html>
+<head><meta charset="UTF-8"></head>
+<body>
+<figure class="quote">
+    <img src="content/images/gratidao-pybr13/JessicaTemporal.jpg" alt="jessica-temporal"/>
+    <figcaption>
+        <blockquote>Rever e fazer novos amigos, palestrar sobre algo que adoro, aprender e rir. Obrigada pela oportunidade de fazer tudo isso com a comunidade que mais acrescenta na minha vida!</blockquote>
+        <h5>Jessica Temporal <span> - Ribeirão Preto, SP</span></h5>
+    </figcaption>
+</figure>
+<figure class="quote">
+    <img src="content/images/gratidao-pybr13/AnaPaulaMendes.jpeg" alt="ana-paula-mendes"/>
+    <figcaption>
+        <blockquote>'Você já mudou o mundo hoje?', minha palestra começou com essa frase e minha primeira Python Brasil terminou com a resposta. Vocês que ajudaram nessa campanha mudaram nosso mundo no dia que doaram. Muito obrigada!</blockquote>
+        <h5>Ana Paula Mendes<span> - Teresina, PI</span></h5>  
+    </figcaption>
+</figure>
+<figure class="quote">
+    <img src="content/images/gratidao-pybr13/JessicaPaz.jpg" alt="jessica-paz"/>
+    <figcaption>
+        <blockquote>Fui a primeira PyLady do norte a participar de uma PyBR e serei eternamente grata por essa oportunidade incrível! <3</blockquote>
+        <h5>Jéssica Paz<span> - Belém, PA</span></h5>
+    </figcaption>
+</figure>
+<figure class="quote">
+    <img src="content/images/gratidao-pybr13/JoanaSouza.jpg" alt="joana-souza"/>
+    <figcaption>
+        <blockquote>Sou grata a todas as pessoas que contribuíram de alguma forma com a campanha. Se não fosse por vocês, não seria possível custear a minha ida ao evento. Durante os seis dias de conferência não só adquiri conhecimento técnico, mas também conhecimento interpessoal.</blockquote>
+        <h5>Joana Souza<span> - Salvador, BA</span></h5>
+    </figcaption>
+</figure>
+<figure class="quote">
+    <img src="content/images/gratidao-pybr13/PaulaSantos.jpg" alt="paula-santos"/>
+    <figcaption>
+        <blockquote>Agradeço imensamente ao suporte para que eu pudesse palestrar na Python Brasil, através da contribuição de cada um consegui o emprego dos meus sonhos (Computer Vision + AI) na Nuveo. Ano que vem, eu que estarei contribuindo para realizar os sonhos de outras meninas. Obrigada!</blockquote>
+        <h5>Paula Santos<span> - Ribeirão Preto, SP</span></h5>        
+    </figcaption>
+</figure>
+<figure class="quote">
+    <img src="content/images/gratidao-pybr13/LeticiaMonteiro.jpg" alt="leticia-monteiro"/>
+    <figcaption>
+        <blockquote>A comunidade Python é muito acolhedora a novatas e me incentiva a persistir na minha jornada como programadora. Se já era assim online, pessoalmente é ainda melhor! Muito obrigada por tornarem essa experiência possível para nós!</blockquote>
+        <h5>Letícia Monteiro<span> - Eng. Paulo de Frontin, RJ</span></h5>
+    </figcaption>
+</figure>
+</body>
+</html>
 
 Então, sem mais delongas: muito, muito, muitíssimo obrigada,
 
