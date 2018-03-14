@@ -1,6 +1,6 @@
 Title: Um ENORME obrigada!
 Slug: agradecimentos-campanha-pybr-13
-Date: 2018-03-14 14:23:15 <!-- Atualizar a data -->
+Date: 2018-03-14 14:23:15
 Tags: eventos, PyBR
 Category: Institucional
 author: PyLadies Brasil
