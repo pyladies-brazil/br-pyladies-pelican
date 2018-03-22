@@ -23,11 +23,7 @@ Algumas mensagens das beneficiadas pela campanha:
 figure.quote {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
-  float: left;
   margin: 10px 1% 40px;
-  min-width: 400px;
-  max-width: 600px;
-  width: 100%;
   color: #333;
   text-align: left;
 }
@@ -37,7 +33,7 @@ figure.quote * {
 }
 figure.quote img {
   float: left;
-  max-width: 30%;
+  max-width: 20%;
   vertical-align: middle;
 }
 figure.quote figcaption {
@@ -47,8 +43,8 @@ figure.quote figcaption {
 }
 figure.quote blockquote {
   position: relative;
-  padding: 5px 25px 5px 25px;
-  font-size: 0.8em;
+  padding: 0px 25px 5px 25px;
+  font-size: 1.2em;
   font-weight: 500;
   text-align: left;
   margin: 0;
@@ -57,6 +53,7 @@ figure.quote blockquote {
 }
 figure.quote h5 {
   opacity: 0.8;
+  font-size: 1em;
   font-weight: 800;
   margin: 5px 20px;
   color: #212121;
@@ -71,196 +68,200 @@ body {
   background-color: #ffffff;
   display: inline-block;
 }
+.lista {
+    clear: left;
+    font-size: 1em;
+}
+.lista p {
+    line-height: -0.6;
+}
 </style>
-<html>
-<head><meta charset="UTF-8"></head>
-<body>
 <figure class="quote">
-    <img src="content/images/gratidao-pybr13/JessicaTemporal.jpg" alt="jessica-temporal"/>
+    <img src="/images/gratidao-pybr13/JessicaTemporal.jpg" alt="jessica-temporal"/>
     <figcaption>
         <blockquote>Rever e fazer novos amigos, palestrar sobre algo que adoro, aprender e rir. Obrigada pela oportunidade de fazer tudo isso com a comunidade que mais acrescenta na minha vida!</blockquote>
         <h5>Jessica Temporal <span> - Ribeirão Preto, SP</span></h5>
     </figcaption>
 </figure>
 <figure class="quote">
-    <img src="content/images/gratidao-pybr13/AnaPaulaMendes.jpeg" alt="ana-paula-mendes"/>
+    <img src="/images/gratidao-pybr13/AnaPaulaMendes.jpeg" alt="ana-paula-mendes"/>
     <figcaption>
         <blockquote>'Você já mudou o mundo hoje?', minha palestra começou com essa frase e minha primeira Python Brasil terminou com a resposta. Vocês que ajudaram nessa campanha mudaram nosso mundo no dia que doaram. Muito obrigada!</blockquote>
         <h5>Ana Paula Mendes<span> - Teresina, PI</span></h5>  
     </figcaption>
 </figure>
 <figure class="quote">
-    <img src="content/images/gratidao-pybr13/JessicaPaz.jpg" alt="jessica-paz"/>
+    <img src="/images/gratidao-pybr13/JessicaPaz.jpg" alt="jessica-paz"/>
     <figcaption>
         <blockquote>Fui a primeira PyLady do norte a participar de uma PyBR e serei eternamente grata por essa oportunidade incrível! <3</blockquote>
         <h5>Jéssica Paz<span> - Belém, PA</span></h5>
     </figcaption>
 </figure>
 <figure class="quote">
-    <img src="content/images/gratidao-pybr13/JoanaSouza.jpg" alt="joana-souza"/>
+    <img src="/images/gratidao-pybr13/JoanaSouza.jpg" alt="joana-souza"/>
     <figcaption>
         <blockquote>Sou grata a todas as pessoas que contribuíram de alguma forma com a campanha. Se não fosse por vocês, não seria possível custear a minha ida ao evento. Durante os seis dias de conferência não só adquiri conhecimento técnico, mas também conhecimento interpessoal.</blockquote>
         <h5>Joana Souza<span> - Salvador, BA</span></h5>
     </figcaption>
 </figure>
 <figure class="quote">
-    <img src="content/images/gratidao-pybr13/PaulaSantos.jpg" alt="paula-santos"/>
+    <img src="/images/gratidao-pybr13/PaulaSantos.jpg" alt="paula-santos"/>
     <figcaption>
         <blockquote>Agradeço imensamente ao suporte para que eu pudesse palestrar na Python Brasil, através da contribuição de cada um consegui o emprego dos meus sonhos (Computer Vision + AI) na Nuveo. Ano que vem, eu que estarei contribuindo para realizar os sonhos de outras meninas. Obrigada!</blockquote>
         <h5>Paula Santos<span> - Ribeirão Preto, SP</span></h5>        
     </figcaption>
 </figure>
 <figure class="quote">
-    <img src="content/images/gratidao-pybr13/LeticiaMonteiro.jpg" alt="leticia-monteiro"/>
+    <img src="/images/gratidao-pybr13/LeticiaMonteiro.jpg" alt="leticia-monteiro"/>
     <figcaption>
         <blockquote>A comunidade Python é muito acolhedora a novatas e me incentiva a persistir na minha jornada como programadora. Se já era assim online, pessoalmente é ainda melhor! Muito obrigada por tornarem essa experiência possível para nós!</blockquote>
         <h5>Letícia Monteiro<span> - Eng. Paulo de Frontin, RJ</span></h5>
     </figcaption>
 </figure>
-</body>
-</html>
-
+<br><br>
+<div class="lista">
 Então, sem mais delongas: muito, muito, muitíssimo obrigada,
 
-*A A DOURADO FH<br>
-Ademar Peixoto - Biguá<br>
-Alexandre Augusto de Sá dos Santos<br>
-Alexandre Villares<br>
-Ana Carolina Zeri<br>
-Ana Paula de Luca<br>
-Ana Paula Gomes<br>
-Ana Schwendler<br>
-Augusto Pascutti<br>
-Betinho Navarrete<br>
-Bianca Rosa<br>
-Bruno Casella<br>
-Bruno Inajá de Almeida Caimar<br>
-Bruno Rocha<br>
-Camila Vilarinho de Sousa<br>
-Caren Cazorla<br>
-Cássio Botaro<br>
-Cláudia SM<br>
-Clemencia Mora<br>
-Cristina Motinha Martins<br>
-Daniela Silva<br>
-Danilo Alves Araujo<br>
-Darlene Medeiros<br>
-Débora Ribeiro Doimo<br>
-Denise Recofka<br>
-Denyse Mathiesen<br>
-Diana Ungaro Arnos<br>
-Diego Moreira Guimarães<br>
-Diego Rabatone Oliveira<br>
-EDMAR PESSOA ARAUJO NETO<br>
-Eduardo Bonet<br>
-Eduardo Cuducos<br>
-Eliane Chaves Cysneiros<br>
-Elias Dorneles da Silveira Junior<br>
-Emmerson Siqueira de Lima<br>
-Fabio Oliveira<br>
-Felipe Almeida<br>
-Fernanda Santos DePaula<br>
-Fernando Masanori Ashikaga<br>
-Fernando Nunes<br>
-Filipe Cifali Stangler<br>
-Filipe Pires Alvarenga Fernandes<br>
-Filipe Ximenes<br>
-Flávio Amieiro<br>
-Gabriel Barreto<br>
-Gabriel Bolognani Casella<br>
-Gabriel de Souza Fedel<br>
-Gabriel Ecker<br>
-Gileno Alves Santa Cruz Filho<br>
-Gomex<br>
-Graziele da Silva Barbosa Vasconcelos<br>
-Guido Luz Percú<br>
-Guilherme Calcette<br>
-Guilherme Gondim<br>
-Guilherme Paim Mendes<br>
-Gustavo Coelho<br>
-Gustavo Noronha<br>
-Heloisa Andrade de Paula<br>
-Henrique Lauro Bagio de Souza<br>
-Hernandes Benevides de Sousa<br>
-Humberto Rocha<br>
-Igor dos Santos Silva<br>
-Igor Leroy<br>
-Irio Musskopf<br>
-Isadora Dantas<br>
-Jacson<br>
-Jair Henrique<br>
-Jairo Jair<br>
-Jéssica Ferreira<br>
-Jonatas Baldin de Oliveira<br>
-Jonatas Luiz de Oliveira<br>
-Jota Rodrigues<br>
-Júlio César Eiras<br>
-Karin Umeji Abe<br>
-Karoline Leite<br>
-Kátia Yoshime Nakamura<br>
-Labcodes Software Studio<br>
-Larissa Lautert<br>
-Leka Verta<br>
-Leonardo Rochael Almeida<br>
-Lidiane de Souza Monteiro<br>
-Lidiane Taquehara<br>
-Lindsay Ferreira<br>
-Liv Souza<br>
-Loadsmart Inc.<br>
-Loise de Aguiar Lobo<br>
-Lucas Sampaio Magalhães<br>
-Lucas Souto Silva<br>
-Luciano Martins Ratamero<br>
-Luciano Ramalho<br>
-Luiz Cláudio Santos Silva<br>
-Magnun Leno<br>
-Marcelo Drudi<br>
-Marcos Silveira<br>
-Maria Teresa Aarao<br>
-Mario Guedes<br>
-Mário Sérgio Oliveira de Queiroz<br>
-Miguel Peixe<br>
-NAOMI CEDER<br>
-Nicolle Cysneiros<br>
-Otávio Carneiro<br>
-Patrick Mazulo de Brito<br>
-Paulo H. N. de Jesus<br>
-Paulo Henrique de Lima Santana<br>
-Pedro Burgos<br>
-Pedro Martins<br>
-Rafael Caricio<br>
-Rafael Gottsfritz<br>
-Rafael Hans Sandalo<br>
-Rafael Henrique da Silva Correia<br>
-Rafaela Goulart de Andrade<br>
-Raissa dos Santos Ferreira<br>
-Ramiro Batista da Luz<br>
-Raphael Alonso de Mendonça<br>
-Regis da Silva<br>
-Renata Scheibler<br>
-Renato dos Santos Oliveira<br>
-RENNE SILVA GOMES DE OLIVEIRA ROCHA<br>
-Ricardo Olissil<br>
-Roberta Souza Escher<br>
-Rodolfo Lottin Pereira<br>
-Rodrigo Octávio Melo do Amaral<br>
-Rodrigo Vieira<br>
-Rômulo<br>
-Rômulo Oliveira<br>
-Ronaldo Prado<br>
-Samuel Maciel Sampaio<br>
-Shirley Pacelli<br>
-Silvia Lucia<br>
-Simonarde Lima e Silva Junior<br>
-Taiza Montenegro<br>
-Tati Kubotani<br>
-Thaíssa Falbo<br>
-Thiago Avelino<br>
-Thiago Medeiros de Souza<br>
-Vitor Failace De Mario<br>
-Yorik van Havre<br>
-Yros Pereira Aguiar batista<br>
-Yuri Reis<br>
-Yurick Hauschild*
+<p>A A DOURADO FH</p>
+<p>Ademar Peixoto - Biguá</p>
+<p>Alexandre Augusto de Sá dos Santos</p>
+<p>Alexandre Villares</p>
+<p>Ana Carolina Zeri</p>
+<p>Ana Paula de Luca</p>
+<p>Ana Paula Gomes</p>
+<p>Ana Schwendler</p>
+<p>Augusto Pascutti</p>
+<p>Betinho Navarrete</p>
+<p>Bianca Rosa</p>
+<p>Bruno Casella</p>
+<p>Bruno Inajá de Almeida Caimar</p>
+<p>Bruno Rocha</p>
+<p>Camila Vilarinho de Sousa</p>
+<p>Caren Cazorla</p>
+<p>Cássio Botaro</p>
+<p>Cláudia SM</p>
+<p>Clemencia Mora</p>
+<p>Cristina Motinha Martins</p>
+<p>Daniela Silva</p>
+<p>Danilo Alves Araujo</p>
+<p>Darlene Medeiros</p>
+<p>Débora Ribeiro Doimo</p>
+<p>Denise Recofka</p>
+<p>Denyse Mathiesen</p>
+<p>Diana Ungaro Arnos</p>
+<p>Diego Moreira Guimarães</p>
+<p>Diego Rabatone Oliveira</p>
+<p>EDMAR PESSOA ARAUJO NETO</p>
+<p>Eduardo Bonet</p>
+<p>Eduardo Cuducos</p>
+<p>Eliane Chaves Cysneiros</p>
+<p>Elias Dorneles da Silveira Junior</p>
+<p>Emmerson Siqueira de Lima</p>
+<p>Fabio Oliveira</p>
+<p>Felipe Almeida</p>
+<p>Fernanda Santos DePaula</p>
+<p>Fernando Masanori Ashikaga</p>
+<p>Fernando Nunes</p>
+<p>Filipe Cifali Stangler</p>
+<p>Filipe Pires Alvarenga Fernandes</p>
+<p>Filipe Ximenes</p>
+<p>Flávio Amieiro</p>
+<p>Gabriel Barreto</p>
+<p>Gabriel Bolognani Casella</p>
+<p>Gabriel de Souza Fedel</p>
+<p>Gabriel Ecker</p>
+<p>Gileno Alves Santa Cruz Filho</p>
+<p>Gomex</p>
+<p>Graziele da Silva Barbosa Vasconcelos</p>
+<p>Guido Luz Percú</p>
+<p>Guilherme Calcette</p>
+<p>Guilherme Gondim</p>
+<p>Guilherme Paim Mendes</p>
+<p>Gustavo Coelho</p>
+<p>Gustavo Noronha</p>
+<p>Heloisa Andrade de Paula</p>
+<p>Henrique Lauro Bagio de Souza</p>
+<p>Hernandes Benevides de Sousa</p>
+<p>Humberto Rocha</p>
+<p>Igor dos Santos Silva</p>
+<p>Igor Leroy</p>
+<p>Irio Musskopf</p>
+<p>Isadora Dantas</p>
+<p>Jacson</p>
+<p>Jair Henrique</p>
+<p>Jairo Jair</p>
+<p>Jéssica Ferreira</p>
+<p>Jonatas Baldin de Oliveira</p>
+<p>Jonatas Luiz de Oliveira</p>
+<p>Jota Rodrigues</p>
+<p>Júlio César Eiras</p>
+<p>Karin Umeji Abe</p>
+<p>Karoline Leite</p>
+<p>Kátia Yoshime Nakamura</p>
+<p>Labcodes Software Studio</p>
+<p>Larissa Lautert</p>
+<p>Leka Verta</p>
+<p>Leonardo Rochael Almeida</p>
+<p>Lidiane de Souza Monteiro</p>
+<p>Lidiane Taquehara</p>
+<p>Lindsay Ferreira</p>
+<p>Liv Souza</p>
+<p>Loadsmart Inc.</p>
+<p>Loise de Aguiar Lobo</p>
+<p>Lucas Sampaio Magalhães</p>
+<p>Lucas Souto Silva</p>
+<p>Luciano Martins Ratamero</p>
+<p>Luciano Ramalho</p>
+<p>Luiz Cláudio Santos Silva</p>
+<p>Magnun Leno</p>
+<p>Marcelo Drudi</p>
+<p>Marcos Silveira</p>
+<p>Maria Teresa Aarao</p>
+<p>Mario Guedes</p>
+<p>Mário Sérgio Oliveira de Queiroz</p>
+<p>Miguel Peixe</p>
+<p>NAOMI CEDER</p>
+<p>Nicolle Cysneiros</p>
+<p>Otávio Carneiro</p>
+<p>Patrick Mazulo de Brito</p>
+<p>Paulo H. N. de Jesus</p>
+<p>Paulo Henrique de Lima Santana</p>
+<p>Pedro Burgos</p>
+<p>Pedro Martins</p>
+<p>Rafael Caricio</p>
+<p>Rafael Gottsfritz</p>
+<p>Rafael Hans Sandalo</p>
+<p>Rafael Henrique da Silva Correia</p>
+<p>Rafaela Goulart de Andrade</p>
+<p>Raissa dos Santos Ferreira</p>
+<p>Ramiro Batista da Luz</p>
+<p>Raphael Alonso de Mendonça</p>
+<p>Regis da Silva</p>
+<p>Renata Scheibler</p>
+<p>Renato dos Santos Oliveira</p>
+<p>RENNE SILVA GOMES DE OLIVEIRA ROCHA</p>
+<p>Ricardo Olissil</p>
+<p>Roberta Souza Escher</p>
+<p>Rodolfo Lottin Pereira</p>
+<p>Rodrigo Octávio Melo do Amaral</p>
+<p>Rodrigo Vieira</p>
+<p>Rômulo</p>
+<p>Rômulo Oliveira</p>
+<p>Ronaldo Prado</p>
+<p>Samuel Maciel Sampaio</p>
+<p>Shirley Pacelli</p>
+<p>Silvia Lucia</p>
+<p>Simonarde Lima e Silva Junior</p>
+<p>Taiza Montenegro</p>
+<p>Tati Kubotani</p>
+<p>Thaíssa Falbo</p>
+<p>Thiago Avelino</p>
+<p>Thiago Medeiros de Souza</p>
+<p>Vitor Failace De Mario</p>
+<p>Yorik van Havre</p>
+<p>Yros Pereira Aguiar batista</p>
+<p>Yuri Reis</p>
+<p>Yurick Hauschild</p>
 
-e também a todas as pessoas que preferiram não se identificar. Vocês são incríveis!
+<p>e também a todas as pessoas que preferiram não se identificar. Vocês são incríveis!</p>
+</div>
