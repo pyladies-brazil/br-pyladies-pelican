@@ -1,6 +1,7 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-nova-localiza%C3%A7%C3%A3o
 
+
 - city: Belém - PA
   image: /images/locais/pyladies-belem.jpg
   facebook: https://www.facebook.com/pyladiesbelem/
@@ -12,8 +13,10 @@
 
 - city: Brasilia - DF
   image: /images/locais/brasilia.png
+  twitter: https://twitter.com/PyLadiesDF
   facebook: https://www.facebook.com/pyladiesdf/
-  email: brasilia@pyladies.org
+  github: https://github.com/pyladiesdf
+  email: brasilia@pyladies.com
 
 - city: Campinas - SP
   image: /images/locais/pyladies_campinas.png
@@ -57,6 +60,12 @@
   twitter: https://twitter.com/pyladiesmaceio
   facebook: https://www.facebook.com/PyLadiesMaceio
   email: maceio@pyladies.com
+
+- city: Manaus - AM
+  image: /images/locais/pyladies-manaus.png
+  facebook: https://www.facebook.com/pyladiesmanaus/
+  email: manaus@pyladies.com
+  url: https://pyladiesmanaus.github.io/
 
 - city: Natal - RN
   image: /images/locais/location.png

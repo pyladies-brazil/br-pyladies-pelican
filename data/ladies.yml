@@ -6,6 +6,12 @@
   twitter: alini_x
   image: /images/ladies/alini-ramos.jpg
 
+- name: Amanda Chagas
+  cidade: Salvador - BA
+  github: amandachagas
+  facebook: manda.chagas
+  image: /images/ladies/amanda.jpg
+
 - name: Ana Maria
   cidade: Teresina - PI
   github: anamariagds
@@ -41,6 +47,13 @@
   facebook: 4nn4nd4
   image: /images/ladies/annanda.jpg
 
+- name: Barbara Moraes Vicente
+  cidade: Campinas - SP
+  github: barmvicente
+  twitter: BarbaraRocham
+  facebook: barbara.moraes.129
+  image: /images/ladies/barbara.jpg
+
 - name: Camila Vilarinho
   cidade: Teresina - PI
   url: http://camilavilarinho.com.br
@@ -58,6 +71,19 @@
   twitter: ClaudiaStrm
   github: ClaudiaStrm
   image: /images/ladies/claudiasm.jpg
+
+- name: Cris Motinha
+  cidade: Rio de Janeiro - RJ
+  github: crismotinha
+  facebook: crismotinha
+  image: /images/ladies/crismotinha.jpg
+
+- name: Daniela Chaves
+  cidade: Manaus - AM
+  github: Daniela-chaves
+  twitter: dany_chaves2
+  facebook: daniela.chaves.7777
+  image: /images/ladies/daniela.jpeg
 
 - name: Daniela Palumbo
   cidade: Campinas - SP
@@ -153,6 +179,12 @@
   facebook: jaque.trevizan
   image: /images/ladies/jaqueline.jpg
 
+- name: Jessica Tavares
+  cidade: Manaus - AM
+  github: jessiccatavares
+  facebook: ajessicca
+  image: /images/ladies/jessicatavares.jpeg  
+
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
   github: jtemporal
@@ -178,12 +210,25 @@
   facebook: julia.carmona.9
   image: /images/ladies/julia.jpg
 
+- name: Julia Lamenza
+  cidade: Rio de Janeiro - RJ
+  github: julialamenza
+  twitter: jlamenza18
+  facebook: julialamenza
+  image: /images/ladies/julialamenza.jpg
+
 - name: Juliana Karoline
   cidade: São Carlos - SP
   github: julianaklulo
   twitter: julianaklulo
   facebook: julianaklulo
   image: /images/ladies/juliana.jpg
+
+- name: Juliany Raiol
+  cidade: Manaus - AM
+  github: julianyraiol
+  facebook: julianyraiol 
+  image: /images/ladies/juliany.jpeg
 
 - name: Katyanna Moura
   cidade: Natal - RN
@@ -251,6 +296,12 @@
   twitter: paulagrangeiro
   facebook: paula.grangeiro
   image: /images/ladies/pgrangeiro.jpg
+  
+- name: Raysa Dutra
+  cidade: Rio de Janeiro - RJ
+  url: https://hi-hi-ray.github.io/
+  github: hi-hi-ray
+  image: /images/ladies/raysadutra.jpg
 
 - name: Rebeca Bordini
   cidade: Rio de Janeiro - RJ
@@ -263,6 +314,12 @@
   github: rsip22
   twitter: rsip22
   image: /images/ladies/renata.png
+
+- name: Silvia Benza
+  cidade: Rio de Janeiro - RJ
+  github: sbenza
+  twitter: sbbareiro
+  image: /images/ladies/sbenza.jpg
 
 - name: Talita Rossari
   cidade: Florianópolis - SC
@@ -277,6 +334,12 @@
   twitter: taniaandrea_com
   image: /images/ladies/tania.jpg
 
+- name: Thais Viana
+  cidade: Rio de Janeiro - RJ
+  github: thaisviana
+  twitter: thaisviana
+  image: /images/ladies/thais.jpg
+
 - name: Vitória Vasconcelos
   cidade: Recife - PE
   github: vitoriavasconcelos
@@ -289,6 +352,7 @@
   github: vanessaromankiv
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
+
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
