@@ -33,6 +33,7 @@ PYLADIES_FACEBOOK_PAGES = [
     'PyLadiesMaceio',
     'pyladiespoa',
     'PyLadiesSLZ',
+    'pyladiescaxiasdosul',
 ]
 
 
