@@ -47,10 +47,19 @@ figure.quote blockquote {
   font-size: 1.2em;
   font-weight: 500;
   text-align: left;
-  border: 0;
+  border-left-width: 0;
   margin: 0;
   line-height: 1.6em;
   font-style: italic;
+}
+@media only screen and (max-width: 600px) {
+  figure.quote blockquote {
+    border-left-width: 1px;
+  }
+  figure.quote figcaption, figure.quote img {
+    float: none;
+    max-width: 100%;
+  }
 }
 figure.quote h5 {
   opacity: 0.8;
