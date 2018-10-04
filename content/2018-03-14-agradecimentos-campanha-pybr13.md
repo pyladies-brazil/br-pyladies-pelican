@@ -47,6 +47,7 @@ figure.quote blockquote {
   font-size: 1.2em;
   font-weight: 500;
   text-align: left;
+  border: 0;
   margin: 0;
   line-height: 1.6em;
   font-style: italic;
