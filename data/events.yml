@@ -435,3 +435,13 @@
   name: Django Girls Florianópolis
   date: 11-11-2017
   local: SENAI Florianópolis
+
+- url: https://djangogirls.org/bentogoncalves/
+  name: Django Girls Bento Gonçalves
+  date: 19-05-2018
+  local: 'CARVI - Bento Gonçalves'
+
+- url: https://djangogirls.org/caxiasdosul/
+  name: Django Girls Caxias do Sul
+  date: 19-05-2018
+  local: 'UCS - Caxias do Sul'

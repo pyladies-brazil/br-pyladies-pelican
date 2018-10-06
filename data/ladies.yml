@@ -112,8 +112,8 @@
 
 - name: Eliane Isadora Faveron
   cidade: Caxias do Sul - RS
-  github: eifmaciel
-  facebook: elianeisadora.faveron
+  github: elianemaciel
+  facebook: elianefaveronmaciel
   image: /images/ladies/eliane.png
 
 - name: Erika Campos
@@ -164,7 +164,7 @@
   github: senaingrid
   facebook: senaingrid
   image: /images/ladies/ingrid.jpg
-  
+
 - name: Isabela Pinto
   cidade: Salvador - BA
   github: isabelapnt
@@ -183,7 +183,7 @@
   cidade: Manaus - AM
   github: jessiccatavares
   facebook: ajessicca
-  image: /images/ladies/jessicatavares.jpeg  
+  image: /images/ladies/jessicatavares.jpeg
 
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
@@ -227,7 +227,7 @@
 - name: Juliany Raiol
   cidade: Manaus - AM
   github: julianyraiol
-  facebook: julianyraiol 
+  facebook: julianyraiol
   image: /images/ladies/juliany.jpeg
 
 - name: Katyanna Moura
@@ -296,7 +296,7 @@
   twitter: paulagrangeiro
   facebook: paula.grangeiro
   image: /images/ladies/pgrangeiro.jpg
-  
+
 - name: Raysa Dutra
   cidade: Rio de Janeiro - RJ
   url: https://hi-hi-ray.github.io/
