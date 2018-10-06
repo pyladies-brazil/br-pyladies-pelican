@@ -18,10 +18,12 @@
   facebook: 100002884046565
   image: /images/ladies/anamaria.jpg
 
-- name: Ana Paula
+- name: Ana Paula Mendes
   cidade: Teresina - PI
+  url: https://anapauladsmendes.github.io/
   github: anapauladsmendes
-  facebook: anapauladsmendes
+  twitter: ananoterminal
+  facebook: ananoterminal
   image: /images/ladies/anapaula.jpg
 
 - name: Andrêza Leite
