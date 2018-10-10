@@ -163,9 +163,11 @@
 
 - name: Ingrid Sena
   cidade: São José dos Campos - SP
+  url: https://about.me/senaingrid
   github: senaingrid
+  twitter: senaingrid90
   facebook: senaingrid
-  image: /images/ladies/ingrid.jpg
+  image: /images/ladies/ingridsena.jpeg
 
 - name: Isabela Pinto
   cidade: Salvador - BA
