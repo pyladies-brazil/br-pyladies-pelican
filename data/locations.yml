@@ -130,6 +130,11 @@
   email: saocarlos@pyladies.org
   url: https://saocarlos.pyladies.com
 
+- city: São José dos Campos - SP
+  image: /images/locais/sjcampos.jpg
+  facebook: https://www.facebook.com/pyladiesSJC
+  email: sjc@pyladies.com
+
 - city: São Paulo - SP
   image: /images/locais/pyladies-sp.jpeg
   facebook: https://www.facebook.com/PyLadiesSP
