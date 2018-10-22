@@ -26,9 +26,10 @@
 
 - city: Caxias do Sul - RS
   image: /images/locais/pyladies_caxiasdosul.jpg
-  facebook: https://www.facebook.com/Pyladies-Caxias-1858294514418047/
-  email: pyladiescaxias@gmail.com
-  url: https://pyladiescaxias.github.io/site/
+  facebook: https://www.facebook.com/pyladiescaxiasdosul/
+  email: caxiasdosul@pyladies.com
+  github: https://github.com/PyladiesCaxias
+  url: https://pyladiescaxias.github.io/
 
 - city: Curitiba - PR
   image: /images/locais/pyladies-curitiba.png
@@ -128,6 +129,11 @@
   facebook: https://www.facebook.com/PyLadiesSaoCarlos
   email: saocarlos@pyladies.org
   url: https://saocarlos.pyladies.com
+
+- city: São José dos Campos - SP
+  image: /images/locais/sjcampos.jpg
+  facebook: https://www.facebook.com/pyladiesSJC
+  email: sjc@pyladies.com
 
 - city: São Paulo - SP
   image: /images/locais/pyladies-sp.jpeg

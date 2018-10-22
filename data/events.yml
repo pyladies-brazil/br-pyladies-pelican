@@ -435,3 +435,24 @@
   name: Django Girls Florianópolis
   date: 11-11-2017
   local: SENAI Florianópolis
+
+- url: https://www.facebook.com/djangogirlsteresina/
+  name: Django Girls Teresina (2ª edição)
+  date: 24-11-2018
+  local: 'Não definido'
+
+- url: https://djangogirls.org/bentogoncalves/
+  name: Django Girls Bento Gonçalves
+  date: 19-05-2018
+  local: 'CARVI - Bento Gonçalves'
+
+- url: https://djangogirls.org/caxiasdosul/
+  name: Django Girls Caxias do Sul
+  date: 19-05-2018
+  local: 'UCS - Caxias do Sul'
+
+- date: 05-09-2018
+  facebook_id: '944046612451793'
+  local: Lado B - Cerveja, Comida & Afins
+  name: Encontro do PyLadies Campinas!
+  url: https://facebook.com/944046612451793

@@ -18,10 +18,12 @@
   facebook: 100002884046565
   image: /images/ladies/anamaria.jpg
 
-- name: Ana Paula
+- name: Ana Paula Mendes
   cidade: Teresina - PI
+  url: https://anapauladsmendes.github.io/
   github: anapauladsmendes
-  facebook: anapauladsmendes
+  twitter: ananoterminal
+  facebook: ananoterminal
   image: /images/ladies/anapaula.jpg
 
 - name: Andrêza Leite
@@ -108,13 +110,13 @@
   github: deboraazevedo
   twitter: pydebb
   facebook: debora.azevedo
-  image: /images/ladies/debora100.jpg
+  image: /images/ladies/debora.jpg
 
 - name: Eliane Isadora Faveron
   cidade: Caxias do Sul - RS
-  github: eifmaciel
-  facebook: elianeisadora.faveron
-  image: /images/ladies/eliane.jpg
+  github: elianemaciel
+  facebook: elianefaveronmaciel
+  image: /images/ladies/eliane.png
 
 - name: Erika Campos
   cidade: São Paulo - SP
@@ -161,10 +163,12 @@
 
 - name: Ingrid Sena
   cidade: São José dos Campos - SP
+  url: https://about.me/senaingrid
   github: senaingrid
+  twitter: senaingrid90
   facebook: senaingrid
-  image: /images/ladies/ingrid.jpg
-  
+  image: /images/ladies/ingridsena.jpeg
+
 - name: Isabela Pinto
   cidade: Salvador - BA
   github: isabelapnt
@@ -177,13 +181,13 @@
   github: jaquelinetrevizan
   twitter: jaquetrevizan
   facebook: jaque.trevizan
-  image: /images/ladies/jaqueline.jpg
+  image: /images/ladies/jaqueline.png
 
 - name: Jessica Tavares
   cidade: Manaus - AM
   github: jessiccatavares
   facebook: ajessicca
-  image: /images/ladies/jessicatavares.jpeg  
+  image: /images/ladies/jessicatavares.jpeg
 
 - name: Jessica Temporal
   cidade: Ribeirão Preto - SP
@@ -227,7 +231,7 @@
 - name: Juliany Raiol
   cidade: Manaus - AM
   github: julianyraiol
-  facebook: julianyraiol 
+  facebook: julianyraiol
   image: /images/ladies/juliany.jpeg
 
 - name: Katyanna Moura
@@ -296,7 +300,7 @@
   twitter: paulagrangeiro
   facebook: paula.grangeiro
   image: /images/ladies/pgrangeiro.jpg
-  
+
 - name: Raysa Dutra
   cidade: Rio de Janeiro - RJ
   url: https://hi-hi-ray.github.io/
