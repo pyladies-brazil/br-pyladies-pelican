@@ -231,10 +231,36 @@ html, body {
   border-bottom: 1px solid #DBDBDB;
 }
 
+#videos{
+  padding-top: 35px;
+}
+
 .video {
   width: 33%;
   float: left;
 }
+
+.videos-categories {
+  min-width: 200px;
+  min-height: 148px;
+  border-left: 2px dashed #ff6696;
+  border-bottom: 2px dashed #ff6696;
+  overflow: hidden;
+  margin: 10px;
+  text-decoration: none;
+  text-align: center;
+  border-radius: 0.3em;
+}
+
+.videos-categories a {
+  display: initial;
+}
+
+.videos-categories a:hover {
+  background-color: #ff3373 !important;
+  color: white !important;
+}
+
 .video embed {
   padding: 1%;
   float: left;

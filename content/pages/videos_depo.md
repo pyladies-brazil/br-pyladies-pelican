@@ -1,5 +1,5 @@
 description: Videos Pyladies
-Slug: videos
-title: Videos
+Slug: videos-depo
+title: Vídeos - Depoimentos
 tags: pyladies, women, python, videos, supporters
-template: videos
+template: videos_depo
