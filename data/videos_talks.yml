@@ -1,20 +1,3 @@
-# para maiores informacoes va para:
-# https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-v%C3%ADdeos
-
-# Pyladies Brasil - Lynn Root
-- url: //www.youtube.com/embed/4oHw6LcViMI
-# Pyladies Brasil - Fernando Masanori
-- url: //www.youtube.com/embed/5M9iFmMqcmc
-# Pyladies Brasil - Selena Deckelmann
-- url: //www.youtube.com/embed/QeFqUjSD7Jw
-# PyLadies Hangout
-- url: //www.youtube.com/embed/QMzYwpqLRvE
-# Perguntas do PyLadies!
-- url: //www.youtube.com/embed/TSOgF5urv0E
-# PyLadies First
-- url: //www.youtube.com/embed/KGt1hUxMPZY
-# Python INC, por Jessica McKellar
-- url: //www.youtube.com/embed/WMM9qCUyH6A
 # FlapPyLadies: Crie seu primeiro jogo em Python - Jessica Dias
 - url: //www.youtube.com/embed/-FDJjk-suAg
 #  Programação além de código - Leticia Portella
@@ -35,8 +18,6 @@
 - url: //www.youtube.com/embed/nzlHXpuouk4
 # Keynote Tânia Andrea - Import o que importa
 - url: //www.youtube.com/embed/D3Lpl_K3438
-# Prêmio Dorneles Python Brasil[12] - Paula Grangeiro
-- url: //www.youtube.com/embed/LToaF3_cgtk
 # Lightning talk - PyLadies
 - url: //www.youtube.com/embed/VjEfVB8FRLM
 # Lightning talk - Darlene
@@ -115,3 +96,5 @@
 - url: //www.youtube.com/embed/h4pZZOmv4Qs
 # Python, ciência dos dados e redes sociais: uma combinação poderosa - Alice Adativa
 - url: //www.youtube.com/embed/ocMgkkJpaiA
+# Algoritmo Genético com Python - Ana Paula Mendes
+- url: //www.youtube.com/embed/PCa0koOOQnM
