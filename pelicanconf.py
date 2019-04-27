@@ -55,13 +55,20 @@ DEFAULT_PAGINATION = 10
 
 READERS = {'html': None}
 
-STATIC_PATHS = ['images', 'extra/robots.txt',
-    'extra/favicon.ico', 'extra/favicon.png']
+STATIC_PATHS = [
+    'images',
+    'extra/robots.txt',
+    'extra/favicon.ico',
+    'extra/favicon.png',
+    # Site estático da primeira edição do evento
+    'conf-1'
+]
 
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
-    'extra/favicon.png': {'path': 'favicon.png'}
+    'extra/favicon.png': {'path': 'favicon.png'},
+    'conf-1': {'path': 'conf-1'},
 }
 
 # ANALYTICS

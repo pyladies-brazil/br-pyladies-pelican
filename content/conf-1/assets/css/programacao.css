@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700");
+body {
+  font-family: "Open Sans", sans-serif; }
+
+.container_programacao ul {
+  margin: 0;
+  margin-top: 100px;
+  list-style: none;
+  position: relative;
+  padding: 1px 100px;
+  color: #fff;
+  font-size: 13px; }
+  .container_programacao ul:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    border-left: 2px dashed #bea2e7; }
+  .container_programacao ul li {
+    position: relative;
+    margin-left: 30px;
+    background-color: #bea2e7;
+    padding: 14px;
+    border-radius: 6px;
+    width: 250px;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.12), 0 2px 2px rgba(0, 0, 0, 0.08); }
+    .container_programacao ul li:not(:first-child) {
+      margin-top: 60px; }
+    .container_programacao ul li > span {
+      width: 2px;
+      height: 100%;
+      background: #bea2e7;
+      left: -30px;
+      top: 0;
+      position: absolute; }
+      .container_programacao ul li > span:before, .container_programacao ul li > span:after {
+        content: "";
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        border: 2px solid #fff;
+        position: absolute;
+        background: #86b7e7;
+        left: -5px;
+        top: 0; }
+    .container_programacao ul li span:after {
+      top: 100%; }
+    .container_programacao ul li > div {
+      margin-left: 10px; }
+.container_programacao div .title, .container_programacao div .type {
+  font-weight: 600;
+  font-size: 12px; }
+.container_programacao div .info {
+  font-weight: 300; }
+.container_programacao div > div {
+  margin-top: 5px; }
+.container_programacao span.number {
+  height: 100%; }
+  .container_programacao span.number span {
+    color: #bea2e7;
+    position: absolute;
+    font-size: 10px;
+    left: -35px;
+    font-weight: bold; }
+    .container_programacao span.number span:first-child {
+      top: 0; }
+    .container_programacao span.number span:last-child {
+      top: 100%; }
+
+/*# sourceMappingURL=programacao.css.map */
