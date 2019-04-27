@@ -158,7 +158,7 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
 Adicionar vídeos
 ----------------
 
-Para adicionar um novo vídeo, edite o arquivo `data/videos.yml` com o nome do vídeo e seu link. Ele possui o seguinte formato:
+Para adicionar um novo vídeo verifique qual categoria o vídeo irá se encaixar: Depoimentos, Dojos, Palestras ou Tutoriais, edite o arquivo correspondente a categoria que você escolheu `data/videos_depo.yml`,`data/videos_dojos.yml`,`data/videos_talks.yml` ou `data/videos_tutorials.yml` com o nome do vídeo e seu link. Ele possui o seguinte formato:
 
 ```yaml
 - # Nome do Vídeo

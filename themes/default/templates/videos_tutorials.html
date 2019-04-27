@@ -1,0 +1,20 @@
+{% extends 'page.html' %}
+{% block title %}Pyladies Brasil - Vídeos{% endblock %}
+{% block content %}
+<article class="notepad-page-content">
+    <div class="title small-12 columns">
+        <h1>TUTORIAIS</h1>
+    </div>
+    <div>
+        <div id="archive">
+            <div class="notepad-content">
+              <div class="row wrap-videos">
+                {% for video in VIDEOS_TUTORIALS %}
+                <div class = "video"><embed src={{ video.url }}></div>
+                {% endfor %}
+              </div>
+            </div>
+        </div>
+    </div>
+</article>
+{% endblock %}

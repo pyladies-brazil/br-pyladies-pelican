@@ -100,11 +100,35 @@ with open('data/events.yml') as events:
         e = namedtuple('Event', event.keys())(**event)
         EVENTS.append(e)
 
-with open('data/videos.yml') as videos:
+with open('data/videos_depo.yml') as videos:
     videos_converted = yaml.load(videos.read())
-    VIDEOS = []
+    VIDEOS_DEPO = []
     for video in videos_converted:
-        VIDEOS.append(
+        VIDEOS_DEPO.append(
+            namedtuple('Videos', video.keys())(**video)
+        )
+
+with open('data/videos_dojos.yml') as videos:
+    videos_converted = yaml.load(videos.read())
+    VIDEOS_DOJOS = []
+    for video in videos_converted:
+        VIDEOS_DOJOS.append(
+            namedtuple('Videos', video.keys())(**video)
+        )
+
+with open('data/videos_talks.yml') as videos:
+    videos_converted = yaml.load(videos.read())
+    VIDEOS_TALKS = []
+    for video in videos_converted:
+        VIDEOS_TALKS.append(
+            namedtuple('Videos', video.keys())(**video)
+        )
+
+with open('data/videos_tutorials.yml') as videos:
+    videos_converted = yaml.load(videos.read())
+    VIDEOS_TUTORIALS = []
+    for video in videos_converted:
+        VIDEOS_TUTORIALS.append(
             namedtuple('Videos', video.keys())(**video)
         )
 
