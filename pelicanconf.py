@@ -53,8 +53,11 @@ MENUITEMS = (
 
 DEFAULT_PAGINATION = 10
 
+READERS = {'html': None}
+
 STATIC_PATHS = ['images', 'extra/robots.txt',
-                'extra/favicon.ico', 'extra/favicon.png']
+    'extra/favicon.ico', 'extra/favicon.png']
+
 EXTRA_PATH_METADATA = {
     'extra/robots.txt': {'path': 'robots.txt'},
     'extra/favicon.ico': {'path': 'favicon.ico'},
