@@ -66,7 +66,8 @@
   image: /images/locais/pyladies-manaus.png
   facebook: https://www.facebook.com/pyladiesmanaus/
   email: manaus@pyladies.com
-  url: https://pyladiesmanaus.github.io/
+  twitter: http://twitter.com/pyladiesmanaus
+  url: https://manaus.pyladies.com
 
 - city: Natal - RN
   image: /images/locais/location.png
@@ -97,11 +98,11 @@
   url: http://pucrio.pyladies.com
 
 - city: Recife - PE
-  image: /images/locais/recife.png
-  twitter: http://twitter.com/pyladiesrecife
-  facebook: https://www.facebook.com/pages/PyLadies-Recife/950001281692844
-  email: recife@pyladies.org
-  url: /locations/recife
+  image: /images/locais/pyladies-recife.png
+  twitter: https://twitter.com/pyladies_recife/
+  facebook: https://www.facebook.com/pyladiesrecife/
+  instagram: https://www.instagram.com/pyladies.recife/
+  email: recife@pyladies.com
 
 - city: Ribeirão Preto - SP
   image: /images/locais/pyladies-rp.png
