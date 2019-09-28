@@ -228,5 +228,5 @@ Muitíssimo obrigada a todos vocês,
 <p>Vivian Macedo</p>
 <p>Yan Falcão</p>
 
-<p>e também a todas que preferiram não se identificar. Vocês são demais, gratidão!♥ </p>
+<p>e também a todas que preferiram não se identificar. Vocês são demais, gratidão! ♥ </p>
 </div>
