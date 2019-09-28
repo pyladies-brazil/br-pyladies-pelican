@@ -96,6 +96,7 @@ body {
         <h5>Juliany Rayol <span> - Manaus, Amazônia </span></h5>
     </figcaption>
 </figure>
+  <br><br>
 <figure class="quote">
     <img src="images/agradecimento-pybr14/leticia.jpg" alt="letícia-silva"/>
     <figcaption>
@@ -114,6 +115,7 @@ Hoje, quero proporcionar isso para outras PyLadies, porque sei o quão **transfo
         <h5>Anicely Santos<span> - Recife, PE</span></h5>
     </figcaption>
 </figure>
+  <br><br>
 <figure class="quote">
     <img src="images/agradecimento-pybr14/ana.jpg" alt="ana-maria"/>
     <figcaption>
@@ -122,7 +124,7 @@ Hoje, quero proporcionar isso para outras PyLadies, porque sei o quão **transfo
     </figcaption>
 </figure>
 
-<br><br>
+<br>
 <div class="lista">
 
 Muitíssimo obrigada a todos vocês, 
@@ -226,5 +228,5 @@ Muitíssimo obrigada a todos vocês,
 <p>Vivian Macedo</p>
 <p>Yan Falcão</p>
 
-<p>e também a todas que preferiram não se identificar. Vocês são demais, gratidão! ♡ </p>
+<p>e também a todas que preferiram não se identificar. Vocês são demais, gratidão!♥ </p>
 </div>
