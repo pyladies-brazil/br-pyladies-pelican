@@ -45,3 +45,16 @@ Links Úteis
 * Virtualenv - http://docs.python-guide.org/en/latest/dev/virtualenvs/
 * Pyenv - https://github.com/yyuu/pyenv
 * Criar um grupo PyLadies - https://brazilpyladies.gitbooks.io/handbook/content/
+
+Rodando com docker-compose
+--------------------------
+
+Instale [o docker no seu computados](https://docs.docker.com/install/) em seguida execute os passos abaixo:
+
+``` console
+$ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
+$ cd br-pyladies-pelican
+$ docker-compose up
+```
+
+Agora basta acessar o navegaor em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado.
