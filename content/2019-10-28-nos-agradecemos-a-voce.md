@@ -1,5 +1,5 @@
 Title: Nós agradecemos a você... <3
-Slug: nome-do-seu-post
+Slug: nos-agradecemos-a-voce
 Date: 2019-09-28 19:38:42
 Tags: Institucional
 author: PyLadies Brasil
