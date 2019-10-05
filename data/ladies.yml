@@ -5,6 +5,12 @@
   cidade: São Paulo - SP
   twitter: alini_x
   image: /images/ladies/alini-ramos.jpg
+  
+- name: Alice Malzac
+  cidade: Fortaleza - CE
+  twitter: alicemalzao
+  github: alicemalzac
+  image: https://media.licdn.com/dms/image/C4D03AQEmo7OE5mKvtg/profile-displayphoto-shrink_200_200/0?e=1575504000&v=beta&t=GoOzkEjoDBcR4MLJjvx6Ct1D3VeLh0r_saO55ih_3eU
 
 - name: Amanda Chagas
   cidade: Salvador - BA
