@@ -246,6 +246,13 @@
   facebook: julianyraiol
   image: /images/ladies/juliany.jpeg
 
+- name: Jully Nobre 
+  cidade: Fortaleza - CE
+  github: jullynobre
+  twitter: NobreLy
+  facebook: diulinobre
+  image: https://avatars1.githubusercontent.com/u/17966154?s=400&u=c59f03d13aa9f63c58b517d0bc20e9c1d204ca0d&v=4
+  
 - name: Katyanna Moura
   cidade: Natal - RN
   github: katyanna
@@ -380,7 +387,6 @@
   github: vanessaromankiv
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
-
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
