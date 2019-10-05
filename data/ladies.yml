@@ -166,6 +166,14 @@
   twitter: gl_esppen
   facebook: glaucia.esppenchutz
   image: /images/ladies/glaucia.jpeg
+  
+ - name: Hozana Izadora
+  cidade: Fortaleza - CE
+  url: hozana-izadora
+  github: hozana-izadora
+  facebook: izadoradsf
+  twitter: @izadsf
+  image: https://avatars3.githubusercontent.com/u/43238477?s=460&v=4
 
 - name: Ingrid Sena
   cidade: São José dos Campos - SP
@@ -380,6 +388,8 @@
   github: vanessaromankiv
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
+  
+  
 
 
 # Add yourself, following the alphabetical order. Here is the layout:
