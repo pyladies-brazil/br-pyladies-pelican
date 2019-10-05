@@ -123,7 +123,13 @@
   github: elianemaciel
   facebook: elianefaveronmaciel
   image: /images/ladies/eliane.png
-
+  
+- name: Emilly de Paiva Castro
+  cidade: Fortaleza - CE
+  github: https://github.com/emillycastro
+  twitter: https://twitter.com/emyzinhax
+  image: https://media.licdn.com/dms/image/C4E03AQFI5Yb4aSjRGQ/profile-displayphoto-shrink_200_200/0?e=1575504000&v=beta&t=L3YkQJPclNX1t3H5rJUfQGKqdATt1e-9c_j24JA9jc8
+  
 - name: Erika Campos
   cidade: São Paulo - SP
   twitter: minusculas
