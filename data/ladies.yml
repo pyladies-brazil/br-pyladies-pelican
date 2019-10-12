@@ -6,6 +6,13 @@
   twitter: alini_x
   image: /images/ladies/alini-ramos.jpg
 
+- name: Alley Pereira
+  cidade: Fortaleza - CE
+  github: All3yp
+  linkedin: halley-pereira
+  twitter: alley_Pereira
+  image: https://pbs.twimg.com/profile_images/979079088131530752/jj4pD7Dw_400x400.jpg 
+
 - name: Amanda Chagas
   cidade: Salvador - BA
   github: amandachagas
@@ -150,6 +157,14 @@
   twitter: _gabiCavalcante
   facebook: gabi.cavalcante.silva
   image: /images/ladies/Eu.jpg
+  
+- name: Gabriela Bezerra
+  cidade: Fortaleza - CE
+  url: https://github.com/GabrielaBezerra
+  github: GabrielaBezerra
+  twitter: Gabi011235
+  facebook: gabriela.stravinski
+  image: https://avatars1.githubusercontent.com/u/17304151?s=400&u=1fac7b2267912d2f24c35ce49fde0d11799e4f1b&v=4
 
 - name: Gabriela Surita
   cidade: Campinas - SP
@@ -304,7 +319,13 @@
   github: monamello
   facebook: monalisa.mello.75
   image: /images/ladies/monalisa-mello.jpg
-
+  
+- name: Natália Catunda
+  cidade: Fortaleza - CE
+  github: nataliacatundafr
+  image: https://images.app.goo.gl/mWsvNoz5yc9Tf8Pp9
+  
+  
 - name: Paola Katherine Pacheco
   cidade: Rio de Janeiro - RJ
   url: https://medium.com/@pk_pacheco
