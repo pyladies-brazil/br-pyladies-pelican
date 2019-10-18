@@ -22,7 +22,11 @@ $ pip install virtualenv
 ``` console
 $ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
 ```
+- Após conclusão do clone, acesse o diretório recém-criado
 
+``` console
+$ cd br-pyladies-pelican
+```
 - Rode o comando para criação de ambiente virtual e instalação das dependências
 
 ``` console
