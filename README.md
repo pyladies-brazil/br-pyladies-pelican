@@ -10,13 +10,35 @@ Para contribuir com o projeto veja o guia de [Contribuição](https://github.com
 Instalando e Rodando
 --------------------
 
-- Para apenas rodar localmente o site, você precisa do [virtualenv](https://virtualenv.pypa.io/en/stable/) instalado na sua máquina.
+- Para apenas rodar localmente o site, você precisa do [virtualenv](https://virtualenv.pypa.io/en/stable/)
+instalado na sua máquina. Para verificar se ele está instalado, execute o
+seguinte comando e observe a saida:
 
-Para instalar o virtualenv basta fazer:
+```console
+$ virtualenv --version
+```
+- Se a saida for uma numeração, como `16.1.0`, isso significa que o virtualenv já
+esta instalado. Caso contrario, para instalar o virtualenv basta fazer:
 
 ```console
 $ pip install virtualenv
 ```
+- O mesmo procedimento pode ser feito para o git. Verifique se já esta instalado,
+com o comando:
+``` console
+$ git --version
+```
+
+- Se a saida for algo como `git version 2.17.1`, significa que o git já esta
+instalado. Caso contrario, para instalar o git basta fazer:
+``` console
+$ sudo apt install git
+```
+
+> Obs.: Esse comando funciona apenas em sistemas operacionais que utilizam o
+apt gerenciador de pacotes. Caso não seja o seu caso, verifique como
+instalar o git no seu sistema.
+
 - Assumindo que seu git e virtualenv já estão configurados, faça o clone do repositório
 
 ``` console
