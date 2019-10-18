@@ -42,7 +42,7 @@ instalar o git no seu sistema.
 - Assumindo que seu git e virtualenv já estão configurados, faça o clone do repositório
 
 ``` console
-$ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
+$ git clone https://github.com/pyladies-brazil/br-pyladies-pelican.git
 ```
 - Após conclusão do clone, acesse o diretório recém-criado
 
