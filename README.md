@@ -49,7 +49,7 @@ Links Úteis
 Rodando com docker-compose
 --------------------------
 
-Instale [o docker no seu computados](https://docs.docker.com/install/) em seguida execute os passos abaixo:
+Instale [o docker no seu computador](https://docs.docker.com/install/) em seguida execute os passos abaixo:
 
 ``` console
 $ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
