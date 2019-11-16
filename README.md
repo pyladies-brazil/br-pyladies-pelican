@@ -12,31 +12,31 @@ Instalando e Rodando
 
 - Para apenas rodar localmente o site, você precisa do [virtualenv](https://virtualenv.pypa.io/en/stable/)
 instalado na sua máquina. Para verificar se ele está instalado, execute o
-seguinte comando e observe a saida:
+seguinte comando e observe a saída:
 
 ```console
 $ virtualenv --version
 ```
 - Se a saida for uma numeração, como `16.1.0`, isso significa que o virtualenv já
-esta instalado. Caso contrario, para instalar o virtualenv basta fazer:
+está instalado. Caso contrario, para instalar o virtualenv basta fazer:
 
 ```console
 $ pip install virtualenv
 ```
-- O mesmo procedimento pode ser feito para o git. Verifique se já esta instalado,
+- O mesmo procedimento pode ser feito para o git. Verifique se já está instalado,
 com o comando:
 ``` console
 $ git --version
 ```
 
-- Se a saida for algo como `git version 2.17.1`, significa que o git já esta
-instalado. Caso contrario, para instalar o git basta fazer:
+- Se a saida for algo como `git version 2.17.1`, significa que o git já está
+instalado. Caso contrário, para instalar o git basta fazer:
 ``` console
 $ sudo apt install git
 ```
 
 > Obs.: Esse comando funciona apenas em sistemas operacionais que utilizam o
-apt gerenciador de pacotes. Caso não seja o seu caso, verifique como
+`apt` gerenciador de pacotes. Caso não seja o seu caso, verifique como
 instalar o git no seu sistema.
 
 - Assumindo que seu git e virtualenv já estão configurados, faça o clone do repositório
@@ -73,3 +73,15 @@ Links Úteis
 * Criar um grupo PyLadies - https://brazilpyladies.gitbooks.io/handbook/content/
 * Documentação git - https://git-scm.com/doc
 
+Rodando com docker-compose
+--------------------------
+
+Instale [o docker no seu computador](https://docs.docker.com/install/) em seguida execute os passos abaixo:
+
+``` console
+$ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
+$ cd br-pyladies-pelican
+$ docker-compose up
+```
+
+Agora basta acessar o navegador em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado.

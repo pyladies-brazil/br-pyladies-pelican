@@ -1,6 +1,13 @@
 # para mais informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-ladies
 
+- name: Alice Lima
+  cidade: Ielmo Marinho - RN
+  github: aliccelima
+  twitter: aliccelima_
+  facebook: alice.lima.31521301
+  image: https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-9/29176715_986021791545578_3936373920410340877_n.jpg?_nc_cat=102&_nc_oc=AQn-crS7vnTM10SwXVPYbgCiY7xLNbZ9aFiWnNJwZgOFS_U7W6gcztgv-DvMJV0KSlI&_nc_ht=scontent.frec10-1.fna&oh=3ed1cc526147319f2ce7030d4fc0082a&oe=5E25F216
+
 - name: Alini Ramos
   cidade: São Paulo - SP
   twitter: alini_x
@@ -18,6 +25,13 @@
   github: amandachagas
   facebook: manda.chagas
   image: /images/ladies/amanda.jpg
+
+- name: Ana Fabrícia Gomes Diniz
+  cidade: Fortaleza - CE
+  github: fabriciadiniz
+  twitter: fabrciadiniz
+  facebook: fabricia.diniz.77
+  image: /images/ladies/fabs.jpeg
 
 - name: Ana Maria
   cidade: Teresina - PI
@@ -93,6 +107,12 @@
   facebook: crismotinha
   image: /images/ladies/crismotinha.jpg
 
+- name: Dandara Sousa
+  github: dandaramcsousa
+  twitter: dandaramcsousa
+  facebook: d4ndara
+  image: /images/ladies/dandarasousa.jpg
+  
 - name: Daniela Chaves
   cidade: Manaus - AM
   github: Daniela-chaves
@@ -240,6 +260,20 @@
   facebook: jpssouza
   twitter: sspjoana
   image: /images/ladies/joana.jpg
+
+- name: Juciane Barros
+  cidade: Ceará-Mirim - RN
+  github: JucianeBarros
+  facebook: juciane.barros.56
+  twitter: jucianebarros1
+  image: /images/ladies/juciane.jpg
+
+- name: Judite Cypreste
+  cidade: São Paulo - SP
+  url: https://judite.dev/
+  github: juditecypreste
+  twitter: juditecypreste
+  image: /images/ladies/judite.jpg
 
 - name: Júlia Carmona
   cidade: Ribeirão Preto - SP
