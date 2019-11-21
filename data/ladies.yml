@@ -462,11 +462,11 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
 
- - name: Carolina Maciel 
-   cidade: Fortaleza - CE
-   github: carolinamaciel1
-   facebook: acarolinamacielf98
-   image: /images/ladies/carolinamaciel.jpg
+- name: Carolina Maciel 
+  cidade: Fortaleza - CE
+  github: carolinamaciel1
+  facebook: acarolinamacielf98
+  image: /images/ladies/carolinamaciel.jpg
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
