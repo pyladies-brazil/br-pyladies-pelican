@@ -1,6 +1,6 @@
 Title: Obrigada, Vinta!
 Slug: publieditorial-vinta
-Date: 2019-01-03 18:08:59
+Date: 2020-01-03 18:08:59
 Tags: eventos, PyBR
 
 VEM, 2019! Começa mais um ano cheio de novas possibilidades, e nós temos tanto para agradecer!
