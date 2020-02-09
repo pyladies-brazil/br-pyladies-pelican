@@ -8,8 +8,6 @@ comments: true
 
 **Declaramos oficialmente aberta a Campanha para levar PyLadies para a Python Brasil 2020!**
 
-<iframe src="https://giphy.com/embed/1jl0Xuj9wEptDaNTjT" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/closed-404-cxg404-1jl0Xuj9wEptDaNTjT">via GIPHY</a></p>
-
 Tudo começou em 2016, quando um grupo de PyLadies precisava de ajuda financeira para comparecer à Python Brasil e ministrar suas atividades, e as integrantes do PyLadies Brasil tiveram a ideia de realizar uma campanha de financiamento coletivo para viabilizar a participação dessas PyLadies.
 
 Desde então, todo ano o PyLadies Brasil lança uma campanha de financiamento na plataforma Catarse para financiar a ida de PyLadies de todo o país para a Python Brasil, e não poderia ser diferente para a [Python Brasil que ocorrerá em Caxias do Sul](http://2020.pythonbrasil.org.br/), de 28 de outubro a 02 de novembro de 2020.
@@ -17,6 +15,8 @@ Desde então, todo ano o PyLadies Brasil lança uma campanha de financiamento na
 Todas as campanhas têm sido um sucesso, pois conseguiram levar várias PyLadies para o evento, e essa experiência fez muita diferença na vida de cada uma delas. No entanto, a cada ano com a popularização da campanha, nossas metas tem sido cada vez mais ambiciosas e alcançá-las tem sido cada vez mais difícil. Por isso, para o ano de 2020, decidimos lançar a campanha **mais cedo** e sem necessariamente estipular quantas PyLadies ministrarão atividades no evento.
 
 Nesse novo formato esperamos ter um aumento na quantidade de doações, já que nossos doadores terão mais tempo para se organizar financeiramente. Também esperamos fomentar parcerias com empresas e fornecedores para viabilizar brindes e passagens com preços melhores. Com todas essas atualizações, esperamos aumentar a participação de mulheres no maior evento de Python da América Latina.
+
+<iframe src="https://giphy.com/embed/1jl0Xuj9wEptDaNTjT" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/closed-404-cxg404-1jl0Xuj9wEptDaNTjT">via GIPHY</a></p>
 
 ## Agora que você já sabe tudo isso, veja como ajudar a Campanha desse ano
 
