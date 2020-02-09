@@ -16,10 +16,10 @@ Com mais de cem unidades por todo o mundo, PyLadies está dando mais um passo pa
 
 **Como você pode ajudar?**
 
-Acesse o [repositório de organização do PyLadies global no GitHub](https://github.com/pyladies/global-organizing) e dê sua contribuição. Nós temos duas issues abertas que precisam de revisão:
+Acesse o [repositório de organização do PyLadies global no GitHub](https://github.com/pyladies/global-organizing) e dê sua contribuição. Nós temos algumas issues abertas que precisam de revisão, entre elas:
 
-- [Em quais projetos open source o PyLadies vai investir](https://github.com/pyladies/global-organizing/issues/33)
-- [Determinação do processo seletivo para o novo Conselho Global PyLadies](https://github.com/pyladies/global-organizing/issues/32)
+- [Eleição para o Conselho Global do PyLadies](https://github.com/pyladies/global-organizing/issues/58)
+- [Como começar a base de dados dos membros do PyLadies](https://github.com/pyladies/global-organizing/issues/54)
 
 Por favor, entre em contato! Você pode se inscrever no [canal do PyLadies no Slack](https://slackin.pyladies.com) se tiver dúvidas ou sugestões. Caso tenha perguntas ou queira colaborar mais com o trabalho global, você pode me enviar um e-mail para [lorena@pyladies.com](mailto:lorena@pyladies.com) ou, como sempre, bater um papo pelo Twitter no [@loooorenanicole](https://twitter.com/loooorenanicole).
 
