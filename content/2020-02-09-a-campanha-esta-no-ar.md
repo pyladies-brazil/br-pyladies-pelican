@@ -24,7 +24,7 @@ Nesse novo formato esperamos ter um aumento na quantidade de doações, já que 
 
 A principal forma de ajudar a Campanha é fazendo uma doação, quanto mais doações tivermos, mais Ladies irão à Python Brasil com ajuda financeira. Ao doar você ajuda a aumentar a diversidade no maior evento de Python da América Latina. Então doe! Mesmo que seja pouquinho, toda doação nos ajuda imensamente <3
 
-Nossas cotas esse ano variam de R$30 à R$1200, então tem uma cota para cada bolso! Não perca a oportunidade de ter os lindos brindes da campanha deste ano!
+Nossas cotas esse ano variam de R$30 à R$1200, então tem uma cota para cada bolso! Não perca a oportunidade de ter os lindos brindes da campanha deste ano! [Clique aqui para ir para a campanha](https://www.catarse.me/pyladies_na_python_brasil_2020).
 
 ### Divulgando
 
