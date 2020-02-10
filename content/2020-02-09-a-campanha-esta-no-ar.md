@@ -16,7 +16,7 @@ Todas as campanhas têm sido um sucesso, pois conseguiram levar várias PyLadies
 
 Nesse novo formato esperamos ter um aumento na quantidade de doações, já que nossos doadores terão mais tempo para se organizar financeiramente. Também esperamos fomentar parcerias com empresas e fornecedores para viabilizar brindes e passagens com preços melhores. Com todas essas atualizações, esperamos aumentar a participação de mulheres no maior evento de Python da América Latina.
 
-<iframe src="https://giphy.com/embed/1jl0Xuj9wEptDaNTjT" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/closed-404-cxg404-1jl0Xuj9wEptDaNTjT">via GIPHY</a></p>
+<iframe src="https://giphy.com/embed/1jl0Xuj9wEptDaNTjT" max-width="100%" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/closed-404-cxg404-1jl0Xuj9wEptDaNTjT">via GIPHY</a></p>
 
 ## Agora que você já sabe tudo isso, veja como ajudar a Campanha desse ano
 
@@ -25,6 +25,8 @@ Nesse novo formato esperamos ter um aumento na quantidade de doações, já que 
 A principal forma de ajudar a Campanha é fazendo uma doação, quanto mais doações tivermos, mais Ladies irão à Python Brasil com ajuda financeira. Ao doar você ajuda a aumentar a diversidade no maior evento de Python da América Latina. Então doe! Mesmo que seja pouquinho, toda doação nos ajuda imensamente <3
 
 Nossas cotas esse ano variam de R$30 à R$1200, então tem uma cota para cada bolso! Não perca a oportunidade de ter os lindos brindes da campanha deste ano! [Clique aqui para ir para a campanha](https://www.catarse.me/pyladies_na_python_brasil_2020).
+
+[![imagem a campanha esta no ar]({filename}/images/946FBD8C-880D-473C-ADC8-5233C420F961.jpeg)](https://www.catarse.me/pyladies_na_python_brasil_2020)
 
 ### Divulgando
 
@@ -37,6 +39,3 @@ Como mencionado anteriormente, nesse novo formato, esperamos fomentar parcerias 
 ## Dúvidas
 
 Caso você tenha dúvidas em relação a Campanha não pense duas vezes! Entre em contato no email [brazil@pyladies.com](mailto:brazil@pyladies.com). Será um imenso prazer falar com você!
-
-
-
