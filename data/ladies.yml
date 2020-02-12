@@ -8,12 +8,10 @@
   facebook: alice.lima.31521301
   image: https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-9/29176715_986021791545578_3936373920410340877_n.jpg?_nc_cat=102&_nc_oc=AQn-crS7vnTM10SwXVPYbgCiY7xLNbZ9aFiWnNJwZgOFS_U7W6gcztgv-DvMJV0KSlI&_nc_ht=scontent.frec10-1.fna&oh=3ed1cc526147319f2ce7030d4fc0082a&oe=5E25F216
 
-
 - name: Alini Ramos
   cidade: São Paulo - SP
   twitter: alini_x
   image: /images/ladies/alini-ramos.jpg
-
 
 - name: Alini Ribeiro
   cidade: Blumenau - SC
@@ -21,7 +19,6 @@
   github: aliniribeiroo
   linkedin: aliniribeiroo
   image: /images/ladies/fotodaalini.jpg
-
 
 - name: Alley Pereira
   cidade: Fortaleza - CE
