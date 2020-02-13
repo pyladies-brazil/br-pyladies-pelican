@@ -67,11 +67,11 @@ Abra o browser em [localhost:8000](http://localhost:8000) para ver o conteúdo g
 Links Úteis
 -----------
 
-* Documentação Pelican - http://docs.getpelican.com/en/3.6.3/
-* Virtualenv - http://docs.python-guide.org/en/latest/dev/virtualenvs/
-* Pyenv - https://github.com/yyuu/pyenv
-* Criar um grupo PyLadies - https://brazilpyladies.gitbooks.io/handbook/content/
-* Documentação git - https://git-scm.com/doc
+* [Documentação Pelica](http://docs.getpelican.com/en/3.6.3/)
+* [Virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
+* [Pyenv](https://github.com/yyuu/pyenv)
+* [Criar um grupo PyLadies](https://brazilpyladies.gitbooks.io/handbook/content/)
+* [Documentação git](https://git-scm.com/doc)
 
 Rodando com docker-compose
 --------------------------
