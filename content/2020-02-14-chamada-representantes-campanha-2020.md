@@ -1,6 +1,6 @@
 Title: Chamada para Representantes dos Estados para a Campanha
 Slug: chamada-representantes-campanha-pybr2020
-Date: 2020-02-14 14:00:00
+Date: 2020-02-13 14:00:00
 Tags: Campanha, eventos, PyBR
 Category: PyBR
 author: Ana Dulce
