@@ -1,16 +1,44 @@
 # para mais informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-ladies
 
+- name: Alice Lima
+  cidade: Ielmo Marinho - RN
+  github: aliccelima
+  twitter: aliccelima_
+  facebook: alice.lima.31521301
+  image: https://scontent.frec10-1.fna.fbcdn.net/v/t1.0-9/29176715_986021791545578_3936373920410340877_n.jpg?_nc_cat=102&_nc_oc=AQn-crS7vnTM10SwXVPYbgCiY7xLNbZ9aFiWnNJwZgOFS_U7W6gcztgv-DvMJV0KSlI&_nc_ht=scontent.frec10-1.fna&oh=3ed1cc526147319f2ce7030d4fc0082a&oe=5E25F216
+
 - name: Alini Ramos
   cidade: São Paulo - SP
   twitter: alini_x
   image: /images/ladies/alini-ramos.jpg
+
+- name: Alini Ribeiro
+  cidade: Blumenau - SC
+  twitter: aliniribeiroo
+  github: aliniribeiroo
+  linkedin: aliniribeiroo
+  image: /images/ladies/fotodaalini.jpg
+
+- name: Alley Pereira
+  cidade: Fortaleza - CE
+  github: All3yp
+  linkedin: halley-pereira
+  twitter: alley_Pereira
+  image: https://pbs.twimg.com/profile_images/979079088131530752/jj4pD7Dw_400x400.jpg 
 
 - name: Amanda Chagas
   cidade: Salvador - BA
   github: amandachagas
   facebook: manda.chagas
   image: /images/ladies/amanda.jpg
+
+- name: Ana Fabrícia Gomes Diniz
+  cidade: Fortaleza - CE
+  github: fabriciadiniz
+  twitter: fabrciadiniz
+  facebook: fabricia.diniz.77
+  image: /images/ladies/fabs.jpeg
 
 - name: Ana Maria
   cidade: Teresina - PI
@@ -86,6 +114,12 @@
   facebook: crismotinha
   image: /images/ladies/crismotinha.jpg
 
+- name: Dandara Sousa
+  github: dandaramcsousa
+  twitter: dandaramcsousa
+  facebook: d4ndara
+  image: /images/ladies/dandarasousa.jpg
+  
 - name: Daniela Chaves
   cidade: Manaus - AM
   github: Daniela-chaves
@@ -123,7 +157,13 @@
   github: elianemaciel
   facebook: elianefaveronmaciel
   image: /images/ladies/eliane.png
-
+  
+- name: Emilly de Paiva Castro
+  cidade: Fortaleza - CE
+  github: https://github.com/emillycastro
+  twitter: https://twitter.com/emyzinhax
+  image: https://media.licdn.com/dms/image/C4E03AQFI5Yb4aSjRGQ/profile-displayphoto-shrink_200_200/0?e=1575504000&v=beta&t=L3YkQJPclNX1t3H5rJUfQGKqdATt1e-9c_j24JA9jc8
+  
 - name: Erika Campos
   cidade: São Paulo - SP
   twitter: minusculas
@@ -144,6 +184,14 @@
   twitter: _gabiCavalcante
   facebook: gabi.cavalcante.silva
   image: /images/ladies/Eu.jpg
+  
+- name: Gabriela Bezerra
+  cidade: Fortaleza - CE
+  url: https://github.com/GabrielaBezerra
+  github: GabrielaBezerra
+  twitter: Gabi011235
+  facebook: gabriela.stravinski
+  image: https://avatars1.githubusercontent.com/u/17304151?s=400&u=1fac7b2267912d2f24c35ce49fde0d11799e4f1b&v=4
 
 - name: Gabriela Surita
   cidade: Campinas - SP
@@ -167,7 +215,13 @@
   facebook: glaucia.esppenchutz
   image: /images/ladies/glaucia.jpeg
   
- - name: Hozana Izadora
+- name: Hortência Quintiliano
+  cidade: Ielmo Marinho - RN
+  github: HortenciaArliane
+  twitter: HortnciaArlian1
+  image: /images/ladies/hortencia.jpg
+
+- name: Hozana Izadora
   cidade: Fortaleza - CE
   url: hozana-izadora
   github: hozana-izadora
@@ -228,6 +282,20 @@
   twitter: sspjoana
   image: /images/ladies/joana.jpg
 
+- name: Juciane Barros
+  cidade: Ceará-Mirim - RN
+  github: JucianeBarros
+  facebook: juciane.barros.56
+  twitter: jucianebarros1
+  image: /images/ladies/juciane.jpg
+
+- name: Judite Cypreste
+  cidade: São Paulo - SP
+  url: https://judite.dev/
+  github: juditecypreste
+  twitter: juditecypreste
+  image: /images/ladies/judite.jpg
+
 - name: Júlia Carmona
   cidade: Ribeirão Preto - SP
   github: juhhcarmona
@@ -254,6 +322,13 @@
   facebook: julianyraiol
   image: /images/ladies/juliany.jpeg
 
+- name: Jully Nobre 
+  cidade: Fortaleza - CE
+  github: jullynobre
+  twitter: NobreLy
+  facebook: diulinobre
+  image: https://avatars1.githubusercontent.com/u/17966154?s=400&u=c59f03d13aa9f63c58b517d0bc20e9c1d204ca0d&v=4
+  
 - name: Katyanna Moura
   cidade: Natal - RN
   github: katyanna
@@ -295,6 +370,13 @@
   twitter: Lidy_Monteiro
   facebook: lidiannemonteiro
   image: /images/ladies/lidy.jpg
+  
+- name: Luana Brasil
+  cidade: Fortaleza - CE
+  github: luabras
+  twitter: luabras
+  facebook: lbrasil3
+  image: /images/ladies/luana.jpeg
 
 - name: Maria Carolina Lima
   cidade: Caxias do Sul - RS
@@ -306,7 +388,13 @@
   github: monamello
   facebook: monalisa.mello.75
   image: /images/ladies/monalisa-mello.jpg
-
+  
+- name: Natália Catunda
+  cidade: Fortaleza - CE
+  github: nataliacatundafr
+  image: https://images.app.goo.gl/mWsvNoz5yc9Tf8Pp9
+  
+  
 - name: Paola Katherine Pacheco
   cidade: Rio de Janeiro - RJ
   url: https://medium.com/@pk_pacheco
@@ -345,6 +433,12 @@
   github: rsip22
   twitter: rsip22
   image: /images/ladies/renata.png
+
+- name: Renata Maçãs
+  cidade: Porto Alegre - RS
+  github: macasrenata
+  twitter: macasrenata
+  image: /images/ladies/macas.png
 
 - name: Ryllari Santana
   cidade: Fortaleza - CE
@@ -389,8 +483,11 @@
   facebook: vanessa.romankiv
   image: /images/ladies/vanessa.jpg
   
-  
-
+- name: Carolina Maciel 
+  cidade: Fortaleza - CE
+  github: carolinamaciel1
+  facebook: acarolinamacielf98
+  image: /images/ladies/carolinamaciel.jpg
 
 # Add yourself, following the alphabetical order. Here is the layout:
 # - name: seu nome aqui
