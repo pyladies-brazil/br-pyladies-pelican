@@ -1,13 +1,12 @@
 Title: Chamada para Representantes dos Estados para a Campanha
 Slug: chamada-representantes-campanha-pybr2020
-Date: 2020-02-09 14:00:00
+Date: 2020-02-14 14:00:00
 Tags: Campanha, eventos, PyBR
 Category: PyBR
 author: Ana Dulce
 comments: true
 
 Chamada para Representantes dos Estados para a Campanha
-<div style="width:100%;height:0;padding-bottom:42%;position:relative;"><iframe src="https://giphy.com/embed/SO4trEzzGYDhC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/young-fangirling-fangirlunnamed-SO4trEzzGYDhC">via GIPHY</a></p>
 
 Há alguns anos, o PyLadies Brasil realiza uma **Campanha de Financiamento Coletivo no Catarse** com o intuito de arrecadar verba para viabilizar a participação na Python Brasil de pyladies, que não teriam condições financeiras para arcar com todos os custos do evento. Se você ainda não conhece a Campanha e quer entender mais sobre como funciona, **leia o post [Lançamento da Campanha](https://brasil.pyladies.com/2020/02/09/a-campanha-esta-no-ar-pybr2020/) [1].**
 
@@ -18,6 +17,8 @@ Com a popularização da Campanha, mais pyladies tem se inscrito a cada ano, e c
 Pelos motivos citados acima, a Campanha de 2020 pretende inovar, iniciando muito mais cedo, com uma meta estimada com base no crescimento dos anos anteriores, visando formar parcerias para diminuir os custos de hospedagem e transporte, para que a verba seja também melhor aproveitada.
 
 Para colocar todas essas metas em prática, será necessária a colaboração de mais PyLadies espalhadas por esse Brasil! Nossa meta é conseguir **uma representante de cada estado**, para que dessa forma, as necessidades de cada região sejam melhor representadas, e que as divulgações sejam mais homogêneas por todo o país.
+
+<div style="width:100%;height:0;padding-bottom:42%;position:relative;"><iframe src="https://giphy.com/embed/SO4trEzzGYDhC" width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed" allowFullScreen></iframe></div><p><a href="https://giphy.com/gifs/young-fangirling-fangirlunnamed-SO4trEzzGYDhC">via GIPHY</a></p>
 
 Os estados já representados são:
 
