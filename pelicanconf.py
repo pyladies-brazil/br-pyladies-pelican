@@ -61,7 +61,9 @@ STATIC_PATHS = [
     'extra/favicon.ico',
     'extra/favicon.png',
     # Site estático da primeira edição do evento
-    'conf-1'
+    'conf-1',
+    # Site estático da primeira edição da PyLadies Conf Nordeste
+    'conf-nordeste-1'
 ]
 
 EXTRA_PATH_METADATA = {
@@ -69,6 +71,7 @@ EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'},
     'extra/favicon.png': {'path': 'favicon.png'},
     'conf-1': {'path': 'conf-1'},
+    'conf-nordeste-1': {'path': 'conf-nordeste-1'},
 }
 
 # ANALYTICS
