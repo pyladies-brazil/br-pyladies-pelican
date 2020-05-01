@@ -211,9 +211,9 @@
 - city: São Paulo - SP
   image: /images/locais/pyladies-sp.jpeg
   facebook: https://www.facebook.com/PyLadiesSP
-  twitter: https://twitter.com/PyLadiesSPaulo
+  twitter: https://twitter.com/PyLadiesSP
+  github: https://github.com/PyLadiesSP
   email: saopaulo@pyladies.com
-  url: http://www.meetup.com/pt/PyLadiesSP/
 
 - city: Vale - SP
   image: /images/locais/pyladies-vale.png
