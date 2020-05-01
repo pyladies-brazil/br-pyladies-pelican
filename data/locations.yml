@@ -1,6 +1,7 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-nova-localiza%C3%A7%C3%A3o
 
+
 #Pyladies em Alagoas:
 
 - city: Maceió - AL
@@ -49,6 +50,12 @@
   github: https://github.com/pyladiesdf
   email: brasilia@pyladies.com
 
+#Pyladies em Maranhão:
+
+- city: São Luís - MA
+  image: /images/locais/pyladies-sao-luis.svg
+  instagram: https://www.instagram.com/pyladiesslz/
+  email: saoluis@pyladies.com
 
 
 #Pyladies em Minas Gerais:
