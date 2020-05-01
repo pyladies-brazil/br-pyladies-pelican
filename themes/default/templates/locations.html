@@ -61,6 +61,16 @@
                   </span>
                 </a>
                 {% endif %}
+
+                {% if location.youtube %}
+                <a target="_blank" href="{{ location.youtube }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-youtube-square fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}
+
               </div>
             </li>
             {% endfor %}
