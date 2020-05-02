@@ -1,6 +1,7 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-nova-localiza%C3%A7%C3%A3o
 
+
 #Pyladies em Alagoas:
 
 - city: Maceió - AL
@@ -15,6 +16,7 @@
 - city: Manaus - AM
   image: /images/locais/pyladies-manaus.png
   facebook: https://www.facebook.com/pyladiesmanaus/
+  instagram: https://www.instagram.com/pyladiesmanaus/
   email: manaus@pyladies.com
   twitter: http://twitter.com/pyladiesmanaus
   url: https://manaus.pyladies.com
@@ -36,8 +38,8 @@
   image: /images/locais/fortaleza.jpg
   twitter: https://twitter.com/pyladiesfort
   facebook: https://www.facebook.com/PyLadiesFortaleza
+  instagram: https://www.instagram.com/pyladiesfortaleza/  
   email: fortaleza@pyladies.com
-  url: https://www.facebook.com/PyLadiesFortaleza
 
 
 #PyLadies no Distrito Federal:
@@ -49,6 +51,12 @@
   github: https://github.com/pyladiesdf
   email: brasilia@pyladies.com
 
+#Pyladies em Maranhão:
+
+- city: São Luís - MA
+  image: /images/locais/pyladies-sao-luis.svg
+  instagram: https://www.instagram.com/pyladiesslz/
+  email: saoluis@pyladies.com
 
 
 #Pyladies em Minas Gerais:
@@ -56,6 +64,13 @@
 - city: Belo Horizonte - MG
   image: /images/locais/location.png
   facebook: https://www.facebook.com/pyladiesbh
+
+- city: Sul de Minas Gerais - MG
+  image: /images/locais/pyladies_sul_de_minas.png
+  facebook: https://www.facebook.com/pyladiesmg/
+  instagram: https://www.instagram.com/pyladiesmg/
+  youtube: https://www.youtube.com/channel/UCqxKgb-vR0L9_Zl-IgwsG7A
+  email: suldeminasgerais@pyladies.com
 
 
 #Pyladies no Pará:
@@ -70,6 +85,8 @@
   image: /images/locais/pyladiespb.png
   twitter: https://twitter.com/pyladiespb
   email: pb@pyladies.com
+  facebook: https://www.facebook.com/pyladiespb
+  instagram: https://www.instagram.com/pyladiespb/
   url: https://github.com/pyladiespb
 
 #Pyladies no Paraná:
@@ -90,8 +107,8 @@
 - city: Recife - PE
   image: /images/locais/pyladies-recife.png
   twitter: https://twitter.com/pyladies_recife/
-  facebook: https://www.facebook.com/pyladiesrecife/
   instagram: https://www.instagram.com/pyladiesrecife/
+  youtube: https://www.youtube.com/channel/UCNvD7aTKi9Fuyz74wL3Kn9w?view_as=subscriber
   email: recife@pyladies.com
 
 
@@ -204,9 +221,9 @@
 - city: São Paulo - SP
   image: /images/locais/pyladies-sp.jpeg
   facebook: https://www.facebook.com/PyLadiesSP
-  twitter: https://twitter.com/PyLadiesSPaulo
+  twitter: https://twitter.com/PyLadiesSP
+  github: https://github.com/PyLadiesSP
   email: saopaulo@pyladies.com
-  url: http://www.meetup.com/pt/PyLadiesSP/
 
 - city: Vale - SP
   image: /images/locais/pyladies-vale.png
@@ -214,3 +231,10 @@
   twitter: https://twitter.com/PyLadiesVale
   email: vale@pyladies.com
   url: http://vale.pyladies.com/
+
+#Pyladies em Sergipe:
+
+- city: Sergipe - SE
+  image: /images/locais/pyladies_sergipe.svg
+  twitter: https://www.instagram.com/pyladiessergipe/
+  email: sergipe@pyladies.com
