@@ -199,7 +199,6 @@
   facebook: https://www.facebook.com/pyladiescps
   email: campinas@pyladies.com
 
-
 - city: Ribeirão Preto - SP
   image: /images/locais/pyladies-rp.png
   facebook: https://www.facebook.com/pyladiesrp
@@ -224,6 +223,12 @@
   twitter: https://twitter.com/PyLadiesSP
   github: https://github.com/PyLadiesSP
   email: saopaulo@pyladies.com
+
+- city: Sorocaba - SP
+  image: /images/locais/pyladies-sorocaba.jpg
+  facebook: https://www.facebook.com/PyLadiesSorocaba
+  twitter: https://twitter.com/PyLadiesSoroca1
+  email: sorocaba@pyladies.com
 
 - city: Vale - SP
   image: /images/locais/pyladies-vale.png
