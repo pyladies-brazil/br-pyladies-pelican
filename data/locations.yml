@@ -26,10 +26,10 @@
 
 - city: Salvador - BA
   image: /images/locais/pyladies-salvador.png
-  facebook: https://www.facebook.com/PyLadiesSalvador
-  github: https://github.com/PyLadiesSalvador
+  twitter: https://twitter.com/pyladies_ssa
+  facebook: https://www.facebook.com/pyladies.ssa
+  instagram: https://www.instagram.com/pyladies.ssa/
   email: salvador@pyladies.com
-  url: https://www.meetup.com/pt-BR/PyLadies-Bahia/
 
 
 #Pyladies no Ceará:
@@ -50,6 +50,12 @@
   facebook: https://www.facebook.com/pyladiesdf/
   github: https://github.com/pyladiesdf
   email: brasilia@pyladies.com
+
+#PyLadies em Goiás
+- city: Goiânia - GO
+  image: /images/locais/pyladies-goiania.png
+  instagram: https://www.instagram.com/pyladies_goiania/
+  email: goiania@pyladies.com
 
 #Pyladies em Maranhão:
 
@@ -149,10 +155,11 @@
 #Pyladies no Rio Grande do Norte:
 
 - city: Natal - RN
-  image: /images/locais/location.png
+  image: /images/locais/pyladies_natal.svg
   twitter: http://twitter.com/PyladiesNatal
   facebook: https://www.facebook.com/PyLadiesNatal/
-  email: natalrn@pyladies.org
+  instagram: https://www.instagram.com/pyladiesnatal/
+  email: natalrn@pyladies.com
   url: http://pyladiesnatal.github.io/
 
 
@@ -208,8 +215,9 @@
 - city: São Carlos - SP
   image: /images/locais/pyladies-saocarlos.png
   twitter: https://twitter.com/PyLadiesSanca
+  instagram: https://www.instagram.com/pyladiessanca/
   facebook: https://www.facebook.com/PyLadiesSaoCarlos
-  email: saocarlos@pyladies.org
+  email: saocarlos@pyladies.com
   url: https://saocarlos.pyladies.com
 
 - city: São José dos Campos - SP
@@ -228,6 +236,7 @@
   image: /images/locais/pyladies-sorocaba.jpg
   facebook: https://www.facebook.com/PyLadiesSorocaba
   twitter: https://twitter.com/PyLadiesSoroca1
+  instagram: https://www.instagram.com/PyLadiesSorocaba/
   email: sorocaba@pyladies.com
 
 - city: Vale - SP
