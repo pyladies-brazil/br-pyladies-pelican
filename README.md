@@ -85,3 +85,7 @@ $ docker-compose up
 ```
 
 Agora basta acessar o navegador em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado.
+
+-------------------------
+
+Esse repositório é mantido com :heart: pelo @pyladies-brazil/tech-team
