@@ -15,7 +15,6 @@ Menu
   * [Atualizando o site](#atualizando-o-site)
 
 
-
 Contribuindo
 ============
 
@@ -182,17 +181,9 @@ Atualizando o site
 ------------------
 
 Nós temos um ambiente de teste, também conhecido como staging \o/
-Todo commit feito no branch `develop` deste repositório irá disparar a atualização do ambiente de staging automaticamente.
+Todo pull-request integrado no branch `develop` deste repositório irá disparar a atualização do ambiente de staging automaticamente.
 O deploy leva cerca de 3 minutos e acontece através da ferramenta de integração contínua [Codeship](https://app.codeship.com/projects/203211).
 
 __** Atenção: Sempre confira se as alterações no ambiente de staging se comportam como o esperado antes de atualizar o ambiente de produção **__
 
-Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Depois de testar manualmente as suas alterações, basta informar a alguma das pessoas abaixo para que as alterações sejam aplicadas no ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/) \o//
-
-- [@aninhalacerda](https://github.com/aninhalacerda)
-- [@darlenedms](https://github.com/darlenedms)
-- [@I-am-Gabi](https://github.com/I-am-Gabi)
-- [@lidymonteirowm](https://github.com/lidymonteirowm)
-- [@pgrangeiro](https://github.com/pgrangeiro)
-- [@roselmamendes](https://github.com/roselmamendes)
-- [@taniaa](https://github.com/taniaa)
+Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Para atualizar o ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/), basta subir as alterações para o branch `master`. As pessoas responsáveis por manter esse ambiente estão no @pyladies-brazil/tech-team.
