@@ -20,4 +20,4 @@ closeComment: >
   Encerrando!
 
 # Por enquanto limitando apenas aos PRs
-only: pullts
+only: pulls
