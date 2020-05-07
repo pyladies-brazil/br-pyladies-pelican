@@ -1,5 +1,3 @@
-## <Título do Pull Request>
-
 **Descrição do PR**
 Descreva brevemente o objetivo do seu PR
 
