@@ -1,18 +1,15 @@
 ---
-name: "Correção de bug"
-about: "Corrigiu um errinho encontrado? Então clica aqui!"
+name: "Adicão de feature"
+about: "Criou algo novo? Então esse é o template pra você"
 ---
 
-## Correção de bug
+## Adição de feature
 
-*Marque aqui qual o número/a issue referente ao bug que foi resolvido*
+*Se houver, marque aqui a issue*
 
+*Descreva brevemente qual o objetivo dessa feature*
 
-*Descreva aqui o problema*
-
-
-*Descreva aqui a sua solução*
-
+*Descreva aqui as mudanças feitas*
 
 *Antes de completar esse Pull Request, cheque os seguintes itens*
 - [ ] O projeto foi testado localmente
@@ -20,3 +17,5 @@ about: "Corrigiu um errinho encontrado? Então clica aqui!"
 
 
 *Existe alguma coisa em específico que as revisoras devem se atentar?*
+
+
