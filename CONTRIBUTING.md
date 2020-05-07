@@ -24,7 +24,7 @@ Contribuindo
 4. Faça push desses commits para sua branch: `git push origin my-new-feature`
 5. Envie um pull request para o nosso repositório
 
-Obs.: Nós usamos inglês como linguagem padrão dos commits (:
+Obs.: Nós usamos português como linguagem padrão dos commits (:
 
 
 Preparando o ambiente local
@@ -33,14 +33,9 @@ Preparando o ambiente local
 
 (Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
-Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, execute o seguinte comando:
+Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, siga as orientações do capítulo "Instalando e Rodando" do [Readme](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/develop/README.md)
 
-    make install
-
-Pronto :star2: Agora seu ambiente local está preparado para rodar :tada:!
-
-(Obs: se você pretende usar o ambiente virtual instalado via *make*, ele se
-encontra em `.venv/`.)
+(Obs: se você pretende usar o ambiente virtual instalado via *make*, ele se encontra em `.venv/`.)
 
 Criar um novo Post
 ------------------
@@ -146,12 +141,17 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
 ```yaml
 - city: CIDADE - ESTADO
   image: PATH IMAGEM LOCAL (Padrão: /images/locais/location.png)
-  twitter: Endereço twitter local (URL Completa)
-  email: EMAIL DA ORG
-  url: SITE DA ORG
+  twitter: URL completa do twitter (rede social opcional)
+  instagram: URL completa do Instagram (rede social opcional)
+  youtube: URL completa para o canal do Youtube (rede social opcional)
+  facebook: URL completa da página do facebook (rede social opcional)
+  email: Email oficial do capítulo (@pyladies.com)
+  url: Site oficial do capítulo (pyladies.com) (opcional)
 ```
 
 **Atenção:** A imagem precisa ser `100px por 100px`.
+
+O arquivo está dividido por estado, então, procura o teu e adiciona o capítulo nesse trecho do código. Além disso, informa apenas 03 (três) redes sociais, tá?! Quando passa disso a página fica um pouco desconfigurada.
 
 
 Adicionar vídeos
