@@ -7,7 +7,7 @@ exemptLabels:
   - pinned
   - security
 # Label a ser usada quando uma issue for obsoleta
-staleLabel: wontfix
+staleLabel: obsoleto
 # Comentário no post antes de a issue ser marcada como obsoleta. Mude para
 # `false` para desabilitar
 markComment: >
