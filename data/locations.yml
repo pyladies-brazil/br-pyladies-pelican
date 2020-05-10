@@ -48,8 +48,10 @@
   image: /images/locais/brasilia.png
   twitter: https://twitter.com/PyLadiesDF
   facebook: https://www.facebook.com/pyladiesdf/
+  instagram: https://www.instagram.com/pyladiesdf/
   github: https://github.com/pyladiesdf
   email: brasilia@pyladies.com
+  url: https://df.pyladies.com/
 
 #PyLadies em Goiás
 - city: Goiânia - GO
@@ -173,12 +175,11 @@
   url: https://pyladiescaxias.github.io/
 
 - city: Porto Alegre - RS
-  image: /images/locais/pyladies-poa.png
-  quitter: https://www.quitter.se/pyladiespoa
+  image: /images/locais/pyladies-porto-alegre.png
   twitter: https://twitter.com/Pyladiespoa
-  facebook: https://www.facebook.com/pyladiespoa
-  telegram: tg://resolve?domain=pyladiespoa
-  email: pyladiespoa@openmailbox.org
+  facebook: https://www.facebook.com/PoaPyladies/
+  instagram: https://www.instagram.com/pyladiespoa/
+  email: portoalegre@pyladies.com
   url: https://pyladiespoa.pythonanywhere.com
 
 
