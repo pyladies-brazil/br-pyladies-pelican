@@ -180,10 +180,8 @@ O site PyLadies utiliza um framework CSS chamado [Foundation](http://foundation.
 Atualizando o site
 ------------------
 
-Nós temos um ambiente de teste, também conhecido como staging \o/
-Todo pull-request integrado no branch `develop` deste repositório irá disparar a atualização do ambiente de staging automaticamente.
-O deploy leva cerca de 3 minutos e acontece através da ferramenta de integração contínua [Codeship](https://app.codeship.com/projects/203211).
+Todo pull-request aberto para o branch `master` irá disparar uma série de automações que checam a integridade do site, assim como um preview do site. Ele também marcará automaticamente o time responsável por manter esse site.
 
-__** Atenção: Sempre confira se as alterações no ambiente de staging se comportam como o esperado antes de atualizar o ambiente de produção **__
+Para verificar se suas mudanças estão da forma que você espera, basta verificar o status check de deploy preview, clicar em detalhes e você vai ser redirecionada para um site com as suas mudanças.
 
-Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Para atualizar o ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/), basta subir as alterações para o branch `master`. As pessoas responsáveis por manter esse ambiente estão no @pyladies-brazil/tech-team.
+Se estiver tudo certo, basta esperar que alguém revise e integre seu pull-request em `master`, o que vai disparar um deploy automático para o ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/).
