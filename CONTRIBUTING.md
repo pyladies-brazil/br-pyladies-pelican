@@ -180,7 +180,8 @@ O site PyLadies utiliza um framework CSS chamado [Foundation](http://foundation.
 Atualizando o site
 ------------------
 
-Todo pull-request aberto para o branch `master` irá disparar uma série de automações que checam a integridade do site, assim como um preview do site. Ele também marcará automaticamente o time responsável por manter esse site.
+Todo pull-request aberto para o branch `master` irá disparar uma série de automações que checam a integridade do site e geram uma preview dele. 
+Além disso, o time responsável por manter o site será marcado para revisar as mudanças propostas.
 
 Para verificar se suas mudanças estão da forma que você espera, basta verificar o status check de deploy preview, clicar em detalhes e você vai ser redirecionada para um site com as suas mudanças.
 
