@@ -45,7 +45,6 @@ MENUITEMS = (
     ('Sobre', '/about'),
     ('Eventos', '/events'),
     ('Locais', '/locations'),
-    ('Ladies', '/ladies'),
     ('Videos', '/videos'),
     ('Materiais', '/materiais'),
     ('Blog', '/archives.html'),
@@ -82,14 +81,7 @@ DISQUS_SITENAME = 'pyladiesbrasil'
 # RELATIVE_URLS = True
 
 
-# Ladies, Locations, Events and Videos
-with open('data/ladies.yml') as ladies:
-    ladies_converted = yaml.load(ladies.read())
-    LADIES = []
-    for lady in ladies_converted:
-        LADIES.append(
-            namedtuple('Ladies', lady.keys())(**lady)
-        )
+# Locations, Events and Videos
 
 with open('data/locations.yml') as locations:
     locations_converted = yaml.load(locations.read())

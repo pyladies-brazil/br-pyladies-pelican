@@ -99,39 +99,6 @@ Agora é só rodar o comando abaixo, lembrando que o conteúdo gerado é estáti
     make load-facebook-events
 
 
-Adicionar Ladies
-----------------
-
-Para adicionar uma nova lady, edite o arquivo `data/ladies.yml` . Ele possui o seguinte formato:
-
-
-```yaml
-- name: NOME DA LADY
-  github: github da lady (apenas o nome de usuário)
-  twitter: twitter da lady (apenas o nome de usuário)
-  facebook: facebook da lady (apenas o nome de usuário)
-  image: PATH DA IMAGEM DA LADY
-```
-
-O `PATH DA IMAGEM DA LADY` pode ser:
-
-#### Path relativo
-
-O endereço da foto em nosso projeto.
-
-*Exemplo:* `/images/ladies/nomedalady.jpg`
-
-Nesse caso, a nova imagem deverá ser inserida no diretório `content/images/ladies`
-
-**Atenção:** A imagem precisa ser `100px por 100px`.
-
-#### Path absoluto
-
-Uma url completa da foto em outro site.
-
-*Exemplo:* `https://gravatar.com/avatar/07ac697bcff40050a82cb4503de9eb69`
-
-
 Adicionar nova Localização
 --------------------------
 
