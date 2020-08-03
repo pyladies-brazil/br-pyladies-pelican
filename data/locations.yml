@@ -38,19 +38,19 @@
   image: /images/locais/fortaleza.jpg
   twitter: https://twitter.com/pyladiesfort
   facebook: https://www.facebook.com/PyLadiesFortaleza
-  instagram: https://www.instagram.com/pyladiesfortaleza/  
+  instagram: https://www.instagram.com/pyladiesfortaleza/
   email: fortaleza@pyladies.com
 
 
 #PyLadies no Distrito Federal:
 
-- city: Brasilia - DF
+- city: Distrito Federal - DF
   image: /images/locais/brasilia.png
   twitter: https://twitter.com/PyLadiesDF
   facebook: https://www.facebook.com/pyladiesdf/
   instagram: https://www.instagram.com/pyladiesdf/
   github: https://github.com/pyladiesdf
-  email: brasilia@pyladies.com
+  email: df@pyladies.com
   url: https://df.pyladies.com/
 
 #PyLadies em Goiás
@@ -244,7 +244,7 @@
 - city: Sorocaba - SP
   image: /images/locais/pyladies-sorocaba.jpg
   facebook: https://www.facebook.com/PyLadiesSorocaba
-  twitter: https://twitter.com/PyLadiesSoroca1
+  twitter: https://twitter.com/PyLadieSorocaba
   instagram: https://www.instagram.com/PyLadiesSorocaba/
   email: sorocaba@pyladies.com
 

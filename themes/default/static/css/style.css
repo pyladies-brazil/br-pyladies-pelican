@@ -511,32 +511,27 @@ main, .notepad-share-icons, .notepad-disqus {
       padding-bottom: 12.5rem; } }
 
 .notepad-content .notepad-index-post .post-header {
-    min-height: 93px;
     margin-bottom: 2%; }
 
     @media only screen and (min-width: 40.063em) {
         .notepad-content .notepad-index-post .post-header {
           margin-bottom: 0; } }
     .notepad-content .notepad-index-post {
-      min-height: 300px;
-      margin-top: 3.375rem;
-      margin-bottom: 3px; }
+      margin-top: 2rem;
+      margin-bottom: 0.5rem; }
 
     .notepad-post-meta {
       display: inline-block;
     }
     .notepad-content .notepad-index-post .notepad-post-meta .day {
       display: block;
-      font-size: 3.25rem;
+      font-size: 1rem;
       font-weight: 800;
       color: #ff3373;
-      font-family: "Montserrat", sans-serif; }
-    .notepad-content .notepad-index-post .notepad-post-meta .month-year {
-      display: block;
-      font-size: 1rem;
-      color: #262626;
-      font-size: 0.875rem;
-      font-family: "Montserrat", sans-serif;}
+      font-family: "Montserrat", sans-serif; 
+      text-transform: capitalize;}
+      .notepad-content .notepad-index-post .notepad-post-meta .day a {
+        color: #ff3373; }
   .notepad-content .notepad-index-post .notepad-post-header .notepad-post-title {
     color: #262626;
     font-weight: 500;
@@ -563,6 +558,8 @@ main, .notepad-share-icons, .notepad-disqus {
     .notepad-content .notepad-index-post .notepad-post-excerpt p {
       margin: 0;
       font-size: 15px; }
+    .notepad-content .notepad-index-post .notepad-post-excerpt a {
+      color: black; }
   @media only screen and (min-width: 40.063em) {
     .notepad-content .notepad-index-post .notepad-post-excerpt {
       text-align: left; } }

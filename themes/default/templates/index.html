@@ -2,44 +2,37 @@
 {% block content %}
 {% if articles %}
 {% for post in articles_page.object_list[:6] %}
-
-<article class="notepad-index-post post small-12 medium-6 large-4 columns">
+<article class="notepad-index-post post small-12 medium-12 large-12">
   <div class="post-header row">
-    <span class="small-3 columns notepad-post-meta">
+    <span class="small-10 columns notepad-post-meta">
       <time datetime="{{ post.date.isoformat() }}">
-        <span class="day">
-          {{ post.date.strftime("%d") }}
-        </span>
-        <span class="month-year">
-          {{ post.date.strftime("%B %Y") }}
+        <span class="day">{{ post.date.strftime("%d %B %Y") }} -
+          <a href="{{ SITEURL }}/{{ post.url }}">
+            {{ post.title|striptags }}
+          </a>
         </span>
       </time>
     </span>
-    <span class="small-9 columns notepad-post-header">
-      <h3 class="notepad-post-title">
-        <a href="{{ SITEURL }}/{{ post.url }}">
-          {{ post.title|striptags }}
-        </a>
-      </h3>
-    </span>
   </div>
-
   <div class="row">
     <section class="small-12 columns notepad-post-excerpt">
-      <p>{{ post.summary }}</p>
+      <a href="{{ SITEURL }}/{{ post.url }}">
+        <p>{{ post.summary }}</p>
+      </a>
     </section>
-
     <div class="small-12 columns notepad-index-post-tags">
       {% if post.category %}
-      <a href="{{ SITEURL }}/category/{{ post.category|lower }}.html" title="Other posts from the {{ post.category|capitalize }} category">{{ post.category|capitalize }}</a>
+      <a href="{{ SITEURL }}/category/{{ post.category|lower }}.html"
+        title="Other posts from the {{ post.category|capitalize }} category">{{ post.category|capitalize }}</a>
       {% endif %}
     </div>
   </div>
+  <hr />
 </article>
 {% endfor %}
-<!--<nav class="pagination" role="navigation">-->
-  <!--<a class="newer-posts" href="{{ SITEURL }}/archives">View All Posts</a>-->
-<!--</nav>-->
+<!-- <nav class="pagination" role="navigation">
+  <a class="newer-posts" href="{{ SITEURL }}/archives">Ver todos os posts</a>
+</nav> -->
 {% else %}
 {% endif %}
 {% endblock %}
