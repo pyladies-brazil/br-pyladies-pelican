@@ -13,7 +13,7 @@ SITEURL = '{}'.format(os.getenv('SITEURL', 'http://localhost:{}'.format(os.geten
 TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
            'sem o seu consentimento (Eleanor Roosevelt)')
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
-DEFAULT_BG = 'images/pyladies-brasil-logo.png'
+DEFAULT_BG = 'images/marca/logo-oficial-pyladies-brasil-cabeca-sem-borda.png'
 SINCE = datetime.now().year
 NOW = datetime.now().date()
 SUMMARY_MAX_LENGTH = 30
