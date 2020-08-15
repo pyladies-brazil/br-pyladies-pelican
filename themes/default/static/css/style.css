@@ -518,7 +518,10 @@ main, .notepad-share-icons, .notepad-disqus {
           margin-bottom: 0; } }
     .notepad-content .notepad-index-post {
       margin-top: 2rem;
-      margin-bottom: 0.5rem; }
+      margin-bottom: 0.5rem;
+      padding-left: 2%;
+      padding-right: 2%;
+    }
 
     .notepad-post-meta {
       display: inline-block;

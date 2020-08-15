@@ -1,5 +1,6 @@
 Menu
 ====
+0. Aviso sobre a Síndrome do Impostor
 1. Primeiros Passos
   * [Contribuindo](#contribuindo)
   * [Preparando o ambiente local](#preparando-o-ambiente-local)
@@ -13,6 +14,30 @@ Menu
 
 3. Deploy
   * [Atualizando o site](#atualizando-o-site)
+
+Aviso sobre Síndrome do Impostor 
+============
+
+A gente precisa da sua ajuda. Sério!
+
+Pode ser que haja uma vozinha na sua cabeça dizendo que você não está pronta;
+que você precisa fazer mais um tutorial ou aprender mais um framework, talvez
+escrever mais algumas postagens no seu blog antes de conseguir nos ajudar com 
+esse projeto.
+
+Ignora essa voz. A gente te garante que esse não é o caso.
+
+Tentamos deixar esse guia de contribuição o mais claro possível, mas este é um 
+documento vivo, então qualquer dúvida, basta abrir uma [issue](https://github.com/pyladies-brazil/br-pyladies-pelican/issues/new/choose) 
+e seguiremos melhorando!
+
+Como você verá no decorrer do documento, nem toda contribuição é feita código. Você 
+pode contribuir por meio de postagens, ideias e discussões, adicionando o 
+evento do seu capítulo, adicionando o seu capítulo e etc.
+
+Esse pequeno aviso foi traduzido [desse repositório](https://github.com/adriennefriend/imposter-syndrome-disclaimer). 
+
+Obrigada por contribuir!
 
 
 Contribuindo
