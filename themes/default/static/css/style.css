@@ -33,6 +33,12 @@ html, body {
 }
 */
 
+/* Mapa */
+.mapa {
+  width: 100%;
+  height: 500px;
+}
+
 /* Eventos */
 
 #archive {padding-top: 20px;}
