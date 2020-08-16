@@ -9,7 +9,7 @@
     <div id="archive">
       <div class="wrap wrap-events">
         <div class="large-12 columns-events">
-          <ul class="grid large-block-grid-6 locations-grid" >
+          <ul class="grid large-block-grid-6 locations-grid">
             {% for location in LOCATIONS %}
             <li class="location">
               <div>
@@ -18,11 +18,11 @@
 
               {% if location.url %}
               <a target="_blank" href="{{ location.url }}">
-                <span class="location-name">Pyladies {{ location.city }}</span>
+                <span class="location-name">Pyladies {{ location.city }} - {{ location.state }}</span>
                 <i class="fa fa-external-link location-external-link" aria-hidden="true"></i>
               </a>
               {% else %}
-              <span class="location-name">Pyladies {{ location.city }}</span>
+              <span class="location-name">Pyladies {{ location.city }} - {{ location.state }}</span>
               {% endif %}
 
               <div class="social-icons">
