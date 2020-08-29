@@ -9,11 +9,11 @@ import yaml
 
 AUTHOR = u'Pyladies'
 SITENAME = u'Pyladies Brasil'
-SITEURL = 'http://localhost:{}'.format(os.getenv('PORT', '8000'))
+SITEURL = '{}'.format(os.getenv('SITEURL', 'http://localhost:{}'.format(os.getenv('PORT', '8000'))))
 TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
            'sem o seu consentimento (Eleanor Roosevelt)')
 DEFAULT_DATE_FORMAT = ('%d-%m-%Y')
-DEFAULT_BG = 'images/pyladies-brasil-logo.png'
+DEFAULT_BG = 'images/marca/logo-oficial-pyladies-brasil-cabeca-sem-borda.png'
 SINCE = datetime.now().year
 NOW = datetime.now().date()
 SUMMARY_MAX_LENGTH = 30
@@ -45,7 +45,6 @@ MENUITEMS = (
     ('Sobre', '/about'),
     ('Eventos', '/events'),
     ('Locais', '/locations'),
-    ('Ladies', '/ladies'),
     ('Videos', '/videos'),
     ('Materiais', '/materiais'),
     ('Blog', '/archives.html'),
@@ -82,14 +81,7 @@ DISQUS_SITENAME = 'pyladiesbrasil'
 # RELATIVE_URLS = True
 
 
-# Ladies, Locations, Events and Videos
-with open('data/ladies.yml') as ladies:
-    ladies_converted = yaml.load(ladies.read())
-    LADIES = []
-    for lady in ladies_converted:
-        LADIES.append(
-            namedtuple('Ladies', lady.keys())(**lady)
-        )
+# Locations, Events and Videos
 
 with open('data/locations.yml') as locations:
     locations_converted = yaml.load(locations.read())

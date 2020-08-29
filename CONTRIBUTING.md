@@ -1,5 +1,6 @@
 Menu
 ====
+0. Aviso sobre a Síndrome do Impostor
 1. Primeiros Passos
   * [Contribuindo](#contribuindo)
   * [Preparando o ambiente local](#preparando-o-ambiente-local)
@@ -14,6 +15,29 @@ Menu
 3. Deploy
   * [Atualizando o site](#atualizando-o-site)
 
+Aviso sobre Síndrome do Impostor 
+============
+
+A gente precisa da sua ajuda. Sério!
+
+Pode ser que haja uma vozinha na sua cabeça dizendo que você não está pronta;
+que você precisa fazer mais um tutorial ou aprender mais um framework, talvez
+escrever mais algumas postagens no seu blog antes de conseguir nos ajudar com 
+esse projeto.
+
+Ignora essa voz. A gente te garante que esse não é o caso.
+
+Tentamos deixar esse guia de contribuição o mais claro possível, mas este é um 
+documento vivo, então qualquer dúvida, basta abrir uma [issue](https://github.com/pyladies-brazil/br-pyladies-pelican/issues/new/choose) 
+e seguiremos melhorando!
+
+Como você verá no decorrer do documento, nem toda contribuição é feita código. Você 
+pode contribuir por meio de postagens, ideias e discussões, adicionando o 
+evento do seu capítulo, adicionando o seu capítulo e etc.
+
+Esse pequeno aviso foi traduzido [desse repositório](https://github.com/adriennefriend/imposter-syndrome-disclaimer). 
+
+Obrigada por contribuir!
 
 
 Contribuindo
@@ -25,7 +49,7 @@ Contribuindo
 4. Faça push desses commits para sua branch: `git push origin my-new-feature`
 5. Envie um pull request para o nosso repositório
 
-Obs.: Nós usamos inglês como linguagem padrão dos commits (:
+Obs.: Nós usamos português como linguagem padrão dos commits (:
 
 
 Preparando o ambiente local
@@ -34,14 +58,9 @@ Preparando o ambiente local
 
 (Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
-Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, execute o seguinte comando:
+Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, siga as orientações do capítulo "Instalando e Rodando" do [Readme](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/develop/README.md)
 
-    make install
-
-Pronto :star2: Agora seu ambiente local está preparado para rodar :tada:!
-
-(Obs: se você pretende usar o ambiente virtual instalado via *make*, ele se
-encontra em `.venv/`.)
+(Obs: se você pretende usar o ambiente virtual instalado via *make*, ele se encontra em `.venv/`.)
 
 Criar um novo Post
 ------------------
@@ -105,39 +124,6 @@ Agora é só rodar o comando abaixo, lembrando que o conteúdo gerado é estáti
     make load-facebook-events
 
 
-Adicionar Ladies
-----------------
-
-Para adicionar uma nova lady, edite o arquivo `data/ladies.yml` . Ele possui o seguinte formato:
-
-
-```yaml
-- name: NOME DA LADY
-  github: github da lady (apenas o nome de usuário)
-  twitter: twitter da lady (apenas o nome de usuário)
-  facebook: facebook da lady (apenas o nome de usuário)
-  image: PATH DA IMAGEM DA LADY
-```
-
-O `PATH DA IMAGEM DA LADY` pode ser:
-
-#### Path relativo
-
-O endereço da foto em nosso projeto.
-
-*Exemplo:* `/images/ladies/nomedalady.jpg`
-
-Nesse caso, a nova imagem deverá ser inserida no diretório `content/images/ladies`
-
-**Atenção:** A imagem precisa ser `100px por 100px`.
-
-#### Path absoluto
-
-Uma url completa da foto em outro site.
-
-*Exemplo:* `https://gravatar.com/avatar/07ac697bcff40050a82cb4503de9eb69`
-
-
 Adicionar nova Localização
 --------------------------
 
@@ -147,12 +133,17 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
 ```yaml
 - city: CIDADE - ESTADO
   image: PATH IMAGEM LOCAL (Padrão: /images/locais/location.png)
-  twitter: Endereço twitter local (URL Completa)
-  email: EMAIL DA ORG
-  url: SITE DA ORG
+  twitter: URL completa do twitter (rede social opcional)
+  instagram: URL completa do Instagram (rede social opcional)
+  youtube: URL completa para o canal do Youtube (rede social opcional)
+  facebook: URL completa da página do facebook (rede social opcional)
+  email: Email oficial do capítulo (@pyladies.com)
+  url: Site oficial do capítulo (pyladies.com) (opcional)
 ```
 
 **Atenção:** A imagem precisa ser `100px por 100px`.
+
+O arquivo está dividido por estado, então, procura o teu e adiciona o capítulo nesse trecho do código. Além disso, informa apenas 03 (três) redes sociais, tá?! Quando passa disso a página fica um pouco desconfigurada.
 
 
 Adicionar vídeos
@@ -181,18 +172,9 @@ O site PyLadies utiliza um framework CSS chamado [Foundation](http://foundation.
 Atualizando o site
 ------------------
 
-Nós temos um ambiente de teste, também conhecido como staging \o/
-Todo commit feito no branch `develop` deste repositório irá disparar a atualização do ambiente de staging automaticamente.
-O deploy leva cerca de 3 minutos e acontece através da ferramenta de integração contínua [Codeship](https://app.codeship.com/projects/203211).
+Todo pull-request aberto para o branch `master` irá disparar uma série de automações que checam a integridade do site e geram uma preview dele. 
+Além disso, o time responsável por manter o site será marcado para revisar as mudanças propostas.
 
-__** Atenção: Sempre confira se as alterações no ambiente de staging se comportam como o esperado antes de atualizar o ambiente de produção **__
+Para verificar se suas mudanças estão da forma que você espera, basta verificar o status check de deploy preview, clicar em detalhes e você vai ser redirecionada para um site com as suas mudanças.
 
-Para verificar se tudo funciona conforme o esperado, acesse [o ambiente de teste](http://staging-brasil-pyladies.herokuapp.com/). Depois de testar manualmente as suas alterações, basta informar a alguma das pessoas abaixo para que as alterações sejam aplicadas no ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/) \o//
-
-- [@aninhalacerda](https://github.com/aninhalacerda)
-- [@darlenedms](https://github.com/darlenedms)
-- [@I-am-Gabi](https://github.com/I-am-Gabi)
-- [@lidymonteirowm](https://github.com/lidymonteirowm)
-- [@pgrangeiro](https://github.com/pgrangeiro)
-- [@roselmamendes](https://github.com/roselmamendes)
-- [@taniaa](https://github.com/taniaa)
+Se estiver tudo certo, basta esperar que alguém revise e integre seu pull-request em `master`, o que vai disparar um deploy automático para o ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/).
