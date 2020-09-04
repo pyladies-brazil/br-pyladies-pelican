@@ -41,7 +41,8 @@ Por fim, queremos agradecer à todas as comunidade que contribuíram com o **#Pa
 -   Episódio 15: PyLadies Natal, Paraíba e Salvador  
 -   Episódio 16: PyLadies São Luís, Natal e São Paulo
 
-E agradecer, também, às nossas PyLadies que tomaram a frente, assinaram muitos e-mails, fizeram vários testes de transmissão, posts em redes sociais e caminharam com o Papo até aqui: [Ana Cecília Vieira](https://twitter.com/cecivieira) (PyLadies Recife), [Dandara Sousa]([https://twitter.com/dandaramcsousa](https://twitter.com/dandaramcsousa)) (PyLadies Paraíba) e [Giovana Morais](https://twitter.com/ohshitgi) (PyLadies Sorocaba).
+E agradecer, também, às nossas PyLadies que tomaram a frente, assinaram muitos e-mails, fizeram vários testes de transmissão, posts em redes sociais e caminharam com o Papo até aqui: [Ana Cecília Vieira](https://twitter.com/cecivieira) (PyLadies Recife), [Dandara Sousa](https://twitter.com/dandaramcsousa) (PyLadies Paraíba) e [Giovana Morais](https://twitter.com/ohshitgi) (PyLadies Sorocaba).
+
 
 ![Papo entre PyLadies]({filename}/images/orgpapoentrepyladies.jpg)  
 
