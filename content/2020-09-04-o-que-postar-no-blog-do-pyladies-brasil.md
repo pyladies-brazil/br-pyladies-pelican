@@ -19,52 +19,52 @@ Ironicamente, fizemos um post para responder essa pergunta.
 
 Todas as atividades realizadas pelo seu capítulo PyLadies podem - e até devem - ser postadas no blog do PyLadies Brasil.
 
+---
+**Quer fazer um post das atividades rotineiras do seu capítulo para espalhar por aí que ser PyLady não é só holofotes?**
 
-**Quer fazer um post das atividades rotineiras do seu capítulo para espalhar por aí que ser PyLady não é só holofotes?
-**
+Apoiamos muito! Pode ser uma referência para outros capítulos se organizarem!
 
-R - Apoiamos muito! Pode ser uma referência para outros capítulos se organizarem!
-
-
+---
 **Uma cobertura completa daquele evento que vocês participaram?**
 
-R - Façam! Pode ajudar a tornar os conteúdos do evento acessíveis à pessoas que não participaram, além de inspirar outras PyLadies a irem a este e outros eventos!
+Façam! Pode ajudar a tornar os conteúdos do evento acessíveis à pessoas que não participaram, além de inspirar outras PyLadies a irem a este e outros eventos!
 
-
+---
 **Sobre os bastidores do evento que organizaram?**
 
-R - Isso seria muito instrutivo, inclusive para que outras PyLadies organizem seus próprios eventos e aprendam com as experiências de vocês.
+Isso seria muito instrutivo, inclusive para que outras PyLadies organizem seus próprios eventos e aprendam com as experiências de vocês.
 
-
+---
 **Quer fazer um post técnico sobre Python, suas bibliotecas, frameworks?**
 
-R - Todas as ladies agradecem por isso! O blog da PyLadies Brasil também é para acessibilizar tecnologia. Aquele tutorial que vocês tiveram o trabalho de organizar para um minicurso interno será muito bem-vindo e poderá ajudar a muitas mulheres!
+Todas as ladies agradecem por isso! O blog da PyLadies Brasil também é para acessibilizar tecnologia. Aquele tutorial que vocês tiveram o trabalho de organizar para um minicurso interno será muito bem-vindo e poderá ajudar a muitas mulheres!
 
-
+---
 **Gostaria de contar sobre um projeto em que levaram a palavra do Python para outras mulheres?**
 
-R - POR FAVOR! É pra isso que estamos aqui!
+POR FAVOR! É pra isso que estamos aqui!
 
-
+---
 **Um post sobre a organização interna e divisão de tarefas do seu capítulo?**
 
-R - Conteúdo mais que bem-vindo!
+Conteúdo mais que bem-vindo!
 
-
+---
 **Quer fazer um post comemorando o aniversário do seu capítulo?**
 
-R - Pode.
+Pode.
 
-
+---
 **Quer fazer um post comemorando que seu capítulo atingiu x integrantes?**
 
-R - Pode também.
+Pode também.
 
-
+---
 **Quer fazer um post da festa de comemoração de aniversário do capítulo com uma foto das x integrantes?**
 
-R - Claro que pode!
+Claro que pode!
 
+---
 Então vamos lá!
 
 ![Post](https://media.giphy.com/media/o0vwzuFwCGAFO/giphy.gif)
