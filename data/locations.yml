@@ -1,282 +1,277 @@
-# para maiores informacoes va para:
-# https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-nova-localiza%C3%A7%C3%A3o
-
-#Pyladies em Alagoas:
-
-- city: Maceió
-  state: AL
-  image: /images/locais/pyladies-maceio.png
-  twitter: https://twitter.com/pyladiesmaceio
-  facebook: https://www.facebook.com/PyLadiesMaceio
-  instagram: https://www.instagram.com/pyladiesmaceio/
+- city: "Macei\xF3"
   email: maceio@pyladies.com
-
-#Pyladies no Amazonas:
-
+  facebook: https://www.facebook.com/PyLadiesMaceio
+  image: /images/locais/pyladies-maceio.png
+  instagram: https://www.instagram.com/pyladiesmaceio/
+  lat: -9.6476843
+  lon: -35.7339264
+  state: AL
+  twitter: https://twitter.com/pyladiesmaceio
 - city: Manaus
-  state: AM
-  image: /images/locais/pyladies-manaus.png
-  facebook: https://www.facebook.com/pyladiesmanaus/
-  instagram: https://www.instagram.com/pyladiesmanaus/
   email: manaus@pyladies.com
+  facebook: https://www.facebook.com/pyladiesmanaus/
+  image: /images/locais/pyladies-manaus.png
+  instagram: https://www.instagram.com/pyladiesmanaus/
+  lat: -3.1316333
+  lon: -59.9825041
+  state: AM
   twitter: http://twitter.com/pyladiesmanaus
   url: https://manaus.pyladies.com
-
-#Pyladies na Bahia:
-
 - city: Salvador
-  state: BA
-  image: /images/locais/pyladies-salvador.png
-  twitter: https://twitter.com/pyladies_ssa
-  facebook: https://www.facebook.com/pyladies.ssa
-  instagram: https://www.instagram.com/pyladies.ssa/
   email: salvador@pyladies.com
-
-#Pyladies no Ceará:
-
+  facebook: https://www.facebook.com/pyladies.ssa
+  image: /images/locais/pyladies-salvador.png
+  instagram: https://www.instagram.com/pyladies.ssa/
+  lat: -12.9822499
+  lon: -38.4812772
+  state: BA
+  twitter: https://twitter.com/pyladies_ssa
 - city: Fortaleza
-  state: CE
-  image: /images/locais/fortaleza.jpg
-  twitter: https://twitter.com/pyladiesfort
-  facebook: https://www.facebook.com/PyLadiesFortaleza
-  instagram: https://www.instagram.com/pyladiesfortaleza/
   email: fortaleza@pyladies.com
-
-#PyLadies no Distrito Federal:
-
+  facebook: https://www.facebook.com/PyLadiesFortaleza
+  image: /images/locais/fortaleza.jpg
+  instagram: https://www.instagram.com/pyladiesfortaleza/
+  lat: -3.7304512
+  lon: -38.5217989
+  state: CE
+  twitter: https://twitter.com/pyladiesfort
 - city: Distrito Federal
-  state: DF
-  image: /images/locais/brasilia.png
-  twitter: https://twitter.com/PyLadiesDF
-  facebook: https://www.facebook.com/pyladiesdf/
-  instagram: https://www.instagram.com/pyladiesdf/
-  github: https://github.com/pyladiesdf
   email: df@pyladies.com
+  facebook: https://www.facebook.com/pyladiesdf/
+  github: https://github.com/pyladiesdf
+  image: /images/locais/brasilia.png
+  instagram: https://www.instagram.com/pyladiesdf/
+  lat: -15.7754462
+  lon: -47.7970891
+  state: DF
+  twitter: https://twitter.com/PyLadiesDF
   url: https://df.pyladies.com/
-
-#PyLadies em Goiás
-- city: Goiânia
-  state: GO
+- city: "Goi\xE2nia"
+  email: goiania@pyladies.com
   image: /images/locais/pyladies-goiania.png
   instagram: https://www.instagram.com/pyladies_goiania/
-  email: goiania@pyladies.com
-
-#Pyladies em Maranhão:
-
-- city: São Luís
-  state: MA
+  lat: -16.680882
+  lon: -49.2532691
+  state: GO
+- city: "S\xE3o Lu\xEDs"
+  email: saoluis@pyladies.com
   image: /images/locais/pyladies-sao-luis.svg
   instagram: https://www.instagram.com/pyladiesslz/
-  email: saoluis@pyladies.com
-
-#Pyladies em Minas Gerais:
-
+  lat: -2.5634605
+  lon: -44.2448718
+  state: MA
 - city: Belo Horizonte
-  state: MG
-  image: /images/locais/location.png
   facebook: https://www.facebook.com/pyladiesbh
-
-- city: Sul de Minas Gerais
+  image: /images/locais/location.png
+  lat: -19.9227318
+  lon: -43.9450948
   state: MG
-  image: /images/locais/pyladies_sul_de_minas.png
-  facebook: https://www.facebook.com/pyladiesmg/
-  instagram: https://www.instagram.com/pyladiesmg/
-  youtube: https://www.youtube.com/channel/UCqxKgb-vR0L9_Zl-IgwsG7A
+- city: Sul de Minas Gerais
   email: suldeminasgerais@pyladies.com
-
-#Pyladies no Pará:
-
-- city: Belém
-  state: PA
-  image: /images/locais/pyladies-belem.jpg
-  facebook: https://www.facebook.com/pyladiesbelem/
+  facebook: https://www.facebook.com/pyladiesmg/
+  image: /images/locais/pyladies_sul_de_minas.png
+  instagram: https://www.instagram.com/pyladiesmg/
+  lat: -22.1562423
+  lon: -45.1010428
+  state: MG
+  youtube: https://www.youtube.com/channel/UCqxKgb-vR0L9_Zl-IgwsG7A
+- city: "Bel\xE9m"
   email: belem@pyladies.com
-
-#Pyladies na Paraíba:
-- city: Paraíba
-  image: /images/locais/pyladiespb.png
-  twitter: https://twitter.com/pyladiespb
+  facebook: https://www.facebook.com/pyladiesbelem/
+  image: /images/locais/pyladies-belem.jpg
+  lat: -1.45056
+  lon: -48.4682453
+  state: PA
+- city: "Para\xEDba"
   email: pb@pyladies.com
   facebook: https://www.facebook.com/pyladiespb
+  image: /images/locais/pyladiespb.png
   instagram: https://www.instagram.com/pyladiespb/
+  lat: -6.5881317
+  lon: -37.8965665
+  state: PB
+  twitter: https://twitter.com/pyladiespb
   url: https://github.com/pyladiespb
-
-#Pyladies no Paraná:
-
 - city: Curitiba
-  state: PR
-  image: /images/locais/pyladies-curitiba.png
   facebook: https://www.facebook.com/PyLadiesCuritiba
-  url: http://www.meetup.com/pt-BR/PyLadies-Curitiba/
-
-- city: Pato Branco
+  image: /images/locais/pyladies-curitiba.png
+  lat: -25.4295963
+  lon: -49.2712724
   state: PR
-  image: /images/locais/location.png
+  url: http://www.meetup.com/pt-BR/PyLadies-Curitiba/
+- city: Pato Branco
   facebook: https://www.facebook.com/PyLadiesPatoBranco/
+  image: /images/locais/location.png
+  lat: -26.2295984
+  lon: -52.6712474
+  state: PR
   url: https://github.com/pyladiespatobranco
-
-#Pyladies em Pernambuco:
-
 - city: Recife
-  state: PE
-  image: /images/locais/pyladies-recife.png
-  twitter: https://twitter.com/pyladies_recife/
-  instagram: https://www.instagram.com/pyladiesrecife/
-  youtube: https://www.youtube.com/channel/UCNvD7aTKi9Fuyz74wL3Kn9w?view_as=subscriber
   email: recife@pyladies.com
-
-#Pyladies no Piauí:
-
-- city: Parnaíba
-  state: PI
-  image: /images/locais/pyladies-parnaiba.png
-  facebook: https://www.facebook.com/pyLadiesPHB/
-  twitter: https://twitter.com/pyladiesphb
-  instagram: https://www.instagram.com/pyladiesphb/
+  image: /images/locais/pyladies-recife.png
+  instagram: https://www.instagram.com/pyladiesrecife/
+  lat: -8.0584933
+  lon: -34.8848193
+  state: PE
+  twitter: https://twitter.com/pyladies_recife/
+  youtube: https://www.youtube.com/channel/UCNvD7aTKi9Fuyz74wL3Kn9w?view_as=subscriber
+- city: "Parna\xEDba"
   email: parnaiba@pyladies.com
-  url: https://www.linkedin.com/company/pyladiesparnaiba/
-
-- city: Teresina
+  facebook: https://www.facebook.com/pyLadiesPHB/
+  image: /images/locais/pyladies-parnaiba.png
+  instagram: https://www.instagram.com/pyladiesphb/
+  lat: -2.9147515
+  lon: -41.7661953
   state: PI
-  image: /images/locais/pyladies-teresina.png
-  facebook: https://www.facebook.com/PyLadiesTeresina/
-  twitter: https://twitter.com/pyladiesthe
+  twitter: https://twitter.com/pyladiesphb
+  url: https://www.linkedin.com/company/pyladiesparnaiba/
+- city: Teresina
   email: teresina@pyladies.com
+  facebook: https://www.facebook.com/PyLadiesTeresina/
+  image: /images/locais/pyladies-teresina.png
+  lat: -5.0896403
+  lon: -42.809588
+  state: PI
+  twitter: https://twitter.com/pyladiesthe
   url: https://www.facebook.com/PyLadiesTeresina/
-
-#Pyladies no Rio de Janeiro:
-
 - city: Duque de Caxias
-  state: RJ
-  image: /images/locais/pyladies-duque-de-caxias.png
-  twitter: http://twitter.com/PyLadiesCaxias
-  facebook: https://www.facebook.com/PyLadiesDuqueDeCaxias
   email: duquedecaxias@pyladies.com
+  facebook: https://www.facebook.com/PyLadiesDuqueDeCaxias
+  image: /images/locais/pyladies-duque-de-caxias.png
+  lat: -22.7896225
+  lon: -43.309929
+  state: RJ
+  twitter: http://twitter.com/PyLadiesCaxias
   url: http://duquedecaxias.pyladies.com
-
 - city: PUC-Rio
-  state: RJ
-  image: /images/locais/pyladies-pucrio.png
-  twitter: http://twitter.com/pyladiespucrio
-  facebook: https://www.facebook.com/pyladiespucrio
   email: pucrio@pyladies.org
-  url: http://pucrio.pyladies.com
-
-- city: Rio de Janeiro
+  facebook: https://www.facebook.com/pyladiespucrio
+  image: /images/locais/pyladies-pucrio.png
+  lat: -22.97964355
+  lon: -43.23315196475536
   state: RJ
-  image: /images/locais/pyladies-rio.jpg
-  twitter: http://twitter.com/rio_pyladies
-  facebook: https://www.facebook.com/pyladiesrio
+  twitter: http://twitter.com/pyladiespucrio
+  url: http://pucrio.pyladies.com
+- city: Rio de Janeiro
   email: rio@pyladies.com
+  facebook: https://www.facebook.com/pyladiesrio
+  image: /images/locais/pyladies-rio.jpg
+  lat: -22.9110137
+  lon: -43.2093727
+  state: RJ
+  twitter: http://twitter.com/rio_pyladies
   url: http://rio.pyladies.com
-
-#Pyladies no Rio Grande do Norte:
-
 - city: Natal
-  state: RN
-  image: /images/locais/pyladies_natal.svg
-  twitter: http://twitter.com/PyladiesNatal
-  facebook: https://www.facebook.com/PyLadiesNatal/
-  instagram: https://www.instagram.com/pyladiesnatal/
   email: natalrn@pyladies.com
+  facebook: https://www.facebook.com/PyLadiesNatal/
+  image: /images/locais/pyladies_natal.svg
+  instagram: https://www.instagram.com/pyladiesnatal/
+  lat: -5.805398
+  lon: -35.2080905
+  state: RN
+  twitter: http://twitter.com/PyladiesNatal
   url: http://pyladiesnatal.github.io/
-
-#Pyladies no Rio Grande do Sul:
-
 - city: Caxias do Sul
-  state: RS
-  image: /images/locais/pyladies_caxiasdosul.jpg
-  facebook: https://www.facebook.com/pyladiescaxiasdosul/
   email: caxiasdosul@pyladies.com
+  facebook: https://www.facebook.com/pyladiescaxiasdosul/
   github: https://github.com/PyladiesCaxias
-  url: https://pyladiescaxias.github.io/
-
-- city: Porto Alegre
+  image: /images/locais/pyladies_caxiasdosul.jpg
+  lat: -29.1684796
+  lon: -51.1793861
   state: RS
-  image: /images/locais/pyladies-porto-alegre.png
-  twitter: https://twitter.com/Pyladiespoa
-  facebook: https://www.facebook.com/PoaPyladies/
-  instagram: https://www.instagram.com/pyladiespoa/
+  url: https://pyladiescaxias.github.io/
+- city: Porto Alegre
   email: portoalegre@pyladies.com
+  facebook: https://www.facebook.com/PoaPyladies/
+  image: /images/locais/pyladies-porto-alegre.png
+  instagram: https://www.instagram.com/pyladiespoa/
+  lat: -30.0324999
+  lon: -51.2303767
+  state: RS
+  twitter: https://twitter.com/Pyladiespoa
   url: https://pyladiespoa.pythonanywhere.com
-
-#Pyladies em Santa Catarina:
-
-- city: Florianópolis
-  state: SC
-  image: /images/locais/pyladies-floripa.png
-  facebook: https://www.facebook.com/PyLadies-Floripa-763762813730310/
-  twitter: https://twitter.com/PyLadiesFloripa
+- city: "Florian\xF3polis"
   email: pyladiesfloripa@gmail.com
-  url: https://www.facebook.com/groups/PyLadiesFlorianopolis/
-
-- city: Blumenau
+  facebook: https://www.facebook.com/PyLadies-Floripa-763762813730310/
+  image: /images/locais/pyladies-floripa.png
+  lat: -27.5973002
+  lon: -48.5496098
   state: SC
-  image: /images/locais/pyladies-blumenau.png
-  facebook: https://www.facebook.com/PyLadiesBlumenau
-  twitter: https://twitter.com/pyladiesbnu
+  twitter: https://twitter.com/PyLadiesFloripa
+  url: https://www.facebook.com/groups/PyLadiesFlorianopolis/
+- city: Blumenau
   email: pyladiesbnu@gmail.com
+  facebook: https://www.facebook.com/PyLadiesBlumenau
+  image: /images/locais/pyladies-blumenau.png
+  lat: -26.9195567
+  lon: -49.0658025
+  state: SC
+  twitter: https://twitter.com/pyladiesbnu
   url: https://www.facebook.com/groups/PyLadiesBlumenau/
-
-#Pyladies em São Paulo:
-
 - city: Campinas
-  state: SP
-  image: /images/locais/pyladies_campinas.png
-  twitter: https://twitter.com/pyladiescps
-  facebook: https://www.facebook.com/pyladiescps
   email: campinas@pyladies.com
-
-- city: Ribeirão Preto
+  facebook: https://www.facebook.com/pyladiescps
+  image: /images/locais/pyladies_campinas.png
+  lat: -22.90556
+  lon: -47.06083
   state: SP
-  image: /images/locais/pyladies-rp.png
-  facebook: https://www.facebook.com/pyladiesrp
+  twitter: https://twitter.com/pyladiescps
+- city: "Ribeir\xE3o Preto"
   email: pyladiesrp@gmail.com
+  facebook: https://www.facebook.com/pyladiesrp
+  image: /images/locais/pyladies-rp.png
+  lat: -21.178333
+  lon: -47.8066671
+  state: SP
   url: https://pyladies-rp.github.io/
-
-- city: São Carlos
-  state: SP
-  image: /images/locais/pyladies-saocarlos.png
-  twitter: https://twitter.com/PyLadiesSanca
-  instagram: https://www.instagram.com/pyladiessanca/
-  facebook: https://www.facebook.com/PyLadiesSaoCarlos
+- city: "S\xE3o Carlos"
   email: saocarlos@pyladies.com
+  facebook: https://www.facebook.com/PyLadiesSaoCarlos
+  image: /images/locais/pyladies-saocarlos.png
+  instagram: https://www.instagram.com/pyladiessanca/
+  lat: -22.0183367
+  lon: -47.890932
+  state: SP
+  twitter: https://twitter.com/PyLadiesSanca
   url: https://saocarlos.pyladies.com
-
-- city: São José dos Campos
-  state: SP
-  image: /images/locais/sjcampos.jpg
-  facebook: https://www.facebook.com/pyladiesSJC
+- city: "S\xE3o Jos\xE9 dos Campos"
   email: sjc@pyladies.com
-
-- city: São Paulo
+  facebook: https://www.facebook.com/pyladiesSJC
+  image: /images/locais/sjcampos.jpg
+  lat: -23.1805011
+  lon: -45.8872969
   state: SP
-  image: /images/locais/pyladies-sp.jpeg
-  facebook: https://www.facebook.com/PyLadiesSP
-  twitter: https://twitter.com/PyLadiesSP
-  github: https://github.com/PyLadiesSP
+- city: "S\xE3o Paulo"
   email: saopaulo@pyladies.com
-
+  facebook: https://www.facebook.com/PyLadiesSP
+  github: https://github.com/PyLadiesSP
+  image: /images/locais/pyladies-sp.jpeg
+  lat: -23.5506507
+  lon: -46.6333824
+  state: SP
+  twitter: https://twitter.com/PyLadiesSP
 - city: Sorocaba
-  state: SP
-  image: /images/locais/pyladies-sorocaba.jpg
-  facebook: https://www.facebook.com/PyLadiesSorocaba
-  twitter: https://twitter.com/PyLadieSorocaba
-  instagram: https://www.instagram.com/PyLadiesSorocaba/
   email: sorocaba@pyladies.com
-
-- city: Vale
+  facebook: https://www.facebook.com/PyLadiesSorocaba
+  image: /images/locais/pyladies-sorocaba.jpg
+  instagram: https://www.instagram.com/PyLadiesSorocaba/
+  lat: -23.501667
+  lon: -47.458056
   state: SP
-  image: /images/locais/pyladies-vale.png
-  facebook: https://www.facebook.com/PyLadiesVale
-  twitter: https://twitter.com/PyLadiesVale
+  twitter: https://twitter.com/PyLadieSorocaba
+- city: Vale
   email: vale@pyladies.com
+  facebook: https://www.facebook.com/PyLadiesVale
+  image: /images/locais/pyladies-vale.png
+  lat: -23.14017045
+  lon: -47.18936540438921
+  state: SP
+  twitter: https://twitter.com/PyLadiesVale
   url: http://vale.pyladies.com/
-
-#Pyladies em Sergipe:
-
 - city: Sergipe
-  state: SE
-  image: /images/locais/pyladies_sergipe.svg
-  twitter: https://www.instagram.com/pyladiessergipe/
   email: sergipe@pyladies.com
+  image: /images/locais/pyladies_sergipe.svg
+  lat: -10.9696367
+  lon: -37.0363861
+  state: SE
+  twitter: https://www.instagram.com/pyladiessergipe/
