@@ -122,7 +122,7 @@ def atualiza_mapa():
 
 def gera_mapa():
 
-    posicionamento_mapa = [-14.235004, -51.925282] # isso é basicamente o meio do brasil
+    posicionamento_mapa = [-14.235004, -51.925282] # coordenadas do meio do brasil
 
     mapa = folium.Map(
         location=posicionamento_mapa,
@@ -135,15 +135,15 @@ def gera_mapa():
         for capitulo in dados_capitulos:
             card_capitulo = cria_card(capitulo)
 
+            icone = folium.features.CustomIcon(icon_image="../content"+capitulo["image"])
             iframe = folium.IFrame(html=card_capitulo, width=200, height=200)
             popup = folium.Popup(iframe, max_widht=1000)
 
-            # print(capitulo['city'], capitulo["lat"], capitulo["lon"])
             folium.Marker(
                             location = [capitulo["lat"], capitulo["lon"]],
                             title = capitulo["city"],
-                            popup = popup
-
+                            popup = popup,
+                            # icon = icone # isso aqui tá muito feio, recomendo deixar comentado por enquanto
                         ).add_to(mapa)
 
         mapa.save("../themes/default/static/html/mapa.html")
