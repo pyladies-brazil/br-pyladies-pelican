@@ -64,6 +64,15 @@ $ make up
 
 Abra o browser em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado.
 
+**Observação**: Se sua porta 8000 já estiver em uso, você pode especificar uma porta diferente ao
+usar o parâmetro `PORT`. Por exemplo:
+
+```console
+$ make up PORT=8001
+```
+
+E então acessar [localhost:8001](http://localhost:8001). Atenção! Algumas [portas são reservadas](https://pt.wikipedia.org/wiki/Lista_de_portas_dos_protocolos_TCP_e_UDP).
+
 Links Úteis
 -----------
 
