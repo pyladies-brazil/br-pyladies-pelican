@@ -71,7 +71,7 @@ Para trazer apenas uma função dentro de um módulo, fazemos:
 
 Esse modo é útil quando queremos encurtar a chamada de uma determinada função.
 
-## Import várias funções
+## Importando várias funções
 
 Podemos também importar várias funções sem precisar trazer todo o módulo. Assim:
 
