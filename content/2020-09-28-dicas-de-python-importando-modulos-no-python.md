@@ -31,9 +31,7 @@ O Python nos trará apenas a batata. Como se colocássemos sobre a mesa apenas a
 
 ## Usando o import
 
-Usando um exemplo com Python, vamos importar o módulo **math**. Que é um módulo que nos dá acesso a várias funções matemáticas, como raiz quadrada, seno, arredondamentos, etc. 
-
-> você sempre pode consultar a [documentação do Python](https://docs.python.org/3/library/math.html) para saber mais sobre o módulo math e outros.
+Usando um exemplo com Python, vamos importar o módulo [**math**](https://docs.python.org/pt-br/3/library/math.html?highlight=math#module-math) para saber mais sobre o módulo math e outros), que é um módulo que nos dá acesso a várias funções matemáticas, como raiz quadrada, seno, arredondamentos, etc. 
 
 O módulo **math** é um dos módulos conhecidos como *built in* (pronto para uso); ou seja, podemos usá-lo sem instalar nenhuma dependência externa, uma vez que fazem parte da biblioteca padrão do Python. Outros exemplos de módulos da biblioteca padrão são [os](https://docs.python.org/pt-br/3/library/os.html) (responsável por funções de sistema operacional) e [re](https://docs.python.org/pt-br/3/library/re.html) (expressões regulares).
 
