@@ -7,7 +7,11 @@ Comments: true
 
 
 
-## O que são módulos?
+Você já se perguntou o que são os **imports** que muitas vezes vemos no começo do código?
+
+É ele quem torna visível os **módulos** para o arquivo no qual foi chamado.
+
+# O que são módulos?
 
 Segundo a [documentação oficial](https://docs.python.org/pt-br/3/tutorial/modules.html) 
 > um módulo é um arquivo contendo definições e instruções Python. [...] Um módulo pode conter tanto instruções executáveis quanto definições de funções e classes. Essas instruções servem para inicializar o módulo. Eles são executados somente na primeira vez que o módulo é encontrado em uma instrução de importação. 
