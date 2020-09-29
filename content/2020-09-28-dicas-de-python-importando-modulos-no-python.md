@@ -55,7 +55,7 @@ Outra maneira de fazer essa mesma ação:
 5.0
 ```
 
-O asterisco é conhecido como **referência global** e indica que todas as funções do módulo **math** serão trazidos.
+O asterisco é conhecido como **referência global** e indica que todas as funções do módulo **math** serão trazidas.
 
 Para trazer apenas uma função dentro de um módulo, fazemos:
 
