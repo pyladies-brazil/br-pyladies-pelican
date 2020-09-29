@@ -49,7 +49,7 @@ Assim temos:
 5.0
 ```
 
-Isso quer dizer que importamos toda o módulo **math** e em seguida, apontamos a função **sqrt** que é quem vai calcular a raiz quadrada do argumento passado entre parênteses.
+Isso quer dizer que importamos todo o módulo **math** e em seguida, apontamos a função **sqrt** que calcula a raiz quadrada do argumento passado entre parênteses.
 
 Outra maneira de fazer essa mesma ação:
 
