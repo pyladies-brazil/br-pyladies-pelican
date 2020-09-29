@@ -35,7 +35,7 @@ Usando um exemplo com Python, vamos importar o módulo **math**. Que é um módu
 
 > você sempre pode consultar a [documentação do Python](https://docs.python.org/3/library/math.html) para saber mais sobre o módulo math e outros.
 
-O módulo **math** é um dos módulos conhecidos como *built in* (pronto para uso); basta apenas chamá-lo.
+O módulo **math** é um dos módulos conhecidos como *built in* (pronto para uso); ou seja, podemos usá-lo sem instalar nenhuma dependência externa, uma vez que fazem parte da biblioteca padrão do Python. Outros exemplos de módulos da biblioteca padrão são [os](https://docs.python.org/pt-br/3/library/os.html) (responsável por funções de sistema operacional) e [re](https://docs.python.org/pt-br/3/library/re.html) (expressões regulares).
 
 Nesse exemplo, vamos calcular a raiz quadrada do número 25.
 
