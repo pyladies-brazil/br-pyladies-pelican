@@ -1,5 +1,5 @@
 Title: Dicas de Python: Importando módulos no Python
-Slug: dicas-de-python-importando-modulos-no-python
+Slug: importando-modulos-no-python
 Date: 2020-09-28 21:28:08
 Tags: dicas, import, módulos
 Author: danielle8farias
@@ -102,4 +102,3 @@ Também é possível dar um novo nome para a função de um módulo. Exemplo:
 Acima, demos a nossa função **sqrt** o nome de **raiz** e podemos invocá-la assim durante o nosso programa.
 
 Até a próxima dica! o/
-
