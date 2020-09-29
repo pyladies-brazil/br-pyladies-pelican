@@ -9,7 +9,10 @@ Comments: true
 
 ## O que são módulos?
 
-De maneira resumida: um módulo é um trecho de código pronto que pode ser invocado quando for preciso utilizar algum método dele.
+Segundo a [documentação oficial](https://docs.python.org/pt-br/3/tutorial/modules.html) 
+> um módulo é um arquivo contendo definições e instruções Python. [...] Um módulo pode conter tanto instruções executáveis quanto definições de funções e classes. Essas instruções servem para inicializar o módulo. Eles são executados somente na primeira vez que o módulo é encontrado em uma instrução de importação. 
+
+De maneira resumida: um módulo é um trecho de código pronto que pode ser invocado quando for preciso utilizar algum método já implementado dele.
 
 Para ilustrar, vamos imaginar que exista no Python um **módulo de verduras e leguminosas** chamado de **vegetais** como na imagem abaixo:
 
