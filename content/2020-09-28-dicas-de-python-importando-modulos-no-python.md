@@ -21,9 +21,7 @@ Se usarmos o comando:
 import vegetais
 ```
 
-O Python nos trará todos os vegetais mostrado. Como se colocássemos todos sobre a mesa para que durante o preparo, pudéssemos pegá-los de imediato.
-
-Porém ao usarmos o comando:
+O Python nos trará todos os vegetais mostrado. Como se colocássemos todos sobre a mesa para que durante o preparo, pudéssemos pegá-los de imediato. Porém ao usarmos o comando:
 
 ```
 from vegetais import batata
