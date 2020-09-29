@@ -73,7 +73,7 @@ Esse modo é útil quando queremos encurtar a chamada de uma determinada funçã
 
 ## Importando várias funções
 
-Podemos também importar várias funções sem precisar trazer todo o módulo. Assim:
+Podemos também importar várias funções específicas sem precisar trazer todo o módulo. Assim:
 
 ```py
 >>> from math import radians, sin, cos, tan
