@@ -30,21 +30,29 @@ colaborar com projetos que você ama e que tem algum impacto social.
 
 ## E como a PyLadies Brasil entra nisso tudo?
 
-Bom, nós somos uma rede de comunidades com objetivo de incentivar igualdade de gênero na área de TI e o código fonte do nosso site está em um [repositório público](https://github.com/pyladies-brazil/br-pyladies-pelican), então você pode fazer seus Pull Requests para o nosso repositório! Lembrando que, caso você
-não se sinta confortável, não é necessário contribuir com código. Você pode contribuir também com postagens no nosso blog! Não sabe o que postar no blog? Dá uma olhada nessa outra postagem aqui, que diz exatamente [o que você pode ou não postar](http://brasil.pyladies.com/2020/09/04/o-que-postar-no-blog-do-pyladies-brasil/) (lembrando que a sua postagem vai passar por uma revisão do time responsável pelo site, mas não fique nervosa. Estamos aqui pra te ajudar a entrar no mundo do open source).
+Bom, nós somos uma rede de comunidades com objetivo de incentivar igualdade de gênero na área de TI e o
+código fonte do nosso site está em um [repositório público](https://github.com/pyladies-brazil/br-pyladies-pelican),
+então você pode fazer seus Pull Requests para o nosso repositório! Lembrando que, caso você
+não se sinta confortável, não é necessário contribuir com código. Você pode contribuir também com postagens
+no nosso blog! Não sabe o que postar no blog? Dá uma olhada nessa outra postagem aqui,
+que diz exatamente [o que você pode ou não postar](http://brasil.pyladies.com/2020/09/04/o-que-postar-no-blog-do-pyladies-brasil/)
+(lembrando que a sua postagem vai passar por uma revisão do time responsável pelo site,
+mas não fique nervosa. Estamos aqui pra te ajudar a entrar no mundo do open source).
 
 Caso você se sinta confortável com código, temos [várias issues](https://github.com/pyladies-brazil/br-pyladies-pelican/issues)
-prontas para serem resolvidas. Você não precisa fazer tudo isso sozinha! Nós do time de tech da PyLadies estamos sempre disponíveis para tirar eventuais dúvidas e dar o direcionamento necessário. Tudo que precisamos é da sua empolgação pra entrar em contato com a gente.
+prontas para serem resolvidas. Você não precisa fazer tudo isso sozinha! Nós do time
+de tech da PyLadies estamos sempre disponíveis para tirar eventuais dúvidas e dar o
+direcionamento necessário. Tudo que precisamos é da sua empolgação pra entrar em contato com a gente.
 
 ### Como contribuir
 
 Agora que você já está decidida a nos ajudar com o site da PyLadies Brasil, podemos entrar em
-assuntos ligeiramente mais técnicos. Supondo que você já [se cadastrou no projeto](https://hacktoberfest.digitalocean.com/),
+assuntos ligeiramente mais técnicos. Supondo que você já [se cadastrou no evento](https://hacktoberfest.digitalocean.com/),
 eis aqui o nosso passo-a-passo, também descrito no arquivo de Contribuição do repositório já mencionado.
 
 * A primeira coisa que você precisa fazer é ir até
 [nosso repositório do GitHub](https://github.com/pyladies-brazil/br-pyladies-pelican) e dar uma lida no
-conteúdo de lá, uma vez que são as instruções para você baixar o repositório e conseguir
+conteúdo de lá, já que são as instruções para você baixar o repositório e conseguir
 rodar o site na sua máquina. Uma vez que isso funcionou, você pode ir até a
 [seção de contribuição](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md),
 onde existem instruções para cada tipo de atividade que você
@@ -75,8 +83,4 @@ Qualquer dúvida, entre em contato conosco pelo [Slack](https://slackin.pyladies
 na issue que você deseja trabalhar. Estaremos de olhos e braços bem abertos (a uma distância de 1.5m, claro) para
 te ajudar no que for preciso.
 
-
-
-
-
-
+![caco]({filename}/images/hacktoberfest-2020/caco.gif)
