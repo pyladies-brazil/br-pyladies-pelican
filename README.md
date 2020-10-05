@@ -102,7 +102,7 @@ Instalando e Rodando no Windows (Docker)
 - Python 3.8 está disponível na loja do Windows e você deve instalar também. Só procurar e colocar em obter que está tudo certo;
 - Abra o Windows Powershell como administrador e faça a instalação do [chocolatey](https://chocolatey.org/install). Com ele poderemos instalar o comando make que será utilizado junto ao Docker;
 - Com o comando *choco* sendo reconhecido no Windows, [instale o make](https://chocolatey.org/packages/make) com `choco install make`;
-- Por último, faça a instalação do [Docker](https://docs.docker.com/docker-for-windows/install/), certifique-se que os requisitos mínimos estão sendo cumpridos. Para o Windows 10 Home, recomendo que faça uma atualização do sistema antes da instalação (Configurações → Atualização e Segurança → Windows Update)
+- Por último, faça a instalação do [Docker](https://docs.docker.com/docker-for-windows/install/), certifique-se que os requisitos mínimos estão sendo cumpridos. Para o Windows 10 Home, é recomendado que atualize o sistema antes da instalação (Configurações → Atualização e Segurança → Windows Update)
     - Atente-se se o WSL2 está rodando na sua máquina. Se ainda for o WSL, [atualize](https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel).
 - Faça fork do [repositório](https://github.com/pyladies-brazil/br-pyladies-pelican);
 - Reinicie o computador para garantir que todas as mudanças foram efetuadas e salvas;
