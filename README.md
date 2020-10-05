@@ -97,10 +97,10 @@ Agora basta acessar o navegador em [localhost:8000](http://localhost:8000) para 
 
 Instalando e Rodando no Windows (Docker)
 --------------------------
-- Instale o [Visual Studio Code](https://code.visualstudio.com/) para fazer códigos legais;
-- Instale o [Git para Windows](https://desktop.github.com/) para um shell mais legal também;
+- [Opcional] Instale o [Visual Studio Code](https://code.visualstudio.com/) para fazer códigos legais;
+- [Opcional mas fortemente indicado] Instale o [Git para Windows](https://desktop.github.com/) para um shell mais legal também;
 - Python 3.8 está disponível na loja do Windows e você deve instalar também. Só procurar e colocar em obter que está tudo certo;
-- Abra o Windows Powershell como administrador e faça a instalação do [chocolatney](https://chocolatey.org/install). Com ele poderemos instalar o comando make que será utilizado junto ao Docker;
+- Abra o Windows Powershell como administrador e faça a instalação do [chocolatey](https://chocolatey.org/install). Com ele poderemos instalar o comando make que será utilizado junto ao Docker;
 - Com o comando *choco* sendo reconhecido no Windows, [instale o make](https://chocolatey.org/packages/make) com `choco install make`;
 - Por último, faça a instalação do [Docker](https://docs.docker.com/docker-for-windows/install/), certifique-se que os requisitos mínimos estão sendo cumpridos. Para o Windows 10 Home, recomendo que faça uma atualização do sistema antes da instalação (Configurações → Atualização e Segurança → Windows Update)
     - Atente-se se o WSL2 está rodando na sua máquina. Se ainda for o WSL, [atualize](https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel).
