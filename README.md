@@ -99,14 +99,29 @@ Instalando e Rodando no Windows (Docker)
 --------------------------
 - [Opcional] Instale o [Visual Studio Code](https://code.visualstudio.com/) para fazer códigos legais;
 - [Opcional mas fortemente indicado] Instale o [Git para Windows](https://desktop.github.com/) para um shell mais legal também;
-- Python 3.8 está disponível na loja do Windows e você deve instalar também. Só procurar e colocar em obter que está tudo certo;
+- Python 3.8 está disponível na loja do Windows e você deve instalar também. Só procurar e clicar em obter que está tudo certo;
 - Abra o Windows Powershell como administrador e faça a instalação do [chocolatey](https://chocolatey.org/install). Com ele poderemos instalar o comando make que será utilizado junto ao Docker;
 - Com o comando *choco* sendo reconhecido no Windows, [instale o make](https://chocolatey.org/packages/make) com `choco install make`;
 - Por último, faça a instalação do [Docker](https://docs.docker.com/docker-for-windows/install/), certifique-se que os requisitos mínimos estão sendo cumpridos. Para o Windows 10 Home, é recomendado que atualize o sistema antes da instalação (Configurações → Atualização e Segurança → Windows Update)
     - Atente-se se o WSL2 está rodando na sua máquina. Se ainda for o WSL, [atualize](https://docs.microsoft.com/pt-br/windows/wsl/wsl2-kernel).
 - Faça fork do [repositório](https://github.com/pyladies-brazil/br-pyladies-pelican);
 - Reinicie o computador para garantir que todas as mudanças foram efetuadas e salvas;
-- Abra o projeto no VSCode e rode `make up`.
+- Agora você tem duas formas de rodar o projeto seguindo o:
+    - Comando `make up`
+    - Comando `docker-compose up`
+- Utilizando o terminal:
+    ``` console
+    $ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
+    $ cd br-pyladies-pelican
+    $ docker-compose up
+    ```
+    ou 
+    
+    ``` console
+    $ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
+    $ cd br-pyladies-pelican
+    $ make up
+    ```
 
 
 -------------------------
