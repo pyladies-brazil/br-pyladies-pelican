@@ -123,7 +123,6 @@ Instalando e Rodando no Windows (Docker)
     $ make up
     ```
 
-
 -------------------------
 
 Esse repositório é mantido com :heart: pelo @pyladies-brazil/tech-team
