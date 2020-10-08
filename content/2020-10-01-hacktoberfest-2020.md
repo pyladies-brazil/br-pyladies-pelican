@@ -1,6 +1,6 @@
 Title: A PyLadies Brasil está no Hacktoberfest 2020!
 Slug: hacktoberfest-2020
-Date: 2020-10-01 14:25:43
+Date: 2020-10-08 14:25:43
 Tags: hacktoberfest
 Author: PyLadies Brasil
 
@@ -44,6 +44,14 @@ Caso você se sinta confortável com código, temos [várias issues](https://git
 prontas para serem resolvidas. Você não precisa fazer tudo isso sozinha! Nós do time
 de tech da PyLadies estamos sempre disponíveis para tirar eventuais dúvidas e dar o
 direcionamento necessário. Tudo que precisamos é da sua empolgação pra entrar em contato com a gente.
+
+### Hacktoberladies
+
+Se você ainda não conhece Git e Gihub, no dia 17 de outubro das 14h às 20h vamos promover o Hacktoberladies. Um evento pensado para meninas e mulheres que estão chegando agora por essas bandas da TI e querem aprender a mexer um pouquinho com código.
+
+Durante a programação vamos falar sobre projetos open source e fazer um workshop bem mão na massa para ensinar os comandos básicos de git e como criar um post no nosso blog.
+
+As inscrições podem ser feitas até um dia antes do evento [nesse formulário](http://bit.ly/hacktoberladies2020). Não se preocupa em saber alguma coisa ou ter algum programa instalado no computador. Vamos ter tempo para fazer tudo isso durante o evento e também enviaremos um e-mail com algumas orientações prévias.
 
 ### Como contribuir
 
