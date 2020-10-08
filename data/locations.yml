@@ -170,6 +170,14 @@
   email: rio@pyladies.com
   url: http://rio.pyladies.com
 
+- city: Macaé
+  state: RJ
+  image: /images/locais/pyladies_macae.png
+  twitter: 
+  facebook: 
+  email: macaerj@pyladies.com
+  url: 
+
 #Pyladies no Rio Grande do Norte:
 
 - city: Natal
