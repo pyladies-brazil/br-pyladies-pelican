@@ -33,3 +33,5 @@ Links Úteis
 * Virtualenv - http://docs.python-guide.org/en/latest/dev/virtualenvs/
 * Pyenv - https://github.com/yyuu/pyenv
 * Criar um grupo PyLadies - https://brazilpyladies.gitbooks.io/handbook/content/
+
+Atualização de teste
