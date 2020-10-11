@@ -1,5 +1,5 @@
 Title: Dicas de Python: Importando módulos no Python
-Slug: dicas-de-python-importando-modulos-no-python
+Slug: importando-modulos-no-python
 Date: 2020-09-28 21:28:08
 Tags: dicas, import, módulos
 Author: danielle8farias
@@ -7,9 +7,16 @@ Comments: true
 
 
 
-## O que são módulos?
+Você já se perguntou o que são os **imports** que muitas vezes vemos no começo do código?
 
-De maneira resumida: um módulo é um trecho de código pronto que pode ser invocado quando for preciso utilizar algum método dele.
+É ele quem torna visível os **módulos** para o arquivo no qual foi chamado.
+
+# O que são módulos?
+
+Segundo a [documentação oficial](https://docs.python.org/pt-br/3/tutorial/modules.html) 
+> um módulo é um arquivo contendo definições e instruções Python. [...] Um módulo pode conter tanto instruções executáveis quanto definições de funções e classes. Essas instruções servem para inicializar o módulo. Eles são executados somente na primeira vez que o módulo é encontrado em uma instrução de importação. 
+
+De maneira resumida: um módulo é um trecho de código pronto que pode ser invocado quando for preciso utilizar algum método já implementado dele.
 
 Para ilustrar, vamos imaginar que exista no Python um **módulo de verduras e leguminosas** chamado de **vegetais** como na imagem abaixo:
 
@@ -21,9 +28,7 @@ Se usarmos o comando:
 import vegetais
 ```
 
-O Python nos trará todos os vegetais mostrado. Como se colocássemos todos sobre a mesa para que durante o preparo, pudéssemos pegá-los de imediato.
-
-Porém ao usarmos o comando:
+O Python nos trará todos os vegetais mostrado. Como se colocássemos todos sobre a mesa para que durante o preparo, pudéssemos pegá-los de imediato. Porém ao usarmos o comando:
 
 ```
 from vegetais import batata
@@ -33,11 +38,9 @@ O Python nos trará apenas a batata. Como se colocássemos sobre a mesa apenas a
 
 ## Usando o import
 
-Usando um exemplo com Python, vamos importar o módulo **math**. Que é um módulo que nos dá acesso a várias funções matemáticas, como raiz quadrada, seno, arredondamentos, etc. 
+Usando um exemplo com Python, vamos importar o módulo [**math**](https://docs.python.org/pt-br/3/library/math.html?highlight=math#module-math), que é um módulo que nos dá acesso a várias funções matemáticas, como raiz quadrada, seno, arredondamentos, etc. 
 
-> você sempre pode consultar a [documentação do Python](https://docs.python.org/3/library/math.html) para saber mais sobre o módulo math e outros.
-
-O módulo **math** é um dos módulos conhecidos como *built in* (pronto para uso); basta apenas chamá-lo.
+O módulo **math** é um dos módulos conhecidos como *built in* (pronto para uso); ou seja, podemos usá-lo sem instalar nenhuma dependência externa, uma vez que fazem parte da biblioteca padrão do Python. Outros exemplos de módulos da biblioteca padrão são [os](https://docs.python.org/pt-br/3/library/os.html) (responsável por funções de sistema operacional) e [re](https://docs.python.org/pt-br/3/library/re.html) (expressões regulares).
 
 Nesse exemplo, vamos calcular a raiz quadrada do número 25.
 
@@ -49,7 +52,7 @@ Assim temos:
 5.0
 ```
 
-Isso quer dizer que importamos toda o módulo **math** e em seguida, apontamos a função **sqrt** que é quem vai calcular a raiz quadrada do argumento passado entre parênteses.
+Isso quer dizer que importamos todo o módulo **math** e em seguida, apontamos a função **sqrt** que calcula a raiz quadrada do argumento passado entre parênteses.
 
 Outra maneira de fazer essa mesma ação:
 
@@ -59,7 +62,7 @@ Outra maneira de fazer essa mesma ação:
 5.0
 ```
 
-O asterisco é conhecido como **referência global** e indica que todas as funções do módulo **math** serão trazidos.
+O asterisco é conhecido como **referência global** e indica que todas as funções do módulo **math** serão trazidas.
 
 Para trazer apenas uma função dentro de um módulo, fazemos:
 
@@ -71,9 +74,9 @@ Para trazer apenas uma função dentro de um módulo, fazemos:
 
 Esse modo é útil quando queremos encurtar a chamada de uma determinada função.
 
-## Import várias funções
+## Importando várias funções
 
-Podemos também importar várias funções sem precisar trazer todo o módulo. Assim:
+Podemos também importar várias funções específicas sem precisar trazer todo o módulo. Assim:
 
 ```py
 >>> from math import radians, sin, cos, tan
@@ -102,4 +105,3 @@ Também é possível dar um novo nome para a função de um módulo. Exemplo:
 Acima, demos a nossa função **sqrt** o nome de **raiz** e podemos invocá-la assim durante o nosso programa.
 
 Até a próxima dica! o/
-
