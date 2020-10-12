@@ -15,27 +15,27 @@ Menu
 3. Deploy
   * [Atualizando o site](#atualizando-o-site)
 
-Aviso sobre Síndrome do Impostor 
+Aviso sobre Síndrome do Impostor
 ============
 
 A gente precisa da sua ajuda. Sério!
 
 Pode ser que haja uma vozinha na sua cabeça dizendo que você não está pronta;
 que você precisa fazer mais um tutorial ou aprender mais um framework, talvez
-escrever mais algumas postagens no seu blog antes de conseguir nos ajudar com 
+escrever mais algumas postagens no seu blog antes de conseguir nos ajudar com
 esse projeto.
 
 Ignora essa voz. A gente te garante que esse não é o caso.
 
-Tentamos deixar esse guia de contribuição o mais claro possível, mas este é um 
-documento vivo, então qualquer dúvida, basta abrir uma [issue](https://github.com/pyladies-brazil/br-pyladies-pelican/issues/new/choose) 
+Tentamos deixar esse guia de contribuição o mais claro possível, mas este é um
+documento vivo, então qualquer dúvida, basta abrir uma [issue](https://github.com/pyladies-brazil/br-pyladies-pelican/issues/new/choose)
 e seguiremos melhorando!
 
-Como você verá no decorrer do documento, nem toda contribuição é feita código. Você 
-pode contribuir por meio de postagens, ideias e discussões, adicionando o 
+Como você verá no decorrer do documento, nem toda contribuição é feita código. Você
+pode contribuir por meio de postagens, ideias e discussões, adicionando o
 evento do seu capítulo, adicionando o seu capítulo e etc.
 
-Esse pequeno aviso foi traduzido [desse repositório](https://github.com/adriennefriend/imposter-syndrome-disclaimer). 
+Esse pequeno aviso foi traduzido [desse repositório](https://github.com/adriennefriend/imposter-syndrome-disclaimer).
 
 Obrigada por contribuir!
 
@@ -44,12 +44,12 @@ Contribuindo
 ============
 
 1. Fork o projeto
-2. Crie uma branch para a feature em que trabalhará: `git checkout -b my-new-feature`
-3. Faça commit das suas alterações: `git commit -m 'Add some feature'`
-4. Faça push desses commits para sua branch: `git push origin my-new-feature`
+2. Crie uma branch para a feature em que trabalhará: `git checkout -b minha-nova-feature`
+3. Faça commit das suas alterações: `git commit -m 'Adiciona alguma feature'`
+4. Faça push desses commits para sua branch: `git push origin minha-nova-feature`
 5. Envie um pull request para o nosso repositório
 
-Obs.: Nós usamos português como linguagem padrão dos commits (:
+**Observação**: Nós usamos português como linguagem padrão dos commits.
 
 
 Preparando o ambiente local
@@ -58,9 +58,8 @@ Preparando o ambiente local
 
 (Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
-Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, siga as orientações do capítulo "Instalando e Rodando" do [Readme](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/develop/README.md)
+Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, siga as orientações do capítulo "Instalando e Rodando" do [README](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/develop/README.md)
 
-(Obs: se você pretende usar o ambiente virtual instalado via *make*, ele se encontra em `.venv/`.)
 
 Criar um novo Post
 ------------------
@@ -97,8 +96,6 @@ Se tudo deu certo, sua página já estará disponível em `/slug-pagina/`.
 Adicionar Eventos
 -----------------
 
-Existem duas formas de incluir eventos no site, manualmente e através de um evento no Facebook.
-
 Para adicionar novos eventos manualmente, basta editar o arquivo `data/events.yml`. Ele possui o seguinte formato:
 
 ```yaml
@@ -111,18 +108,6 @@ Para adicionar novos eventos manualmente, basta editar o arquivo `data/events.ym
 
 Caso o evento seja novo, ele será automaticamente inserido em Novos Eventos. Caso contrário, já ficará na lista de Eventos passados.
 
-É possível também importar os eventos do Facebook de páginas de grupos PyLadies espalhados pelo Brasil, para isso, primeiramente verifique se o ID do Facebook da página do seu grupo (aquele que aparece na URL quando acessado) se encontra na listagem de grupos em `utils/__init__.py`.
-
-O próximo passo é obter um token de acesso do Facebook para o seu usuário. Você pode facilmente obte-lo no link https://developers.facebook.com/tools/explorer e copiando o campo "Token de acesso". Não compartilhe seu token de usuário com outras pessoas.
-
-Em seguida, abra uma linha de comando e atribua seu token a uma variável de ambiente com o comando (não esqueça as aspas):
-
-    export FACEBOOK_TOKEN="{seu-token}"
-
-Agora é só rodar o comando abaixo, lembrando que o conteúdo gerado é estático, ou seja, para atualizá-lo é necessário re-executar o comando:
-
-    make load-facebook-events
-
 
 Adicionar nova Localização
 --------------------------
@@ -131,7 +116,8 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
 
 
 ```yaml
-- city: CIDADE - ESTADO
+- city: CIDADE
+  state: ESTADO
   image: PATH IMAGEM LOCAL (Padrão: /images/locais/location.png)
   twitter: URL completa do twitter (rede social opcional)
   instagram: URL completa do Instagram (rede social opcional)
@@ -139,6 +125,8 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
   facebook: URL completa da página do facebook (rede social opcional)
   email: Email oficial do capítulo (@pyladies.com)
   url: Site oficial do capítulo (pyladies.com) (opcional)
+  lat: latitude da cidade/estado do seu capítulo (opcional, mas altamente recomendado, caso contrário será gerado automaticamente)
+  lon: longitude da cidade/estado do seu capítulo (opcional, mas altamente recomendado, caso contrário será gerado automaticamente)
 ```
 
 **Atenção:** A imagem precisa ser `100px por 100px`.
@@ -172,7 +160,7 @@ O site PyLadies utiliza um framework CSS chamado [Foundation](http://foundation.
 Atualizando o site
 ------------------
 
-Todo pull-request aberto para o branch `master` irá disparar uma série de automações que checam a integridade do site e geram uma preview dele. 
+Todo pull-request aberto para o branch `master` irá disparar uma série de automações que checam a integridade do site e geram uma preview dele.
 Além disso, o time responsável por manter o site será marcado para revisar as mudanças propostas.
 
 Para verificar se suas mudanças estão da forma que você espera, basta verificar o status check de deploy preview, clicar em detalhes e você vai ser redirecionada para um site com as suas mudanças.
