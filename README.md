@@ -29,15 +29,14 @@ com o comando:
 $ git --version
 ```
 
-- Se a saida for algo como `git version 2.17.1`, significa que o git já está
+- Se a saída for algo como `git version 2.17.1`, significa que o git já está
 instalado. Caso contrário, para instalar o git basta fazer:
 ``` console
-$ sudo apt install git
+$ sudo apt install git  # para ubuntu
 ```
 
-> Obs.: Esse comando funciona apenas em sistemas operacionais que utilizam o
-`apt` gerenciador de pacotes. Caso não seja o seu caso, verifique como
-instalar o git no seu sistema.
+> **Observação**: Esse comando funciona apenas em sistemas operacionais que utilizam o
+`apt` gerenciador de pacotes. Caso não seja o seu caso, [verifique como instalar](https://git-scm.com/download/linux) o git no seu sistema.
 
 - Assumindo que seu git e virtualenv já estão configurados, faça o clone do repositório
 
@@ -52,9 +51,11 @@ $ cd br-pyladies-pelican
 - Rode o comando para criação de ambiente virtual e instalação das dependências
 
 ``` console
-$ make install
+$ virtualenv .venv 	# cria ambiente virtual
+$ source .venv/bin/activate	# ativa o ambiente
+$ pip install -r requirements.txt	# instala as dependências
+
 ```
-> Obs.: Esse comando criará uma virtual env, então rode-o fora de qualquer ambiente virtual.
 
 - Rode o projeto
 
@@ -73,10 +74,21 @@ $ make up PORT=8001
 
 E então acessar [localhost:8001](http://localhost:8001). Atenção! Algumas [portas são reservadas](https://pt.wikipedia.org/wiki/Lista_de_portas_dos_protocolos_TCP_e_UDP).
 
+Para desativar o ambiente virtual
+
+```console
+$ deactivate
+```
+Para mais informações a respeito do `Makefile` e suas opções, digite
+
+```console
+$ make help
+```
+
 Links Úteis
 -----------
 
-* [Documentação Pelica](http://docs.getpelican.com/en/3.6.3/)
+* [Documentação Pelican](http://docs.getpelican.com/en/3.6.3/)
 * [Virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 * [Pyenv](https://github.com/yyuu/pyenv)
 * [Criar um grupo PyLadies](https://brazilpyladies.gitbooks.io/handbook/content/)
@@ -115,8 +127,8 @@ Instalando e Rodando no Windows (Docker)
     $ cd br-pyladies-pelican
     $ docker-compose up
     ```
-    ou 
-    
+    ou
+
     ``` console
     $ git clone git@github.com:pyladies-brazil/br-pyladies-pelican.git
     $ cd br-pyladies-pelican
