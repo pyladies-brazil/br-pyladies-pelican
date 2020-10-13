@@ -1,290 +1,647 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-nova-localiza%C3%A7%C3%A3o
 
-#Pyladies em Alagoas:
-
-- city: Maceió
-  state: AL
-  image: /images/locais/pyladies-maceio.png
-  twitter: https://twitter.com/pyladiesmaceio
-  facebook: https://www.facebook.com/PyLadiesMaceio
-  instagram: https://www.instagram.com/pyladiesmaceio/
-  email: maceio@pyladies.com
-
-#Pyladies no Amazonas:
-
-- city: Manaus
-  state: AM
-  image: /images/locais/pyladies-manaus.png
-  facebook: https://www.facebook.com/pyladiesmanaus/
-  instagram: https://www.instagram.com/pyladiesmanaus/
-  email: manaus@pyladies.com
-  twitter: http://twitter.com/pyladiesmanaus
-  url: https://manaus.pyladies.com
-
-#Pyladies na Bahia:
-
-- city: Salvador
-  state: BA
-  image: /images/locais/pyladies-salvador.png
-  twitter: https://twitter.com/pyladies_ssa
-  facebook: https://www.facebook.com/pyladies.ssa
-  instagram: https://www.instagram.com/pyladies.ssa/
-  email: salvador@pyladies.com
-
-#Pyladies no Ceará:
-
-- city: Fortaleza
+- city: Aracati
   state: CE
-  image: /images/locais/fortaleza.jpg
-  twitter: https://twitter.com/pyladiesfort
-  facebook: https://www.facebook.com/PyLadiesFortaleza
-  instagram: https://www.instagram.com/pyladiesfortaleza/
-  email: fortaleza@pyladies.com
-
-#PyLadies no Distrito Federal:
-
-- city: Distrito Federal
-  state: DF
-  image: /images/locais/brasilia.png
-  twitter: https://twitter.com/PyLadiesDF
-  facebook: https://www.facebook.com/pyladiesdf/
-  instagram: https://www.instagram.com/pyladiesdf/
-  github: https://github.com/pyladiesdf
-  email: df@pyladies.com
-  url: https://df.pyladies.com/
-
-#PyLadies em Goiás
-- city: Goiânia
-  state: GO
-  image: /images/locais/pyladies-goiania.png
-  instagram: https://www.instagram.com/pyladies_goiania/
-  email: goiania@pyladies.com
-
-#Pyladies em Maranhão:
-
-- city: São Luís
-  state: MA
-  image: /images/locais/pyladies-sao-luis.svg
-  instagram: https://www.instagram.com/pyladiesslz/
-  email: saoluis@pyladies.com
-
-#Pyladies em Minas Gerais:
-
-- city: Belo Horizonte
-  state: MG
-  image: /images/locais/location.png
-  facebook: https://www.facebook.com/pyladiesbh
-
-- city: Sul de Minas Gerais
-  state: MG
-  image: /images/locais/pyladies_sul_de_minas.png
-  facebook: https://www.facebook.com/pyladiesmg/
-  instagram: https://www.instagram.com/pyladiesmg/
-  youtube: https://www.youtube.com/channel/UCqxKgb-vR0L9_Zl-IgwsG7A
-  email: suldeminasgerais@pyladies.com
-
-#Pyladies no Pará:
+  created_month: out.
+  created_year: 2017
+  status: Inativo
+  image: /images/locais/pyladies_aracati.png
+  facebook: https://www.facebook.com/PyLadiesAracati
+  github: https://github.com/PyLadiesAracati
+  instagram:      
+  linkedin:
+  twitter: https://twitter.com/PyladiesAracati
+  youtube: 
+  email: aracati@pyladies.com
+  url: https://pyladiesaracati.github.io/
 
 - city: Belém
   state: PA
-  image: /images/locais/pyladies-belem.jpg
+  created_month: jun.
+  created_year: 2016
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
   facebook: https://www.facebook.com/pyladiesbelem/
+  github: 
+  instagram:      
+  linkedin: https://www.linkedin.com/company/pyladies-belem/
+  twitter:
+  youtube:
   email: belem@pyladies.com
+  url:
 
-#Pyladies na Paraíba:
-- city: Paraíba
-  image: /images/locais/pyladiespb.png
-  twitter: https://twitter.com/pyladiespb
-  email: pb@pyladies.com
-  facebook: https://www.facebook.com/pyladiespb
-  instagram: https://www.instagram.com/pyladiespb/
-  url: https://github.com/pyladiespb
-
-#Pyladies no Paraná:
-
-- city: Curitiba
-  state: PR
-  image: /images/locais/pyladies-curitiba.png
-  facebook: https://www.facebook.com/PyLadiesCuritiba
-  url: http://www.meetup.com/pt-BR/PyLadies-Curitiba/
-
-- city: Pato Branco
-  state: PR
-  image: /images/locais/location.png
-  facebook: https://www.facebook.com/PyLadiesPatoBranco/
-  url: https://github.com/pyladiespatobranco
-
-#Pyladies em Pernambuco:
-
-- city: Recife
-  state: PE
-  image: /images/locais/pyladies-recife.png
-  twitter: https://twitter.com/pyladies_recife/
-  instagram: https://www.instagram.com/pyladiesrecife/
-  youtube: https://www.youtube.com/channel/UCNvD7aTKi9Fuyz74wL3Kn9w?view_as=subscriber
-  email: recife@pyladies.com
-
-#Pyladies no Piauí:
-
-- city: Parnaíba
-  state: PI
-  image: /images/locais/pyladies-parnaiba.png
-  facebook: https://www.facebook.com/pyLadiesPHB/
-  twitter: https://twitter.com/pyladiesphb
-  instagram: https://www.instagram.com/pyladiesphb/
-  email: parnaiba@pyladies.com
-  url: https://www.linkedin.com/company/pyladiesparnaiba/
-
-- city: Teresina
-  state: PI
-  image: /images/locais/pyladies-teresina.png
-  facebook: https://www.facebook.com/PyLadiesTeresina/
-  twitter: https://twitter.com/pyladiesthe
-  email: teresina@pyladies.com
-  url: https://www.facebook.com/PyLadiesTeresina/
-
-#Pyladies no Rio de Janeiro:
-
-- city: Duque de Caxias
-  state: RJ
-  image: /images/locais/pyladies-duque-de-caxias.png
-  twitter: http://twitter.com/PyLadiesCaxias
-  facebook: https://www.facebook.com/PyLadiesDuqueDeCaxias
-  email: duquedecaxias@pyladies.com
-  url: http://duquedecaxias.pyladies.com
-
-- city: PUC-Rio
-  state: RJ
-  image: /images/locais/pyladies-pucrio.png
-  twitter: http://twitter.com/pyladiespucrio
-  facebook: https://www.facebook.com/pyladiespucrio
-  email: pucrio@pyladies.org
-  url: http://pucrio.pyladies.com
-
-- city: Rio de Janeiro
-  state: RJ
-  image: /images/locais/pyladies-rio.jpg
-  twitter: http://twitter.com/rio_pyladies
-  facebook: https://www.facebook.com/pyladiesrio
-  email: rio@pyladies.com
-  url: http://rio.pyladies.com
-
-- city: Macaé
-  state: RJ
-  image: /images/locais/pyladies_macae.png
-  twitter: 
-  facebook: 
-  email: macaerj@pyladies.com
+- city: Belo Horizonte
+  state: MG
+  created_month: set.
+  created_year: 2015
+  status: Ativo
+  image: /images/locais/pyladies_default_ativa.png
+  facebook: https://www.facebook.com/pyladiesbh
+  github: https://github.com/PyLadiesBH
+  instagram: https://www.instagram.com/pyladiesbh/     
+  linkedin:
+  twitter: twitter.com/pyladiesbh
+  youtube: https://www.youtube.com/channel/UC4S9QWh8o5QeBNgi-UUY3Tw
+  email: bh@pyladies.com
   url: 
-
-#Pyladies no Rio Grande do Norte:
-
-- city: Natal
-  state: RN
-  image: /images/locais/pyladies_natal.svg
-  twitter: http://twitter.com/PyladiesNatal
-  facebook: https://www.facebook.com/PyLadiesNatal/
-  instagram: https://www.instagram.com/pyladiesnatal/
-  email: natalrn@pyladies.com
-  url: http://pyladiesnatal.github.io/
-
-#Pyladies no Rio Grande do Sul:
-
-- city: Caxias do Sul
-  state: RS
-  image: /images/locais/pyladies_caxiasdosul.jpg
-  facebook: https://www.facebook.com/pyladiescaxiasdosul/
-  email: caxiasdosul@pyladies.com
-  github: https://github.com/PyladiesCaxias
-  url: https://pyladiescaxias.github.io/
-
-- city: Porto Alegre
-  state: RS
-  image: /images/locais/pyladies-porto-alegre.png
-  twitter: https://twitter.com/Pyladiespoa
-  facebook: https://www.facebook.com/PoaPyladies/
-  instagram: https://www.instagram.com/pyladiespoa/
-  email: portoalegre@pyladies.com
-  url: https://pyladiespoa.pythonanywhere.com
-
-#Pyladies em Santa Catarina:
-
-- city: Florianópolis
-  state: SC
-  image: /images/locais/pyladies-floripa.png
-  facebook: https://www.facebook.com/PyLadies-Floripa-763762813730310/
-  twitter: https://twitter.com/PyLadiesFloripa
-  email: pyladiesfloripa@gmail.com
-  url: https://www.facebook.com/groups/PyLadiesFlorianopolis/
 
 - city: Blumenau
   state: SC
-  image: /images/locais/pyladies-blumenau.png
-  facebook: https://www.facebook.com/PyLadiesBlumenau
+  created_month: abr.
+  created_year: 2020
+  status: Ativo
+  image: /images/locais/pyladies_blumenau.png
+  facebook: https://www.facebook.com/PyLadies-Blumenau-1928509964035574
+  github: 
+  instagram: https://www.instagram.com/pyladies_blumenau/
+  linkedin: https://www.linkedin.com/in/pyladies-blumenau-a597ba1a5/
   twitter: https://twitter.com/pyladiesbnu
-  email: pyladiesbnu@gmail.com
-  url: https://www.facebook.com/groups/PyLadiesBlumenau/
+  youtube: 
+  email: blumenau@pyladies.com
+  url: 
 
-#Pyladies em São Paulo:
+- city: Caldas Novas
+  state: MG
+  created_month: out.
+  created_year: 2018
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: 
+  github: 
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: cn@pyladies.com
+  url: 
 
 - city: Campinas
   state: SP
-  image: /images/locais/pyladies_campinas.png
-  twitter: https://twitter.com/pyladiescps
+  created_month: ago.
+  created_year: 2015
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
   facebook: https://www.facebook.com/pyladiescps
+  github: https://github.com/pyladiescps
+  instagram: 
+  linkedin:
+  twitter: https://twitter.com/pyladiescps
+  youtube: 
   email: campinas@pyladies.com
+  url: 
+
+- city: Canoas
+  state: RS
+  created_month: maio
+  created_year: 2018
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: https://www.facebook.com/pyladiescanoas
+  github: 
+  instagram: 
+  linkedin:
+  twitter: https://twitter.com/pyladiescanoas
+  youtube: 
+  email: canoas@pyladies.com
+  url: 
+
+- city: Caxias do Sul
+  state: RS
+  created_month: dez.
+  created_year: 2017
+  status: Ativo
+  image: /images/locais/pyladies_caxias_do_sul.png
+  facebook: https://www.facebook.com/pyladiescaxiasdosul/
+  github: https://github.com/PyladiesCaxias
+  instagram: https://wwww.instagram.com/pyladiescaxiasdosul
+  linkedin:
+  twitter: https://twitter.com/caxiaspyladies
+  youtube: 
+  email: caxiasdosul@pyladies.com
+  url: https://pyladiescaxias.github.io/
+
+- city: Curitiba
+  state: PR
+  created_month: ago.
+  created_year: 2015
+  status: Ativo
+  image: /images/locais/pyladies_curitiba.png
+  facebook: 
+  github: https://github.com/Pyladies-CWB
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: curitiba@pyladies.com
+  url: 
+
+- city: Distrito Federal
+  state: DF
+  created_month: fev.
+  created_year: 2016
+  status: Ativo
+  image: /images/locais/pyladies_distrito_federal.png
+  facebook: https://www.facebook.com/pyladiesdf
+  github: https://github.com/pyladiesdf
+  instagram: https://www.instagram.com/pyladiesdf/
+  linkedin: https://www.linkedin.com/mwlite/company/pyladies-df
+  twitter: https://twitter.com/PyLadiesDF
+  youtube: 
+  email: df@pyladies.com
+  url: https://df.pyladies.com/
+
+- city: Duque de Caxias
+  state: RJ
+  created_month: set.
+  created_year: 2015
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: https://www.facebook.com/PyLadiesDuqueDeCaxias
+  github: https://github.com/pyladies-dcaxias
+  instagram: 
+  linkedin:
+  twitter: https://twitter.com/PyLadiesCaxias
+  youtube: 
+  email: duquedecaxias@pyladies.com
+  url: 
+
+- city: Espírito Santo
+  state: ES
+  created_month: maio
+  created_year: 2019
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: 
+  github: https://github.com/pyladies-es
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: es@pyladies.com
+  url: 
+
+- city: Florianópolis
+  state: SC
+  created_month: out.
+  created_year: 2017
+  status: Ativo
+  image: /images/locais/pyladies_florianopolis.png
+  facebook: https://www.facebook.com/pyladiesfloripa/
+  github: 
+  instagram: 
+  linkedin:
+  twitter: https://twitter.com/PyLadiesFloripa
+  youtube: 
+  email: floripa@pyladies.com
+  url: 
+
+- city: Fortaleza
+  state: CE
+  created_month: maio
+  created_year: 2015
+  status: Ativo
+  image: /images/locais/pyladies_fortaleza.png
+  facebook: https://www.facebook.com/PyLadiesFortaleza
+  github: https://github.com/pyladiesfortaleza
+  instagram: https://www.instagram.com/pyladiesfortaleza/
+  linkedin: https://www.linkedin.com/company/pyladiesfortaleza/
+  twitter: https://twitter.com/pyladiesfort
+  youtube: https://www.youtube.com/channel/UCTwhnLRWeukfXUXq_hRS42A
+  email: fortaleza@pyladies.com
+  url: 
+
+- city: Goiânia
+  state: GO
+  created_month: jul.
+  created_year: 2019
+  status: Ativo
+  image: /images/locais/pyladies_goiania.png
+  facebook: 
+  github: 
+  instagram: https://www.instagram.com/pyladies_goiania/
+  linkedin:
+  twitter: 
+  youtube: 
+  email: goiania@pyladies.com
+  url: 
+
+- city: Joinville
+  state: SC
+  created_month: maio
+  created_year: 2018
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: 
+  github: 
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: joinville@pyladies.com
+  url: 
+
+- city: Macaé
+  state: RJ
+  created_month: set.
+  created_year: 2020
+  status: Ativo
+  image: /images/locais/pyladies_macae.png
+  facebook: 
+  github: 
+  instagram: https://www.instagram.com/pyladies_macae/
+  linkedin: https://br.linkedin.com/in/pyladies-maca%C3%A9-rj-3511b91b8
+  twitter: 
+  youtube: 
+  email: macae@pyladies.com
+  url: 
+
+- city: Maceió
+  state: AL
+  created_month: abr.
+  created_year: 2016
+  status: Ativo
+  image: /images/locais/pyladies_maceio.png
+  facebook: https://www.facebook.com/PyLadiesMaceio
+  github: 
+  instagram: https://www.instagram.com/pyladiesmaceio/
+  linkedin:
+  twitter: https://twitter.com/PyLadiesMaceio
+  youtube: https://www.youtube.com/channel/UCQTgxHNwoEEdBcJggPFILgA
+  email: maceio@pyladies.com
+  url: 
+
+- city: Manaus
+  state: AM
+  created_month: out.
+  created_year: 2017
+  status: Ativo
+  image: /images/locais/pyladies_manaus.png
+  facebook: https://www.facebook.com/www.facebook.com/pyladiesmanaus/
+  github: https://github.com/pyladiesmanaus
+  instagram: https://www.instagram.com/pyladiesmanaus/
+  linkedin: https://www.linkedin.com/company/pyladiesmanaus/about/
+  twitter: https://twitter.com/pyladiesmanaus
+  youtube: 
+  email: manaus@pyladies.com
+  url: 
+
+- city: Natal
+  state: RN
+  created_month: mar.
+  created_year: 2014
+  status: Ativo
+  image: /images/locais/pyladies_natal.png
+  facebook: https://www.facebook.com/PyLadiesNatal
+  github: https://github.com/PyLadiesNatal
+  instagram: https://www.instagram.com/pyladiesnatal/
+  linkedin:
+  twitter: https://twitter.com/PyladiesNatal
+  youtube: 
+  email: natalrn@pyladies.com
+  url: http://pyladiesnatal.github.io/
+
+- city: Nova Iguaçu
+  state: RJ
+  created_month: maio
+  created_year: 2019
+  status: Ativo
+  image: /images/locais/pyladies_nova_iguacu.png
+  facebook: https://www.facebook.com/pyladiesrural
+  github: https://github.com/PyladiesRural
+  instagram: https://www.instagram.com/pyladiesrural/
+  linkedin:
+  twitter: 
+  youtube: 
+  email: rural@pyladies.com
+  url: 
+
+- city: Pará
+  state: PA
+  created_month: 
+  created_year: 
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: 
+  github: 
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: para@pyladies.com
+  url: 
+
+- city: Paraíba
+  state: PB
+  created_month: set.
+  created_year: 2018
+  status: Ativo
+  image: /images/locais/pyladies_paraiba.png
+  facebook: https://www.facebook.com/pyladiespb
+  github: https://github.com/pyladiespb/
+  instagram: https://www.instagram.com/pyladiespb/
+  linkedin: https://www.linkedin.com/company/pyladiespb/
+  twitter: https://twitter.com/pyladiespb
+  youtube: 
+  email: pb@pyladies.com
+  url: 
+
+- city: Parnaíba
+  state: PI
+  created_month: maio
+  created_year: 2020
+  status: Ativo
+  image: /images/locais/pyladies_parnaiba.png
+  facebook: https://www.facebook.com/pyLadiesPHB
+  github: 
+  instagram: https://www.instagram.com/pyladiesphb/
+  linkedin: https://www.linkedin.com/company/pyladiesparnaiba/
+  twitter: https://twitter.com/pyladiesphb
+  youtube: 
+  email: parnaiba@pyladies.com
+  url: 
+
+- city: Pato Branco
+  state: PR
+  created_month: 
+  created_year: 
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: https://www.facebook.com/pyladiespatobranco/
+  github: https://github.com/pyladiespatobranco
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: 
+  url: 
+
+- city: Picos
+  state: PI
+  created_month: jan.
+  created_year: 2017
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: https://www.facebook.com/PyLadiesPicos
+  github: 
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: picos@pyladies.com
+  url: 
+
+- city: Porto Alegre
+  state: RS
+  created_month: ago.
+  created_year: 2016
+  status: Ativo
+  image: /images/locais/pyladies_porto_alegre.png
+  facebook: https://www.facebook.com/PoaPyladies/
+  github: https://github.com/pyladiespoa
+  instagram: https://www.instagram.com/pyladiespoa/
+  linkedin:
+  twitter: https://twitter.com/Pyladiespoa
+  youtube: 
+  email: portoalegre@pyladies.com
+  url: https://pyladiespoa.pythonanywhere.com/
+
+- city: PUC Rio de Janeiro
+  state: RJ
+  created_month: ago.
+  created_year: 2016
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: https://www.facebook.com/pyladiespucrio
+  github: https://github.com/PyLadiesPUCRio
+  instagram: 
+  linkedin:
+  twitter: https://twitter.com/pyladiespucrio
+  youtube: 
+  email: pucrio@pyladies.com
+  url: 
+
+- city: Recife
+  state: PE
+  created_month: set.
+  created_year: 2014
+  status: Ativo
+  image: /images/locais/pyladies_recife.png
+  facebook: https://www.facebook.com/pyladiesrecife
+  github: 
+  instagram: https://www.instagram.com/pyladiesrecife/
+  linkedin: https://www.linkedin.com/company/pyladiesrecife/
+  twitter: https://twitter.com/pyladies_recife
+  youtube: https://www.youtube.com/channel/UCNvD7aTKi9Fuyz74wL3Kn9w
+  email: recife@pyladies.com
+  url: 
 
 - city: Ribeirão Preto
   state: SP
-  image: /images/locais/pyladies-rp.png
+  created_month: set.
+  created_year: 2016
+  status: Ativo
+  image: /images/locais/pyladies_ribeirao_preto.png
   facebook: https://www.facebook.com/pyladiesrp
-  email: pyladiesrp@gmail.com
-  url: https://pyladies-rp.github.io/
+  github: https://github.com/pyladies-rp
+  instagram: 
+  linkedin:
+  twitter: 
+  youtube: 
+  email: ribeiraopreto@pyladies.com
+  url: http://pyladies-rp.github.io/
+
+- city: Rio de Janeiro
+  state: RJ
+  created_month: jan.
+  created_year: 2015
+  status: Ativo
+  image: /images/locais/pyladies_rio_de_janeiro.png
+  facebook: https://www.facebook.com/pyladiesrio/
+  github: https://github.com/pyladies-brazil
+  instagram: 
+  linkedin:
+  twitter: https://twitter.com/rio_pyladies
+  youtube: 
+  email: rio@pyladies.com
+  url: http://rio.pyladies.com
+
+- city: Rosana
+  state: SP
+  created_month: jun.
+  created_year: 2020
+  status: Ativo
+  image: /images/locais/pyladies_default_ativa.png
+  facebook: 
+  github: 
+  instagram: 
+  linkedin: 
+  twitter: 
+  youtube: 
+  email: rosana@pyladies.com
+  url: 
+
+- city: Salvador
+  state: BA
+  created_month: dez.
+  created_year: 2015
+  status: Ativo
+  image: /images/locais/pyladies_salvador.png
+  facebook: https://www.facebook.com/pyladies.ssa
+  github: https://github.com/pyladiessalvador
+  instagram: https://www.instagram.com/pyladies.ssa/
+  linkedin: 
+  twitter: https://twitter.com/pyladies_ssa
+  youtube: https://www.youtube.com/channel/UCJT2eTLezDfnAd0TVVXUHuA
+  email: salvador@pyladies.com
+  url: 
+
+- city: São Bento do Sul
+  state: SC
+  created_month: nov.
+  created_year: 2019
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: 
+  github: 
+  instagram: 
+  linkedin: 
+  twitter: 
+  youtube: 
+  email: saobentodosul@pyladies.com
+  url: 
 
 - city: São Carlos
   state: SP
-  image: /images/locais/pyladies-saocarlos.png
-  twitter: https://twitter.com/PyLadiesSanca
-  instagram: https://www.instagram.com/pyladiessanca/
+  created_month: nov.
+  created_year: 2014
+  status: Ativo
+  image: /images/locais/pyladies_sao_carlos.png
   facebook: https://www.facebook.com/PyLadiesSaoCarlos
+  github: https://github.com/PyLadiesSanca
+  instagram: https://www.instagram.com/pyladiessanca/
+  linkedin: 
+  twitter: 
+  youtube: 
   email: saocarlos@pyladies.com
-  url: https://saocarlos.pyladies.com
+  url: 
 
 - city: São José dos Campos
   state: SP
-  image: /images/locais/sjcampos.jpg
-  facebook: https://www.facebook.com/pyladiesSJC
+  created_month: out.
+  created_year: 2017
+  status: Ativo
+  image: /images/locais/pyladies_sao_jose_dos_campos.png
+  facebook: 
+  github: https://github.com/PyladiesSJC
+  instagram: 
+  linkedin: https://www.linkedin.com/in/pyladiessjc/
+  twitter: 
+  youtube: 
   email: sjc@pyladies.com
+  url: 
+
+- city: São Luís
+  state: MA
+  created_month: maio
+  created_year: 2015
+  status: Ativo
+  image: /images/locais/pyladies_sao_luis.svg
+  facebook: https://www.facebook.com/PyLadiesSLZ
+  github: 
+  instagram: https://www.instagram.com/pyladiesslz/
+  linkedin: 
+  twitter: https://twitter.com/PyladiesSlz
+  youtube: https://www.youtube.com/channel/UCdRQLj0yXfEfDg2KWB5UMFQ
+  email: saoluis@pyladies.com
+  url: 
 
 - city: São Paulo
   state: SP
-  image: /images/locais/pyladies-sp.jpeg
+  created_month: set.
+  created_year: 2015
+  status: Ativo
+  image: /images/locais/pyladies_sao_paulo.png
   facebook: https://www.facebook.com/PyLadiesSP
-  twitter: https://twitter.com/PyLadiesSP
   github: https://github.com/PyLadiesSP
+  instagram: 
+  linkedin: https://www.linkedin.com/company/pyladiessp/
+  twitter: 
+  youtube: 
   email: saopaulo@pyladies.com
-
-- city: Sorocaba
-  state: SP
-  image: /images/locais/pyladies-sorocaba.jpg
-  facebook: https://www.facebook.com/PyLadiesSorocaba
-  twitter: https://twitter.com/PyLadieSorocaba
-  instagram: https://www.instagram.com/PyLadiesSorocaba/
-  email: sorocaba@pyladies.com
-
-- city: Vale
-  state: SP
-  image: /images/locais/pyladies-vale.png
-  facebook: https://www.facebook.com/PyLadiesVale
-  twitter: https://twitter.com/PyLadiesVale
-  email: vale@pyladies.com
-  url: http://vale.pyladies.com/
-
-#Pyladies em Sergipe:
+  url: 
 
 - city: Sergipe
   state: SE
-  image: /images/locais/pyladies_sergipe.svg
-  twitter: https://www.instagram.com/pyladiessergipe/
+  created_month: nov.
+  created_year: 2019
+  status: Ativo
+  image: /images/locais/pyladies_sergipe.png
+  facebook: 
+  github: https://github.com/pyladies-sergipe
+  instagram: https://www.instagram.com/pyladiessergipe/
+  linkedin: 
+  twitter: https://twitter.com/PyladiesSergipe
+  youtube: 
   email: sergipe@pyladies.com
+  url: 
+
+- city: Sorocaba
+  state: SP
+  created_month: out.
+  created_year: 2017
+  status: Ativo
+  image: /images/locais/pyladies_sorocaba.jpg
+  facebook: https://www.facebook.com/PyLadiesSorocaba
+  github: https://github.com/PyLadiesSorocaba
+  instagram: https://www.instagram.com/PyLadiesSorocaba/
+  linkedin: 
+  twitter: https://twitter.com/PyLadieSorocaba
+  youtube: 
+  email: sorocaba@pyladies.com
+  url: 
+
+- city: Sul de Minas Gerais
+  state: MG
+  created_month: nov.
+  created_year: 2019
+  status: Ativo
+  image: /images/locais/pyladies_sul_de_minas.png
+  facebook: https://www.facebook.com/pyladiesmg/
+  github: https://github.com/pyladiesmg
+  instagram: https://www.instagram.com/pyladiesmg/
+  linkedin: 
+  twitter: 
+  youtube: https://www.youtube.com/channel/UCqxKgb-vR0L9_Zl-IgwsG7A
+  email: suldeminasgerais@pyladies.com
+  url: https://pyladiesmg.github.io/
+
+- city: Teresina
+  state: PI
+  created_month: ago.
+  created_year: 2016
+  status: Ativo
+  image: /images/locais/pyladies_teresina.png
+  facebook: https://www.facebook.com/search/top/?q=pyladies%20teresina
+  github: https://github.com/pyladiesteresina
+  instagram: https://www.instagram.com/pyladiesthe/
+  linkedin: 
+  twitter: https://twitter.com/pyladiesthe
+  youtube: https://www.youtube.com/channel/UCZkC6HYHxnqat4Ie8kariOg
+  email: teresina@pyladies.com
+  url: 
+
+- city: Vale do Paraíba
+  state: SP
+  created_month: nov.
+  created_year: 2015
+  status: Inativo
+  image: /images/locais/pyladies_default_inativa.png
+  facebook: https://facebook.com/pyladiesvale
+  github: https://github.com/pyladiesvale
+  instagram: 
+  linkedin: 
+  twitter: https://twitter.com/pyladiesvale
+  youtube: 
+  email: vale@pyladies.com
+  url: http://vale.pyladies.com/
