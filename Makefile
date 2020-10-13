@@ -1,4 +1,3 @@
-virtualenv = virtualenv
 VENV := $(shell echo ${VIRTUAL_ENV})
 
 PY=$(VENV)/bin/python
@@ -33,9 +32,9 @@ help:
 	@echo '   make newpage NAME="PAGE NAME"       cria nova página com o nome de entrada	'
 	@echo '   make clean                          remove os arquivos gerados		'
 	@echo '   make serve [PORT=8000]              serve o site em http://localhost:8000	'
-	@echo '                                                                          '
-	@echo 'Especifique a variável DEBUG para 1 p/ habilitar debugging, e.g. make DEBUG=1 up '
-	@echo '                                                                          '
+	@echo '                               		                                        '
+	@echo 'Especifique a variável DEBUG=1 para habilitar debugging, ex. make DEBUG=1 up	'
+	@echo '                                                                          	'
 
 up: html serve
 
