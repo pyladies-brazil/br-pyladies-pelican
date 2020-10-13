@@ -58,7 +58,8 @@ Preparando o ambiente local
 
 (Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
 
-Para criar uma `virtualenv` e instalar os pacotes necessários para rodar o projeto, siga as orientações do capítulo "Instalando e Rodando" do [README](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/develop/README.md)
+Para criar um `virtualenv` e instalar os pacotes necessários para rodar o projeto,
+siga as orientações do capítulo "Instalando e Rodando" do [README](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/README.md)
 
 
 Criar um novo Post
