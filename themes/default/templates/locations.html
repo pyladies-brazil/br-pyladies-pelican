@@ -18,28 +18,39 @@
 
               {% if location.url %}
               <a target="_blank" href="{{ location.url }}">
-                <span class="location-name">Pyladies {{ location.city }} - {{ location.state }}</span>
+                <span class="location-name">PyLadies {{ location.city }} - {{ location.state }}</span>
                 <i class="fa fa-external-link location-external-link" aria-hidden="true"></i>
               </a>
               {% else %}
-              <span class="location-name">Pyladies {{ location.city }} - {{ location.state }}</span>
+              <span class="location-name">PyLadies {{ location.city }} - {{ location.state }}</span>
               {% endif %}
+              
+              {% if location.created_year %}
+              <br>              
+              <p>Criado em {{ location.created_month }} {{ location.created_year }}</p>
+              {% endif %}
+              
+              {% if location.status == "Inativo" %}
+              <br>        
+              <span>{{ location.status }}</span>
+              {% endif %}             
 
               <div class="social-icons">
+
+                {% if location.instagram %}
+                <a target="_blank" href="{{ location.instagram }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-instagram fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}
+
                 {% if location.twitter %}
                 <a target="_blank" href="{{ location.twitter }}">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                     <i class="fa fa-twitter fa-stack-1x"></i>
-                  </span>
-                </a>
-                {% endif %}
-
-                {% if location.email %}
-                <a target="_blank" href="mailto:{{ location.email }}">
-                  <span class="fa-stack fa-lg">
-                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                    <i class="fa fa-envelope fa-stack-1x"></i>
                   </span>
                 </a>
                 {% endif %}
@@ -52,21 +63,40 @@
                   </span>
                 </a>
                 {% endif %}
-
-                {% if location.instagram %}
-                <a target="_blank" href="{{ location.instagram }}">
+                
+                {% if location.github %}
+                <a target="_blank" href="{{ location.github }}">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
-                    <i class="fa fa-instagram fa-stack-1x"></i>
+                    <i class="fa fa-github fa-stack-1x"></i>
                   </span>
                 </a>
                 {% endif %}
+                
+                {% if location.linkedin %}
+                <a target="_blank" href="{{ location.linkedin }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-linkedin fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}               
+                
 
                 {% if location.youtube %}
                 <a target="_blank" href="{{ location.youtube }}">
                   <span class="fa-stack fa-lg">
                     <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
                     <i class="fa fa-youtube-square fa-stack-1x"></i>
+                  </span>
+                </a>
+                {% endif %}
+
+                {% if location.email %}
+                <a target="_blank" href="mailto:{{ location.email }}">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                    <i class="fa fa-envelope fa-stack-1x"></i>
                   </span>
                 </a>
                 {% endif %}
