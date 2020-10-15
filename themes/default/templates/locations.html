@@ -7,6 +7,10 @@
   </div>
   <div>
     <div id="archive">
+
+      <div class="title small-12 columns">          
+        <h2>CAPÍTULOS ATIVOS</h2>
+      </div>      
       <div class="wrap wrap-events">
         <div class="large-12 columns-events">
           <ul class="grid large-block-grid-6 locations-grid">
@@ -17,6 +21,15 @@
 
               {% endif %}
             {% endfor %}
+          </ul>
+        </div>
+
+        <div class="title small-12 columns">          
+          <h2>CAPÍTULOS INATIVOS</h2>
+        </div>
+        <div class="wrap wrap-events">
+        <div class="large-12 columns-events">
+          <ul class="grid large-block-grid-6 locations-grid">           
 
             {% for location in LOCATIONS %}
               {% if location.status == "Inativo" %}
@@ -25,11 +38,11 @@
 
               {% endif %}
             {% endfor %}
-
           </ul>
         </div>
       </div>
     </div>
   </div>
+  
 </article>
 {% endblock %}
