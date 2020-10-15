@@ -7,12 +7,43 @@
   </div>
   <div>
     <div id="archive">
+
+      <div class="title small-12 columns">          
+        <h2>CAPÍTULOS ATIVOS</h2>
+      </div>      
       <div class="wrap wrap-events">
         <div class="large-12 columns-events">
           <iframe class="mapa" src="{{ SITEURL }}/theme/html/mapa.html"></iframe>
+          <ul class="grid large-block-grid-6 locations-grid">
+            {% for location in LOCATIONS %}
+              {% if location.status == "Ativo" %}
+
+                {% include 'locations_card.html' %}
+
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+
+        <div class="title small-12 columns">          
+          <h2>CAPÍTULOS INATIVOS</h2>
+        </div>
+        <div class="wrap wrap-events">
+        <div class="large-12 columns-events">
+          <ul class="grid large-block-grid-6 locations-grid">           
+
+            {% for location in LOCATIONS %}
+              {% if location.status == "Inativo" %}
+
+                {% include 'locations_card.html' %}
+
+              {% endif %}
+            {% endfor %}
+          </ul>
         </div>
       </div>
     </div>
   </div>
+  
 </article>
 {% endblock %}
