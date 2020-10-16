@@ -9,7 +9,7 @@ o site do seu capítulo PyLadies?
 
 ## Infraestrutura do PyLadies Global
 Recentemente a [PyLadies Global](https://pyladies.com) foi estruturado para gerenciar os recursos que
-são destinados ao PyLadies de forma global. Dentro do PyLadies Global há alguns
+são destinados à PyLadies de forma global. Dentro da PyLadies Global há alguns
 projetos, sendo um deles o de tecnologia e infraestrutura que é responsável, dentre outras
 coisas, pelo suporte aos sites dos capítulos PyLadies.
 
