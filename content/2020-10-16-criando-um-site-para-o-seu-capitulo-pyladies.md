@@ -221,7 +221,7 @@ para salvar as alterações e abrir um _pull request_ para atualizar o repositó
 
 Os comandos para isso são:
 
-```
+```console
 $ cd chapter-websites/<NOME_DO_CAPÍTULO>
 $ git checkout <BRANCH_DE_PRODUÇÃO>
 $ git pull
