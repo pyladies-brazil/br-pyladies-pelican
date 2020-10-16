@@ -135,7 +135,7 @@ inicializá-lo para que o último commit do site seja fixado no
 
 Para fazer isso, execute os comandos:
 
-```
+```console
 $ cd chapter-websites # entra na pasta do repo
 $ git submodule add -b <BRANCH_DE_PRODUÇÃO> <URL_DO_REPOSITÓRIO> <NOME_DO_CAPÍTULO>
 # exemplo: git submodule add -b gh-pages https://github.com/pyladies/pyladies-sao-carlos-website.git saocarlos
