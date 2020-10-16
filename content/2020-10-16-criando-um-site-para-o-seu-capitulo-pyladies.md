@@ -8,7 +8,7 @@ Você sabia que é possível usar a infraestrutura do PyLadies Global para hospe
 o site do seu capítulo PyLadies?
 
 ## Infraestrutura do PyLadies Global
-Recentemente o PyLadies Global foi estruturado para gerenciar os recursos que
+Recentemente a [PyLadies Global](https://pyladies.com) foi estruturado para gerenciar os recursos que
 são destinados ao PyLadies de forma global. Dentro do PyLadies Global há alguns
 projetos, sendo um deles o de tecnologia e infraestrutura que é responsável, dentre outras
 coisas, pelo suporte aos sites dos capítulos PyLadies.
@@ -237,4 +237,3 @@ request_ de criação. O template será o mesmo, mas lembre-se de responder
 Sim à pergunta "esse _pull requst_ está atualizando um site já existente?".
 Novamente, basta aguardar a aceitação do _pull request_ para que as atualizações
 entrem em produção.
-
