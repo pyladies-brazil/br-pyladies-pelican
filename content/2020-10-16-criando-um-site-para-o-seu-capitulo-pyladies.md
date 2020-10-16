@@ -34,7 +34,7 @@ informações sobre o capítulo e também sobre as tecnologias que serão usadas
 no site. A _issue_ possui um template para ajudar no
 preenchimento dos dados, além de uma lista com os passos que devem ser
 cumpridos para a solicitação ser atendida. Após a abertura da _issue_, é preciso
-notificar o time de infra no canal #project-tech-infra.
+notificar o time de infra no Slack, por meio do canal \#project-tech-infra.
 
 Quando o time de infra receber o seu pedido, será criado um repositório para o
 site do seu capítulo, onde você poderá personalizar o template padrão
