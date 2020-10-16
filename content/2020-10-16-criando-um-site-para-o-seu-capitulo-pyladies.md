@@ -48,7 +48,7 @@ Assim que o seu _pull request_ for aprovado e mergeado, o site estará no ar!
 
 ## Como fazer o pedido
 Acesse o repositório
-[chapter-websites](https://github.com/pyladies/chapter-website), vá para a aba
+[chapter-websites](https://github.com/pyladies/chapter-websites), vá para a aba
 _Issues_ e clique em _New issue_.
 
 <img src="/images/criando-site/repo-issues.png">
