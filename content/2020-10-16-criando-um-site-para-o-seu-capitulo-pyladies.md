@@ -23,7 +23,7 @@ menos de 24h após a solicitação.
 ## Etapas do processo de solicitação
 O processo de solicitação é feito através do repositório
 [chapter-websites](https://github.com/pyladies/chapter-websites) no GitHub, onde fica centralizado
-os sites de todos os capítulos que estão na infraestrutura do PyLadies Global.
+os sites de todos os capítulos que estão na infraestrutura da PyLadies Global.
 No README do repositório tem as informações sobre como fazer a
 requisição. Vale ressaltar que, por enquanto, **o processo é feito todo em
 inglês.**
