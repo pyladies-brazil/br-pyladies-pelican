@@ -4,7 +4,7 @@ Date: 2020-10-16 03:40:57
 Tags: dica, site
 Author: Juliana Karoline
 
-Você sabia que é possível usar a infraestrutura do PyLadies Global para hospedar
+Você sabia que é possível usar a infraestrutura da PyLadies Global para hospedar
 o site do seu capítulo PyLadies?
 
 ## Infraestrutura do PyLadies Global
