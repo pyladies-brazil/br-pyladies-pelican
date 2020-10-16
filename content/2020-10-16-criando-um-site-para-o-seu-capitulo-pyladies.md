@@ -16,7 +16,7 @@ coisas, pelo suporte aos sites dos capítulos PyLadies.
 Através do time de infra é possível obter um domínio _.pyladies.com_ personalizado
 com o nome do seu capítulo, além de hospedagem gratuita para o site. O processo de solicitação
 leva poucos minutos para ser iniciado e o time de infra costuma responder bem
-rápido. A criação do site do PyLadies São Carlos, por exemplo, foi completada em
+rápido. A criação do site da PyLadies São Carlos, por exemplo, foi completada em
 menos de 24h após a solicitação.
 
 
