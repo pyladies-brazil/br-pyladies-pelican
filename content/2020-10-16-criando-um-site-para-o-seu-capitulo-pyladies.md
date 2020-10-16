@@ -82,7 +82,7 @@ Será criado um time para o seu capítulo, que terá permissão de edição no
 repositório do site. Como o repositório será criado dentro da organização do
 PyLadies, é preciso listar as organizadoras que serão inseridas no time. Os
 dados necessários são: nome, usuário do GitHub,
-  usuário do Slack do PyLadies Global e o "cargo" dentro do capítulo
+  usuário do Slack da PyLadies Global e o "cargo" dentro do capítulo
   (organizadora ou cofundadora, por exemplo).
 
 * **você gostaria de usar um template para gerar o site, ou prefere que ele seja
