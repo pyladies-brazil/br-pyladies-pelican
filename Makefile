@@ -1,5 +1,4 @@
-VIRTUALENV = virtualenv
-VENV := $(shell echo $${VIRTUAL_ENV-.venv})
+VENV := $(shell echo ${VIRTUAL_ENV})
 
 PY=$(VENV)/bin/python
 PELICAN?=$(VENV)/bin/pelican
@@ -9,14 +8,6 @@ BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
-PUBLISHCONF=$(BASEDIR)/publishconf.py
-
-SSH_HOST=localhost
-SSH_PORT=22
-SSH_USER=root
-SSH_TARGET_DIR=/var/www
-
-GITHUB_PAGES_BRANCH=gh-pages
 
 PAGESDIR=$(INPUTDIR)/pages
 DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
@@ -31,89 +22,37 @@ ifeq ($(DEBUG), 1)
 	PELICANOPTS += -D
 endif
 
-RELATIVE ?= 0
-ifeq ($(RELATIVE), 1)
-	PELICANOPTS += --relative-urls
-endif
-
 help:
-	@echo 'Makefile for a pelican Web site                                           '
-	@echo '                                                                          '
-	@echo 'Usage:                                                                    '
-	@echo '   make up                             generate the web site and serve    '
-	@echo '   make install                        install python dependencies        '
-	@echo '   make html                           (re)generate the web site          '
-	@echo '   make newpost NAME="POST NAME"       create new post with input name    '
-	@echo '   make newpage NAME="PAGE NAME"       create new ppage with input name   '
-	@echo '   make clean                          remove the generated files         '
-	@echo '   make dist-clean                     remove gen. files and dependencies '
-	@echo '   make regenerate                     regenerate files upon modification '
-	@echo '   make publish                        generate using production settings '
-	@echo '   make serve [PORT=8000]              serve site at http://localhost:8000'
-	@echo '   make serve-global [SERVER=0.0.0.0]  serve (as root) to $(SERVER):80    '
-	@echo '   make devserver [PORT=8000]          start/restart develop_server.sh    '
-	@echo '   make stopserver                     stop local server                  '
-	@echo '   make github                         upload the web site via gh-pages   '
-	@echo '   make virtualenv                     create default virtual environment '
-	@echo '   make load-facebook-events           load events from known FB pages    '
-	@echo '                                                                          '
-	@echo 'Set the DEBUG variable to 1 to enable debugging, e.g. make DEBUG=1 html   '
-	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
-	@echo '                                                                          '
+	@echo 'Makefile para um website usando Pelican                                   	'
+	@echo '                                                                          	'
+	@echo 'Uso:	                                                                 	'
+	@echo '   make up                             gera o site e o serve na porta     	'
+	@echo '   make html                           (re)gera o site		         	'
+	@echo '   make newpost NAME="POST NAME"       cria um novo post com o nome de entrada   '
+	@echo '   make newpage NAME="PAGE NAME"       cria nova página com o nome de entrada	'
+	@echo '   make clean                          remove os arquivos gerados		'
+	@echo '   make serve [PORT=8000]              serve o site em http://localhost:8000	'
+	@echo '                               		                                        '
+	@echo 'Especifique a variável DEBUG=1 para habilitar debugging, ex. make DEBUG=1 up	'
+	@echo '                                                                          	'
 
 up: html serve
-
-install: virtualenv
-	$(VENV)/bin/pip install -U pip
-	$(VENV)/bin/pip install -U -r requirements.txt
 
 clean:
 	[ ! -d $(OUTPUTDIR) ] || rm -rf $(OUTPUTDIR)
 
-distclean: clean
-	rm -rf .venv/
-
 html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
-
-regenerate:
-	$(PELICAN) -r $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
 ifdef PORT
 	@echo "Starting test server is running on http://0.0.0.0:$(PORT)"
-	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server $(PORT)
+	$(at_output) && $(PY) -m pelican.server $(PORT)
 else
-	@echo "Starting Test server is running on http://0.0.0.0:8000"
-	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server
+	@echo "Starting test server is running on http://0.0.0.0:8000"
+	$(at_output) && $(PY) -m pelican.server
 endif
 
-serve-global:
-ifdef SERVER
-	@echo "Starting server is running on :$(SERVER):80"
-	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server 80 $(SERVER)
-else
-	@echo "Starting server is running on :http://0.0.0.0:80"
-	$(at_output) && $(BASEDIR)/$(PY) -m pelican.server 80 0.0.0.0
-endif
-
-devserver:
-ifdef PORT
-	$(BASEDIR)/develop_server.sh restart $(PORT)
-else
-	$(BASEDIR)/develop_server.sh restart
-endif
-
-stopserver:
-	$(BASEDIR)/develop_server.sh stop
-	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
-
-publish:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(PUBLISHCONF) $(PELICANOPTS)
-
-github: publish
-	ghp-import -m "Generate Pelican site" -b $(GITHUB_PAGES_BRANCH) $(OUTPUTDIR)
-	git push origin $(GITHUB_PAGES_BRANCH)
 
 newpost:
 ifdef NAME
@@ -125,8 +64,8 @@ ifdef NAME
 	echo ""              >> $(INPUTDIR)/$(SLUG).$(EXT)
 	${EDITOR} ${INPUTDIR}/${SLUG}.${EXT}
 else
-	@echo 'Variable NAME is not defined.'
-	@echo 'Do make newpost NAME='"'"'Post Name'"'"
+	@echo 'Variável NAME não está definida.'
+	@echo 'Faça make newpost NAME='"'"'nome do post'"'"
 endif
 
 newpage:
@@ -138,15 +77,8 @@ ifdef NAME
 	echo ""              >> $(PAGESDIR)/$(SLUG).$(EXT)
 	${EDITOR} ${PAGESDIR}/${SLUG}.$(EXT)
 else
-	@echo 'Variable NAME is not defined.'
-	@echo 'Do make newpage NAME='"'"'Page Name'"'"
+	@echo 'Variável NAME não está definida.'
+	@echo 'Faça make newpage NAME='"'"'Nome da página'"'"
 endif
 
-virtualenv:
-	$(VIRTUALENV) $(VENV)
-
-load-facebook-events:
-	$(PY) -c "import utils; utils.load_facebook_events(utils.PYLADIES_FACEBOOK_PAGES)"
-
-
-.PHONY: up html help clean regenerate serve serve-global devserver publish github newpost newpage
+.PHONY: up html help clean serve newpost newpage
