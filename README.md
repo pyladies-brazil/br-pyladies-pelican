@@ -13,7 +13,8 @@ Instalando e Rodando
 * [Instalação no Linux](#instalação-no-linux)
   - [Usando ambiente virtual](#usando-ambiente-virtual)
   - [Usando docker-compose](#usando-docker-compose)
-* [Instalação Windows](#instalação-windows)
+* [Instalação no Windows](#instalação-no-windows)
+  - [Usando ambiente virtual](#usando-ambiente-virtual)
   - [Usando o docker-compose](#usando-o-docker-compose)
 
 Requisitos Mínimos
