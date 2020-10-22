@@ -61,7 +61,6 @@ Preparando o ambiente local
 Para criar um `virtualenv` e instalar os pacotes necessários para rodar o projeto,
 siga as orientações do capítulo "Instalando e Rodando" do [README](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/README.md)
 
-
 Criar um novo Post
 ------------------
 

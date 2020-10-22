@@ -9,15 +9,31 @@ Para contribuir com o projeto veja o guia de [Contribuição](https://github.com
 
 Instalando e Rodando
 --------------------
+* [Requisitos Mínimos](#requisitos)
+* [Instalação no Linux](#linux)
+  - [Usando ambiente virtual](#linux-venv)
+  - [Usando docker-compose](#linux-docker)
+* [Instalação Windows](#windows)
+  - [Usando o docker-compose](#windows-docker)
 
-- Para apenas rodar localmente o site, você precisa do [virtualenv](https://virtualenv.pypa.io/en/stable/)
-instalado na sua máquina. Para verificar se ele está instalado, execute o
-seguinte comando e observe a saída:
+Requisitos Mínimos
+-----
+* Python 3.6
+* [pip](https://pip.pypa.io/en/stable/)
+
+Instalação no Linux
+====================
+
+Usando ambiente virtual
+------------
+Para rodar o site localmente, você precisa de um ambiente virtual.
+Nós usamos o [virtualenv](https://virtualenv.pypa.io/en/stable/), mas se você tem experiência com outros, como o pyenv, não tem problema.
+Para verificar a instalação do `virtualenv`, digite
 
 ```console
 $ virtualenv --version
 ```
-- Se a saida for uma numeração, como `16.1.0`, isso significa que o virtualenv já
+- Se a saida for uma numeração, como `16.1.0`, isso significa que
 está instalado. Caso contrario, para instalar o virtualenv basta fazer:
 
 ```console
@@ -51,10 +67,9 @@ $ cd br-pyladies-pelican
 - Rode o comando para criação de ambiente virtual e instalação das dependências
 
 ``` console
-$ virtualenv .venv 	# cria ambiente virtual
-$ source .venv/bin/activate	# ativa o ambiente
+$ virtualenv .venv 			# cria ambiente virtual
+$ source .venv/bin/activate		# ativa o ambiente
 $ pip install -r requirements.txt	# instala as dependências
-
 ```
 
 - Rode o projeto
@@ -85,17 +100,8 @@ Para mais informações a respeito do `Makefile` e suas opções, digite
 $ make help
 ```
 
-Links Úteis
------------
-
-* [Documentação Pelican](http://docs.getpelican.com/en/3.6.3/)
-* [Virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
-* [Pyenv](https://github.com/yyuu/pyenv)
-* [Criar um grupo PyLadies](https://brazilpyladies.gitbooks.io/handbook/content/)
-* [Documentação git](https://git-scm.com/doc)
-
-Rodando com docker-compose
---------------------------
+Usando docker-compose
+----------------------
 
 Instale [o docker no seu computador](https://docs.docker.com/install/) em seguida execute os passos abaixo:
 
@@ -107,7 +113,10 @@ $ docker-compose up
 
 Agora basta acessar o navegador em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado.
 
-Instalando e Rodando no Windows (Docker)
+Instalação no Windows
+===============
+
+Usando o docker-compose
 --------------------------
 - [Opcional] Instale o [Visual Studio Code](https://code.visualstudio.com/) para fazer códigos legais;
 - [Opcional mas fortemente indicado] Instale o [Git para Windows](https://desktop.github.com/) para um shell mais legal também;
@@ -135,6 +144,13 @@ Instalando e Rodando no Windows (Docker)
     $ make up
     ```
 
--------------------------
+Links Úteis
+-----------
+
+* [Criar um grupo PyLadies](https://brazilpyladies.gitbooks.io/handbook/content/)
+* [Documentação git](https://git-scm.com/doc)
+* [Documentação Pelican](http://docs.getpelican.com/en/3.6.3/)
+* [pyenv](https://github.com/yyuu/pyenv)
+* [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
 Esse repositório é mantido com :heart: pelo @pyladies-brazil/tech-team
