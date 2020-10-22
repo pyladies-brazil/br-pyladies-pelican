@@ -10,10 +10,10 @@ Para contribuir com o projeto veja o guia de [Contribuição](https://github.com
 Instalando e Rodando
 --------------------
 * [Requisitos Mínimos](#requisitos-minimos)
-* [Instalação no Linux](#instalacao-no-linux)
+* [Instalação no Linux](#instalação-no-linux)
   - [Usando ambiente virtual](#usando-ambiente-virtual)
   - [Usando docker-compose](#usando-docker-compose)
-* [Instalação Windows](#instalacao-windows)
+* [Instalação Windows](#instalação-windows)
   - [Usando o docker-compose](#usando-o-docker-compose)
 
 Requisitos Mínimos
