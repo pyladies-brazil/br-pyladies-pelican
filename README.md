@@ -14,7 +14,6 @@ Instalando e Rodando
   - [Usando ambiente virtual](#usando-ambiente-virtual)
   - [Usando docker-compose](#usando-docker-compose)
 * [Instalação no Windows](#instalação-no-windows)
-  - [Usando ambiente virtual](#usando-ambiente-virtual)
   - [Usando o docker-compose](#usando-o-docker-compose)
 
 Requisitos Mínimos
@@ -117,36 +116,6 @@ $ docker-compose up
 Instalação no Windows
 ===============
 
-Usando ambiente virtual
------------
-
-**ATENÇÃO**: adiantamos que essa talvez não seja a melhor opção e pode causar
-alguns erros.
-
-- Baixe e instale o [git](https://git-scm.com/download/win);
-  * Verifique a instalação no Powershell ou cmd por meio do comando `git --version`;
-- Verifique a instalação do `virtualenv` por meio do comando `virtualenv --version`;
-  * Se o virtualenv não estiver instalado, rode o comando `pip install virtualenv`;
-- Uma vez instalado o virtualenv, vá até a pasta do projeto
-```console
-virtualenv .venv 		# cria o ambiente virtual
-.\venv\Scripts\activate 	# ativa o ambiente virtual
-```
-- Quando o ambiente virtual estiver funcionando, um `(.venv)` aparecerá no início
-da sua linha de comando.
-- Após, instale as dependências do projeto usando `pip install -r requirements.txt`;
-- Abra mais um terminal e repita o processo de **ativação** do ambiente virtual na
-dentro da pasta do projeto;
-- No primeiro terminal, vá até a pasta `content` e suba um servidor
-```console
-.\venv\Scrips\activate		# ativa o ambiente
-cd contents
-python -m http.server
-```
-- Deixe esse terminal aberto
-- No outro terminal, digite `pelican -r content` e deixe o terminal aberto
-- No seu navegador, acesse a URL `https://localhost:8000` e veja o site rodando!
-
 Usando o docker-compose
 --------------------------
 - [Opcional] Instale o [Visual Studio Code](https://code.visualstudio.com/) para fazer códigos legais;
@@ -179,6 +148,7 @@ Links Úteis
 -----------
 
 * [Criar um grupo PyLadies](https://brazilpyladies.gitbooks.io/handbook/content/)
+* [Documentação Docker](https://docs.docker.com/)
 * [Documentação git](https://git-scm.com/doc)
 * [Documentação Pelican](http://docs.getpelican.com/en/3.6.3/)
 * [pyenv](https://github.com/yyuu/pyenv)
