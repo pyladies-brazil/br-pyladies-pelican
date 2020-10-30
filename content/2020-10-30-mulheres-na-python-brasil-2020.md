@@ -1,13 +1,13 @@
 Title: Mulheres na Python Brasil 2020: conheça as mulheres que fazem parte da programação da maior conferência de Python da América Latina
 Slug: mulheres-na-python-brasil-2020
 Date: 2020-10-30 19:49:57
-Tags: eventos, pythonbrasil
+Tags: eventos, python brasil 2020
 Author: Lis R. Barreto
 
 
 <img src="/images/mulheres-na-pybr-2020/mulheres-na-pybr-2020.png">
 
-A [Python Brasil](https://2020.pythonbrasil.org.br/) é a maior conferência sobre linguagem de programação Python do Brasil e da América Latina.
+A [Python Brasil](https://2020.pythonbrasil.org.br/){:target="_blank"} é a maior conferência sobre linguagem de programação Python do Brasil e da América Latina.
 
 Dentre seus objetivos podemos destacar a difusão da linguagem Python, assim como o compartilhamento de conhecimento e de experiências, afim de manter o constante crescimento da comunidade.
 
