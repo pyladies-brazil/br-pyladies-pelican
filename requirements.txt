@@ -1,6 +1,5 @@
-pelican==3.6.3
+pelican==4.5.0
 Markdown==3.3.1
 ghp-import==0.4.1
 pyyaml>=4.2b1
 beautifulsoup4==4.5.1
-facebook-sdk==2.0.0
