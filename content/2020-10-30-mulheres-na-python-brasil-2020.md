@@ -25,6 +25,13 @@ E aí, vamos mergulhar nesse universo?
 
 O evento terá em sua abertura a mesa redonda das PyLadies, tendo início na segunda-feira, no dia 02 de novembro de 2020, às 10 h. A partir daqui você poderá escolher uma trilha e se aventurar nesse macrocosmo pythônico!
 
+
+## Mesa redonda Pizza Ao Vivo: divulgação científica
+
+No dia 4 novembro de 2020, às 10:30 da manhã teremos mais uma mesa redonda integrada exclusivamente por mulheres!
+Nesta edição especial ao Vivo do **[Pizza de Dados](https://twitter.com/pizzadedados)**, as anfitriãs **[Jessica Temporal](https://twitter.com/jesstemporal)** e **[Letícia Portella](https://twitter.com/leleportella)** terão a presença de **[Carla Vieira](https://twitter.com/carlaprvieira)** do canal **[E A.I., Carla](https://twitter.com/canaleaicarla)**, **[Mila Laranjeira](https://twitter.com/milalaranjeira)** e **[Vivi Mota](https://twitter.com/avivimota)** do canal **[Peixe Babel](https://twitter.com/canalpeixebabel)** para discutir sobre a divulgação científica e Ciência de Dados no Brasil!
+
+
 ## Palestras
 
 As trilhas acontecerão de forma simultânea, as palestras vão desde o nível iniciante até o nível avançado, passando por diversos temas como: Diversidade & Inclusão na Tecnologia, Cultura, Educação, Ciência de Dados, Inteligência Artificial, Computação Ciêntífica, DevOps, dentre outros.
@@ -53,7 +60,6 @@ Utilize a descrição pra escolher os temas que mais te interessam e embarque ne
 | PEP 20 | 16:40 - 17:25 | **SUB-REPRESENTAÇÃO E INVISIBILIDADE FEMININA NA STEM (SCIENCE, TECHNOLOGY, ENGINEERING AND MATHEMATICS): uma análise de estereótipos, educação e plataformas de carreira** | **Salete Silva Farias** | O que dizem os relatórios mundiais sobre a representatividade das mulheres na STEM e os próximos 100 anos? Na educação e nas carreiras emergentes, entenda como estereótipos de gênero tem impacto no protagonismo feminino na ciência e na visibilidade em plataformas de carreira. |
 | PEP 0 | 18:20 - 19:05 | **Ambientes Virtuais, o que são e para que servem?** | **Maria Fernanda Souza Andrade** | Você já teve problema na hora de instalar pacotes ou executar um projeto antigo? Se você já passou por momentos assim, sei como é, por isso vem comigo desbravar os ambientes virtuais. E se tu ainda não passou, relaxe, você estará preparada depois dessa palestra. |
 | PEP 404 | 18:20 - 19:05 | **Análise Numérica com Python: O Poder da Linguagem que Conquistou o Coração de Cientistas e Engenheiros** | **Lis Ramos Barreto de Almeida** | Este é um convite ao universo onde a linguagem Python pode nos ajudar a resolver equações que parecem ser insolúveis. Como a Análise Numérica pode fazer uso de técnicas computacionais robustas para resolver problemas do universo que vai da escala quântica à extragaláctica? |
-| PEP 20 | 19:10 - 19:55 | **Fala pra Geral - Popularizando o acesso aos Dados Abertos Locais** | **Anicely Santos** | Abordar sobre a importância de facilitar o acesso do povo periférico a informações abertas, com o intuito de ajudar na construção de políticas públicas eficazes nesses territórios.|
 
 ### Quarta-feira, 04/11/2020
 
