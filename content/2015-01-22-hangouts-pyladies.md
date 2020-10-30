@@ -18,7 +18,7 @@ O hangout vai ao ar no dia **24 de Janeiro (sábado), às 10h (horário de Bras�
 
 Diga **SIM** no nosso evento e não esqueça de participar: [Hangout PyLadies Brasil](https://plus.google.com/events/c1tpmmqj24r92ed3er49dhq5juc)
 
-![Hangout PyLadies]({filename}/images/hangouts.png)
+![Hangout PyLadies]({static}/images/hangouts.png)
 
 
 

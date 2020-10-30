@@ -44,6 +44,6 @@ Por fim, queremos agradecer à todas as comunidade que contribuíram com o **#Pa
 E agradecer, também, às nossas PyLadies que tomaram a frente, assinaram muitos e-mails, fizeram vários testes de transmissão, posts em redes sociais e caminharam com o Papo até aqui: [Ana Cecília Vieira](https://twitter.com/cecivieira){:target="_blank"} (PyLadies Recife), [Dandara Sousa](https://twitter.com/dandaramcsousa){:target="_blank"} (PyLadies Paraíba) e [Giovana Morais](https://twitter.com/ohshitgi){:target="_blank"} (PyLadies Sorocaba).
 
 
-![Papo entre PyLadies]({filename}/images/orgpapoentrepyladies.jpg)  
+![Papo entre PyLadies]({static}/images/orgpapoentrepyladies.jpg)  
 
 **[Assistam os próximos episódios (ou maratonem todos) e nos vemos na próxima temporada!](https://www.youtube.com/playlist?list=PL0tfcsij9geEE-4MhGViTgeiRBIBUnlAP)**

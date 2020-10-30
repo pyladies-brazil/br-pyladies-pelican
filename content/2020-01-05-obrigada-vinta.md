@@ -9,7 +9,7 @@ comments: true
 Em 2019, mais uma vez, fomos privilegiadas com ajuda de pessoas fantásticas que contribuíram para que tivéssemos PyLadies comparecendo à Python Brasil! 
 Nesse post, queremos agradecer especialmente à **Vinta**, que tem nos ajudado a anos, incentivando a diversidade pela inclusão de mulheres na maior conferência da linguagem de programação Python da América Latina!
 
-![Vinta]({filename}/images/vinta01.jpg)
+![Vinta]({static}/images/vinta01.jpg)
 
 A Vinta nasceu em 2012, de três sócios que vinham do cenário de startups. Todos já tinham tentado empreender antes, e a Vinta nasceu de um protótipo bem estruturado de uma startup anterior, que não sobreviveu ao cenário nacional. Utilizando a experiência adquirida,  observaram que poucas empresas se arriscavam a operar como **estúdios de software**, modelo que consideravam ideal, e que originou a Vinta. Assim, conseguiram fugir do ambiente incerto de empreender em uma startup, porém com liberdade para seguir trabalhando em produtos inovadores. No início, a Vinta trabalhava exclusivamente produzindo protótipos para empresas brasileiras. 
 
@@ -23,7 +23,7 @@ Formar esse pequeno time de especialistas não seria possível sem um **investim
 * o crescimento profissional e pessoal de todas as pessoas dentro da empresa e nas comunidades open-source;  
 * a criação de um ambiente cada vez mais inclusivo para minorias, pois seu sucesso se deve a uma equipe diversa em mentalidades, habilidades, e contextos sociais.
 
-![Vinta na Python Nordesde 2019]({filename}/images/vinta02.jpg)
+![Vinta na Python Nordesde 2019]({static}/images/vinta02.jpg)
 
 A Vinta também conta com um [blog](https://www.vinta.com.br/blog/) com vários posts bacanas e tem várias bibliotecas open source no seu [GitHub](https://github.com/vintasoftware/).
 

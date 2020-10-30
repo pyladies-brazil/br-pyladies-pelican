@@ -92,4 +92,4 @@ Qualquer dúvida, entre em contato conosco pelo [Slack](https://slackin.pyladies
 na issue que você deseja trabalhar. Estaremos de olhos e braços bem abertos (a uma distância de 1.5m, claro) para
 te ajudar no que for preciso.
 
-![caco]({filename}/images/hacktoberfest-2020/caco.gif)
+![caco]({static}/images/hacktoberfest-2020/caco.gif)
