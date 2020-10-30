@@ -25,6 +25,13 @@ E aí, vamos mergulhar nesse universo?
 
 O evento terá em sua abertura a mesa redonda das PyLadies, tendo início na segunda-feira, no dia 02 de novembro de 2020, às 10 h. A partir daqui você poderá escolher uma trilha e se aventurar nesse macrocosmo pythônico!
 
+
+## Mesa redonda Pizza Ao Vivo: divulgação científica
+
+No dia 4 novembro de 2020, às 10:30 da manhã teremos mais uma mesa redonda integrada exclusivamente por mulheres!
+Nesta edição especial ao Vivo do **[Pizza de Dados](https://twitter.com/pizzadedados)**, as anfitriãs **[Jessica Temporal](https://twitter.com/jesstemporal)** e **[Letícia Portella](https://twitter.com/leleportella)** terão a presença de **[Carla Vieira](https://twitter.com/carlaprvieira)** do canal **[E A.I., Carla](https://twitter.com/canaleaicarla)**, **[Mila Laranjeira](https://twitter.com/milalaranjeira)** e **[Vivi Mota](https://twitter.com/avivimota)** do canal **[Peixe Babel](https://twitter.com/canalpeixebabel)** para discutir sobre a divulgação científica e Ciência de Dados no Brasil!
+
+
 ## Palestras
 
 As trilhas acontecerão de forma simultânea, as palestras vão desde o nível iniciante até o nível avançado, passando por diversos temas como: Diversidade & Inclusão na Tecnologia, Cultura, Educação, Ciência de Dados, Inteligência Artificial, Computação Ciêntífica, DevOps, dentre outros.
