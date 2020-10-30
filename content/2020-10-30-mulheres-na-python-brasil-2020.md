@@ -11,11 +11,11 @@ A [Python Brasil](https://2020.pythonbrasil.org.br/){:target="_blank"} é a maio
 
 Dentre seus objetivos podemos destacar a difusão da linguagem Python, assim como o compartilhamento de conhecimento e de experiências, afim de manter o constante crescimento da comunidade.
 
-Este ano, devido à pandemia de Covid-19, a Python Brasil está no formato remoto e está sendo organizada por times do Brasil e do mundo.
+Este ano, devido à pandemia de Covid-19, a Python Brasil está no formato remoto e está sendo organizada por times do Brasil e do mundo. Além disso, as inscrições são gratuitas e podem ser feitas [neste link](https://www.eventbrite.com.br/e/python-brasil-2020-tickets-117927633727){:target="_blank"}.
 
 Serão sete dias de imersão, onde participantes poderão contribuir para projetos de software livre, participar de treinamentos e adquirir novos conhecimentos com outras pessoas da comunidade.
 
-Inspiradas pelo lema Pessoas > Tecnologia e pelas políticas de diversidade da comunidade, convidamos vocês a acompanharem a grade de programação desse ano e conhecer mulheres incríveis de diversas áreas de atuação que estarão participando da Python Brasil 2020.
+Inspiradas pelo lema "Pessoas > Tecnologia" e pelas políticas de diversidade da comunidade, convidamos vocês a acompanharem a grade de programação desse ano e conhecer mulheres incríveis de diversas áreas de atuação que estarão participando da Python Brasil 2020.
 
 E aí, vamos mergulhar nesse universo?
 
