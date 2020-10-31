@@ -25,6 +25,13 @@ E aí, vamos mergulhar nesse universo?
 
 O evento terá em sua abertura a mesa redonda das PyLadies, tendo início na segunda-feira, no dia 02 de novembro de 2020, às 10 h. A partir daqui você poderá escolher uma trilha e se aventurar nesse macrocosmo pythônico!
 
+
+## Mesa redonda Pizza Ao Vivo: divulgação científica
+
+No dia 4 novembro de 2020, às 10:30 da manhã teremos mais uma mesa redonda integrada exclusivamente por mulheres!
+Nesta edição especial ao Vivo do **[Pizza de Dados](https://twitter.com/pizzadedados){:target="_blank"}**, as anfitriãs **[Jessica Temporal](https://twitter.com/jesstemporal){:target="_blank"}** e **[Letícia Portella](https://twitter.com/leleportella){:target="_blank"}** terão a presença de **[Carla Vieira](https://twitter.com/carlaprvieira){:target="_blank"}** do canal **[E A.I., Carla](https://twitter.com/canaleaicarla){:target="_blank"}**, **[Mila Laranjeira](https://twitter.com/milalaranjeira){:target="_blank"}** e **[Vivi Mota](https://twitter.com/avivimota){:target="_blank"}** do canal **[Peixe Babel](https://twitter.com/canalpeixebabel){:target="_blank"}** para discutir sobre a divulgação científica e Ciência de Dados no Brasil!
+
+
 ## Palestras
 
 As trilhas acontecerão de forma simultânea, as palestras vão desde o nível iniciante até o nível avançado, passando por diversos temas como: Diversidade & Inclusão na Tecnologia, Cultura, Educação, Ciência de Dados, Inteligência Artificial, Computação Ciêntífica, DevOps, dentre outros.
@@ -48,12 +55,10 @@ Utilize a descrição pra escolher os temas que mais te interessam e embarque ne
 | Trilha | Horário | Tema | Palestrante | Descrição |
 |---|---|---|---|---|
 |PEP 20 | 15:00 - 15:45 | **Inovação e Tecnologia na educação: python como objeto de aprendizagem multidisciplinar** | **Pâmella Araújo Balcaçar** | Serão abordados os impactos possíveis da tecnologia na educação. Veremos a aplicação da taxonomia de Bloom considerando python como objeto de aprendizagem multidisciplinar. Por meio de metodologias inovadoras e de Python, suas aulas nunca mais serão as mesmas. |
-| PEP 0 | 15:00 - 15:45 | **Qualidade vai além - Molecule** | **Natalia Raythz** | Essa palestra vai mostrar alguns principios da qualidade de software e como ela esta presente em cada parte do desenvolvimento e também falar sobre uma ferramenta escrita em Python que nos ajuda a testar a nossa infraestrutura, o molecule. |
 | PEP 8 | 16:40 - 17:25 | **Introdução à recuperação de informação musical** | **Giovana Vieira de Morais** | Nessa palestra, exploraremos a Recuperação de Informação Musical, mostrando como um computador pode entender sinais musicais, que tipo de informações podemos relevantes podemos extrair e quais os desafios mais recentes, usando a librosa, uma biblioteca para análise de áudio. |
 | PEP 20 | 16:40 - 17:25 | **SUB-REPRESENTAÇÃO E INVISIBILIDADE FEMININA NA STEM (SCIENCE, TECHNOLOGY, ENGINEERING AND MATHEMATICS): uma análise de estereótipos, educação e plataformas de carreira** | **Salete Silva Farias** | O que dizem os relatórios mundiais sobre a representatividade das mulheres na STEM e os próximos 100 anos? Na educação e nas carreiras emergentes, entenda como estereótipos de gênero tem impacto no protagonismo feminino na ciência e na visibilidade em plataformas de carreira. |
 | PEP 0 | 18:20 - 19:05 | **Ambientes Virtuais, o que são e para que servem?** | **Maria Fernanda Souza Andrade** | Você já teve problema na hora de instalar pacotes ou executar um projeto antigo? Se você já passou por momentos assim, sei como é, por isso vem comigo desbravar os ambientes virtuais. E se tu ainda não passou, relaxe, você estará preparada depois dessa palestra. |
 | PEP 404 | 18:20 - 19:05 | **Análise Numérica com Python: O Poder da Linguagem que Conquistou o Coração de Cientistas e Engenheiros** | **Lis Ramos Barreto de Almeida** | Este é um convite ao universo onde a linguagem Python pode nos ajudar a resolver equações que parecem ser insolúveis. Como a Análise Numérica pode fazer uso de técnicas computacionais robustas para resolver problemas do universo que vai da escala quântica à extragaláctica? |
-| PEP 20 | 19:10 - 19:55 | **Fala pra Geral - Popularizando o acesso aos Dados Abertos Locais** | **Anicely Santos** | Abordar sobre a importância de facilitar o acesso do povo periférico a informações abertas, com o intuito de ajudar na construção de políticas públicas eficazes nesses territórios.|
 
 ### Quarta-feira, 04/11/2020
 
@@ -101,7 +106,6 @@ Let's Go!!!
 | Horário | Tema | Ministrante | Descrição |
 |---|---|---|---|
 | 10:00 - 13:00 | **Criando seu próprio bot no telegram (do zero!) usando Flask** | **Débora Atanes Buss** | Essa é para você, que sempre teve vontade de criar um chatbot, mas nunca tirou a ideia do papel porque achou que seria muito complicado. Aqui vamos explorar a API de bots do telegram e criar um bot DO ZERO! Com direito a deixá-lo disponível para poder mostrar pro crush depois. 😉|
-| 10:00 - 13:00 | **Python e Load Balancer** | **Natalia Raythz** | Neste tutorial vamos abordar o que é um load balancer e como ele funciona e também vamos aprender sobre duas ferramentas que atuam com isso, o tornado e o famoso NGINX. Para esse tutorial é preciso ter python, tornado e NGINX instalado no seu computador.|
 | 10:00 - 13:00 | **Uma introdução ao Python Científico: NumPy, SciPy e Matplotlib** | **Melissa Weber Mendonça** | Implementaremos um modelo básico de regressão linear usando técnicas simples, incluindo visualização e interpretação dos resultados, discussão sobre boas práticas e ferramentas para apresentação dos resultados. |
 | 14:00 - 17:00 | **Desenvolvendo pyspark localmente com Docker** | **Raissa Bergamini** | Veremos o básico sobre spark, docker e como usar essas ferramentas para desenvolver localmente de forma a reduzir custos de desenvolvimento e facilitar a portabilidade dos projetos para a nuvem em ferramentas como EMR e Glue.|
 | 14:00 - 17:00 | **Mapas interativos para a agricultura em Python** | **Nayane Jaqueline Costa Maia** | Vamos construir um mapa interativo usando dados abertos sobre a agricultura no Brasil. Nesse tutorial é necessário o conhecimento em Python entre o básico ou intermediário para acompanhar o processo da construção dos mapas. Necessário instalação dos pacotes: geopandas, geoviews.|
