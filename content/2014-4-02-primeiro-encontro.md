@@ -14,7 +14,7 @@ Muitas meninas, ótimas palestras e várias linhas de código Python. Tudo isso 
 
 Com auditório lotado, falamos sobre Python, TI, Mercado, Flask e sobre como a mulher está ganhando espaço no mercado. Nós tivemos a Professora Adja Ferreira, da UFRN falando sobre o fato da tecnologia ser uma área para mulheres também. Logo apos ela, a Camilla Crispin, que é Consultora de Desenvolvimento da ThoughtWorks e trabalha com projetos em ambiente ágil. Ela falou um pouco sobre a participação feminina na área, deu várias dicas para as garotas e falou um pouco sobre alguns dos problemas sofridos por algumas de nós no meio tecnológico, como a síndrome do impostor. Depois tivemos duas palestras, uma dada pela Débora Azevedo sobre Python (ela já é um fruto do PyLadies, é uma de nossas monitoras), e a última dada por Gabriela Cavalcante, uma das co-fundadoras do grupo aqui no Brasil, sobre o framework python Flask.
 
-![Laptop]({filename}/images/primeiro-encontro.jpg)
+![Laptop]({static}/images/primeiro-encontro.jpg)
 
 <div class="row">
     <div class="small-12 medium-6 columns">
