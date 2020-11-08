@@ -1,4 +1,4 @@
 title: About
 tags: pyladies, women, python
-description: Pyladies - Sobre
+description: PyLadies - Sobre
 template: about
