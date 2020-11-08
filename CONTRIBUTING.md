@@ -12,6 +12,7 @@ Menu
   * [Adicionar vídeos](#adicionar-vídeos)
 
 3. Deploy
+  * [Fazendo o Pull Request](#fazendo-o-pull-request)
   * [Atualizando o site](#atualizando-o-site)
 
 Aviso sobre Síndrome do Impostor
@@ -42,14 +43,14 @@ Obrigada por contribuir!
 Contribuindo
 ============
 
-1. Fork o projeto
-2. Crie uma branch para a feature em que trabalhará: `git checkout -b minha-nova-feature`
-3. Faça commit das suas alterações: `git commit -m 'Adiciona alguma feature'`
-4. Faça push desses commits para sua branch: `git push origin minha-nova-feature`
-5. Envie um pull request para o nosso repositório
+1. Faça o fork do projeto
+2. Clone o projeto para a sua máquina `git clone https://github.com/<seu_usuario>/br-pyladies-pelican.git`
+3. Crie uma branch para a feature em que trabalhará: `git checkout -b minha-nova-feature`
+4. Faça commit das suas alterações: `git commit -m 'Adiciona alguma feature'`
+5. Faça push desses commits para sua branch: `git push origin minha-nova-feature`
+6. Envie um pull request para o nosso repositório
 
 **Observação**: Nós usamos português como linguagem padrão dos commits.
-
 
 Preparando o ambiente local
 --------------------------
@@ -60,22 +61,45 @@ Preparando o ambiente local
 Para criar um `virtualenv` e instalar os pacotes necessários para rodar o projeto,
 siga as orientações do capítulo "Instalando e Rodando" do [README](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/README.md)
 
-
 Criar um novo Post
 ------------------
 
+#### Linux
+
 Para criar um novo post, rode o comando:
 
-	make newpost NAME='NOME DO SEU POST'
+`make newpost NAME='NOME DO SEU POST`
 
-Ele irá criar um novo arquivo `nome-do-seu-post.md` na pasta `content` e abrirá seu editor favorito com um conteúdo pré-adicionado.  Você só precisará adicionar o restante do conteúdo.
+Ele irá criar um novo arquivo `nome-do-seu-post.md` na pasta `content`
+e abrirá seu editor favorito com um conteúdo pré-adicionado.
+Você só precisará adicionar o restante do conteúdo.
 
-Após terminar o post, renderize-o com o comando:
-
-	pelican content
+Após terminar o post, renderize-o com o comando `pelican content`
 
 Se tudo deu certo, seu novo post já estará disponível na página.
 
+#### Windows
+
+Caso o Makefile não funcione, você pode criar o seu post manualmente!
+Vá até a pasta `content` e abra um arquivo de texto. O nome do arquivo
+deve seguir o padrão `YYYY-MM-DD-nome-da-sua-postagem.md`, por exemplo,
+`2020-10-22-como-fazer-um-novo-post.md`.
+
+Após abrir o arquivo de texto, insira o seguinte cabeçalho no início
+```raw
+title: <seu título>
+date: <data da postagem>
+category: <categoria do seu post>
+tags:
+comments: true
+author: <seu nome!>
+```
+
+Depois disso, é só escrever a sua postagem!
+
+**Observação**: Os arquivos são formatados como `Markdown`, então
+talvez seja interessante fazer uma busca simples pra ver como colocar
+elementos básicos como títulos, links e até trechos de código.
 
 Criar uma nova Página
 ---------------------
@@ -146,6 +170,33 @@ Editar Layout
 O site PyLadies utiliza um framework CSS chamado [Foundation](http://foundation.zurb.com/sites.html). Antes de escrever estilos para algo em particular, recomendamos verificar se o framework não oferece a funcionalidade ou estilo desejado, bastando que seja aplicada uma classe específica ao HTML.
 
 
+Fazendo o Pull Request
+-----
+
+Na hora de fazer o pull request é bem legal você prestar atenção em
+algumas pontos:
+* Definimos que nosso padrão de código é em português, então se possível se lembre de manter
+tanto as mensagens de commit quando o próprio título do Pull Request em português
+* Marque o time de tecnologia para que seu PR seja revisado mais rapidamente!
+Pra fazer isso, vá até o canto direito da sua tela no momento em que estiver
+abrindo o PR, clique na engrenagem ao lado do título _Reviewers_ e digite
+`tech-team`. Ao aparecer o ícone, clique nele.
+![reviewers](content/images/contributing/reviewers.png)
+
+* Se coloque como _assignee_ da tarefa. Dessa forma as notificações chegam pra
+você mais rápido. Pra fazer isso, clique na engrenagem ao lado do nome _Assignees_
+e procure pelo seu usuário do github **ou** clique em _assign yourself_.
+![assign_yourself](content/images/contributing/assign_yourself.png)
+![search_assignees](content/images/contributing/search_assignees.png)
+
+* Coloque uma _label_ no seu PR. Dependendo da sua modificação, temos labels
+diferentes, veja a que melhor se encaixa com as modificações que você está
+propondo no PR. As mais comuns são `content (conteúdo)`, `documentation` e
+`enhancement`.
+![labels](content/images/contributing/labels.png)
+* Agora você está mais do que pronta pra submeter o seu PR pra gente revisar!
+
+
 Atualizando o site
 ------------------
 
@@ -155,3 +206,4 @@ Além disso, o time responsável por manter o site será marcado para revisar as
 Para verificar se suas mudanças estão da forma que você espera, basta verificar o status check de deploy preview, clicar em detalhes e você vai ser redirecionada para um site com as suas mudanças.
 
 Se estiver tudo certo, basta esperar que alguém revise e integre seu pull-request em `master`, o que vai disparar um deploy automático para o ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/).
+
