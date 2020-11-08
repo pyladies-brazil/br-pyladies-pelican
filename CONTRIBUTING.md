@@ -86,7 +86,7 @@ Vá até a pasta `content` e abra um arquivo de texto. O nome do arquivo
 deve seguir o padrão `YYYY-MM-DD-nome-da-sua-postagem.md`, por exemplo,
 `2020-10-22-como-fazer-um-novo-post.md`.
 
-Após abrir o arquivo de texto, insira o seguinte cabelalho no início
+Após abrir o arquivo de texto, insira o seguinte cabeçalho no início
 ```raw
 title: <seu título>
 date: <data da postagem>
@@ -223,5 +223,4 @@ Além disso, o time responsável por manter o site será marcado para revisar as
 Para verificar se suas mudanças estão da forma que você espera, basta verificar o status check de deploy preview, clicar em detalhes e você vai ser redirecionada para um site com as suas mudanças.
 
 Se estiver tudo certo, basta esperar que alguém revise e integre seu pull-request em `master`, o que vai disparar um deploy automático para o ambiente de produção, também conhecido como [nosso site](http://brasil.pyladies.com/).
-
 
