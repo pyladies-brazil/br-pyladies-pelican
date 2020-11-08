@@ -43,7 +43,6 @@ AUTHOR_FEED_RSS = None
 
 MENUITEMS = (
     ('Sobre', '/about'),
-    ('Eventos', '/events'),
     ('Locais', '/locations'),
     ('Videos', '/videos'),
     ('Materiais', '/materiais'),
@@ -90,20 +89,6 @@ with open('data/locations.yml') as locations:
         LOCATIONS.append(
             namedtuple('Locations', location.keys())(**location)
         )
-
-with open('data/events.yml') as events:
-    events_converted = yaml.load(events.read())
-    EVENTS = []
-
-    # Convert dates to datetimes
-    for event in events_converted:
-        event['date'] = datetime.strptime(event['date'], '%d-%m-%Y').date()
-
-    # Sort events by date
-    for event in sorted(events_converted,
-                        key=lambda event: event['date'], reverse=True):
-        e = namedtuple('Event', event.keys())(**event)
-        EVENTS.append(e)
 
 with open('data/videos_depo.yml') as videos:
     videos_converted = yaml.load(videos.read())
