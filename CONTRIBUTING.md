@@ -7,7 +7,6 @@ Menu
 
 2. Criando e Adicionando
   * [Criar um novo post](#criar-um-novo-post)
-  * [Adicionar eventos](#adicionar-eventos)
   * [Adicionar ladies](#adicionar-ladies)
   * [Adicionar nova localização](#adicionar-nova-localização)
   * [Adicionar vídeos](#adicionar-vídeos)
@@ -92,22 +91,6 @@ Após terminar de editar a página, renderize-a com o comando:
 	pelican content
 
 Se tudo deu certo, sua página já estará disponível em `/slug-pagina/`.
-
-
-Adicionar Eventos
------------------
-
-Para adicionar novos eventos manualmente, basta editar o arquivo `data/events.yml`. Ele possui o seguinte formato:
-
-```yaml
-- url: URL DO SEU EVENTO
-  name: NOME DO EVENTO
-  date: DATA EVENTO (Formato DD-MM-YYYY)
-  local: LOCAL EVENTO
-  facebook_id: ID DO EVENTO NO FACEBOOK (se houver)
-```
-
-Caso o evento seja novo, ele será automaticamente inserido em Novos Eventos. Caso contrário, já ficará na lista de Eventos passados.
 
 
 Adicionar nova Localização
