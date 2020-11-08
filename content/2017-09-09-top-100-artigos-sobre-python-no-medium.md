@@ -8,7 +8,7 @@ Comments: True
 
 O analista de dados romeno [Florin Badita](https://medium.com/@baditaflorin) publicou um experimento com raspagem de dados que fez utilizando a base do Medium, com o objetivo de determinar automaticamente os 100 artigos mais relevantes sobre Python. Para isso, ele mapeou todos os artigos publicados na plataforma com a tag "Python" e, em seguida, listou em ordem decrescente os 100 textos com maior número de recomendações (interações que estão para o Medium como os "likes" para o Facebook). E adivinha? Tem três PyLadies brasileiras na lista!
 
-![100 mais relevantes do Medium]({filename}/images/top-100-artigos-sobre-python-no-medium/tabela.png)
+![100 mais relevantes do Medium]({static}/images/top-100-artigos-sobre-python-no-medium/tabela.png)
 
 A [Jessica Temporal](http://jtemporal.com/), de Porto Alegre (RS), teve dois artigos incluídos no ranking: ["O que dizer sobre o sprint do Serenata de Amor"](https://medium.com/@jessicatemporal/o-que-dizer-sobre-o-sprint-do-serenata-de-amor-48744c23d82) e ["Uma semana de Serenata de Amor"](https://medium.com/data-science-brigade/uma-semana-de-serenata-de-amor-f65febeb981d), nos quais discorre sobre seu trabalho como cientista de dados e desenvolvedora na operação que utiliza inteligência artificial para rastrear e denunciar gastos irregulares de dinheiro público por parlamentares. Ela vai falar mais sobre esse projeto em sua palestra na próxima [Python Brasil](http://brasil.pyladies.com/2017/08/30/campanha-pyladies-no-pybr-13-reta-final-/).
 

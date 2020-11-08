@@ -5,7 +5,7 @@ Tags: eventos, comunidade, python, live
 author: Dandara Sousa e Ana Cecília Vieira
 comments: true
 
-![Papo entre PyLadies]({filename}/images/papoentrepyladies.png)
+![Papo entre PyLadies]({static}/images/papoentrepyladies.png)
 
 Há pouco menos de um mês no grupo do telegram do PyLadies tivemos a ideia de montar uma sequência de conversa entre os capítulos do PyLadies Brasil a fim de que possamos trocar conhecimento entre nós e também mostrar ao público quem somos e o que fazemos. Assim surgiu o **Papo entre PyLadies**, que ocorrerá durante dezesseis semanas a partir de 21 de maio. 
 
