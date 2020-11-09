@@ -8,7 +8,7 @@ comments: true
 
 Olá, mundo! Mais uma vez, pudemos contar com o apoio de pessoas incríveis para garantir a participação de mais mulheres na **Python Brasil**, a maior conferência nacional sobre a linguagem de programação Python, através de nossa campanha anual de financiamento coletivo. Como de costume, oferecemos um publieditorial em nosso blog como recompensa às pessoas e organizações que contribuíram com a cota de patrocínio, primordial para assegurar esse apoio financeiro a PyLadies que não teriam recursos para participar. Então, sem mais delongas, aqui vai o publieditorial da **Lorena Mesa**, diretora da Python Software Foundation e organizadora do PyLadies Chicago:
 
-![Lorena Mesa com as PyLadies do Brasil]({filename}/images/lorena-mesa.jpg)
+![Lorena Mesa com as PyLadies do Brasil]({static}/images/lorena-mesa.jpg)
 
 **O PyLadies precisa da sua voz!**
 

@@ -9,7 +9,23 @@ Para contribuir com o projeto veja o guia de [Contribuição](https://github.com
 
 Instalando e Rodando
 --------------------
+* [Requisitos Mínimos](#requisitos-minimos)
+* [Instalação no Linux](#instalação-no-linux)
+  - [Usando ambiente virtual](#usando-ambiente-virtual)
+  - [Usando docker-compose](#usando-docker-compose)
+* [Instalação no Windows](#instalação-no-windows)
+  - [Usando o docker-compose](#usando-o-docker-compose)
 
+Requisitos Mínimos
+-----
+* Python 3.6
+* [pip](https://pip.pypa.io/en/stable/)
+
+Instalação no Linux
+===============
+
+Usando ambiente virtual
+----
 - Para apenas rodar localmente o site, você precisa do [virtualenv](https://virtualenv.pypa.io/en/stable/)
 instalado na sua máquina. Para verificar se ele está instalado, execute o
 seguinte comando e observe a saída:
@@ -17,7 +33,7 @@ seguinte comando e observe a saída:
 ```console
 $ virtualenv --version
 ```
-- Se a saida for uma numeração, como `16.1.0`, isso significa que o virtualenv já
+- Se a saída for uma numeração, como `16.1.0`, isso significa que o virtualenv já
 está instalado. Caso contrario, para instalar o virtualenv basta fazer:
 
 ```console
@@ -25,7 +41,7 @@ $ pip install virtualenv
 ```
 - O mesmo procedimento pode ser feito para o git. Verifique se já está instalado,
 com o comando:
-``` console
+```console
 $ git --version
 ```
 
@@ -40,17 +56,17 @@ $ sudo apt install git  # para ubuntu
 
 - Assumindo que seu git e virtualenv já estão configurados, faça o clone do repositório
 
-``` console
+```console
 $ git clone https://github.com/pyladies-brazil/br-pyladies-pelican.git
 ```
 - Após conclusão do clone, acesse o diretório recém-criado
 
-``` console
+```console
 $ cd br-pyladies-pelican
 ```
 - Rode o comando para criação de ambiente virtual e instalação das dependências
 
-``` console
+```console
 $ virtualenv .venv 	# cria ambiente virtual
 $ source .venv/bin/activate	# ativa o ambiente
 $ pip install -r requirements.txt	# instala as dependências
@@ -59,7 +75,7 @@ $ pip install -r requirements.txt	# instala as dependências
 
 - Rode o projeto
 
-``` console
+```console
 $ make up
 ```
 
@@ -85,16 +101,7 @@ Para mais informações a respeito do `Makefile` e suas opções, digite
 $ make help
 ```
 
-Links Úteis
------------
-
-* [Documentação Pelican](http://docs.getpelican.com/en/3.6.3/)
-* [Virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
-* [Pyenv](https://github.com/yyuu/pyenv)
-* [Criar um grupo PyLadies](https://brazilpyladies.gitbooks.io/handbook/content/)
-* [Documentação git](https://git-scm.com/doc)
-
-Rodando com docker-compose
+Usando docker-compose
 --------------------------
 
 Instale [o docker no seu computador](https://docs.docker.com/install/) em seguida execute os passos abaixo:
@@ -105,12 +112,14 @@ $ cd br-pyladies-pelican
 $ docker-compose up
 ```
 
-Agora basta acessar o navegador em [localhost:8000](http://localhost:8000) para ver o conteúdo gerado.
 
-Instalando e Rodando no Windows (Docker)
+Instalação no Windows
+===============
+
+Usando o docker-compose
 --------------------------
 - [Opcional] Instale o [Visual Studio Code](https://code.visualstudio.com/) para fazer códigos legais;
-- [Opcional mas fortemente indicado] Instale o [Git para Windows](https://desktop.github.com/) para um shell mais legal também;
+- [Opcional mas fortemente indicado] Instale o [Github Desktop](https://desktop.github.com/) para uma interface legal também;
 - Python 3.8 está disponível na loja do Windows e você deve instalar também. Só procurar e clicar em obter que está tudo certo;
 - Abra o Windows Powershell como administrador e faça a instalação do [chocolatey](https://chocolatey.org/install). Com ele poderemos instalar o comando make que será utilizado junto ao Docker;
 - Com o comando *choco* sendo reconhecido no Windows, [instale o make](https://chocolatey.org/packages/make) com `choco install make`;
@@ -135,6 +144,14 @@ Instalando e Rodando no Windows (Docker)
     $ make up
     ```
 
--------------------------
+Links Úteis
+-----------
+
+* [Criar um grupo PyLadies](https://brazilpyladies.gitbooks.io/handbook/content/)
+* [Documentação Docker](https://docs.docker.com/)
+* [Documentação git](https://git-scm.com/doc)
+* [Documentação Pelican](http://docs.getpelican.com/en/3.6.3/)
+* [pyenv](https://github.com/yyuu/pyenv)
+* [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
 Esse repositório é mantido com :heart: pelo @pyladies-brazil/tech-team

@@ -20,7 +20,7 @@ De maneira resumida: um módulo é um trecho de código pronto que pode ser invo
 
 Para ilustrar, vamos imaginar que exista no Python um **módulo de verduras e leguminosas** chamado de **vegetais** como na imagem abaixo:
 
-![vegetais]({filename}/images/vegetable.jpg)
+![vegetais]({static}/images/vegetable.jpg)
 
 Se usarmos o comando:
 

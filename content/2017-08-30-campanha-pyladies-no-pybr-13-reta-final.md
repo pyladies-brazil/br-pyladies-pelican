@@ -12,8 +12,8 @@ Este ano, já estão confirmadas 16 atividades capitaneadas por mulheres durante
 
 Estamos na reta final da campanha, com menos de 48h para atingir o valor que nos permita levar o maior número possível de Ladies à PyBR[13]. Para muitas delas, das quais 8 serão palestrantes, ir à Python Brasil é uma oportunidade única de adquirir conhecimento técnico e retornar para compartilhar o aprendizado com a sua comunidade local. [Você ainda pode doar](https://www.catarse.me/projects/60945/posts/29526?/users/556357#about) qualquer quantia até as 23:59 de amanhã, 31 de agosto. Seremos eternamente gratas pela sua colaboração! <3
 
-![Palestras de PyLadies na PyBR[13]]({filename}/images/campanha-pyladies-no-pybr-13-reta-final-/1.png)
-![Palestras de PyLadies na PyBR[13]]({filename}/images/campanha-pyladies-no-pybr-13-reta-final-/2.png)
-![Palestras de PyLadies na PyBR[13]]({filename}/images/campanha-pyladies-no-pybr-13-reta-final-/3.png)
-![Palestras de PyLadies na PyBR[13]]({filename}/images/campanha-pyladies-no-pybr-13-reta-final-/4.png)
-![Palestras de PyLadies na PyBR[13]]({filename}/images/campanha-pyladies-no-pybr-13-reta-final-/5.png)
+![Palestras de PyLadies na PyBR[13]]({static}/images/campanha-pyladies-no-pybr-13-reta-final-/1.png)
+![Palestras de PyLadies na PyBR[13]]({static}/images/campanha-pyladies-no-pybr-13-reta-final-/2.png)
+![Palestras de PyLadies na PyBR[13]]({static}/images/campanha-pyladies-no-pybr-13-reta-final-/3.png)
+![Palestras de PyLadies na PyBR[13]]({static}/images/campanha-pyladies-no-pybr-13-reta-final-/4.png)
+![Palestras de PyLadies na PyBR[13]]({static}/images/campanha-pyladies-no-pybr-13-reta-final-/5.png)

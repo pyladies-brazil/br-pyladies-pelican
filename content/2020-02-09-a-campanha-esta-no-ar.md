@@ -26,7 +26,7 @@ A principal forma de ajudar a Campanha é fazendo uma doação, quanto mais doa�
 
 Nossas cotas esse ano variam de R$30 à R$1200, então tem uma cota para cada bolso! Não perca a oportunidade de ter os lindos brindes da campanha deste ano! [Clique aqui ou no banner abaixo para ir para a campanha](https://www.catarse.me/pyladies_na_python_brasil_2020).
 
-[![imagem a campanha esta no ar]({filename}/images/946FBD8C-880D-473C-ADC8-5233C420F961.jpeg)](https://www.catarse.me/pyladies_na_python_brasil_2020)
+[![imagem a campanha esta no ar]({static}/images/946FBD8C-880D-473C-ADC8-5233C420F961.jpeg)](https://www.catarse.me/pyladies_na_python_brasil_2020)
 
 ### Divulgando
 
