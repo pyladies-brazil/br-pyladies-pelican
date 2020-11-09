@@ -4,8 +4,6 @@ Date: 2020-11-08 11:11:18
 Tags: mulher, mulheres, genero, iniciante, newbie
 Author: Juliana Almeida
 
-## “Programar é legal, mas não é pra mim” - Uma história sobre gênero, aspectos socio-econômicos e minhas primeiras linhas de programação
-
 Por mais bizarro que possa parecer já que eu me tornei uma engenheira de software há um ano atrás, as primeiras linhas de programação que eu escrevi foi no ano 1994. Eu estava no primeiro ano do ensino médio na ETESP, uma escola na zona norte de São Paulo, e essa escola tem lá um curso técnico que na época era chamado de “Processamento de Dados”. Esse curso ensinava aos alunos um pouco de tudo no mundo TI: programação, lógica, base de dados, como computadores funcionam, e mais um pouco, já não me lembro bem, faz muito tempo isso! 😂
 
 Essa foi a primeira vez que eu usei um computador na vida, eu não tinha um em casa. Essa foi também a primeira vez que eu tive acesso à internet. Apesar de eu ter curtido bastante o lance de “achar qualquer coisa na internet”, tenho que confessar que não curti muito programar. O que eu me lembro daquela época (e eu tinha 15 anos) foi que achei “bem difícil”. Eu adorava aprender línguas desde aquela época e queria fazer faculdade de letras em inglês/português (o que eu acabei fazendo depois do ensino médio). Na minha cabeça, o que se passava era: pra que que eu vou aprender algo tão difícil? Leve em consideração também que as linguagens que eu tinha que aprender na época eram coisas como C, Turbo Pascal, and Cobol, que como tudo mundo sabe tão longe de ser amigáveis para iniciantes!
