@@ -84,7 +84,7 @@ DISQUS_SITENAME = 'pyladiesbrasil'
 # Locations, Events and Videos
 
 with open('data/locations.yml') as locations:
-    locations_converted = yaml.load(locations.read())
+    locations_converted = yaml.safe_load(locations.read())
     LOCATIONS = []
     for location in locations_converted:
         LOCATIONS.append(
@@ -92,7 +92,7 @@ with open('data/locations.yml') as locations:
         )
 
 with open('data/events.yml') as events:
-    events_converted = yaml.load(events.read())
+    events_converted = yaml.safe_load(events.read())
     EVENTS = []
 
     # Convert dates to datetimes
@@ -105,40 +105,44 @@ with open('data/events.yml') as events:
         e = namedtuple('Event', event.keys())(**event)
         EVENTS.append(e)
 
-with open('data/videos_depo.yml') as videos:
-    videos_converted = yaml.load(videos.read())
-    VIDEOS_DEPO = []
-    for video in videos_converted:
-        VIDEOS_DEPO.append(
-            namedtuple('Videos', video.keys())(**video)
-        )
+if os.path.isfile("data/videos_depo.yml"):
+    with open("data/videos_depo.yml") as videos:
+        videos_converted = yaml.safe_load(videos.read())
+        VIDEOS_DEPO = [
+            namedtuple("Videos", video.keys())(**video)
+            for video in videos_converted
+            if video["url"]
+        ]
 
-with open('data/videos_dojos.yml') as videos:
-    videos_converted = yaml.load(videos.read())
-    VIDEOS_DOJOS = []
-    for video in videos_converted:
-        VIDEOS_DOJOS.append(
-            namedtuple('Videos', video.keys())(**video)
-        )
+if os.path.isfile("data/videos_dojos.yml"):
+    with open("data/videos_dojos.yml") as videos:
+        videos_converted = yaml.safe_load(videos.read())
+        VIDEOS_DOJOS = [
+            namedtuple("Videos", video.keys())(**video)
+            for video in videos_converted
+            if video["url"]
+        ]
 
-with open('data/videos_talks.yml') as videos:
-    videos_converted = yaml.load(videos.read())
-    VIDEOS_TALKS = []
-    for video in videos_converted:
-        VIDEOS_TALKS.append(
-            namedtuple('Videos', video.keys())(**video)
-        )
+if os.path.isfile("data/videos_talks.yml"):
+    with open("data/videos_talks.yml") as videos:
+        videos_converted = yaml.safe_load(videos.read())
+        VIDEOS_TALKS = [
+            namedtuple("Videos", video.keys())(**video)
+            for video in videos_converted
+            if video["url"]
+        ]
 
-with open('data/videos_tutorials.yml') as videos:
-    videos_converted = yaml.load(videos.read())
-    VIDEOS_TUTORIALS = []
-    for video in videos_converted:
-        VIDEOS_TUTORIALS.append(
-            namedtuple('Videos', video.keys())(**video)
-        )
+if os.path.isfile("data/videos_tutorials.yml"):
+    with open("data/videos_tutorials.yml") as videos:
+        videos_converted = yaml.safe_load(videos.read())
+        VIDEOS_TUTORIALS = [
+            namedtuple("Videos", video.keys())(**video)
+            for video in videos_converted
+            if video["url"]
+        ]
 
 with open('data/talks.yml') as talks:
-    talks_readed = yaml.load(talks.read())
+    talks_readed = yaml.safe_load(talks.read())
     TALKS = []
     for talk in talks_readed:
         TALKS.append(
@@ -146,7 +150,7 @@ with open('data/talks.yml') as talks:
         )
 
 with open('data/materials.yml') as materials:
-    materials_readed = yaml.load(materials.read())
+    materials_readed = yaml.safe_load(materials.read())
     MATERIALS = []
     for materials in materials_readed:
         MATERIALS.append(
