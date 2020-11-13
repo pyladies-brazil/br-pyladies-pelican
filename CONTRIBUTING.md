@@ -7,7 +7,6 @@ Menu
 
 2. Criando e Adicionando
   * [Criar um novo post](#criar-um-novo-post)
-  * [Adicionar ladies](#adicionar-ladies)
   * [Adicionar nova localização](#adicionar-nova-localização)
   * [Adicionar vídeos](#adicionar-vídeos)
 
@@ -51,6 +50,24 @@ Contribuindo
 6. Envie um pull request para o nosso repositório
 
 **Observação**: Nós usamos português como linguagem padrão dos commits.
+
+
+Atualizando o fork
+------------------
+
+Caso você não tenha mais o projeto em seu computador:
+
+0. Clone o projeto para a sua máquina `git clone https://github.com/<seu_usuario>/br-pyladies-pelican.git`
+
+Com o projeto no seu computador:
+
+1. Adicione um novo remote: `git remote add upstream https://github.com/pyladies-brazil/br-pyladies-pelican`
+2. Obtenha todas as branches deste novo remote: `git fetch upstream`
+3. Certifique-se de que você está na branch master: `git checkout master`
+4. Atualize sua branch master, unindo seus commits (que não estão no projeto original) ao projeto atualizado: `git rebase upstream/master`
+5. Atualize seu fork no GitHub: `git push origin master`
+
+**Observação**: Se for a primeira vez que você faz rebase, talvez precise usar o "-f": `git push -f origin master`
 
 Preparando o ambiente local
 --------------------------
