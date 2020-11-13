@@ -154,4 +154,9 @@ Links Úteis
 * [pyenv](https://github.com/yyuu/pyenv)
 * [virtualenv](http://docs.python-guide.org/en/latest/dev/virtualenvs/)
 
+Dúvidas?
+---------
+
+Qualquer dúvida ou problema durante a instalação, abra uma [issue](https://github.com/pyladies-brazil/br-pyladies-pelican/issues/new/choose)!
+
 Esse repositório é mantido com :heart: pelo @pyladies-brazil/tech-team

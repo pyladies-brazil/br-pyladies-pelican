@@ -73,8 +73,6 @@ Preparando o ambiente local
 --------------------------
 - Antes de mais nada, verifique se você tem o **Python 3.6.4** instalado na sua máquina.
 
-(Atenção: se você estiver usando um **MacOS X** para desenvolver, você provavelmente precisará exportar algumas variáveis locale do Python. Siga esse link: [Fix unknown locale](http://patrick.arminio.info/fix-valueerror-unknown-locale-utf8/))
-
 Para criar um `virtualenv` e instalar os pacotes necessários para rodar o projeto,
 siga as orientações do capítulo "Instalando e Rodando" do [README](https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/README.md)
 
