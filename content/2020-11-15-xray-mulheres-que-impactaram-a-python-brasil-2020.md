@@ -15,7 +15,7 @@ A seção X-RAY foi pensada especialmente pra esse post com o objetivo de te dei
 
 ## X-RAY: [Ingrid](https://twitter.com/ingridmurielem) 👑
 
-A Ingrid participou da PyBr na trilha PEP20 com a palestra **"Como sobreviver a um time que fala um idioma que você não é fluente"**, nessa palestra ela nos trouxe dicas valiosas de sobre carreira e dividiu conosco as suas experiências sobre viajar para um país que não fala o mesmo idioma que você e também como é trabalhar em equipes que se comunicam em um idioma em que você não é fluente.
+A Ingrid participou da PyBr na trilha PEP20 com a palestra **"Como sobreviver a um time que fala um idioma que você não é fluente"**, nessa palestra ela nos trouxe dicas valiosas de sobre carreira e dividiu conosco as suas experiências sobre viajar e trabalhar em um país cujas equipes se comunicam em um idioma em que você não é fluente.
 
 [Assista a palestra de Ingrid no YouTube](https://www.youtube.com/watch?v=pB5tYMywt44&t=15891s)
 
