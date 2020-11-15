@@ -35,7 +35,6 @@ A possibilidade de poder apoiar outras pessoas com a criação de tecnologia, qu
 
 **4. Deixe seu recadinho para mulheres que querem entrar na área de Tecnologia.**
 
-Deixe seu recadinho para mulheres que querem entrar na área de Tecnologia.
 Não vai ser fácil o inicio, mas depois que tu encontra uma rede de apoio. Encontra outras mulheres tecnologistas, tudo fica mais fácil. Vai e se der medo, vai com medo mesmo.
 
 **5. Defina em 2 palavras a Python Brasil 2020.**
