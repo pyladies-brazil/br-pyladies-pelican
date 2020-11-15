@@ -27,7 +27,7 @@ Ah.. A Ingrid quanto pessoa é uma batalhadora e uma ansiosa que tenta fazer tud
 
 **2. Quem é a Ingrid no mundo da Tecnologia?**
 
-A Ingrid tecnologista é desenvolvedora de software, que tenta criar um ambiente tecnologico mais justo e inclusivo. Tem estudado sobre vies tecnologico e tem questionado outros tecnologistas.
+A Ingrid tecnologista é desenvolvedora de software, que tenta criar um ambiente tecnológico mais justo e inclusivo. Tem estudado sobre viés tecnológico e tem questionado outros tecnologistas.
 
 **3. O que te motivou a trabalhar na sua área de atuação?**
 
