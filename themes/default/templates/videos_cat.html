@@ -10,18 +10,24 @@
       <div class="wrap wrap-events">
         <div class="large-12 columns-events">
           <ul class="grid large-block-grid-6 locations-grid" >
+            {% if VIDEOS_DEPO: %}
             <li class="videos-categories">
               <a href="../videos-depo/"><h5 id="videos">Depoimentos</h5></a>
             </li>
-            <li class="videos-categories">
-              <a href="../videos-dojos/"><h5 id="videos">Dojos</h5></a>
-            </li>
+            {% endif %}
+
+
+            {% if VIDEOS_TALKS: %}
             <li class="videos-categories">
               <a href="../videos-talks/"><h5 id="videos">Palestras</h5></a>
             </li>
+            {% endif %}
+
+            {% if VIDEOS_TUTORIALS: %}
             <li class="videos-categories">
               <a href="../videos-tutorials/"><h5 id="videos">Tutoriais</h5></a>
             </li>
+            {% endif %}
           </ul>
         </div>
       </div>
