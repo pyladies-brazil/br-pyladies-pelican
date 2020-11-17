@@ -99,14 +99,6 @@ if os.path.isfile("data/videos_depo.yml"):
             if video["url"]
         ]
 
-if os.path.isfile("data/videos_dojos.yml"):
-    with open("data/videos_dojos.yml") as videos:
-        videos_converted = yaml.safe_load(videos.read())
-        VIDEOS_DOJOS = [
-            namedtuple("Videos", video.keys())(**video)
-            for video in videos_converted
-            if video["url"]
-        ]
 
 if os.path.isfile("data/videos_talks.yml"):
     with open("data/videos_talks.yml") as videos:
