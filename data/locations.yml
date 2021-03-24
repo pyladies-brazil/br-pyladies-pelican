@@ -1,5 +1,6 @@
 # para maiores informacoes va para:
 # https://github.com/pyladies-brazil/br-pyladies-pelican/blob/master/CONTRIBUTING.md#adicionar-nova-localiza%C3%A7%C3%A3o
+# Por favor, mantenha a lista em ordem alfabética das cidades
 
 - city: Aracati
   state: CE
@@ -59,6 +60,21 @@
   twitter: https://twitter.com/pyladiesbnu
   youtube: 
   email: blumenau@pyladies.com
+  url: 
+
+- city: Boa Vista
+  state: RR
+  created_month: dez.
+  created_year: 2020
+  status: Ativo
+  image: /images/locais/pyladies_default_ativa.png
+  facebook: 
+  github: 
+  instagram:      
+  linkedin:
+  twitter: 
+  youtube: 
+  email: roraima@pyladies.com
   url: 
 
 - city: Caldas Novas
