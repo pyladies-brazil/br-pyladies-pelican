@@ -79,6 +79,15 @@
     </a>
     {% endif %}
 
+    {% if location.twitch %}
+    <a target="_blank" href="{{ location.twitch }}">
+        <span class="fa-stack fa-lg">
+        <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+        <i class="fa fa-twitch fa-stack-1x"></i>
+        </span>
+    </a>
+    {% endif %}
+
     {% if location.email %}
     <a target="_blank" href="mailto:{{ location.email }}">
         <span class="fa-stack fa-lg">
