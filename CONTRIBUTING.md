@@ -151,6 +151,7 @@ Para adicionar uma nova localização de grupo de pyladies, edite o arquivo `dat
   linkedin: URL completa dO linkedin (rede social opcional)
   twitter: URL completa do twitter (rede social opcional)
   youtube: URL completa para o canal do Youtube (rede social opcional)
+  twitch: URL completa para o canal do Twitch (rede social opcional)
   email: E-mail oficial do capítulo (@pyladies.com)
   url: Site oficial do capítulo (pyladies.com) (opcional)
   lat: latitude da cidade/estado do seu capítulo (opcional, mas altamente recomendado, caso contrário será gerado automaticamente)
