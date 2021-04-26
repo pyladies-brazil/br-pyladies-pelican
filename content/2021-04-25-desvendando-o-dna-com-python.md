@@ -24,7 +24,8 @@ Assim como todas as áreas da computação, a Bioinformática ainda é predomina
 
 ## Qual é a dinâmica do grupo de estudo?
 
-Inicialmente, o grupo no [Slack](https://slackin.pyladies.com/) consistia apenas na divulgação de eventos, cursos, palestras e materiais de estudo na área. Tempo depois, uma das Pyladies, Thayana Tavares teve uma ideia: a organização de um grupo de estudos para a resolução de exercícios de bioinformática utilizando o python e a partir da proposição dos desafios apresentados na plataforma da [Rosalind](http://rosalind.info/problems/list-view/).
+Inicialmente, o grupo no [Slack](https://slackin.pyladies.com/) consistia apenas na divulgação de eventos, cursos, palestras e materiais de estudo na área. Tempo depois, uma das PyLadies, Thayana Tavares teve uma ideia: a organização de um grupo de estudos para a resolução de exercícios de bioinformática utilizando o python e a partir da proposição dos desafios apresentados na plataforma da [Rosalind](http://rosalind.info/problems/list-view/).
+
 
 A dinâmica do grupo de estudo, primordialmente, é orientada pelo cronograma dos desafios que foram divididos entre [fases](https://github.com/pyladies-brazil/grupo-estudo-bioinformatica/tree/main/estudo_rosalind) com encontros quinzenais, aos domingos de manhã onde são apresentadas as resoluções e discutidas de forma virtual. Assim, temos participantes de várias localidades. Posteriormente, os códigos são inseridos no [repositório](https://github.com/pyladies-brazil/grupo-estudo-bioinformatica) do grupo de estudo para que outras pudessem aprender com eles, quando encontrado alguma dificuldade uma pode colaborar na resolução do código de outra, assim documentar a evolução.
 
