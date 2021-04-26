@@ -11,7 +11,8 @@ author: Thayana Tavares e Pâmella Araújo Balcaçar
 
 Em meados do ano 2020, com o crescimento das PyLadies Brasil no [Slack](https://slackin.pyladies.com/), algumas PyLadies se organizaram e criaram um canal com intuito de unir mais meninas e mulheres para estudar **Bioinformática** (#brasil-pyladies-bioinformatica) a qual é a área em que utiliza os métodos computacionais para analisar e compreender os fenômenos biológicos, em especial, os moleculares. Foi assim que surgiu o grupo de **Bioinformática das PyLadies Brasil**.  
 
-Para a identidade do grupo de bioinformática, criamos algumas bonecas das PyLadies: a primeira com duas traças que remetem a ideia da dupla hélice do DNA com as cores igual ao símbolo da biopython; e a segunda com a tiara contendo a dupla hélice do DNA que também remete a ideia do símbolo biopython; e a terceira sendo uma versão preta da primeira boneca. 
+Para a identidade do grupo de bioinformática, criamos algumas bonecas das PyLadies: a primeira com duas tranças que remetem a ideia da dupla hélice do DNA com as cores igual ao símbolo da biopython; e a segunda com a tiara contendo a dupla hélice do DNA que também remete a ideia do símbolo biopython; e a terceira sendo uma versão preta da primeira boneca. 
+
 
 <img src="/images/bonecas.png">
 
