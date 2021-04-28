@@ -143,6 +143,11 @@ Usando o docker-compose
     $ cd br-pyladies-pelican
     $ make up
     ```
+Nota:
+-----------
+
+* [Suporte no caso do Windows Home e Single Language](https://github.com/pyladies-brazil/br-pyladies-pelican/issues/430) 
+
 
 Links Úteis
 -----------
