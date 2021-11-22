@@ -6,7 +6,7 @@ comments: true
 author: Thayana Tavares e Pâmella Araújo Balcaçar
 
 <img src="/images/pyladies-bioinfo.png">
-> Algumas Pyladies bioinfo, participantes, da 2ª aula de Biopython
+> Algumas PyLadies bioinfo, participantes, da 2ª aula de Biopython
 
 
 Em meados do ano 2020, com o crescimento das PyLadies Brasil no [Slack](https://slackin.pyladies.com/), algumas PyLadies se organizaram e criaram um canal com intuito de unir mais meninas e mulheres para estudar **Bioinformática** (#brasil-pyladies-bioinformatica) a qual é a área em que utiliza os métodos computacionais para analisar e compreender os fenômenos biológicos, em especial, os moleculares. Foi assim que surgiu o grupo de **Bioinformática das PyLadies Brasil**.  
@@ -44,7 +44,7 @@ Ao aproveitar o crescimento do grupo e por haver muitas PyLadies interessadas em
 * Detecção de regiões motif em sequências;
 * Machine learning para biologia.
 
-É importante frisar que o estudo da biblioteca Biopython ocorre quinzenalmente, quinta-feira, às 20:00 horas e em formato de aula. As aulas ministradas por uma das Pyladies e todo o material de estudo ficará armazenado no [repositório no github](https://github.com/pyladies-brazil/grupo-estudo-bioinformatica). Conforme mostra a imagem: 
+É importante frisar que o estudo da biblioteca Biopython ocorre quinzenalmente, quinta-feira, às 20:00 horas e em formato de aula. As aulas ministradas por uma das PyLadies e todo o material de estudo ficará armazenado no [repositório no github](https://github.com/pyladies-brazil/grupo-estudo-bioinformatica). Conforme mostra a imagem: 
 
 <img src="/images/cronograma_biopython.png">
 
@@ -54,4 +54,4 @@ Recentemente, fomos convidadas para dar um minicurso no  **Congresso Latinoameri
 
 ## Vem para o grupo de Bioinformática das PyLadies
 
-Se você ficou interessada em participar das **Pyladies Bioinfo** é só nos procurar no canal do Slack (#brasil-pyladies-bioinformatica). Estaremos disponíveis para esclarecer qualquer eventual dúvida em relação ao grupo de estudo de bioinformática. 
+Se você ficou interessada em participar das **PyLadies Bioinfo** é só nos procurar no canal do Slack (#brasil-pyladies-bioinformatica). Estaremos disponíveis para esclarecer qualquer eventual dúvida em relação ao grupo de estudo de bioinformática. 

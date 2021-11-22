@@ -7,8 +7,8 @@ from collections import namedtuple
 import os
 import yaml
 
-AUTHOR = u'Pyladies'
-SITENAME = u'Pyladies Brasil'
+AUTHOR = u'PyLadies'
+SITENAME = u'PyLadies Brasil'
 SITEURL = '{}'.format(os.getenv('SITEURL', 'http://localhost:{}'.format(os.getenv('PORT', '8000'))))
 TAGLINE = (u'Ninguém pode fazer você se sentir inferior'
            'sem o seu consentimento (Eleanor Roosevelt)')
@@ -89,7 +89,7 @@ with open('data/locations.yml') as locations:
         LOCATIONS.append(
             namedtuple('Locations', location.keys())(**location)
         )
-        
+
 if os.path.isfile("data/videos_depo.yml"):
     with open("data/videos_depo.yml") as videos:
         videos_converted = yaml.safe_load(videos.read())

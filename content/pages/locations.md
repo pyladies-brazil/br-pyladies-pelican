@@ -1,3 +1,3 @@
 title: Locations
-description: Pyladies Brasil - Locations
+description: PyLadies Brasil - Locations
 template: locations

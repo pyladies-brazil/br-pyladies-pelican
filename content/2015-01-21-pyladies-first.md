@@ -1,5 +1,5 @@
 title: PyLadies First
-description: Hangout Pyladies e GetupCloud
+description: Hangout PyLadies e GetupCloud
 modified: 2015-01-21
 category: Hangouts
 tags: info, video
