@@ -1,5 +1,5 @@
 title: Materiais
-description: Pyladies Brasil - Materiais
+description: PyLadies Brasil - Materiais
 tags: pyladies, women, python
 Slug: materiais
 template: materials

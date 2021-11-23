@@ -1,4 +1,4 @@
 title: Blog
 tags: pyladies, women, python
-description: Pyladies - Blog
+description: PyLadies - Blog
 template: archives

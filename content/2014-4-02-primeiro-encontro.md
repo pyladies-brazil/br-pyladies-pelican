@@ -22,7 +22,7 @@ Com auditório lotado, falamos sobre Python, TI, Mercado, Flask e sobre como a m
         <i>Daniele, desenvolvedora.</i>
     </div>
     <div class="small-12 medium-6 columns">
-        <blockquote>"Conheci o Pyladies através de uma publicação no Facebebook em que estavam selecionando monitoras. Não dei muita atenção no inicío por achar que era necessário ter algum conhecimento em Python (o que eu não tinha), mas então a Gabriela mandou uma mensagem explicando direitinho que iriam formar as monitoras do zero para ajudarem no evento, e foi assim que virei monitora no Pyladies. O primeiro evento foi muito bom, todas estávamos nervosa, mas muito orgulhosas de ter conseguido alcançar muitas meninas. O Pyladies tem sido uma experiência incrível, pois está abrindo muitas oportunidades para conhecer novas pessoas, e poder auxiliar meninas a entrarem e também a continuarem na área.".</blockquote>
+        <blockquote>"Conheci o PyLadies através de uma publicação no Facebebook em que estavam selecionando monitoras. Não dei muita atenção no inicío por achar que era necessário ter algum conhecimento em Python (o que eu não tinha), mas então a Gabriela mandou uma mensagem explicando direitinho que iriam formar as monitoras do zero para ajudarem no evento, e foi assim que virei monitora no PyLadies. O primeiro evento foi muito bom, todas estávamos nervosa, mas muito orgulhosas de ter conseguido alcançar muitas meninas. O PyLadies tem sido uma experiência incrível, pois está abrindo muitas oportunidades para conhecer novas pessoas, e poder auxiliar meninas a entrarem e também a continuarem na área.".</blockquote>
         <i>Samanta, monitora durante o evento.</i>
     </div>
 </div>

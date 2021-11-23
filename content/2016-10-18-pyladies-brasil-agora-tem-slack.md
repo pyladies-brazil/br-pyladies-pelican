@@ -1,4 +1,4 @@
-Title: Pyladies Brasil agora tem Slack
+Title: PyLadies Brasil agora tem Slack
 Slug: pyladies-brasil-agora-tem-slack
 Date: 2016-10-18 17:12:56
 Tags: slack, comunicacao
@@ -6,24 +6,24 @@ Category: Slack
 author: Annanda Sousa
 comments: true
 
-O Pyladies Brasil agora tem [Slack](https://slack.com/). Yay!! \o 
+O PyLadies Brasil agora tem [Slack](https://slack.com/). Yay!! \o 
 
 A ideia é melhorar nossas comunicação integrando tudo em um lugar só. 
-Todos os interessados em colaborar com o Pyladies Brasil são bem-vindos se juntar a nós no Slack. 
+Todos os interessados em colaborar com o PyLadies Brasil são bem-vindos se juntar a nós no Slack. 
 Basta acessar [esse link](http://brasil-pyladies.herokuapp.com/) e se cadastrar. 
 
 ## Política de uso do Slack
-Nos canais públicos ```general``` e ```random``` todos são bem-vindos a conversar sobre assuntos relacionados ao Pyladies. 
+Nos canais públicos ```general``` e ```random``` todos são bem-vindos a conversar sobre assuntos relacionados ao PyLadies. 
 
-Cada localidade tem um canal público a ele associado em que qualquer um pode entrar se tiver interesse em ajudar ou saber mais sobre o Pyladies daquele local. 
+Cada localidade tem um canal público a ele associado em que qualquer um pode entrar se tiver interesse em ajudar ou saber mais sobre o PyLadies daquele local. 
 
-Todos podem criar canais privados segundo suas necessidades específicas relacionadas ao Pyladies Brasil. 
+Todos podem criar canais privados segundo suas necessidades específicas relacionadas ao PyLadies Brasil. 
 
 ## Código de Conduta do Slack
 
 ### Política anti-harassment
 
-O slack Pyladies Brasil é um local livre de assédio, opressão e preconceitos.
+O slack PyLadies Brasil é um local livre de assédio, opressão e preconceitos.
 
 * Não serão tolerados comentários ofensivos sobre gênero, orientação sexual, deficiências, aparência física, raça ou credo;
 * Os membros do grupo não estão no grupo para paquerar;
