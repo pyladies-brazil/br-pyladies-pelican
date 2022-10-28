@@ -15,7 +15,7 @@ Nos primeiros dias diversas mulheres estavam dando tutoriais no evento. Mas alé
 
 Com o final de semana chegando, as palestras lotaram ainda mais de mulheres no palco que marcaram em assuntos técnicos e não técnicos. Nessa edição, 25.7% do online e 30.3% do presencial eram mulheres contemplando o evento. Tivemos ainda espaço para a Assembleia das PyLadies que também ocorreu em formato híbrido e, além disso, um dos pontos mais altos do evento: das três pessoas premiadas com o Prêmio Dorneles Treméa/Jean Ferri, todas eram PyLadies.
 
-Fica aqui nosso parabéns para **Bianca Rosa**, **Lidy Monteiro** e **Melisa Weber** pelo trabalho desenvolvido ao longo de todos esses anos. Vocês são inspirações para toda a nossa comunidade e estamos muito felizes com o reconhecimento.
+Fica aqui nosso parabéns para **Bianca Rosa**, **Lidy Monteiro** e **Melissa Weber** pelo trabalho desenvolvido ao longo de todos esses anos. Vocês são inspirações para toda a nossa comunidade e estamos muito felizes com o reconhecimento.
 
 ![Na imagem estão diversas mulheres da comunidade python em pé e sentadas na frente do banner da Python Brasil 2022](https://live.staticflickr.com/65535/52455258300_f0ff7c5ee8_b.jpg "PyLadies na Python Brasil")
 
