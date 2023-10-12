@@ -34,10 +34,10 @@ http {
   sendfile on;
 
   # Must read the body in 5 seconds.
-  <% if ENV["PELICAN_SITEURL"] %>
+  <% if ENV["SITEURL"] %>
     server {
       listen <%= ENV["PORT"] %>;
-      rewrite ^(.*) <%= ENV["PELICAN_SITEURL"] %>$1 permanent;
+      rewrite ^(.*) <%= ENV["SITEURL"] %>$1 permanent;
     }
   <% end %>
 
@@ -45,8 +45,8 @@ http {
     listen <%= ENV["PORT"] %>;
     port_in_redirect off;
     root /app/public;
-  <% if ENV["PELICAN_SITEURL"] %>
-    server_name <%= require 'uri'; URI.parse(ENV["PELICAN_SITEURL"]).host %>;
+  <% if ENV["SITEURL"] %>
+    server_name <%= require 'uri'; URI.parse(ENV["SITEURL"]).host %>;
   <% end %>
 
     location / {
