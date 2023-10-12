@@ -3,11 +3,13 @@ VENV := $(shell echo ${VIRTUAL_ENV})
 PY=$(VENV)/bin/python
 PELICAN?=$(VENV)/bin/pelican
 PELICANOPTS=
+PORT?=8000
 
 BASEDIR=$(CURDIR)
 INPUTDIR=$(BASEDIR)/content
 OUTPUTDIR=$(BASEDIR)/output
 CONFFILE=$(BASEDIR)/pelicanconf.py
+PUBLISHCONF=$(BASEDIR)/publishconf.py
 
 PAGESDIR=$(INPUTDIR)/pages
 DATE := $(shell date +'%Y-%m-%d %H:%M:%S')
@@ -45,14 +47,11 @@ html:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 serve:
-ifdef PORT
 	@echo "Starting test server is running on http://0.0.0.0:$(PORT)"
-	$(at_output) && $(PY) -m pelican.server $(PORT)
-else
-	@echo "Starting test server is running on http://0.0.0.0:8000"
-	$(at_output) && $(PY) -m pelican.server
-endif
+	$(PELICAN) -l $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
+publish:
+	"$(PELICAN)" "$(INPUTDIR)" -o "$(OUTPUTDIR)" -s "$(PUBLISHCONF)" $(PELICANOPTS)
 
 newpost:
 ifdef NAME
