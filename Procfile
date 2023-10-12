@@ -1,2 +1,2 @@
+release: u+x generate_content.sh && ./generate_content.sh
 web: bin/start-nginx-static
-release: ./generate_content.sh
