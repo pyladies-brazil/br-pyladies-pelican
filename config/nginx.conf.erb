@@ -6,7 +6,7 @@ pid /app/nginx.pid;
 
 error_log stderr info;
 # As documented for Nginx, but we still see error during start-up in log:
-# >  nginx: [alert] could not open error log file: open() "./logs/error.log"
+# >  nginx: [alert] could not open error log file: open() './logs/error.log'
 
 worker_processes <%= ENV['NGINX_WORKERS'] || 4 %>;
 # Heroku dynos have at least 4 cores.
@@ -34,23 +34,23 @@ http {
   sendfile on;
 
   # Must read the body in 5 seconds.
-  <% if ENV["SITEURL"] %>
+  <% if ENV['SITEURL'] %>
     server {
-      listen <%= ENV["PORT"] %>;
-      rewrite ^(.*) <%= ENV["SITEURL"] %>$1 permanent;
+      listen <%= ENV['PORT'] %>;
+      rewrite ^(.*) <%= ENV['SITEURL'] %>$1 permanent;
     }
   <% end %>
 
   server {
-    listen <%= ENV["PORT"] %>;
+    listen <%= ENV['PORT'] %>;
     port_in_redirect off;
     root /app/public;
-  <% if ENV["SITEURL"] %>
-    server_name <%= require 'uri'; URI.parse(ENV["SITEURL"]).host %>;
-  <% end %>
+  <% if ENV['SITEURL'] %>
+      server_name <%= require 'uri'; URI.parse(ENV['SITEURL']).host %>;
+    <% end %>
 
-    location / {
-      expires 10s;
+      location / {
+        expires 10s;
+      }
     }
-  }
 }
