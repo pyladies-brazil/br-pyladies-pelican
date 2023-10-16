@@ -1,5 +1,5 @@
 #!/bin/bash
-pelican /app/content -o /app/public -s /app/publishconf.py
+/app/.heroku/python/bin/pelican /app/content -o /app/public -s /app/publishconf.py
 
 # check for a good exit
 if [ $? -ne 0 ]
