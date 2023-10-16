@@ -28,7 +28,21 @@
     <div class="small-12 columns">
         <div class="notepad-post-meta-simple">
             <h1>{{ article.title }}</h1>
-            <p>by <a target="blank" href="{{article.author_url}}">{{ article.author }}</a> &#8212; {% set tagsize = article.tags.size %}{% if tagsize != 0 %}on {% for tag in article.tags %}<a href="{{ SITEURL }}/tags/index.html#{{ tag }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>{% if not loop.last %}&nbsp;&comma;&nbsp;{% endif %}{% endfor %}{% endif %} <strong><time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime("%d/%b/%Y") }}</time></strong></p>
+            <p>by <a target="blank" href="{{article.author_url}}">{{ article.author }}</a> &#8212;
+			<!-- TODO: consertar isso aqui e remover esse primeiro if -->
+			{% if article.tags %}
+				{% set tagsize = article.tags.size %}
+					{% if tagsize != 0 %}
+						on
+						{% for tag in article.tags %}
+							<a href="{{ SITEURL }}/tags/index.html#{{ tag }}" data-toggle="tooltip" title="Posts tagged with {{ tag }}" rel="tag">{{ tag }}</a>
+							{% if not loop.last %}
+								&nbsp;&comma;&nbsp;
+							{% endif %}
+						{% endfor %}
+					{% endif %}
+				<strong><time datetime="{{ article.date.isoformat() }}">{{ article.date.strftime("%d/%b/%Y") }}</time></strong></p>
+			{% endif %}
         </div>
     </div>
 </div>
