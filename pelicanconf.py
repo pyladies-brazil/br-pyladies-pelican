@@ -53,12 +53,6 @@ DEFAULT_PAGINATION = 10
 
 READERS = {'html': None}
 
-# DATE_FORMATS = {
-#     'pt': ('pt_BR': '%d-%m-%Y'),
-#     'en': ('en_US','%a, %d %b %Y'),
-#     'jp': ('ja_JP','%Y-%m-%d(%a)'),
-# }
-
 STATIC_PATHS = [
     'images',
     'extra/robots.txt',
