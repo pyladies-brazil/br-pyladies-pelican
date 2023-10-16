@@ -29,7 +29,7 @@ DIRECT_TEMPLATES = ('index', 'tags', 'categories', 'archives', 'sitemap')
 SITEMAP_SAVE_AS = 'sitemap.xml'
 
 TIMEZONE = 'America/Sao_Paulo'
-DEFAULT_LANG = u'en'
+DEFAULT_LANG = u'pt-br'
 THEME = 'themes/default'
 
 PATH = 'content'
@@ -52,6 +52,12 @@ MENUITEMS = (
 DEFAULT_PAGINATION = 10
 
 READERS = {'html': None}
+
+# DATE_FORMATS = {
+#     'pt': ('pt_BR': '%d-%m-%Y'),
+#     'en': ('en_US','%a, %d %b %Y'),
+#     'jp': ('ja_JP','%Y-%m-%d(%a)'),
+# }
 
 STATIC_PATHS = [
     'images',
