@@ -3,7 +3,7 @@ title: "post-mortem: quebra de build no site da pyladies"
 layout: post
 date: 2023-10-17
 headerImage: false
-author: giovanamorais
+author: Giovana Morais
 category: blog
 ---
 
