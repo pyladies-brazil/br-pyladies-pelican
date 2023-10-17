@@ -126,7 +126,6 @@ era consertar o build. a atualização do template fica pra depois.
 
 uma vez que o template foi consertado e o merge feito, o github action fez o
 trabalho dele e o deploy aconteceu. mais do que isso: o deploy funcionou!
-:rocket:
 
 
 ## agradecimentos
