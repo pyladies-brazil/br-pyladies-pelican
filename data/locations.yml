@@ -22,9 +22,9 @@
   state: PA
   created_month: jun.
   created_year: 2016
-  status: Inativo
-  image: /images/locais/pyladies_default_inativa.png
-  facebook: https://www.facebook.com/pyladiesbelem/
+  status: Ativo
+  image: /images/locais/pyladies_belem.png
+  facebook:
   github: 
   instagram: https://instagram.com/pyladiesbelem     
   linkedin: https://www.linkedin.com/company/pyladies-belem/
