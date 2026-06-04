@@ -209,3 +209,17 @@ não precisemos disputar recursos naturais básicos com grandes empresas privada
 de tecnologia. Mais do que isso, é imprescindível que o Estado escute
 comunidades locais e que essas comunidades tenham o direito de vetar projetos
 que impactam diretamente na sua qualidade de vida.
+
+Descobrir o que acontece nos bastidores de um data center nos tira da ilusão de
+que a internet é mágica e etérea. Cada linha de código que escrevemos, cada
+modelo que rodamos e cada vídeo que assistimos consome recursos do planeta e
+impacta vidas humanas reais, muitas vezes reproduzindo velhas lógicas de
+exploração.
+
+No nosso grupo de estudos de IA e sociedade da PyLadies, buscamos discutir
+tecnologia de forma conscientee isso vai muito além de debater performance e
+código limpo. Envolve questionar o custo socioambiental do progresso.
+Precisamos pressionar por regulamentações que exijam eficiência energética,
+mas, acima de tudo, que garantam a soberania e o respeito às comunidades
+locais. O futuro da tecnologia precisa ser sustentável, ético e,
+fundamentalmente, humano.
