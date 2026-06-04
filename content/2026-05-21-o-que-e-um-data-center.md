@@ -224,3 +224,27 @@ Precisamos pressionar por regulamentações que exijam eficiência energética,
 mas, acima de tudo, que garantam a soberania e o respeito às comunidades
 locais. O futuro da tecnologia precisa ser sustentável, ético e,
 fundamentalmente, humano.
+
+
+### Referências
+
+* **[1]** [Primeiros data centers de IA no Brasil podem consumir mesma energia de 16 milhões de casas; conheça os projetos](https://g1.globo.com/inovacao/noticia/2025/08/03/primeiros-data-centers-de-ia-no-brasil-podem-consumir-mesma-energia-de-16-milhoes-de-casas-conheca-os-projetos.ghtml) (G1)
+
+#### Técnicas de resfriamento em data centers
+* [Data Center Cooling Methods: Costs vs. Efficiency vs. Sustainability](https://www.datacenterknowledge.com/cooling/data-center-cooling-methods-costs-vs-efficiencyvssustainability)
+* [Data Centers Cooling: A Critical Review of Techniques, Challenges, And](https://www.scribd.com/document/905911025/Data-Centers-Cooling-A-Critical-Review-of-Techniques-Challenges-And)
+* [Best Practice Guide for Data Center Design](https://www.energy.gov/sites/default/files/2024-07/best-practice-guide-data-center-design_0.pdf) (U.S. Department of Energy)
+* [Energy Consumption Analysis of Cooling Systems (Estudo 1)](https://www.sciencedirect.com/science/article/abs/pii/S0360544224026203) (ScienceDirect)
+* [Energy Consumption Analysis of Cooling Systems (Estudo 2)](https://www.sciencedirect.com/science/article/abs/pii/S2352710224011033) (ScienceDirect)
+* [Review on Cooling System Energy Consumption in Internet Data Centers](https://www.researchgate.net/publication/308857487_Review_on_Cooling_System_Energy_Consumption_in_Internet_Data_Centers) (ResearchGate)
+
+#### Data Centers no Brasil e no mundo
+* **Vídeo:** [O que são datacenters?](https://www.youtube.com/watch?v=H-oUbF5M7Mk)
+* **Artigo:** [Expansão dos datacenters no Brasil: projeto de expansão legislativo](https://nexojornal.com.br/externo/2026/03/08/datacenter-no-brasil-projeto-de-expansao-legislativo) (Nexo Jornal)
+* **Podcast:** [Um datacenter incomoda muita gente](https://open.spotify.com/episode/2JqxFu5eGifrQOMr1k56jM) (Spotify)
+* **Reportagem:** [Como os datacenters se instalam no Brasil? Big techs se escondem atrás de outras empresas](https://www.intercept.com.br/2026/03/05/big-techs-se-escondem-atras-outras-empresas-perar-data-centers-no-brasil/) (The Intercept Brasil)
+* **Reportagem:** [Como um grupo de vizinhos barrou um data center do Google no Chile](https://www.intercept.com.br/2025/07/14/grupo-vizinhos-venceu-google-barrou-data-center-chile/) (The Intercept Brasil)
+
+#### Inteligência Artificial e Meio Ambiente
+* [Relatório: Inteligência Artificial e Data Centers – A expansão corporativa em tensão com a justiça socioambiental](https://lapin.org.br/2025/08/11/confira-o-relatorio-inteligencia-artificial-e-data-centers-aexpansaocorporativa-em-tensao-com-a-justica-socioambiental/) (LAPIN)
+* [Google 2024 Environmental Report](https://www.gstatic.com/gumdrop/sustainability/google-2024-environmental-report.pdf) (Google)
