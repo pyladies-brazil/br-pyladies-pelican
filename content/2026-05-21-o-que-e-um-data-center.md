@@ -1,0 +1,251 @@
+Title: O que é um Data Center e por que estamos falando tanto dele?
+Slug: o-que-é-um-data-center-e-por-que-estamos-falando-tanto-dele-
+Date: 2026-05-21 17:24:34
+Tags: IA, sustentabilidade, data centers
+author: Grupo de Estudos IA & Sociedade
+
+---
+
+Data centers estão na moda. Mas você saberia explicar exatamente o que é e pra
+que serve um? Pois é, a maioria de nós mortais (até a gente que está na área de
+tecnologia) não sabe explicar com tanta precisão o que são esses “centro de
+dados” e por isso que nós aqui das PyLadies resolvemos mergulhar no assunto e
+compartilhar o que descobrimos. Afinal, se está na moda e nas notícias, aí tem
+coisa, né?
+
+Antes de entrarmos em detalhes do que é um data center, precisamos revisitar um
+outro conceito que está na moda: a "**nuvem**". Tudo roda na “nuvem”, tudo é salvo
+“na nuvem”, mas o que exatamente é a nuvem? Ar? Não! Pelo contrário, a nuvem é
+na verdade um computador de verdade, que existe em um lugar também de verdade.
+As suas 500 selfies todas iguais estão fisicamente armazenadas. Quando você faz
+um prompt no ChatGPT, existe um computador em algum lugar do mundo que está
+processando o seu prompt, rodando a inferência do modelo e mandando de volta
+pra você a resposta. O nome desse lugar que armazena esses computadores é **data
+center**, que se traduz literalmente pra um centro de dados.
+
+Embora você de repente tenha começado a ouvir falar em data centers, eles não
+chegaram aqui do nada. Para falar a verdade, os data centers estão no coração
+da infraestrutura digital moderna, garantindo o funcionamento de plataformas de
+comércio eletrônico, servidores de jogos, armazenamento de dados, a famigerada
+mineração de bitcoin, e, mais recentemente, inferência de modelos de
+Inteligência Artificial, como ChatGPT, Claude, Gemini e companhia. Esses
+computadores na “nuvem” servem como opção aos servidores locais, garantindo,
+por exemplo, que o site da sua empresa continue em pé caso a energia acabe ou
+que você consiga criar um site que tenha garantias mínima de segurança mesmo
+você não tendo que implementar tudo do zero ou mesmo que seus dados estejam
+replicados em lugares diferentes do mundo, garantindo uma latência mínima de
+informações.
+
+Apesar de parecer algo novo, data centers não são novidade para o mundo da
+tecnologia, tendo em vista que os primeiros computadores, criados em meados de
+1940, ocupavam enormes salas. Nos anos 60 e 70, iniciou-se a discussão sobre
+mainframes - computadores de grande porte - e o conceito de centros de dados.
+Em 1980, o crescimento do uso de computadores de uso pessoal colaborou com a
+adoção do modelo cliente servidor. Dessa maneira, surgiu uma necessidade de um
+maior volume de processamento de dados.
+
+Em 1990, a internet comercial se popularizou e as empresas começaram a se
+especializar em serviços de dados. Assim, houve uma mudança de dinâmica, os
+servidores se tornaram fundamentais para o armazenamento e processamento de
+dados e os mainframes caíram em desuso, substituídos por microcomputadores e
+servidores.
+
+Nos anos 2000, empresas de tecnologia começaram a receber menos investimentos
+de capital. No entanto, nessa época surgiu um conceito essencial: os serviços
+em nuvem. Os data centers começaram a ser projetados para suportar milhares de
+serviços interconectados, e dessa forma, garantindo alta disponibilidade e
+resiliência contra falhas. Após os anos 2000, originou-se um novo agente, as
+inteligências artificiais. Além disso, o consumo de energia e água aumentou
+conforme a maior demanda por serviços. 
+
+
+Segundo o [Data Center Map](https://www.datacentermap.com/brazil/), hoje temos 206 data centers em território nacional.
+Isso deixa o Brasil ocupando o 11o lugar no mundo na lista de países com mais
+data centers. Desse total, 88 se concentram apenas no estado de São Paulo e 59
+na cidade de Campinas. Os números parecem impressionantes, mas o crescimento
+não dá sinais de parar: segundo [Miguel Felipe Silva Vasconcelos, em uma entrevista para a Revista
+Pesquisa FAPESP](https://revistapesquisa.fapesp.br/as-estrategias-para-tornar-os-data-centers-mais-sustentaveis/), “Países com uma matriz energética verde ou com condições
+favoráveis para geração de energia renovável, como é o caso do Brasil, estão
+atraindo os grandes operadores de plataformas de computação em nuvem”. 
+
+Importante repetir: **matriz energética verde ou condições favoráveis para
+geração de energia renovável**. Com a chegada da IA, os data centers agora são
+responsáveis por treinamento e inferência de modelos de IA, o que requer
+computação intensiva e, consequentemente, **resfriamento constante**. 
+
+É fácil entender o porquê: abra 200 abas no seu navegador e assista ao vivo ele
+desfalecendo e ficando extremamente devagar enquanto a sua ventoinha faz um
+barulho ensurdecedor. Isso é resultado da CPU superaquecendo e a ventoinha não
+dando conta de resfriar. Em um data center, isso é multiplicado pelo número de
+servidores que estão ligados simultaneamente. Pior ainda, quando falamos de
+modelos de IA tão grandes quanto um ChatGPT da vida, isso requer computação
+intensiva e constante por vários dias seguidos.
+
+
+## Como se resfria um data center?
+Considerando que o data center é esse lugar cheio de computadores que estão
+ligados o tempo inteiro e conectados à internet, dá pra imaginar quais são os
+requisitos pra se construir um novo data center: um terreno enorme que seja
+capaz de compreender toda a infraestrutura necessária para o equipamento,
+eletricidade e água para o sistema de resfriamento.  Por exemplo, o 
+[Colossus II](https://newsletter.semianalysis.com/p/xais-colossus-2-first-gigawatt-datacenter), o maior data center da atualidade construído pelo empresário Elon Musk,
+ocupa 92.903,04 m², o equivalente a aproximadamente 13 campos de futebol
+(considerando o [padrão FIFA de 105m x 68m](https://www.lance.com.br/futebol-internacional/tamanho-campo-futebol-oficial.html)).
+
+O resfriamento de um datacenter pode ser feito de diversas maneiras, cada uma
+com características próprias de custo e eficiência energética.
+
+O sistema mais comum em datacenters ao redor do mundo é o **CRAC (Computer Room
+Air Conditioning**). Ele é relativamente simples de ser implementado, já que
+pode-se aproveitar o ar-condicionado central já existente em um edifício, mas é
+energeticamente ineficiente, tornando-o ineficaz para datacenters muito grandes
+ou potentes. O custo energético para manter o sistema de resfriamento supera em
+muito o custo de manter os próprios equipamentos de TI, chegando a passar de
+50% do consumo total de energia do data center. Quem tem ar-condicionado em
+casa conhece bem o impacto que o aparelho tem na conta de energia no fim do
+mês.
+
+Também muito utilizado é o sistema de **resfriamento evaporativo**, que funciona
+transformando água líquida em vapor para resfriar o ambiente, se baseando no
+princípio físico de que a água precisa absorver uma grande quantidade de
+energia para passar do estado líquido para o gasoso. O ar quente passa por uma
+membrana encharcada de água, que absorve o calor à medida que o processo de
+evaporação acontece. É uma maneira de controlar a temperatura que precisa de
+muito menos energia elétrica que um sistema de ar-condicionado, porém precisa
+de uma quantidade enorme de água para se manter evaporando. Um datacenter
+grande pode consumir milhões de litros de água por dia. Além disso, essa água
+precisa ter um certo critério de qualidade, pois a presença de minerais ou
+contaminantes pode causar danos aos equipamentos do data center. É por isso
+que, por exemplo, não se pode usar água do mar para resfriar um datacenter. A
+salinidade da água danificaria os componentes eletrônicos, do mesmo jeito que a
+maresia danifica os pertences de quem tem uma casa na beira da praia.
+
+<img width="1200" height="676" alt="image" src="https://github.com/user-attachments/assets/91b6d10a-b01b-494e-aaf2-6b11d3236df3" />
+
+Por esse motivo, os data centers que são resfriados por evaporação são
+construídos próximo a fontes de água fresca naturais, o que os leva a
+“competir” com cidades inteiras pelo recurso. Por exemplo, de acordo com um
+relatório ambiental do Google de 2024, seus data centers do consumiram em 2023
+o equivalente ao abastecimento de água da cidade de Sorocaba inteirinha por 6
+meses, 24 bilhões de litros. No caso dos data centers resfriados usando o CRAC,
+o consumo elevado de energia causa um grande aumento da demanda na rede
+elétrica do local onde é situado, aumentando o custo de energia para os
+moradores da região. Além disso, o sistema gera ruído constante que afeta tanto
+a população humana quanto a fauna local, causando disrupções no comportamento
+de animais.
+
+Embora seja difícil saber exatamente qual o impacto ambiental atribuído a você,
+usuário final, os números ainda são preocupantes e nós precisamos olhar para
+isso com um olhar muito mais crítico.
+
+É interessante também apontar que existem outros métodos de resfriamento que
+são mais energeticamente eficientes e apresentam um impacto ambiental
+significativamente menor que o CRAC ou o resfriamento evaporativo. O método
+Direct-to-Chip (D2C) circula um líquido de refrigeração por tubos, passando
+apenas por onde é necessário resfriar as CPUs e GPUs. Funcionam de maneira
+similar aos sistemas de resfriamento líquido disponíveis para computadores
+pessoais, mas em uma escala maior. Existe também o resfriamento por imersão,
+onde os próprios equipamentos ficam submersos em um fluido quimicamente estável
+e não-condutor de eletricidade. Esse fluido tem um ponto de ebulição mais baixo
+do que a água, e ferve devido ao calor produzido pelos equipamentos, se
+transformando em vapor e “roubando” o calor produzido. Esse vapor entra em
+contato com uma bobina resfriada no topo do tanque de imersão e volta ao estado
+líquido, caindo novamente no tanque e formando um processo contínuo similar ao
+ciclo da chuva.
+
+Esses métodos têm consumo menor de energia elétrica e de água, e não geram
+ruído. Por usarem líquidos para transportar calor, podem até mesmo ser
+integrados em sistemas de aquecimento urbano em países frios, transformando o
+data center em um benefício para o local onde ele é instalado. O impacto, no
+entanto, está no custo da implementação. A instalação de um sistema de
+resfriamento por imersão ou D2C pode custar o dobro, ou até o triplo, da de um
+resfriamento por ar-condicionado, o que desincentiva empresas a escolherem
+soluções mais sustentáveis e benéficas para o planeta. 
+
+## Por que deveríamos nos importar com a construção de novos data centers?
+O jornal Intercept Brasil publicou um especial sobre os data centers e a IA no
+Brasil e como a maneira com que eles são construídos refletem dinâmicas
+coloniais. Um dos textos, em particular, conta a história de um data center do
+TikTok que vai ser construído em Caucaia, no Ceará.  A cidade historicamente
+sofre com secas e, se isso não fosse ruim o suficiente, esse data center foi
+instalado especificamente em terras indígenas não demarcadas.  Lugar curioso
+para uma coisa que bebe tanta água, né? 
+
+Porém, esse data center promete ser mais verde, afinal, “só” gasta 19 mil
+litros de água por dia, mas a ideia é que essa água seja de reuso - de esgoto
+mesmo, em um sistema fechado. Isto é, não usaria água potável para jogar fora
+em seguida, porque a água fica lá dentro, circulando e resfriando os
+equipamentos. Mas então, porque foi instalado na beira do rio de uma comunidade
+indígena? Se o custo de água é baixo, o custo de energia aumenta. 
+
+O projeto foi considerado tão green que foi dispensado de um estudo de impacto
+ambiental sério e por conta disso um data center, que requer uma infraestrutura
+imensa, teve que requerir o mesmo tipo de relatório que uma “área de
+vaquejadas” que é basicamente um campo de futebol. Não bastasse esse
+enquadramento duvidoso que diz que um data center = área de vaquejada, a
+população indígena que vive ao redor e luta por demarcar suas terras está vendo
+da noite pro dia toda essa construção começar, sem jamais ter sido consultada
+ou ter chance de lutar contra os impactos que esse empreendimento para guardar
+videozinho de  TikTok vai gerar. 
+
+A energia renovável que será usada neste data center é a eólica. Mas energia
+renovável não quer dizer energia sem impacto. Para começar, tanto a energia
+eólica, quanto os próprios servidores, geram poluição sonora. No caso dos data
+centers, geram o infrassom, que é um ruído constante que não podemos escutar,
+mas nosso corpo sente. Existem relatos de que afeta o cérebro e causa:
+vertigem, náusea, insônia crônica, enxaquecas, pesadelos e hipertensão.
+
+A rede elétrica também fica comprometida, o Intercept Brasil calcula que esse
+data center vai consumir em um dia a mesma quantidade de energia gasta por 2,2
+milhões de brasileiros em suas casas. Isso significa que, sozinho, ele gastará
+mais energia do que 99,9% dos municípios brasileiros – se a sua demanda for
+comparada diretamente com o consumo médio por habitante de cada cidade.”
+
+## Conclusão
+Data centers não são empreendimentos novos, embora haja um aumento na construção
+de novas instalações, e no quanto é divulgado sobre os mesmos. Considerando
+os impactos ambientais altos que os data centers têm, é parte da nossa
+responsabilidade demandar políticas públicas inteligentes que monitorem o
+impacto e que incentivem as empresas a buscar formas mais eficientes para que
+não precisemos disputar recursos naturais básicos com grandes empresas privadas
+de tecnologia. Mais do que isso, é imprescindível que o Estado escute
+comunidades locais e que essas comunidades tenham o direito de vetar projetos
+que impactam diretamente na sua qualidade de vida.
+
+Descobrir o que acontece nos bastidores de um data center nos tira da ilusão de
+que a internet é mágica e etérea. Cada linha de código que escrevemos, cada
+modelo que rodamos, e cada vídeo que assistimos consome recursos do planeta e
+impacta vidas humanas reais, muitas vezes reproduzindo velhas lógicas de
+exploração.
+
+No nosso grupo de estudos de IA e sociedade da PyLadies, buscamos discutir
+tecnologia de forma consciente. Isso vai muito além de debater performance e
+código limpo. Envolve também questionar o custo socioambiental do progresso.
+Precisamos pressionar por regulamentações que exijam eficiência energética,
+mas, acima de tudo, que garantam a soberania e o respeito às comunidades
+locais. O futuro da tecnologia precisa ser sustentável, ético e,
+fundamentalmente, humano.
+
+
+### Referências
+
+* **[1]** [Primeiros data centers de IA no Brasil podem consumir mesma energia de 16 milhões de casas; conheça os projetos](https://g1.globo.com/inovacao/noticia/2025/08/03/primeiros-data-centers-de-ia-no-brasil-podem-consumir-mesma-energia-de-16-milhoes-de-casas-conheca-os-projetos.ghtml) (G1)
+
+#### Técnicas de resfriamento em data centers
+* [Data Center Cooling Methods: Costs vs. Efficiency vs. Sustainability](https://www.datacenterknowledge.com/cooling/data-center-cooling-methods-costs-vs-efficiencyvssustainability)
+* [Data Centers Cooling: A Critical Review of Techniques, Challenges, And](https://www.scribd.com/document/905911025/Data-Centers-Cooling-A-Critical-Review-of-Techniques-Challenges-And)
+* [Best Practice Guide for Data Center Design](https://www.energy.gov/sites/default/files/2024-07/best-practice-guide-data-center-design_0.pdf) (U.S. Department of Energy)
+* [Energy Consumption Analysis of Cooling Systems (Estudo 1)](https://www.sciencedirect.com/science/article/abs/pii/S0360544224026203) (ScienceDirect)
+* [Energy Consumption Analysis of Cooling Systems (Estudo 2)](https://www.sciencedirect.com/science/article/abs/pii/S2352710224011033) (ScienceDirect)
+* [Review on Cooling System Energy Consumption in Internet Data Centers](https://www.researchgate.net/publication/308857487_Review_on_Cooling_System_Energy_Consumption_in_Internet_Data_Centers) (ResearchGate)
+
+#### Data Centers no Brasil e no mundo
+* **Vídeo:** [O que são datacenters?](https://www.youtube.com/watch?v=H-oUbF5M7Mk)
+* **Artigo:** [Expansão dos datacenters no Brasil: projeto de expansão legislativo](https://nexojornal.com.br/externo/2026/03/08/datacenter-no-brasil-projeto-de-expansao-legislativo) (Nexo Jornal)
+* **Podcast:** [Um datacenter incomoda muita gente](https://open.spotify.com/episode/2JqxFu5eGifrQOMr1k56jM) (Spotify)
+* **Reportagem:** [Como os datacenters se instalam no Brasil? Big techs se escondem atrás de outras empresas](https://www.intercept.com.br/2026/03/05/big-techs-se-escondem-atras-outras-empresas-perar-data-centers-no-brasil/) (The Intercept Brasil)
+* **Reportagem:** [Como um grupo de vizinhos barrou um data center do Google no Chile](https://www.intercept.com.br/2025/07/14/grupo-vizinhos-venceu-google-barrou-data-center-chile/) (The Intercept Brasil)
+
+#### Inteligência Artificial e Meio Ambiente
+* [Relatório: Inteligência Artificial e Data Centers – A expansão corporativa em tensão com a justiça socioambiental](https://lapin.org.br/2025/08/11/confira-o-relatorio-inteligencia-artificial-e-data-centers-aexpansaocorporativa-em-tensao-com-a-justica-socioambiental/) (LAPIN)
+* [Google 2024 Environmental Report](https://www.gstatic.com/gumdrop/sustainability/google-2024-environmental-report.pdf) (Google)
