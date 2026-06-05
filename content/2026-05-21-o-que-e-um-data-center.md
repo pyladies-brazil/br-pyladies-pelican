@@ -1,4 +1,4 @@
-Title: O que é um Data Center e por que estamos falando tanto dele?
+Title: O que são Data Centers e por que estamos falando tanto nisso?
 Slug: o-que-é-um-data-center-e-por-que-estamos-falando-tanto-dele-
 Date: 2026-05-21 17:24:34
 Tags: IA, sustentabilidade, data centers
