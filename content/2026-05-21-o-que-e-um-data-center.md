@@ -120,7 +120,7 @@ que, por exemplo, não se pode usar água do mar para resfriar um datacenter. A
 salinidade da água danificaria os componentes eletrônicos, do mesmo jeito que a
 maresia danifica os pertences de quem tem uma casa na beira da praia.
 
-
+<img width="1200" height="676" alt="image" src="https://github.com/user-attachments/assets/91b6d10a-b01b-494e-aaf2-6b11d3236df3" />
 
 Por esse motivo, os data centers que são resfriados por evaporação são
 construídos próximo a fontes de água fresca naturais, o que os leva a
@@ -202,7 +202,8 @@ mais energia do que 99,9% dos municípios brasileiros – se a sua demanda for
 comparada diretamente com o consumo médio por habitante de cada cidade.”
 
 ## Conclusão
-Data centers não são empreendimentos novos, embora haja um boom. Considerando
+Data centers não são empreendimentos novos, embora haja um aumento na construção
+de novas instalações, e no quanto é divulgado sobre os mesmos. Considerando
 os impactos ambientais altos que os data centers têm, é parte da nossa
 responsabilidade demandar políticas públicas inteligentes que monitorem o
 impacto e que incentivem as empresas a buscar formas mais eficientes para que
@@ -213,13 +214,13 @@ que impactam diretamente na sua qualidade de vida.
 
 Descobrir o que acontece nos bastidores de um data center nos tira da ilusão de
 que a internet é mágica e etérea. Cada linha de código que escrevemos, cada
-modelo que rodamos e cada vídeo que assistimos consome recursos do planeta e
+modelo que rodamos, e cada vídeo que assistimos consome recursos do planeta e
 impacta vidas humanas reais, muitas vezes reproduzindo velhas lógicas de
 exploração.
 
 No nosso grupo de estudos de IA e sociedade da PyLadies, buscamos discutir
-tecnologia de forma conscientee isso vai muito além de debater performance e
-código limpo. Envolve questionar o custo socioambiental do progresso.
+tecnologia de forma consciente. Isso vai muito além de debater performance e
+código limpo. Envolve também questionar o custo socioambiental do progresso.
 Precisamos pressionar por regulamentações que exijam eficiência energética,
 mas, acima de tudo, que garantam a soberania e o respeito às comunidades
 locais. O futuro da tecnologia precisa ser sustentável, ético e,
