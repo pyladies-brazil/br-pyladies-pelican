@@ -6,8 +6,8 @@ author: Grupo de Estudos IA & Sociedade
 
 ---
 
-Data centers estão na moda. Mas você saberia explicar exatamente o que é e pra
-que serve um? Pois é, a maioria de nós mortais (até a gente que está na área de
+Data centers estão na moda. Mas você saberia explicar exatamente o que são e para
+que servem? Pois é, a maioria de nós mortais (até a gente que está na área de
 tecnologia) não sabe explicar com tanta precisão o que são esses “centro de
 dados” e por isso que nós aqui das PyLadies resolvemos mergulhar no assunto e
 compartilhar o que descobrimos. Afinal, se está na moda e nas notícias, aí tem
@@ -17,30 +17,32 @@ Antes de entrarmos em detalhes do que é um data center, precisamos revisitar um
 outro conceito que está na moda: a "**nuvem**". Tudo roda na “nuvem”, tudo é salvo
 “na nuvem”, mas o que exatamente é a nuvem? Ar? Não! Pelo contrário, a nuvem é
 na verdade um computador de verdade, que existe em um lugar também de verdade.
-As suas 500 selfies todas iguais estão fisicamente armazenadas. Quando você faz
-um prompt no ChatGPT, existe um computador em algum lugar do mundo que está
-processando o seu prompt, rodando a inferência do modelo e mandando de volta
+Isso quer dizer que aquelas suas 500 selfies iguais estão fisicamente armazenadas 
+em um canto do mundo. E quando você faz um prompt no ChatGPT, por exemplo, 
+existe um computador em algum lugar que está processando o seu prompt, 
+rodando a inferência do modelo e mandando de volta
 pra você a resposta. O nome desse lugar que armazena esses computadores é **data
-center**, que se traduz literalmente pra um centro de dados.
+center**, que se traduz literalmente para um centro de dados.
 
 Embora você de repente tenha começado a ouvir falar em data centers, eles não
 chegaram aqui do nada. Para falar a verdade, os data centers estão no coração
 da infraestrutura digital moderna, garantindo o funcionamento de plataformas de
 comércio eletrônico, servidores de jogos, armazenamento de dados, a famigerada
-mineração de bitcoin, e, mais recentemente, inferência de modelos de
+mineração de bitcoin; e, mais recentemente, inferência de modelos de
 Inteligência Artificial, como ChatGPT, Claude, Gemini e companhia. Esses
 computadores na “nuvem” servem como opção aos servidores locais, garantindo,
 por exemplo, que o site da sua empresa continue em pé caso a energia acabe ou
-que você consiga criar um site que tenha garantias mínima de segurança mesmo
-você não tendo que implementar tudo do zero ou mesmo que seus dados estejam
+que você consiga criar um site que tenha garantias mínimas de segurança, mesmo
+você não tendo que implementar tudo do zero ou ainda, mesmo que seus dados estejam
 replicados em lugares diferentes do mundo, garantindo uma latência mínima de
 informações.
 
-Apesar de parecer algo novo, data centers não são novidade para o mundo da
-tecnologia, tendo em vista que os primeiros computadores, criados em meados de
-1940, ocupavam enormes salas. Nos anos 60 e 70, iniciou-se a discussão sobre
-mainframes - computadores de grande porte - e o conceito de centros de dados.
-Em 1980, o crescimento do uso de computadores de uso pessoal colaborou com a
+Apesar de parecer algo novo, data centers e o espaço que ocupam não são novidade 
+para o mundo da tecnologia, tendo em vista que os primeiros computadores, 
+criados em meados de 1940, ocupavam enormes salas. Nos anos 60 e 70, 
+iniciou-se a discussão sobre mainframes - computadores 
+de grande porte - e o conceito de centros de dados.
+Em 1980, surge a demanda por computadores de uso pessoal, o que colaborou com a
 adoção do modelo cliente servidor. Dessa maneira, surgiu uma necessidade de um
 maior volume de processamento de dados.
 
@@ -48,7 +50,7 @@ Em 1990, a internet comercial se popularizou e as empresas começaram a se
 especializar em serviços de dados. Assim, houve uma mudança de dinâmica, os
 servidores se tornaram fundamentais para o armazenamento e processamento de
 dados e os mainframes caíram em desuso, substituídos por microcomputadores e
-servidores.
+servidores. 
 
 Nos anos 2000, empresas de tecnologia começaram a receber menos investimentos
 de capital. No entanto, nessa época surgiu um conceito essencial: os serviços
@@ -57,7 +59,6 @@ serviços interconectados, e dessa forma, garantindo alta disponibilidade e
 resiliência contra falhas. Após os anos 2000, originou-se um novo agente, as
 inteligências artificiais. Além disso, o consumo de energia e água aumentou
 conforme a maior demanda por serviços. 
-
 
 Segundo o [Data Center Map](https://www.datacentermap.com/brazil/), hoje temos 206 data centers em território nacional.
 Isso deixa o Brasil ocupando o 11o lugar no mundo na lista de países com mais
@@ -90,18 +91,18 @@ capaz de compreender toda a infraestrutura necessária para o equipamento,
 eletricidade e água para o sistema de resfriamento.  Por exemplo, o 
 [Colossus II](https://newsletter.semianalysis.com/p/xais-colossus-2-first-gigawatt-datacenter), o maior data center da atualidade construído pelo empresário Elon Musk,
 ocupa 92.903,04 m², o equivalente a aproximadamente 13 campos de futebol
-(considerando o [padrão FIFA de 105m x 68m](https://www.lance.com.br/futebol-internacional/tamanho-campo-futebol-oficial.html)).
+(considerando o [padrão FIFA de 105m x 68m](https://www.lance.com.br/futebol-internacional/tamanho-campo-futebol-oficial.html)). Imagina resfriar isso tudo?
 
 O resfriamento de um datacenter pode ser feito de diversas maneiras, cada uma
 com características próprias de custo e eficiência energética.
 
-O sistema mais comum em datacenters ao redor do mundo é o **CRAC (Computer Room
+O sistema mais comum em data centers ao redor do mundo é o **CRAC (Computer Room
 Air Conditioning**). Ele é relativamente simples de ser implementado, já que
 pode-se aproveitar o ar-condicionado central já existente em um edifício, mas é
-energeticamente ineficiente, tornando-o ineficaz para datacenters muito grandes
+energeticamente ineficiente, tornando-o ineficaz para data centers muito grandes
 ou potentes. O custo energético para manter o sistema de resfriamento supera em
 muito o custo de manter os próprios equipamentos de TI, chegando a passar de
-50% do consumo total de energia do data center. Quem tem ar-condicionado em
+50% do seu consumo total de energia. Quem tem ar-condicionado em
 casa conhece bem o impacto que o aparelho tem na conta de energia no fim do
 mês.
 
@@ -116,7 +117,7 @@ de uma quantidade enorme de água para se manter evaporando. Um datacenter
 grande pode consumir milhões de litros de água por dia. Além disso, essa água
 precisa ter um certo critério de qualidade, pois a presença de minerais ou
 contaminantes pode causar danos aos equipamentos do data center. É por isso
-que, por exemplo, não se pode usar água do mar para resfriar um datacenter. A
+que, por exemplo, não se pode usar água do mar para resfriá-los. A
 salinidade da água danificaria os componentes eletrônicos, do mesmo jeito que a
 maresia danifica os pertences de quem tem uma casa na beira da praia.
 
@@ -125,7 +126,7 @@ maresia danifica os pertences de quem tem uma casa na beira da praia.
 Por esse motivo, os data centers que são resfriados por evaporação são
 construídos próximo a fontes de água fresca naturais, o que os leva a
 “competir” com cidades inteiras pelo recurso. Por exemplo, de acordo com um
-relatório ambiental do Google de 2024, seus data centers do consumiram em 2023
+relatório ambiental do Google de 2024, seus data centers consumiram em 2023
 o equivalente ao abastecimento de água da cidade de Sorocaba inteirinha por 6
 meses, 24 bilhões de litros. No caso dos data centers resfriados usando o CRAC,
 o consumo elevado de energia causa um grande aumento da demanda na rede
@@ -186,7 +187,7 @@ enquadramento duvidoso que diz que um data center = área de vaquejada, a
 população indígena que vive ao redor e luta por demarcar suas terras está vendo
 da noite pro dia toda essa construção começar, sem jamais ter sido consultada
 ou ter chance de lutar contra os impactos que esse empreendimento para guardar
-videozinho de  TikTok vai gerar. 
+videozinho de TikTok vai gerar. 
 
 A energia renovável que será usada neste data center é a eólica. Mas energia
 renovável não quer dizer energia sem impacto. Para começar, tanto a energia
